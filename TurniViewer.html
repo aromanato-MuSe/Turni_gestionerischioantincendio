@@ -275,9 +275,10 @@ function onFile(inp){
 }
 
 function doReload(){
-  person=null;data=null;
+  data=null;
+  _panoDay=null;
   try{localStorage.removeItem('turni_viewer_data');}catch(e){}
-  renderWelcome();
+  tryLoadFromGitHub();
 }
 
 function goBack(){
