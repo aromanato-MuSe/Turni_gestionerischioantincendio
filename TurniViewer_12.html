@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+<title>I miei turni · MUSE</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap');
+:root{
+  --bg:#f1f5f9;--surface:#fff;--border:#e2e8f0;--border2:#cbd5e1;
+  --text:#0f172a;--text2:#475569;--muted:#94a3b8;
+  --accent:#3b82f6;--accent-bg:#eff6ff;--accent-dark:#1d4ed8;
+  --green:#16a34a;--green-bg:#f0fdf4;--green-b:#86efac;
+  --orange:#d97706;--orange-bg:#fffbeb;
+  --red:#dc2626;--red-bg:#fef2f2;
+  --purple:#7c3aed;--purple-bg:#f5f3ff;
+  --yellow:#ca8a04;--yellow-bg:#fefce8;
+  --r:14px;--shadow:0 2px 8px rgba(0,0,0,.08),0 8px 24px rgba(0,0,0,.06);
+  --slot-blue-bg:#dbeafe;--slot-blue-b:#93c5fd;--slot-blue-t:#1e40af;
+  --slot-pink-bg:#fce7f3;--slot-pink-b:#f9a8d4;--slot-pink-t:#9d174d;
+  --slot-green-bg:#dcfce7;--slot-green-b:#86efac;--slot-green-t:#166534;
+  --slot-palazzo-bg:#d1fae5;--slot-palazzo-b:#6ee7b7;--slot-palazzo-t:#065f46;
+  --slot-ref-bg:#fefce8;--slot-ref-b:#fde047;--slot-ref-t:#854d0e;
+}
+@media(prefers-color-scheme:dark){:root{
+  --bg:#0f172a;--surface:#1e293b;--border:#334155;--border2:#475569;
+  --text:#f1f5f9;--text2:#94a3b8;--muted:#64748b;
+  --accent-bg:#172554;--green-bg:#052e16;--orange-bg:#431407;--red-bg:#450a0a;
+  --purple-bg:#2e1065;--yellow-bg:#1c1300;
+  --slot-blue-bg:#1e3a5f;--slot-blue-b:#3b82f6;--slot-blue-t:#93c5fd;
+  --slot-pink-bg:#500724;--slot-pink-b:#be185d;--slot-pink-t:#fbcfe8;
+  --slot-green-bg:#052e16;--slot-green-b:#16a34a;--slot-green-t:#86efac;
+  --slot-palazzo-bg:#022c22;--slot-palazzo-b:#059669;--slot-palazzo-t:#6ee7b7;
+  --slot-ref-bg:#1c1300;--slot-ref-b:#ca8a04;--slot-ref-t:#fde047;
+}}
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent;}
+body{background:var(--bg);color:var(--text);font-family:'Inter',sans-serif;min-height:100vh;font-size:15px;line-height:1.5;}
+@keyframes fadeIn{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.4}}
+
+/* NAV */
+.nav{background:var(--surface);border-bottom:1px solid var(--border);position:sticky;top:0;z-index:50;box-shadow:0 1px 6px rgba(0,0,0,.07);}
+.nav-inner{max-width:520px;margin:0 auto;padding:0 16px;display:flex;align-items:center;height:52px;gap:10px;}
+.logo{font-family:'JetBrains Mono',monospace;font-size:13px;font-weight:700;color:var(--text);display:flex;align-items:center;gap:6px;}
+.logo-dot{width:6px;height:6px;border-radius:50%;background:var(--accent);animation:pulse 2s infinite;}
+.nav-right{margin-left:auto;display:flex;gap:6px;align-items:center;}
+.week-pill{font-size:11px;font-weight:600;color:var(--accent);background:var(--accent-bg);padding:3px 9px;border-radius:20px;display:none;}
+.nav-btn{background:transparent;border:1px solid var(--border2);border-radius:8px;padding:5px 10px;font-size:12px;color:var(--text2);cursor:pointer;font-family:'Inter',sans-serif;}
+.nav-btn:hover{border-color:var(--accent);color:var(--accent);}
+
+/* MAIN */
+.main{max-width:520px;margin:0 auto;padding:16px;}
+.screen{animation:fadeIn .25s ease;}
+
+/* CARD */
+.card{background:var(--surface);border:1px solid var(--border);border-radius:var(--r);overflow:hidden;box-shadow:var(--shadow);}
+
+/* WELCOME */
+.welcome-hero{padding:40px 24px 32px;display:flex;flex-direction:column;align-items:center;gap:12px;text-align:center;}
+.welcome-hero h1{font-size:22px;font-weight:700;}
+.welcome-hero p{font-size:14px;color:var(--text2);max-width:320px;}
+.file-area{padding:0 16px 16px;}
+.drop-zone{border:2px dashed var(--border2);border-radius:10px;padding:24px;display:flex;flex-direction:column;align-items:center;gap:8px;cursor:pointer;transition:all .2s;margin-bottom:10px;}
+.drop-zone:hover,.drop-zone.drag{border-color:var(--accent);background:var(--accent-bg);}
+.drop-zone .dz-icon{font-size:32px;}
+.drop-zone strong{font-size:14px;color:var(--text2);}
+.drop-zone span{font-size:12px;color:var(--muted);}
+.btn{display:flex;align-items:center;justify-content:center;gap:7px;padding:13px 18px;border-radius:10px;font-size:14px;font-weight:600;cursor:pointer;border:none;font-family:'Inter',sans-serif;transition:all .15s;width:100%;}
+.btn+.btn{margin-top:8px;}
+.btn-primary{background:var(--accent);color:#fff;}
+.btn-primary:hover{opacity:.9;}
+.btn-secondary{background:var(--surface);color:var(--text2);border:1.5px solid var(--border2);}
+.btn-secondary:hover{border-color:var(--accent);color:var(--accent);}
+.btn-sm{width:auto;padding:8px 14px;font-size:13px;}
+
+/* LOGIN */
+.login-body{padding:20px;}
+.login-body label{display:block;font-size:12px;font-weight:600;color:var(--text2);text-transform:uppercase;letter-spacing:.5px;margin-bottom:6px;}
+.inp{width:100%;padding:12px 14px;border:1.5px solid var(--border2);border-radius:10px;font-size:15px;font-family:'Inter',sans-serif;background:var(--surface);color:var(--text);outline:none;transition:border-color .15s;margin-bottom:14px;}
+.inp:focus{border-color:var(--accent);}
+.inp-pin{font-family:'JetBrains Mono',monospace;font-size:22px;font-weight:700;letter-spacing:6px;text-align:center;}
+.search-inp{margin-bottom:10px;}
+.person-list{display:flex;flex-direction:column;gap:5px;max-height:55vh;overflow-y:auto;}
+.pitem{background:var(--bg);border:1.5px solid var(--border);border-radius:10px;padding:12px 14px;display:flex;align-items:center;gap:10px;cursor:pointer;transition:all .15s;font-family:'Inter',sans-serif;}
+.pitem:hover{border-color:var(--accent);background:var(--accent-bg);}
+.pitem.has-shifts{border-color:var(--green-b);}
+.pitem .pi-name{flex:1;font-size:14px;font-weight:600;color:var(--text);}
+.pitem .pi-sub{font-size:11px;color:var(--muted);}
+.pitem .pi-badge{font-size:10px;background:var(--green-bg);color:var(--green);padding:2px 7px;border-radius:8px;font-weight:600;white-space:nowrap;}
+.error-msg{font-size:13px;color:var(--red);text-align:center;margin-top:8px;display:none;}
+
+/* PANORAMICA */
+.pano-grid{}
+.pano-day{display:flex;flex-direction:column;gap:2px;}
+.pano-day-lbl{font-size:9px;font-weight:700;text-align:center;color:var(--muted);text-transform:uppercase;}
+.pano-day-lbl.we{color:var(--accent);}
+.pano-day-lbl.today{color:var(--accent-dark);font-weight:900;}
+.pano-slot{border-radius:3px;height:6px;}
+.pano-slot.blue{background:var(--slot-blue-b);}
+.pano-slot.pink{background:var(--slot-pink-b);}
+.pano-slot.green{background:var(--slot-green-b);}
+.pano-slot.palazzo{background:var(--slot-palazzo-b);}
+.pano-slot.ref{background:var(--slot-ref-b);}
+.pano-slot.empty{background:var(--border);opacity:.4;}
+.pano-slot.me{outline:2px solid var(--accent-dark);}
+
+/* TURNI */
+.person-header{padding:14px 16px;display:flex;align-items:center;gap:10px;}
+.person-avatar{width:42px;height:42px;border-radius:50%;background:var(--accent-bg);border:2px solid var(--accent);display:flex;align-items:center;justify-content:center;font-size:16px;font-weight:700;color:var(--accent);flex-shrink:0;}
+.person-info{flex:1;}
+.person-name{font-size:17px;font-weight:700;}
+.person-sub{font-size:12px;color:var(--muted);}
+.sum-row{display:flex;gap:8px;padding:0 14px 12px;}
+.sum-c{flex:1;background:var(--bg);border-radius:8px;padding:8px 10px;text-align:center;}
+.sum-v{font-family:'JetBrains Mono',monospace;font-size:17px;font-weight:700;display:block;line-height:1.2;}
+.sum-l{font-size:10px;color:var(--muted);display:block;margin-top:2px;}
+.sum-c.ok .sum-v{color:var(--green);}
+.sum-c.over .sum-v{color:var(--orange);}
+.sum-c.low .sum-v{color:var(--red);}
+
+/* DAY CARDS */
+.day-list{display:flex;flex-direction:column;gap:10px;}
+.day-card{background:var(--surface);border:1px solid var(--border);border-radius:12px;overflow:hidden;box-shadow:0 1px 4px rgba(0,0,0,.05);}
+.day-card.today-card{border:2px solid var(--accent);box-shadow:0 0 0 3px rgba(59,130,246,.12);}
+.dc-head{padding:10px 14px;display:flex;align-items:center;gap:8px;background:var(--bg);}
+.dc-num{font-size:22px;font-weight:700;line-height:1;min-width:28px;}
+.dc-num.today-num{color:var(--accent);}
+.dc-info{flex:1;}
+.dc-day{font-size:11px;font-weight:700;color:var(--text2);text-transform:uppercase;letter-spacing:.5px;}
+.dc-date{font-size:11px;color:var(--muted);}
+.dc-htot{font-family:'JetBrains Mono',monospace;font-size:13px;font-weight:700;color:var(--text);}
+.today-tag{font-size:10px;background:var(--accent);color:#fff;padding:2px 8px;border-radius:8px;font-weight:600;}
+.dc-body{padding:10px 12px;display:flex;flex-direction:column;gap:6px;}
+.dc-empty{font-size:13px;color:var(--muted);font-style:italic;padding:4px 2px;}
+
+/* SLOT CARDS */
+.slot-c{border-radius:10px;padding:11px 12px;}
+.slot-c.blue{background:var(--slot-blue-bg);border:1px solid var(--slot-blue-b);}
+.slot-c.pink{background:var(--slot-pink-bg);border:1px solid var(--slot-pink-b);}
+.slot-c.green{background:var(--slot-green-bg);border:1px solid var(--slot-green-b);}
+.slot-c.palazzo{background:var(--slot-palazzo-bg);border:1px solid var(--slot-palazzo-b);}
+.slot-c.ref{background:var(--slot-ref-bg);border:1px solid var(--slot-ref-b);}
+.slot-top{display:flex;align-items:flex-start;gap:10px;}
+.slot-icon{font-size:20px;flex-shrink:0;}
+.slot-main{flex:1;}
+.slot-time{font-family:'JetBrains Mono',monospace;font-size:16px;font-weight:700;}
+.slot-c.blue .slot-time{color:var(--slot-blue-t);}
+.slot-c.pink .slot-time{color:var(--slot-pink-t);}
+.slot-c.green .slot-time{color:var(--slot-green-t);}
+.slot-c.palazzo .slot-time{color:var(--slot-palazzo-t);}
+.slot-c.ref .slot-time{color:var(--slot-ref-t);}
+.slot-sec{font-size:13px;font-weight:600;color:var(--text);margin-top:1px;}
+.slot-area{font-size:11px;color:var(--text2);margin-top:1px;}
+.slot-h-badge{font-size:11px;color:var(--muted);margin-top:4px;font-family:'JetBrains Mono',monospace;}
+/* Cambio turno */
+.cambio-row{display:flex;gap:6px;margin-top:8px;padding-top:8px;border-top:1px dashed rgba(0,0,0,.1);}
+.cambio-item{flex:1;background:rgba(255,255,255,.5);border-radius:7px;padding:6px 8px;}
+.cambio-lbl{font-size:9px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;color:var(--muted);margin-bottom:2px;}
+.cambio-name{font-size:12px;font-weight:600;color:var(--text2);}
+.cambio-time{font-size:10px;font-family:'JetBrains Mono',monospace;color:var(--muted);}
+
+.footer{text-align:center;padding:24px 16px 32px;font-size:11px;color:var(--muted);}
+.toast{position:fixed;bottom:20px;left:50%;transform:translateX(-50%);background:#1e293b;color:#f8fafc;border-radius:10px;padding:10px 18px;font-size:13px;z-index:200;display:none;white-space:nowrap;box-shadow:0 4px 20px rgba(0,0,0,.3);}
+.toast.show{display:block;}
+.divider{height:1px;background:var(--border);margin:4px 0;}
+</style>
+</head>
+<body>
+
+<div class="nav">
+  <div class="nav-inner">
+    <div class="logo"><div class="logo-dot"></div>TURNI·MUSE</div>
+    <div class="nav-right">
+      <div class="week-pill" id="week-pill"></div>
+      <button class="nav-btn" id="nav-change" style="display:none" onclick="goBack()">← Esci</button>
+      <button class="nav-btn" id="nav-reload" onclick="doReload()">🔄 Aggiorna</button>
+    </div>
+  </div>
+</div>
+
+<div class="main" id="main"></div>
+<div class="footer">MUSE Trento · Gruppo Pleiadi · Le Nuvole</div>
+<div class="toast" id="toast"></div>
+<input type="file" id="file-inp" accept=".json" style="display:none" onchange="onFile(this)">
+
+<script>
+// ── STATE ──────────────────────────────────────────────────────
+let data=null;
+let person=null; // {full, staffEntry}
+const DAYS_IT=['Lunedì','Martedì','Mercoledì','Giovedì','Venerdì','Sabato','Domenica'];
+const DAYS_S=['Lun','Mar','Mer','Gio','Ven','Sab','Dom'];
+const SLOT_COLORS=['blue','pink','green','blue','pink'];
+
+// ── HELPERS ────────────────────────────────────────────────────
+const toMin=s=>{if(!s)return null;const m=String(s).match(/(\d{1,2}):(\d{2})/);return m?+m[1]*60+(+m[2]):null;};
+const r2=n=>Math.round(n*100)/100;
+const esc=s=>String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+function addDays(d,n){const t=new Date(d);t.setDate(t.getDate()+n);return t;}
+function fmtDate(d){return`${String(d.getDate()).padStart(2,'0')}/${String(d.getMonth()+1).padStart(2,'0')}`;}
+function isoWeek(d){const t=new Date(d);t.setHours(0,0,0,0);t.setDate(t.getDate()+3-(t.getDay()+6)%7);const w1=new Date(t.getFullYear(),0,4);return 1+Math.round(((t-w1)/86400000-3+(w1.getDay()+6)%7)/7);}
+function weekKeyToDate(wk){
+  const m=wk.match(/(\d{4})-W(\d{2})/);if(!m)return new Date();
+  const year=+m[1],week=+m[2];
+  const jan4=new Date(year,0,4);const dow=jan4.getDay()||7;
+  const mon=new Date(jan4);mon.setDate(jan4.getDate()-(dow-1)+(week-1)*7);return mon;
+}
+function isToday(date){const t=new Date();return date.getDate()===t.getDate()&&date.getMonth()===t.getMonth()&&date.getFullYear()===t.getFullYear();}
+function getWk(){return Object.keys(data.schedule||{}).sort().pop()||'';}
+function staffFull(s){return s.nom?s.cog+' '+s.nom:s.cog;}
+function showToast(msg){const t=document.getElementById('toast');t.textContent=msg;t.classList.add('show');setTimeout(()=>t.classList.remove('show'),2500);}
+
+// Flatten all slots in a week
+function allSlotsInWeek(wk){
+  const sched=data.schedule?.[wk]||{};
+  const out=[];
+  for(const [dayIdx,day] of Object.entries(sched)){
+    for(const [secId,slots] of Object.entries(day)){
+      if(!Array.isArray(slots))continue;
+      for(let si=0;si<slots.length;si++){
+        const sl=slots[si];
+        if(sl&&sl.start&&sl.end)out.push({...sl,dayIdx:+dayIdx,secId,slotIdx:si});
+      }
+    }
+  }
+  return out;
+}
+
+// Get person's slots sorted
+function personSlots(fullName,wk){
+  const sched=data.schedule?.[wk]||{};
+  const sections=data.sections||[];
+  const out=[];
+  for(const [dayIdx,day] of Object.entries(sched)){
+    for(const [secId,slots] of Object.entries(day)){
+      if(!Array.isArray(slots))continue;
+      const sec=sections.find(s=>s.id===secId)||{label:secId,type:'piano',area:''};
+      for(let si=0;si<slots.length;si++){
+        const sl=slots[si];
+        if(sl&&sl.person===fullName&&sl.start&&sl.end){
+          // Find who was before/after in same section
+          const prev=slots.slice(0,si).filter(x=>x&&x.person&&x.end).pop()||null;
+          const next=slots.slice(si+1).find(x=>x&&x.person&&x.start)||null;
+          out.push({...sl,dayIdx:+dayIdx,secId,secLabel:sec.label,secType:sec.type,secArea:sec.area||'',slotIdx:si,prev,next});
+        }
+      }
+    }
+  }
+  return out.sort((a,b)=>a.dayIdx-b.dayIdx||toMin(a.start)-toMin(b.start));
+}
+
+// Slot color by section type and index in day
+function slotColor(secType,idx){
+  if(secType==='referente')return'ref';
+  if(secType==='palazzo')return'palazzo';
+  return SLOT_COLORS[idx%5];
+}
+
+// ── FILE LOADING ───────────────────────────────────────────────
+function onFile(inp){
+  const f=inp.files[0];if(!f)return;
+  const r=new FileReader();
+  r.onload=e=>{
+    try{
+      const parsed=JSON.parse(e.target.result);
+      if(!parsed.schedule)throw new Error();
+      data=parsed;
+      _activeTab='generale';
+      _panoDay=null;
+      try{localStorage.setItem('turni_viewer_data',JSON.stringify(data));}catch(e){}
+      person=null;
+      renderLogin();
+    }catch{showToast('❌ File non valido');}
+  };
+  r.readAsText(f);inp.value='';
+}
+
+function doReload(){
+  person=null;data=null;
+  try{localStorage.removeItem('turni_viewer_data');}catch(e){}
+  renderWelcome();
+}
+
+function goBack(){
+  person=null;
+  document.getElementById('nav-change').style.display='none';
+  renderLogin();
+}
+
+// ── SCREENS ────────────────────────────────────────────────────
+function renderWelcome(){
+  document.getElementById('week-pill').style.display='none';
+  document.getElementById('nav-change').style.display='none';
+  const main=document.getElementById('main');
+  main.innerHTML=`<div class="screen">
+    <div class="card" style="margin-bottom:0">
+      <div class="welcome-hero">
+        <div style="font-size:52px">🗓️</div>
+        <h1>I miei turni</h1>
+        <p>Carica il file turni settimanale che ti ha inviato il coordinatore.</p>
+      </div>
+      <div class="file-area">
+        <div class="drop-zone" id="drop-zone" onclick="document.getElementById('file-inp').click()">
+          <div class="dz-icon">📂</div>
+          <strong>Tocca per aprire il file turni</strong>
+          <span>formato .json — ricevuto dal coordinatore</span>
+        </div>
+        <button class="btn btn-primary" onclick="document.getElementById('file-inp').click()">
+          📂 Apri file turni (.json)
+        </button>
+      </div>
+    </div>
+  </div>`;
+
+  const dz=document.getElementById('drop-zone');
+  dz.addEventListener('dragover',e=>{e.preventDefault();dz.classList.add('drag');});
+  dz.addEventListener('dragleave',()=>dz.classList.remove('drag'));
+  dz.addEventListener('drop',e=>{
+    e.preventDefault();dz.classList.remove('drag');
+    const f=e.dataTransfer.files[0];
+    if(f){const r=new FileReader();r.onload=ev=>{try{data=JSON.parse(ev.target.result);renderLogin();}catch{showToast('❌ File non valido');}};r.readAsText(f);}
+  });
+}
+
+let _activeTab='generale'; // 'generale' | 'personale'
+
+function renderLogin(){
+  const wk=getWk();
+  const mon=weekKeyToDate(wk);
+  const end=addDays(mon,6);
+  const wp=document.getElementById('week-pill');
+  wp.textContent=`Sett.${isoWeek(mon)} · ${fmtDate(mon)}–${fmtDate(end)}`;
+  wp.style.display='';
+  document.getElementById('nav-change').style.display='none';
+
+  const staff=(data.staff||[]).slice().sort((a,b)=>a.cog.localeCompare(b.cog,'it'));
+  const slots=allSlotsInWeek(wk);
+  const activePeople=new Set(slots.filter(s=>s.person).map(s=>s.person));
+
+  const main=document.getElementById('main');
+  main.innerHTML=`<div class="screen">
+    <!-- TAB BAR -->
+    <div style="display:flex;background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:4px;margin-bottom:14px;gap:4px">
+      <button id="tab-generale" onclick="switchMainTab('generale')" style="
+        flex:1;padding:10px 8px;border:none;border-radius:9px;cursor:pointer;font-family:'Inter',sans-serif;
+        font-size:14px;font-weight:600;transition:all .18s;
+        background:${_activeTab==='generale'?'var(--accent)':'transparent'};
+        color:${_activeTab==='generale'?'#fff':'var(--text2)'}">
+        📊 Generale
+      </button>
+      <button id="tab-personale" onclick="switchMainTab('personale')" style="
+        flex:1;padding:10px 8px;border:none;border-radius:9px;cursor:pointer;font-family:'Inter',sans-serif;
+        font-size:14px;font-weight:600;transition:all .18s;
+        background:${_activeTab==='personale'?'var(--accent)':'transparent'};
+        color:${_activeTab==='personale'?'#fff':'var(--text2)'}">
+        👤 I miei turni
+      </button>
+    </div>
+
+    <!-- PANNELLO GENERALE -->
+    <div id="panel-generale" style="display:${_activeTab==='generale'?'block':'none'}">
+      <div class="card">
+        <div style="padding:12px 14px 4px;font-size:13px;font-weight:700;color:var(--text2)">Turni di questa settimana</div>
+        <div class="pano-grid" id="pano-grid"></div>
+      </div>
+    </div>
+
+    <!-- PANNELLO PERSONALE -->
+    <div id="panel-personale" style="display:${_activeTab==='personale'?'block':'none'}">
+      <div class="card">
+        <div style="padding:14px 16px 10px">
+          <div style="font-size:16px;font-weight:700;margin-bottom:2px">Seleziona il tuo nome</div>
+          <div style="font-size:13px;color:var(--muted)">Inserisci il tuo PIN per accedere ai tuoi turni</div>
+        </div>
+        <div style="padding:0 14px 14px">
+          <input class="inp search-inp" id="search" placeholder="🔍 Cerca per cognome…" oninput="filterList()" autocomplete="off">
+          <div class="person-list" id="person-list"></div>
+        </div>
+      </div>
+    </div>
+  </div>`;
+
+  renderPano(wk,slots,mon);
+  renderPersonList(staff,activePeople);
+}
+
+function switchMainTab(tab){
+  _activeTab=tab;
+  // Aggiorna bottoni
+  const bg=t=>t===tab?'var(--accent)':'transparent';
+  const cl=t=>t===tab?'#fff':'var(--text2)';
+  ['generale','personale'].forEach(t=>{
+    const btn=document.getElementById('tab-'+t);
+    if(btn){btn.style.background=bg(t);btn.style.color=cl(t);}
+    const panel=document.getElementById('panel-'+t);
+    if(panel)panel.style.display=t===tab?'block':'none';
+  });
+  // Se passi a personale assicurati che la lista sia visibile
+  if(tab==='personale'){
+    const el=document.getElementById('person-list');
+    if(el&&!el.innerHTML.trim()){
+      const staff=(data.staff||[]).slice().sort((a,b)=>a.cog.localeCompare(b.cog,'it'));
+      const wk=getWk();const slots=allSlotsInWeek(wk);
+      const activePeople=new Set(slots.filter(s=>s.person).map(s=>s.person));
+      renderPersonList(staff,activePeople);
+    }
+  }
+}
+
+let _panoDay=null;
+
+function renderPano(wk,slots,mon){
+  const grid=document.getElementById('pano-grid');
+  if(!grid)return;
+  const sections=data.sections||[];
+
+  if(_panoDay===null){
+    const todIdx=Array.from({length:7},(_,d)=>d).find(d=>isToday(addDays(mon,d)));
+    _panoDay=todIdx!=null?todIdx:0;
+  }
+
+  const byDay={};
+  for(let d=0;d<7;d++)byDay[d]=[];
+  slots.forEach(sl=>{if(sl.person)byDay[sl.dayIdx].push(sl);});
+
+  // Barra giorni
+  const dayBar=Array.from({length:7},(_,d)=>{
+    const date=addDays(mon,d);
+    const isWe=d>=5;
+    const tod=isToday(date);
+    const sel=d===_panoDay;
+    const cnt=byDay[d].length;
+    return`<button onclick="selectPanoDay(${d})" style="`+
+      `flex:1;padding:7px 2px 6px;border:none;border-bottom:3px solid ${sel?'var(--accent)':'transparent'};`+
+      `background:transparent;cursor:pointer;font-family:'Inter',sans-serif;`+
+      `color:${sel?'var(--accent)':tod?'var(--accent-dark)':isWe?'var(--accent)':'var(--text2)'};`+
+      `font-weight:${sel?700:500};transition:border-color .15s;text-align:center">`+
+      `<div style="font-size:9px;text-transform:uppercase;letter-spacing:.6px;margin-bottom:2px">${DAYS_S[d]}</div>`+
+      `<div style="font-size:17px;font-weight:800;line-height:1;font-family:'JetBrains Mono',monospace">${date.getDate()}</div>`+
+      `<div style="font-size:10px;margin-top:3px;font-weight:600;color:${sel?'var(--accent)':cnt?'var(--text2)':'var(--muted)'}">${cnt||'·'}</div>`+
+      `</button>`;
+  }).join('');
+
+  // Dettaglio giorno
+  const selDate=addDays(mon,_panoDay);
+  const daySlots=byDay[_panoDay].slice().sort((a,b)=>toMin(a.start)-toMin(b.start));
+
+  const secOrder=(sections||[]).map(s=>s.id);
+  const bySec={};
+  daySlots.forEach(sl=>{
+    if(!bySec[sl.secId])bySec[sl.secId]={
+      sec:sections.find(x=>x.id===sl.secId)||{id:sl.secId,label:sl.secId,type:'piano'},
+      slots:[]
+    };
+    bySec[sl.secId].slots.push(sl);
+  });
+  const secGroups=Object.values(bySec).sort((a,b)=>{
+    const ai=secOrder.indexOf(a.sec.id),bi=secOrder.indexOf(b.sec.id);
+    return(ai<0?99:ai)-(bi<0?99:bi);
+  });
+
+  const tc=t=>t==='referente'?'#ca8a04':t==='palazzo'?'#059669':'#3b82f6';
+  const tb=t=>t==='referente'?'#fefce8':t==='palazzo'?'#d1fae5':'#dbeafe';
+
+  const detailHtml=secGroups.length===0
+    ?`<div style="text-align:center;padding:24px;color:var(--muted);font-size:14px">Nessun turno assegnato</div>`
+    :secGroups.map(g=>{
+      const c=tc(g.sec.type),b=tb(g.sec.type);
+      const rows=g.slots.map(sl=>{
+        const cog=sl.person.split(' ')[0];
+        const nom=sl.person.split(' ').slice(1).join(' ');
+        return`<div style="display:flex;align-items:center;gap:10px;padding:10px 12px;border-bottom:1px solid rgba(0,0,0,.06)">`+
+          `<div style="font-family:'JetBrains Mono',monospace;font-size:13px;font-weight:600;color:${c};white-space:nowrap;min-width:112px">${esc(sl.start)} – ${esc(sl.end)}</div>`+
+          `<div style="flex:1"><span style="font-size:15px;font-weight:700;color:var(--text)">${esc(cog)}</span>`+
+          `${nom?`<span style="font-size:13px;color:var(--text2);margin-left:5px">${esc(nom)}</span>`:''}</div>`+
+          `</div>`;
+      }).join('');
+      return`<div style="margin-bottom:10px;border-radius:10px;overflow:hidden;border:1px solid rgba(0,0,0,.08)">`+
+        `<div style="padding:8px 12px;background:${b};border-bottom:2px solid ${c};font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.6px;color:${c}">${esc(g.sec.label)}</div>`+
+        `${rows}</div>`;
+    }).join('');
+
+  grid.innerHTML=
+    `<div style="display:table;width:100%;border-bottom:2px solid var(--border);background:var(--surface)">`+
+    `<div style="display:table-row">${
+      Array.from({length:7},(_,d)=>{
+        const date=addDays(mon,d);
+        const isWe=d>=5;
+        const tod=isToday(date);
+        const sel=d===_panoDay;
+        const cnt=byDay[d].length;
+        return`<div onclick="selectPanoDay(${d})" style="`+
+          `display:table-cell;text-align:center;cursor:pointer;padding:8px 0 6px;`+
+          `border-bottom:3px solid ${sel?'var(--accent)':'transparent'};`+
+          `color:${sel?'var(--accent)':tod?'var(--accent-dark)':isWe?'var(--accent)':'var(--text2)'};`+
+          `font-weight:${sel?700:500};transition:border-color .15s;font-family:'Inter',sans-serif;width:14.28%">`+
+          `<div style="font-size:9px;text-transform:uppercase;letter-spacing:.6px;margin-bottom:2px">${DAYS_S[d]}</div>`+
+          `<div style="font-size:17px;font-weight:800;line-height:1;font-family:'JetBrains Mono',monospace">${date.getDate()}</div>`+
+          `</div>`;
+      }).join('')
+    }</div></div>`+
+    `<div style="padding:14px 14px 14px">`+
+      `<div style="font-size:14px;font-weight:700;color:var(--text);margin-bottom:12px">`+
+        `${DAYS_IT[_panoDay]} ${fmtDate(selDate)}`+
+        `<span style="font-weight:400;color:var(--muted);font-size:13px;margin-left:8px">${daySlots.length} ${daySlots.length===1?'turno':'turni'}</span>`+
+      `</div>${detailHtml}</div>`;
+}
+
+function selectPanoDay(d){
+  _panoDay=d;
+  const wk=getWk();
+  const mon=weekKeyToDate(wk);
+  const slots=allSlotsInWeek(wk);
+  renderPano(wk,slots,mon);
+}
+
+
+function renderPersonList(staff,activePeople){
+  const el=document.getElementById('person-list');
+  if(!el)return;
+  const q=(document.getElementById('search')?.value||'').toUpperCase().trim();
+  const filtered=q?staff.filter(s=>(s.cog+' '+s.nom).toUpperCase().includes(q)):staff;
+
+  if(!filtered.length){el.innerHTML=`<div style="text-align:center;color:var(--muted);padding:16px;font-size:13px">Nessun risultato</div>`;return;}
+
+  el.innerHTML=filtered.map((s,i)=>{
+    const full=staffFull(s);
+    const has=activePeople.has(full);
+    const hasPIN=!!s.pin;
+    return`<div class="pitem${has?' has-shifts':''}" data-idx="${i}" onclick="selectStaff(this,${staff.indexOf(s)})">
+      <span style="font-size:18px">${has?'👤':'○'}</span>
+      <span class="pi-name">${esc(s.cog)} <span style="font-weight:400;font-size:13px;color:var(--muted)">${esc(s.nom)}</span></span>
+      ${has?`<span class="pi-badge">Turni</span>`:''}
+      ${hasPIN?`<span style="font-size:10px;color:var(--purple);font-weight:600">🔑</span>`:''}
+    </div>`;
+  }).join('');
+  el._staff=staff;
+}
+
+// Map per accesso sicuro: full → staffEntry (evita problemi di indice con lista filtrata)
+let _staffMap={};
+
+function renderPersonList(staffSorted,activePeople){
+  // Aggiorna la mappa globale
+  _staffMap={};
+  (data.staff||[]).forEach(s=>{_staffMap[staffFull(s)]=s;});
+
+  const el=document.getElementById('person-list');
+  if(!el)return;
+  const q=(document.getElementById('search')?.value||'').toUpperCase().trim();
+  const filtered=q?staffSorted.filter(s=>(s.cog+' '+s.nom).toUpperCase().includes(q)):staffSorted;
+
+  if(!filtered.length){el.innerHTML=`<div style="text-align:center;color:var(--muted);padding:16px;font-size:13px">Nessun risultato</div>`;return;}
+
+  el.innerHTML=filtered.map(s=>{
+    const full=staffFull(s);
+    const has=activePeople.has(full);
+    const hasPIN=!!s.pin;
+    // Usa data-full per identificare la persona — niente indici
+    return`<div class="pitem${has?' has-shifts':''}" data-full="${esc(full)}" onclick="selectStaff(this)">
+      <span style="font-size:18px">${has?'👤':'○'}</span>
+      <span class="pi-name">${esc(s.cog)} <span style="font-weight:400;font-size:13px;color:var(--muted)">${esc(s.nom)}</span></span>
+      ${has?`<span class="pi-badge">Turni</span>`:''}
+      ${hasPIN?`<span style="font-size:10px;color:var(--purple);font-weight:600">🔑</span>`:''}
+    </div>`;
+  }).join('');
+}
+
+function filterList(){
+  const staffSorted=(data.staff||[]).slice().sort((a,b)=>a.cog.localeCompare(b.cog,'it'));
+  const wk=getWk();
+  const slots=allSlotsInWeek(wk);
+  const activePeople=new Set(slots.filter(s=>s&&s.person).map(s=>s.person));
+  renderPersonList(staffSorted,activePeople);
+}
+
+function selectStaff(el){
+  const full=el.getAttribute('data-full');
+  if(!full)return;
+  const s=_staffMap[full];
+  if(!s)return;
+  if(s.pin){
+    _pendingPerson={full,staffEntry:s};
+    renderPinScreen(s,full);
+  } else {
+    // Nessun PIN — accesso non consentito
+    document.getElementById('nav-change').style.display='';
+    document.getElementById('main').innerHTML=`<div class="screen">
+      <div class="card" style="text-align:center;padding:32px 20px">
+        <div style="font-size:48px;margin-bottom:12px">🔒</div>
+        <div style="font-size:17px;font-weight:700;margin-bottom:8px">${esc(s.cog)} ${esc(s.nom)}</div>
+        <div style="font-size:14px;color:var(--text2);line-height:1.6;margin-bottom:20px">
+          Il tuo accesso personale non è ancora attivo.<br>
+          Contatta il coordinatore per ricevere il tuo PIN.
+        </div>
+        <button class="btn btn-secondary" style="max-width:240px;margin:0 auto" onclick="goBack()">← Torna all'elenco</button>
+      </div>
+    </div>`;
+  }
+}
+
+let _pendingPerson=null; // usato durante la schermata PIN
+
+function renderPinScreen(s,full){
+  document.getElementById('nav-change').style.display='';
+  const main=document.getElementById('main');
+  main.innerHTML=`<div class="screen">
+    <div class="card">
+      <div class="person-header">
+        <div class="person-avatar">${esc(s.cog[0])}</div>
+        <div class="person-info">
+          <div class="person-name">${esc(s.cog)} ${esc(s.nom)}</div>
+          <div class="person-sub">Inserisci il tuo PIN per accedere</div>
+        </div>
+      </div>
+      <div class="login-body">
+        <label>Il tuo PIN</label>
+        <input class="inp inp-pin" id="pin-inp" type="password" inputmode="numeric" maxlength="6"
+          placeholder="••••" autocomplete="off" onkeyup="if(event.key==='Enter')checkPin()">
+        <div class="error-msg" id="pin-err">❌ PIN non corretto</div>
+        <button class="btn btn-primary" style="margin-top:10px" onclick="checkPin()">
+          🔓 Accedi
+        </button>
+        <button class="btn btn-secondary" onclick="goBack()">← Torna all'elenco</button>
+      </div>
+    </div>
+  </div>`;
+  setTimeout(()=>document.getElementById('pin-inp')?.focus(),100);
+}
+
+function checkPin(){
+  if(!_pendingPerson)return;
+  const entered=(document.getElementById('pin-inp')?.value||'').trim();
+  const correct=_pendingPerson.staffEntry?.pin||'';
+  if(entered===correct){
+    person=_pendingPerson;
+    _pendingPerson=null;
+    document.getElementById('nav-change').style.display='';
+    renderTurni();
+  } else {
+    const err=document.getElementById('pin-err');
+    if(err)err.style.display='block';
+    const inp=document.getElementById('pin-inp');
+    if(inp){inp.value='';inp.focus();}
+    // Animazione shake
+    inp?.animate([{transform:'translateX(-4px)'},{transform:'translateX(4px)'},{transform:'none'}],{duration:200});
+  }
+}
+
+function renderTurni(){
+  const wk=getWk();
+  const mon=weekKeyToDate(wk);
+  const end=addDays(mon,6);
+  const s=person.staffEntry;
+  const full=person.full;
+  document.getElementById('nav-change').style.display='';
+
+  const slots=personSlots(full,wk);
+  const weekH=r2(slots.reduce((sum,sl)=>sum+Math.max(0,(toMin(sl.end)-toMin(sl.start))/60),0));
+  const contr=s?.contratto;
+  const diff=contr!=null?r2(weekH-contr):null;
+  const oreClass=diff==null?'':diff>0.1?'over':diff<-0.1?'low':'ok';
+
+  // Group by day
+  const byDay={};
+  for(let d=0;d<7;d++)byDay[d]=[];
+  slots.forEach(sl=>byDay[sl.dayIdx].push(sl));
+
+  const main=document.getElementById('main');
+  main.innerHTML=`<div class="screen">
+    <div class="card" style="margin-bottom:12px">
+      <div class="person-header">
+        <div class="person-avatar">${esc(s?.cog?.[0]||'?')}</div>
+        <div class="person-info">
+          <div class="person-name">${esc(s?.cog||full)} ${esc(s?.nom||'')}</div>
+          <div class="person-sub">Settimana ${isoWeek(mon)} · ${fmtDate(mon)}–${fmtDate(end)} ${mon.getFullYear()}</div>
+        </div>
+      </div>
+      <div class="sum-row">
+        <div class="sum-c ${oreClass}"><span class="sum-v">${weekH>0?weekH+'h':'–'}</span><span class="sum-l">Ore sett.</span></div>
+        ${contr!=null?`<div class="sum-c"><span class="sum-v" style="color:var(--muted)">${contr}h</span><span class="sum-l">Contratto</span></div>
+        <div class="sum-c ${oreClass}"><span class="sum-v">${diff!=null?(diff>0?'+':'')+diff+'h':'–'}</span><span class="sum-l">Differenza</span></div>`:''}
+        <div class="sum-c"><span class="sum-v">${slots.length}</span><span class="sum-l">Slot</span></div>
+      </div>
+    </div>
+
+    <div class="day-list">
+      ${Array.from({length:7},(_,d)=>{
+        const date=addDays(mon,d);
+        const isWe=d>=5;
+        const tod=isToday(date);
+        const daySlots=byDay[d];
+        const dayH=r2(daySlots.reduce((sum,sl)=>sum+Math.max(0,(toMin(sl.end)-toMin(sl.start))/60),0));
+        let slotIdx=0;
+        const slotsHtml=daySlots.length===0
+          ?`<div class="dc-empty">Nessun turno assegnato</div>`
+          :daySlots.map(sl=>{
+            const color=slotColor(sl.secType,slotIdx++);
+            const h=r2((toMin(sl.end)-toMin(sl.start))/60);
+            const icon=sl.secType==='referente'?'⭐':sl.secType==='palazzo'?'🏛️':sl.secType==='extra'?'📌':'🔒';
+
+            // Cambio turno
+            const prevParts=sl.prev?.person?.split(' ');
+            const nextParts=sl.next?.person?.split(' ');
+            const cambioHtml=(sl.prev||sl.next)?`<div class="cambio-row">
+              ${sl.prev?`<div class="cambio-item">
+                <div class="cambio-lbl">🔴 Dai il cambio a</div>
+                <div class="cambio-name">${esc(prevParts?.[0]||'')} ${esc(prevParts?.slice(1).join(' ')||'')}</div>
+                
+              </div>`:`<div class="cambio-item" style="opacity:.35"><div class="cambio-lbl">🔴 Dai il cambio a</div><div class="cambio-name" style="font-style:italic">Primo della sezione</div></div>`}
+              ${sl.next?`<div class="cambio-item">
+                <div class="cambio-lbl">🟢 Ti dà il cambio</div>
+                <div class="cambio-name">${esc(nextParts?.[0]||'')} ${esc(nextParts?.slice(1).join(' ')||'')}</div>
+                
+              </div>`:`<div class="cambio-item" style="opacity:.35"><div class="cambio-lbl">🟢 Ti dà il cambio</div><div class="cambio-name" style="font-style:italic">Ultimo della sezione</div></div>`}
+            </div>`:'';
+
+            return`<div class="slot-c ${color}">
+              <div class="slot-top">
+                <div class="slot-icon">${icon}</div>
+                <div class="slot-main">
+                  <div class="slot-time">${esc(sl.start)} – ${esc(sl.end)}</div>
+                  <div class="slot-sec">${esc(sl.secLabel)}</div>
+                  ${sl.secArea?`<div class="slot-area">${esc(sl.secArea)}</div>`:''}
+                  <div class="slot-h-badge">${h}h di servizio</div>
+                </div>
+              </div>
+              ${cambioHtml}
+            </div>`;
+          }).join('');
+
+        return`<div class="day-card${tod?' today-card':''}">
+          <div class="dc-head">
+            <div class="dc-num${tod?' today-num':''}">${date.getDate()}</div>
+            <div class="dc-info">
+              <div class="dc-day">${DAYS_IT[d]}</div>
+              <div class="dc-date">${fmtDate(date)}</div>
+            </div>
+            ${dayH>0?`<div class="dc-htot">${dayH}h</div>`:''}
+            ${tod?`<span class="today-tag">oggi</span>`:''}
+          </div>
+          <div class="dc-body">${slotsHtml}</div>
+        </div>`;
+      }).join('')}
+    </div>
+  </div>`;
+}
+
+// ── INIT ───────────────────────────────────────────────────────
+const saved=localStorage.getItem('turni_viewer_data');
+if(saved){try{data=JSON.parse(saved);if(data.schedule){renderLogin();}}catch(e){renderWelcome();}}
+else renderWelcome();
+</script>
+</body>
+</html>
