@@ -772,17 +772,32 @@ function renderTurni(){
 
 let _selectedWk=null; // settimana selezionata nel viewer
 
-// Ottieni la settimana da visualizzare (default: più recente)
+// Trova la settimana corrente nell'elenco di quelle disponibili
+function getCurrentWk(weeks){
+  if(!weeks||!weeks.length)return null;
+  const todayWk=getWkFromDate(new Date());
+  // Cerca la settimana corrente esatta
+  if(weeks.includes(todayWk))return todayWk;
+  // Cerca la più vicina non futura (ultima pubblicata prima di oggi)
+  const past=weeks.filter(w=>w<=todayWk);
+  if(past.length)return past[past.length-1];
+  // Se tutte sono future, prendi la prima
+  return weeks[0];
+}
+
+function getWkFromDate(d){
+  const t=new Date(d);t.setHours(0,0,0,0);
+  t.setDate(t.getDate()-(t.getDay()||7)+1); // lunedì
+  return`${t.getFullYear()}-W${String(isoWeek(t)).padStart(2,'0')}`;
+}
+
+// Ottieni la settimana da visualizzare (default: settimana corrente)
 function getViewWk(){
   if(!data)return null;
-  // Nuovo formato: data.weeks
-  const weeks=data.weeks?Object.keys(data.weeks).sort():null;
-  if(weeks&&weeks.length){
-    return _selectedWk&&weeks.includes(_selectedWk)?_selectedWk:weeks[weeks.length-1];
-  }
-  // Vecchio formato: data.schedule
-  const sched=Object.keys(data.schedule||{}).sort();
-  return _selectedWk&&sched.includes(_selectedWk)?_selectedWk:sched[sched.length-1];
+  const weeks=data.weeks?Object.keys(data.weeks).sort():Object.keys(data.schedule||{}).sort();
+  if(!weeks.length)return null;
+  if(_selectedWk&&weeks.includes(_selectedWk))return _selectedWk;
+  return getCurrentWk(weeks);
 }
 
 // Ottieni lo schedule di una settimana (compatibile vecchio e nuovo formato)
@@ -792,8 +807,13 @@ function getScheduleForWk(wk){
 }
 
 function getAllWeeks(){
-  if(data.weeks)return Object.keys(data.weeks).sort();
-  return Object.keys(data.schedule||{}).sort();
+  const all=data.weeks?Object.keys(data.weeks).sort():Object.keys(data.schedule||{}).sort();
+  if(!all.length)return all;
+  const currentWk=getWkFromDate(new Date());
+  // Passate: max 4, corrente, future: tutte
+  const past=all.filter(w=>w<currentWk).slice(-4);
+  const currentAndFuture=all.filter(w=>w>=currentWk);
+  return[...past,...currentAndFuture];
 }
 
 const GITHUB_JSON_URL='https://aromanato-muse.github.io/Turni_gestionerischioantincendio/turni.json';
