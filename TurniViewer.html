@@ -278,9 +278,7 @@ function onFile(inp){
 }
 
 function doReload(){
-  data=null;
-  _panoDay=null;
-  try{localStorage.removeItem('turni_viewer_data');}catch(e){}
+  _panoDay=null;_selectedWk=null;person=null;
   tryLoadFromGitHub();
 }
 
@@ -811,33 +809,21 @@ async function tryLoadFromGitHub(){
   renderLoading();
   try{
     const res=await fetch(GITHUB_JSON_URL+'?t='+Date.now());
-    if(!res.ok)throw new Error();
+    if(!res.ok)throw new Error('HTTP '+res.status);
     const parsed=await res.json();
-    if(!parsed.schedule)throw new Error();
-    // Confronta con dati salvati — usa il più recente
+    if(!parsed.weeks&&!parsed.schedule)throw new Error('formato non valido');
+    data=parsed;
+    localStorage.setItem('turni_viewer_data',JSON.stringify(data));
+    _activeTab='generale';_panoDay=null;_selectedWk=null;
+    renderLogin();
+  }catch(e){
     const saved=localStorage.getItem('turni_viewer_data');
     if(saved){
       try{
         const local=JSON.parse(saved);
-        const remoteDate=new Date(parsed.publishedAt||0);
-        const localDate=new Date(local.publishedAt||0);
-        if(remoteDate>localDate){
-          data=parsed;
-          localStorage.setItem('turni_viewer_data',JSON.stringify(data));
-        } else {
-          data=local;
-        }
-      }catch(e){data=parsed;localStorage.setItem('turni_viewer_data',JSON.stringify(data));}
-    } else {
-      data=parsed;
-      localStorage.setItem('turni_viewer_data',JSON.stringify(data));
+        if(local.weeks||local.schedule){data=local;_activeTab='generale';renderLogin();return;}
+      }catch(e2){}
     }
-    _activeTab='generale';_panoDay=null;
-    renderLogin();
-  }catch(e){
-    // Fallback: carica da localStorage o mostra welcome
-    const saved=localStorage.getItem('turni_viewer_data');
-    if(saved){try{data=JSON.parse(saved);if(data.schedule){renderLogin();return;}}catch(e){}}
     renderWelcome();
   }
 }
