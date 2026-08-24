@@ -136,6 +136,1249 @@
         }
       },
       "publishedAt": "2026-08-24T15:07:42.335Z"
+    },
+    "2026-W34": {
+      "schedule": {
+        "0": {
+          "p-1": [
+            {
+              "start": "09:40",
+              "end": "13:30",
+              "person": "NARDELLI ANNA MARIA"
+            },
+            {
+              "start": "13:30",
+              "end": "19:10",
+              "person": "CUSCITO ANGELO"
+            },
+            {
+              "start": "9:40",
+              "end": "14:30",
+              "person": "LIMONTA YESIEL"
+            },
+            {
+              "start": "14:30",
+              "end": "19:10",
+              "person": "ORANGIFARD NIMA"
+            }
+          ],
+          "p0a": [
+            {
+              "start": "09:40",
+              "end": "13:30",
+              "person": "CARIA ALBERTO"
+            },
+            {
+              "start": "13:30",
+              "end": "19:10",
+              "person": "HUSSAIN SADAM"
+            }
+          ],
+          "p0b": [
+            {
+              "start": "09:40",
+              "end": "14:30",
+              "person": "TRENTINI ELISABETTA"
+            },
+            {
+              "start": "14:30",
+              "end": "19:10",
+              "person": "TOMASI MAURO"
+            }
+          ],
+          "p1a": [
+            {
+              "start": "09:40",
+              "end": "13:30",
+              "person": "TOMASI MAURO"
+            },
+            {
+              "start": "13:30",
+              "end": "15:00",
+              "person": "ROMANATO ANDREA"
+            },
+            {
+              "start": "15:00",
+              "end": "19:10",
+              "person": "DEANESI Davide"
+            }
+          ],
+          "p1b": [
+            {
+              "start": "14:30",
+              "end": "19:10",
+              "person": "NARDELLI ANNA MARIA"
+            },
+            {
+              "start": "9:40",
+              "end": "14:30",
+              "person": "FIKRI Mohamed"
+            }
+          ],
+          "p2a": [
+            {
+              "start": "09:40",
+              "end": "13:30",
+              "person": "ORANGIFARD NIMA"
+            },
+            {
+              "start": "13:30",
+              "end": "19:10",
+              "person": "MICHELETTI LORENZO"
+            }
+          ],
+          "p2b": [
+            {
+              "start": "09:40",
+              "end": "14:30",
+              "person": "ROCCO GIOVANNA"
+            },
+            {
+              "start": "14:30",
+              "end": "19:10",
+              "person": "PASCUAL LEANDRO"
+            }
+          ],
+          "p3": [
+            {
+              "start": "09:40",
+              "end": "14:30",
+              "person": "GIULIETTI ANDREA"
+            },
+            {
+              "start": "14:30",
+              "end": "19:10",
+              "person": "CARIA ALBERTO"
+            }
+          ],
+          "p4": [
+            {
+              "start": "09:40",
+              "end": "13:30",
+              "person": "PASCUAL LEANDRO"
+            },
+            {
+              "start": "13:30",
+              "end": "19:10",
+              "person": "BOURKI DALIA"
+            }
+          ],
+          "alb0": [
+            {
+              "start": "15:30",
+              "end": "19:10",
+              "person": "GIULIETTI ANDREA"
+            },
+            {
+              "start": "9:40",
+              "end": "15:30",
+              "person": "BALDO ELIO"
+            }
+          ],
+          "alb1": [
+            {
+              "start": "15:30",
+              "end": "19:10",
+              "person": "ROCCO GIOVANNA"
+            },
+            {
+              "start": "9:40",
+              "end": "15:30",
+              "person": "SILVESTRI"
+            }
+          ],
+          "alb2": [
+            {
+              "start": "15:30",
+              "end": "19:10",
+              "person": "TRENTINI ELISABETTA"
+            },
+            {
+              "start": "9:40",
+              "end": "15:30",
+              "person": "KHAN IJAZ"
+            }
+          ],
+          "ref": [],
+          "ex_1784211166010": [],
+          "ex_1787500861773": [
+            {
+              "start": "09:40",
+              "end": "13:00",
+              "person": "CAMPANELLA ILARIA"
+            }
+          ],
+          "p-1a": [],
+          "p-1b": []
+        },
+        "1": {
+          "p-1": [
+            {
+              "start": "09:30",
+              "end": "13:30",
+              "person": "BALDO ELIO"
+            },
+            {
+              "start": "13:30",
+              "end": "15:00",
+              "person": "ROMANATO ANDREA"
+            },
+            {
+              "start": "9:40",
+              "end": "15:30",
+              "person": "SILVESTRI"
+            },
+            {
+              "start": "15:30",
+              "end": "19:10",
+              "person": "MOTTER MICHELE"
+            },
+            {
+              "start": "15:00",
+              "end": "19:00",
+              "person": "DEANESI Davide"
+            }
+          ],
+          "p0a": [
+            {
+              "start": "09:40",
+              "end": "13:30",
+              "person": "NARDELLI ANNA MARIA"
+            },
+            {
+              "start": "13:30",
+              "end": "19:10",
+              "person": "PASCUAL LEANDRO"
+            }
+          ],
+          "p0b": [
+            {
+              "start": "09:40",
+              "end": "14:30",
+              "person": "GAETANO MICHELANGELO"
+            },
+            {
+              "start": "14:30",
+              "end": "19:10",
+              "person": "CUSCITO ANGELO"
+            }
+          ],
+          "p1a": [
+            {
+              "start": "09:40",
+              "end": "13:30",
+              "person": "COMPER SIMONE"
+            },
+            {
+              "start": "13:30",
+              "end": "19:10",
+              "person": "FIKRI Mohamed"
+            }
+          ],
+          "p1b": [
+            {
+              "start": "09:40",
+              "end": "14:30",
+              "person": "ROCCO GIOVANNA"
+            },
+            {
+              "start": "14:30",
+              "end": "19:10",
+              "person": "NARDELLI ANNA MARIA"
+            }
+          ],
+          "p2a": [
+            {
+              "start": "09:40",
+              "end": "13:30",
+              "person": "HUSSAIN SADAM"
+            },
+            {
+              "start": "13:30",
+              "end": "14:30",
+              "person": "ROMANATO ANDREA"
+            },
+            {
+              "start": "14:30",
+              "end": "19:10",
+              "person": "BALDO ELIO"
+            }
+          ],
+          "p2b": [
+            {
+              "start": "09:40",
+              "end": "14:30",
+              "person": "LIMONTA YESIEL"
+            },
+            {
+              "start": "14:30",
+              "end": "20:00",
+              "person": "HUSSAIN SADAM"
+            }
+          ],
+          "p3": [
+            {
+              "start": "09:40",
+              "end": "14:30",
+              "person": "MOTTER MICHELE"
+            },
+            {
+              "start": "14:30",
+              "end": "19:10",
+              "person": "GIACOMETTI FRANCESCO"
+            }
+          ],
+          "p4": [
+            {
+              "start": "09:40",
+              "end": "13:30",
+              "person": "CUSCITO ANGELO"
+            },
+            {
+              "start": "13:30",
+              "end": "19:10",
+              "person": "MICHELETTI LORENZO"
+            }
+          ],
+          "alb0": [
+            {
+              "start": "09:30",
+              "end": "15:30",
+              "person": "GIACOMOZZI GRAZIELLA"
+            },
+            {
+              "start": "15:30",
+              "end": "19:10",
+              "person": "GAETANO MICHELANGELO"
+            }
+          ],
+          "alb1": [
+            {
+              "start": "09:40",
+              "end": "15:30",
+              "person": "ORANGIFARD NIMA"
+            },
+            {
+              "start": "15:30",
+              "end": "19:10",
+              "person": "LIMONTA YESIEL"
+            }
+          ],
+          "alb2": [
+            {
+              "start": "09:40",
+              "end": "14:30",
+              "person": "BUTT Adeel"
+            },
+            {
+              "start": "14:30",
+              "end": "19:10",
+              "person": "COMPER SIMONE"
+            }
+          ],
+          "ref": [],
+          "ex_1784211166010": [],
+          "ex_1787500861773": [
+            {
+              "start": "09:40",
+              "end": "14:30",
+              "person": "BUTT Adeel"
+            }
+          ],
+          "p-1a": [],
+          "p-1b": []
+        },
+        "2": {
+          "p-1": [
+            {
+              "start": "09:40",
+              "end": "13:30",
+              "person": "CAMPANELLA ILARIA"
+            },
+            {
+              "start": "9:40",
+              "end": "14:30",
+              "person": "TRENTINI ELISABETTA"
+            },
+            {
+              "start": "14:30",
+              "end": "19:10",
+              "person": "GAETANO MICHELANGELO"
+            },
+            {
+              "start": "13:30",
+              "end": "19:10",
+              "person": "MOTTER MICHELE"
+            }
+          ],
+          "p0a": [
+            {
+              "start": "09:40",
+              "end": "13:30",
+              "person": "LIMONTA YESIEL"
+            },
+            {
+              "start": "13:30",
+              "end": "19:10",
+              "person": "IVASHCHUK NINA"
+            }
+          ],
+          "p0b": [
+            {
+              "start": "09:40",
+              "end": "14:30",
+              "person": "ROCCO GIOVANNA"
+            },
+            {
+              "start": "14:30",
+              "end": "19:10",
+              "person": "PUSCEDDU ERNESTO"
+            }
+          ],
+          "p1a": [
+            {
+              "start": "09:40",
+              "end": "13:30",
+              "person": "PUSCEDDU ERNESTO"
+            },
+            {
+              "start": "13:30",
+              "end": "19:10",
+              "person": "BUTT Adeel"
+            }
+          ],
+          "p1b": [
+            {
+              "start": "09:40",
+              "end": "15:30",
+              "person": "GIACOMOZZI GRAZIELLA"
+            },
+            {
+              "start": "15:30",
+              "end": "19:10",
+              "person": "ORANGIFARD NIMA"
+            }
+          ],
+          "p2a": [
+            {
+              "start": "14:30",
+              "end": "20:00",
+              "person": "GIACOMETTI FRANCESCO"
+            },
+            {
+              "start": "9:40",
+              "end": "13:30",
+              "person": "COMPER SIMONE"
+            },
+            {
+              "start": "13:30",
+              "end": "14:30",
+              "person": "ROMANATO ANDREA"
+            }
+          ],
+          "p2b": [
+            {
+              "start": "14:30",
+              "end": "19:10",
+              "person": "CAMPANELLA ILARIA"
+            },
+            {
+              "start": "9:40",
+              "end": "14:30",
+              "person": "FIKRI Mohamed"
+            }
+          ],
+          "p3": [
+            {
+              "start": "14:30",
+              "end": "19:10",
+              "person": "COMPER SIMONE"
+            },
+            {
+              "start": "09:40",
+              "end": "14:30",
+              "person": "SILVESTRI"
+            }
+          ],
+          "p4": [
+            {
+              "start": "09:40",
+              "end": "13:30",
+              "person": "GAETANO MICHELANGELO"
+            },
+            {
+              "start": "13:30",
+              "end": "19:10",
+              "person": "KHAN IJAZ"
+            }
+          ],
+          "alb0": [
+            {
+              "start": "15:30",
+              "end": "19:10",
+              "person": "TRENTINI ELISABETTA"
+            },
+            {
+              "start": "9:30",
+              "end": "15:30",
+              "person": "PASCUAL LEANDRO"
+            }
+          ],
+          "alb1": [
+            {
+              "start": "09:40",
+              "end": "15:30",
+              "person": "HUSSAIN SADAM"
+            },
+            {
+              "start": "15:30",
+              "end": "19:10",
+              "person": "FIKRI Mohamed"
+            }
+          ],
+          "alb2": [
+            {
+              "start": "09:40",
+              "end": "14:30",
+              "person": "ORANGIFARD NIMA"
+            },
+            {
+              "start": "14:30",
+              "end": "19:10",
+              "person": "LIMONTA YESIEL"
+            }
+          ],
+          "ref": [],
+          "ex_1784211166010": [],
+          "ex_1787500861773": [],
+          "p-1a": [],
+          "p-1b": []
+        },
+        "3": {
+          "p-1": [
+            {
+              "start": "09:40",
+              "end": "13:30",
+              "person": "LIMONTA YESIEL"
+            },
+            {
+              "start": "9:40",
+              "end": "14:30",
+              "person": "ROCCO GIOVANNA"
+            },
+            {
+              "start": "14:30",
+              "end": "19:10",
+              "person": "PUSCEDDU ERNESTO"
+            },
+            {
+              "start": "13:30",
+              "end": "19:10",
+              "person": "TRENTINI ELISABETTA"
+            }
+          ],
+          "p0a": [
+            {
+              "start": "09:40",
+              "end": "13:30",
+              "person": "PUSCEDDU ERNESTO"
+            },
+            {
+              "start": "13:30",
+              "end": "19:10",
+              "person": "MAXI OOH"
+            }
+          ],
+          "p0b": [
+            {
+              "start": "14:30",
+              "end": "19:10",
+              "person": "TOMASI MAURO"
+            },
+            {
+              "start": "9:40",
+              "end": "14:30",
+              "person": "CUSCITO ANGELO"
+            }
+          ],
+          "p1a": [
+            {
+              "start": "09:40",
+              "end": "13:30",
+              "person": "CAMPANELLA ILARIA"
+            },
+            {
+              "start": "13:30",
+              "end": "15:00",
+              "person": "ROMANATO ANDREA"
+            },
+            {
+              "start": "15:00",
+              "end": "19:10",
+              "person": "DEANESI Davide"
+            }
+          ],
+          "p1b": [
+            {
+              "start": "09:40",
+              "end": "14:30",
+              "person": "COMPER SIMONE"
+            },
+            {
+              "start": "14:30",
+              "end": "19:10",
+              "person": "GIULIETTI ANDREA"
+            }
+          ],
+          "p2a": [
+            {
+              "start": "09:40",
+              "end": "13:30",
+              "person": "TOMASI MAURO"
+            },
+            {
+              "start": "14:30",
+              "end": "19:10",
+              "person": "GIACOMETTI FRANCESCO"
+            }
+          ],
+          "p2b": [
+            {
+              "start": "09:40",
+              "end": "15:30",
+              "person": "ROMANATO ANDREA"
+            },
+            {
+              "start": "15:30",
+              "end": "19:10",
+              "person": "COMPER SIMONE"
+            }
+          ],
+          "p3": [
+            {
+              "start": "09:40",
+              "end": "14:30",
+              "person": "GAETANO MICHELANGELO"
+            },
+            {
+              "start": "14:30",
+              "end": "19:10",
+              "person": "CAMPANELLA ILARIA"
+            }
+          ],
+          "p4": [
+            {
+              "start": "09:40",
+              "end": "13:30",
+              "person": "GIULIETTI ANDREA"
+            },
+            {
+              "start": "13:30",
+              "end": "19:10",
+              "person": "KHAN IJAZ"
+            }
+          ],
+          "alb0": [
+            {
+              "start": "14:30",
+              "end": "19:10",
+              "person": "LIMONTA YESIEL"
+            },
+            {
+              "start": "9:40",
+              "end": "14:30",
+              "person": "NARDELLI ANNA MARIA"
+            },
+            {
+              "start": "14:30",
+              "end": "",
+              "person": ""
+            }
+          ],
+          "alb1": [
+            {
+              "start": "15:30",
+              "end": "19:00",
+              "person": "NARDELLI ANNA MARIA"
+            },
+            {
+              "start": "9:40",
+              "end": "15:30",
+              "person": "GIACOMOZZI GRAZIELLA"
+            }
+          ],
+          "alb2": [
+            {
+              "start": "15:30",
+              "end": "19:10",
+              "person": "CUSCITO ANGELO"
+            },
+            {
+              "start": "9:40",
+              "end": "15:30",
+              "person": "FIKRI Mohamed"
+            }
+          ],
+          "ref": [],
+          "ex_1784211166010": [],
+          "ex_1787500861773": [
+            {
+              "start": "7:30",
+              "end": "9:30",
+              "person": "CAMPANELLA ILARIA"
+            }
+          ],
+          "p-1a": [],
+          "p-1b": []
+        },
+        "4": {
+          "p-1": [
+            {
+              "start": "09:40",
+              "end": "13:30",
+              "person": "CAMPANELLA ILARIA"
+            },
+            {
+              "start": "13:30",
+              "end": "19:10",
+              "person": "MICHELETTI LORENZO"
+            },
+            {
+              "start": "9:40",
+              "end": "14:30",
+              "person": "GIACOMETTI FRANCESCO"
+            },
+            {
+              "start": "14:30",
+              "end": "19:10",
+              "person": "FIKRI Mohamed"
+            }
+          ],
+          "p0a": [
+            {
+              "start": "09:40",
+              "end": "13:30",
+              "person": "AGNOLETTO Michael"
+            },
+            {
+              "start": "13:30",
+              "end": "19:10",
+              "person": "TRENTINI ELISABETTA"
+            }
+          ],
+          "p0b": [
+            {
+              "start": "14:30",
+              "end": "19:10",
+              "person": "CAMPANELLA ILARIA"
+            },
+            {
+              "start": "14:30",
+              "end": "19:10",
+              "person": "IVASHCHUK NINA"
+            }
+          ],
+          "p1a": [
+            {
+              "start": "9:40",
+              "end": "14:30",
+              "person": "CUSCITO ANGELO"
+            },
+            {
+              "start": "14:30",
+              "end": "19:10",
+              "person": "TOMASI MAURO"
+            }
+          ],
+          "p1b": [
+            {
+              "start": "14:30",
+              "end": "19:10",
+              "person": "MOTTER MICHELE"
+            },
+            {
+              "start": "9:40",
+              "end": "14:30",
+              "person": "BUTT Adeel"
+            }
+          ],
+          "p2a": [
+            {
+              "start": "09:40",
+              "end": "13:30",
+              "person": "MOTTER MICHELE"
+            },
+            {
+              "start": "13:30",
+              "end": "19:10",
+              "person": "GIULIETTI ANDREA"
+            }
+          ],
+          "p2b": [
+            {
+              "start": "09:40",
+              "end": "13:30",
+              "person": "TOMASI MAURO"
+            },
+            {
+              "start": "13:30",
+              "end": "15:00",
+              "person": "ROMANATO ANDREA"
+            },
+            {
+              "start": "15:00",
+              "end": "19:10",
+              "person": "PUSCEDDU ERNESTO"
+            }
+          ],
+          "p3": [
+            {
+              "start": "09:40",
+              "end": "14:00",
+              "person": "PUSCEDDU ERNESTO"
+            },
+            {
+              "start": "15:30",
+              "end": "19:10",
+              "person": "CUSCITO ANGELO"
+            },
+            {
+              "start": "14:00",
+              "end": "15:30",
+              "person": "SARTORI CAMILLA"
+            }
+          ],
+          "p4": [
+            {
+              "start": "09:40",
+              "end": "13:30",
+              "person": "FIKRI Mohamed"
+            },
+            {
+              "start": "13:30",
+              "end": "19:10",
+              "person": "MARCHETTI NANCY"
+            }
+          ],
+          "alb0": [
+            {
+              "start": "15:30",
+              "end": "19:10",
+              "person": "GIACOMETTI FRANCESCO"
+            },
+            {
+              "start": "09:30",
+              "end": "15:30",
+              "person": "KHAN IJAZ"
+            }
+          ],
+          "alb1": [
+            {
+              "start": "15:30",
+              "end": "19:10",
+              "person": "IVASHCHUK NINA"
+            },
+            {
+              "start": "9:40",
+              "end": "15:30",
+              "person": "COMPER SIMONE"
+            }
+          ],
+          "alb2": [
+            {
+              "start": "14:30",
+              "end": "19:10",
+              "person": "AGNOLETTO Michael"
+            },
+            {
+              "start": "9:40",
+              "end": "14:30",
+              "person": "BOURKI DALIA"
+            }
+          ],
+          "ref": [],
+          "ex_1784211166010": [],
+          "ex_1787500861773": [
+            {
+              "start": "19:30",
+              "end": "22:00",
+              "person": "CAMPANELLA ILARIA"
+            }
+          ],
+          "p-1a": [],
+          "p-1b": []
+        },
+        "5": {
+          "p-1": [
+            {
+              "start": "09:40",
+              "end": "13:30",
+              "person": "CUSCITO ANGELO"
+            },
+            {
+              "start": "13:30",
+              "end": "19:10",
+              "person": "AGNOLETTO Michael"
+            },
+            {
+              "start": "9:40",
+              "end": "14:30",
+              "person": "CAMPANELLA ILARIA"
+            },
+            {
+              "start": "14:30",
+              "end": "20:00",
+              "person": "SILVESTRI"
+            }
+          ],
+          "p0a": [
+            {
+              "start": "09:40",
+              "end": "13:30",
+              "person": "HUSSAIN SADAM"
+            },
+            {
+              "start": "13:30",
+              "end": "19:10",
+              "person": "BUTT Adeel"
+            }
+          ],
+          "p0b": [
+            {
+              "start": "09:40",
+              "end": "12:30",
+              "person": "KHAN IJAZ"
+            },
+            {
+              "start": "15:30",
+              "end": "19:10",
+              "person": "GIACOMETTI FRANCESCO"
+            }
+          ],
+          "p1a": [
+            {
+              "start": "09:40",
+              "end": "13:30",
+              "person": "PASCUAL LEANDRO"
+            },
+            {
+              "start": "13:30",
+              "end": "19:10",
+              "person": "BOURKI DALIA"
+            }
+          ],
+          "p1b": [
+            {
+              "start": "09:40",
+              "end": "14:30",
+              "person": "MARCHETTI NANCY"
+            },
+            {
+              "start": "14:30",
+              "end": "19:10",
+              "person": "CARIA ALBERTO"
+            }
+          ],
+          "p2a": [
+            {
+              "start": "09:40",
+              "end": "13:30",
+              "person": "CARIA ALBERTO"
+            },
+            {
+              "start": "13:30",
+              "end": "19:10",
+              "person": "FIKRI Mohamed"
+            }
+          ],
+          "p2b": [
+            {
+              "start": "09:40",
+              "end": "14:30",
+              "person": "DEANESI Davide"
+            },
+            {
+              "start": "14:30",
+              "end": "19:10",
+              "person": "HUSSAIN SADAM"
+            }
+          ],
+          "p3": [
+            {
+              "start": "09:40",
+              "end": "13:30",
+              "person": "SILVESTRI"
+            },
+            {
+              "start": "13:30",
+              "end": "19:10",
+              "person": "KHAN IJAZ"
+            }
+          ],
+          "p4": [
+            {
+              "start": "09:40",
+              "end": "14:30",
+              "person": "GAETANO MICHELANGELO"
+            },
+            {
+              "start": "14:30",
+              "end": "19:10",
+              "person": "PASCUAL LEANDRO"
+            }
+          ],
+          "alb0": [
+            {
+              "start": "09:30",
+              "end": "15:30",
+              "person": "TOMASI MAURO"
+            },
+            {
+              "start": "15:30",
+              "end": "19:10",
+              "person": "CAMPANELLA ILARIA"
+            },
+            {
+              "start": "15:30",
+              "end": "19:10",
+              "person": "GAETANO MICHELANGELO"
+            },
+            {
+              "start": "9:40",
+              "end": "15:30",
+              "person": "MONTEMURRO Alessio"
+            }
+          ],
+          "alb1": [
+            {
+              "start": "09:40",
+              "end": "15:30",
+              "person": "ORANGIFARD NIMA"
+            },
+            {
+              "start": "15:30",
+              "end": "19:10",
+              "person": "MARCHETTI NANCY"
+            }
+          ],
+          "alb2": [
+            {
+              "start": "09:40",
+              "end": "14:30",
+              "person": "GIACOMETTI FRANCESCO"
+            },
+            {
+              "start": "14:30",
+              "end": "19:10",
+              "person": "CUSCITO ANGELO"
+            }
+          ],
+          "ref": [
+            {
+              "start": "09:30",
+              "end": "14:30",
+              "person": "BALDO ELIO"
+            },
+            {
+              "start": "15:30",
+              "end": "19:10",
+              "person": "BALDO ELIO"
+            }
+          ],
+          "ex_1784211166010": [],
+          "ex_1787500861773": [],
+          "p-1a": [],
+          "p-1b": []
+        },
+        "6": {
+          "p-1": [
+            {
+              "start": "09:40",
+              "end": "14:30",
+              "person": "TOMASI MAURO"
+            },
+            {
+              "start": "14:30",
+              "end": "19:10",
+              "person": "AGNOLETTO Michael"
+            },
+            {
+              "start": "9:40",
+              "end": "13:30",
+              "person": "LIMONTA YESIEL"
+            },
+            {
+              "start": "13:30",
+              "end": "19:10",
+              "person": "GAETANO MICHELANGELO"
+            }
+          ],
+          "p0a": [
+            {
+              "start": "09:40",
+              "end": "12:30",
+              "person": "GAETANO MICHELANGELO"
+            },
+            {
+              "start": "12:30",
+              "end": "13:30",
+              "person": "MAXI OOH"
+            },
+            {
+              "start": "13:30",
+              "end": "19:10",
+              "person": "ORANGIFARD NIMA"
+            }
+          ],
+          "p0b": [
+            {
+              "start": "09:40",
+              "end": "13:30",
+              "person": "AGNOLETTO Michael"
+            },
+            {
+              "start": "13:30",
+              "end": "19:10",
+              "person": "SILVESTRI"
+            }
+          ],
+          "p1a": [
+            {
+              "start": "09:40",
+              "end": "13:30",
+              "person": "BALDO ELIO"
+            },
+            {
+              "start": "13:30",
+              "end": "19:10",
+              "person": "BUTT Adeel"
+            }
+          ],
+          "p1b": [
+            {
+              "start": "09:40",
+              "end": "14:30",
+              "person": "PASCUAL LEANDRO"
+            },
+            {
+              "start": "14:30",
+              "end": "19:10",
+              "person": "HUSSAIN SADAM"
+            }
+          ],
+          "p2a": [
+            {
+              "start": "09:40",
+              "end": "13:30",
+              "person": "HUSSAIN SADAM"
+            },
+            {
+              "start": "13:30",
+              "end": "19:10",
+              "person": "CARIA ALBERTO"
+            }
+          ],
+          "p2b": [
+            {
+              "start": "09:40",
+              "end": "12:30",
+              "person": "ORANGIFARD NIMA"
+            },
+            {
+              "start": "14:30",
+              "end": "20:00",
+              "person": "BALDO ELIO"
+            }
+          ],
+          "p3": [
+            {
+              "start": "09:40",
+              "end": "13:30",
+              "person": "GIULIETTI ANDREA"
+            },
+            {
+              "start": "13:30",
+              "end": "19:10",
+              "person": "MICHELETTI LORENZO"
+            }
+          ],
+          "p4": [
+            {
+              "start": "09:40",
+              "end": "14:30",
+              "person": "MONTEMURRO Alessio"
+            },
+            {
+              "start": "14:30",
+              "end": "19:10",
+              "person": "LIMONTA YESIEL"
+            }
+          ],
+          "alb0": [
+            {
+              "start": "09:30",
+              "end": "15:30",
+              "person": "BOURKI DALIA"
+            },
+            {
+              "start": "15:30",
+              "end": "19:10",
+              "person": "TOMASI MAURO"
+            },
+            {
+              "start": "9:40",
+              "end": "15:30",
+              "person": "MARCHETTI NANCY"
+            },
+            {
+              "start": "15:30",
+              "end": "19:10",
+              "person": "MONTEMURRO Alessio"
+            }
+          ],
+          "alb1": [
+            {
+              "start": "14:30",
+              "end": "19:10",
+              "person": "GIULIETTI ANDREA"
+            },
+            {
+              "start": "9:40",
+              "end": "14:30",
+              "person": "GIACOMETTI FRANCESCO"
+            }
+          ],
+          "alb2": [
+            {
+              "start": "09:40",
+              "end": "15:30",
+              "person": "PUSCEDDU ERNESTO"
+            },
+            {
+              "start": "15:30",
+              "end": "19:10",
+              "person": "PASCUAL LEANDRO"
+            }
+          ],
+          "ref": [
+            {
+              "start": "09:30",
+              "end": "14:30",
+              "person": "CAMPANELLA ILARIA"
+            },
+            {
+              "start": "15:30",
+              "end": "19:10",
+              "person": "CAMPANELLA ILARIA"
+            }
+          ],
+          "ex_1784211166010": [],
+          "ex_1787500861773": [],
+          "p-1a": [],
+          "p-1b": []
+        }
+      },
+      "publishedAt": "2026-08-24T15:07:49.027Z"
     }
   },
   "sections": [
@@ -579,5 +1822,5 @@
       "pin": "9695"
     }
   ],
-  "lastUpdated": "2026-08-24T15:07:42.336Z"
+  "lastUpdated": "2026-08-24T15:07:49.027Z"
 }
