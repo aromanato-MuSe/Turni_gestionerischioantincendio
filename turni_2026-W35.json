@@ -1,0 +1,582 @@
+{
+  "weeks": {
+    "2026-W35": {
+      "schedule": {
+        "0": {
+          "p-1": [],
+          "p0a": [],
+          "p0b": [],
+          "p1a": [],
+          "p1b": [],
+          "p2a": [],
+          "p2b": [],
+          "p3": [],
+          "p4": [],
+          "alb0": [],
+          "alb1": [],
+          "alb2": [],
+          "ref": [],
+          "ex_1787500861773": [],
+          "p-1a": [],
+          "p-1b": []
+        },
+        "1": {
+          "p-1": [],
+          "p0a": [],
+          "p0b": [
+            {
+              "start": "09:40",
+              "end": "13:00",
+              "person": "CAMPANELLA ILARIA"
+            }
+          ],
+          "p1a": [],
+          "p1b": [],
+          "p2a": [],
+          "p2b": [],
+          "p3": [],
+          "p4": [],
+          "alb0": [],
+          "alb1": [],
+          "alb2": [],
+          "ref": [],
+          "ex_1787500861773": [],
+          "p-1a": [],
+          "p-1b": []
+        },
+        "2": {
+          "p-1": [],
+          "p0a": [],
+          "p0b": [],
+          "p1a": [],
+          "p1b": [],
+          "p2a": [],
+          "p2b": [],
+          "p3": [],
+          "p4": [],
+          "alb0": [],
+          "alb1": [],
+          "alb2": [],
+          "ref": [],
+          "ex_1787500861773": [],
+          "p-1a": [],
+          "p-1b": []
+        },
+        "3": {
+          "p-1": [],
+          "p0a": [],
+          "p0b": [],
+          "p1a": [],
+          "p1b": [],
+          "p2a": [],
+          "p2b": [],
+          "p3": [],
+          "p4": [],
+          "alb0": [],
+          "alb1": [],
+          "alb2": [],
+          "ref": [],
+          "ex_1787500861773": [],
+          "p-1a": [],
+          "p-1b": []
+        },
+        "4": {
+          "p-1": [],
+          "p0a": [],
+          "p0b": [],
+          "p1a": [],
+          "p1b": [],
+          "p2a": [],
+          "p2b": [],
+          "p3": [],
+          "p4": [],
+          "alb0": [],
+          "alb1": [],
+          "alb2": [],
+          "ref": [],
+          "ex_1787500861773": [],
+          "p-1a": [],
+          "p-1b": []
+        },
+        "5": {
+          "p-1": [],
+          "p0a": [],
+          "p0b": [],
+          "p1a": [],
+          "p1b": [],
+          "p2a": [],
+          "p2b": [],
+          "p3": [],
+          "p4": [],
+          "alb0": [],
+          "alb1": [],
+          "alb2": [],
+          "ref": [],
+          "ex_1787500861773": [],
+          "p-1a": [],
+          "p-1b": []
+        },
+        "6": {
+          "p-1": [],
+          "p0a": [],
+          "p0b": [],
+          "p1a": [],
+          "p1b": [],
+          "p2a": [],
+          "p2b": [],
+          "p3": [],
+          "p4": [],
+          "alb0": [],
+          "alb1": [],
+          "alb2": [],
+          "ref": [],
+          "ex_1787500861773": [],
+          "p-1a": [],
+          "p-1b": []
+        }
+      },
+      "publishedAt": "2026-08-24T15:07:43.339Z"
+    }
+  },
+  "sections": [
+    {
+      "id": "p-1a",
+      "label": "Piano −1a",
+      "type": "piano",
+      "area": "Dinosauri zona 1,2,3 /DNA",
+      "nSlots": 2
+    },
+    {
+      "id": "p-1b",
+      "label": "Piano −1b",
+      "type": "piano",
+      "area": "Mostre temporanee piccolo vuoto/Serra",
+      "nSlots": 2
+    },
+    {
+      "id": "p0a",
+      "label": "Piano 0a",
+      "type": "piano",
+      "area": "Hands on"
+    },
+    {
+      "id": "p0b",
+      "label": "Piano 0b",
+      "type": "piano",
+      "area": "Hands on"
+    },
+    {
+      "id": "p1a",
+      "label": "Piano 1a",
+      "type": "piano",
+      "area": "Preistoria"
+    },
+    {
+      "id": "p1b",
+      "label": "Piano 1b",
+      "type": "piano",
+      "area": "Galleria sostenibilità/Fablab"
+    },
+    {
+      "id": "p2a",
+      "label": "Piano 2a",
+      "type": "piano",
+      "area": "Geologia + rischi ambientali"
+    },
+    {
+      "id": "p2b",
+      "label": "Piano 2b",
+      "type": "piano",
+      "area": "Mostre temporanee"
+    },
+    {
+      "id": "p3",
+      "label": "Piano 3",
+      "type": "piano",
+      "area": "Biodiversità/Discovery Room"
+    },
+    {
+      "id": "p4",
+      "label": "Piano 4",
+      "type": "piano",
+      "area": "Ghiacciai"
+    },
+    {
+      "id": "alb0",
+      "label": "Albere P0",
+      "type": "palazzo",
+      "area": "Palazzo delle Albere – piano 0"
+    },
+    {
+      "id": "alb1",
+      "label": "Albere P1",
+      "type": "palazzo",
+      "area": "Palazzo delle Albere – piano 1"
+    },
+    {
+      "id": "alb2",
+      "label": "Albere P2",
+      "type": "palazzo",
+      "area": "Palazzo delle Albere – piano 2"
+    },
+    {
+      "id": "ref",
+      "label": "Referente",
+      "type": "referente",
+      "area": "Referente di giornata"
+    },
+    {
+      "id": "ex_1787500861773",
+      "label": "EVENTO X",
+      "type": "extra",
+      "area": "EVENTO X"
+    }
+  ],
+  "staff": [
+    {
+      "cog": "BALDO",
+      "nom": "ELIO",
+      "contratto": 25,
+      "vincoli": {
+        "sezioniEscluse": []
+      },
+      "pin": "8544"
+    },
+    {
+      "cog": "BOURKI",
+      "nom": "DALIA",
+      "contratto": 18,
+      "vincoli": {
+        "sezioniEscluse": []
+      },
+      "pin": "7851"
+    },
+    {
+      "cog": "CAMPANELLA",
+      "nom": "ILARIA",
+      "contratto": 37,
+      "vincoli": {
+        "sezioniEscluse": []
+      },
+      "pin": "1234"
+    },
+    {
+      "cog": "CARIA",
+      "nom": "ALBERTO",
+      "contratto": 18,
+      "vincoli": {
+        "sezioniEscluse": []
+      },
+      "pin": "6356"
+    },
+    {
+      "cog": "COMPER",
+      "nom": "SIMONE",
+      "contratto": 24,
+      "vincoli": {
+        "sezioniEscluse": []
+      },
+      "pin": "9874"
+    },
+    {
+      "cog": "CUSCITO",
+      "nom": "ANGELO",
+      "contratto": 37,
+      "vincoli": {
+        "sezioniEscluse": []
+      },
+      "pin": "5986"
+    },
+    {
+      "cog": "FERRETTI",
+      "nom": "GIANLUCA",
+      "contratto": 37,
+      "vincoli": {
+        "sezioniEscluse": []
+      },
+      "pin": "6001"
+    },
+    {
+      "cog": "GAETANO",
+      "nom": "MICHELANGELO",
+      "contratto": 37,
+      "vincoli": {
+        "sezioniEscluse": []
+      },
+      "pin": "9967"
+    },
+    {
+      "cog": "GIACOMETTI",
+      "nom": "FRANCESCO",
+      "contratto": 37,
+      "vincoli": {
+        "sezioniEscluse": []
+      },
+      "pin": "9095"
+    },
+    {
+      "cog": "GIULIETTI",
+      "nom": "ANDREA",
+      "contratto": 37,
+      "vincoli": {
+        "sezioniEscluse": []
+      },
+      "pin": "1862"
+    },
+    {
+      "cog": "HUSSAIN",
+      "nom": "SADAM",
+      "contratto": 37,
+      "vincoli": {
+        "sezioniEscluse": []
+      },
+      "pin": "1528"
+    },
+    {
+      "cog": "IVASHCHUK",
+      "nom": "NINA",
+      "contratto": null,
+      "vincoli": {
+        "sezioniEscluse": []
+      },
+      "pin": "8575"
+    },
+    {
+      "cog": "LIMONTA",
+      "nom": "YESIEL",
+      "contratto": 37,
+      "vincoli": {
+        "sezioniEscluse": []
+      },
+      "pin": "5057"
+    },
+    {
+      "cog": "MARCHETTI",
+      "nom": "NANCY",
+      "contratto": 18,
+      "vincoli": {
+        "sezioniEscluse": []
+      },
+      "pin": "2826"
+    },
+    {
+      "cog": "MICHELETTI",
+      "nom": "LORENZO",
+      "contratto": 18,
+      "vincoli": {
+        "sezioniEscluse": []
+      },
+      "pin": "1984"
+    },
+    {
+      "cog": "NARDELLI",
+      "nom": "ANNA MARIA",
+      "contratto": 21,
+      "vincoli": {
+        "sezioniEscluse": []
+      },
+      "pin": "8881"
+    },
+    {
+      "cog": "ORANGIFARD",
+      "nom": "NIMA",
+      "contratto": 21,
+      "vincoli": {
+        "sezioniEscluse": []
+      },
+      "pin": "1830"
+    },
+    {
+      "cog": "PASCUAL",
+      "nom": "LEANDRO",
+      "contratto": 30,
+      "vincoli": {
+        "sezioniEscluse": []
+      },
+      "pin": "3055"
+    },
+    {
+      "cog": "PUSCEDDU",
+      "nom": "ERNESTO",
+      "contratto": 21,
+      "vincoli": {
+        "sezioniEscluse": []
+      },
+      "pin": "2742"
+    },
+    {
+      "cog": "RICCIO",
+      "nom": "ROSARIA",
+      "contratto": 37,
+      "vincoli": {
+        "sezioniEscluse": []
+      },
+      "pin": "6376"
+    },
+    {
+      "cog": "ROCCO",
+      "nom": "GIOVANNA",
+      "contratto": 20,
+      "vincoli": {
+        "sezioniEscluse": []
+      },
+      "pin": "5994"
+    },
+    {
+      "cog": "SANTOS",
+      "nom": "NAYARA",
+      "contratto": 21,
+      "vincoli": {
+        "sezioniEscluse": []
+      },
+      "pin": "1134"
+    },
+    {
+      "cog": "SILVESTRI",
+      "nom": "",
+      "contratto": 24,
+      "vincoli": {
+        "sezioniEscluse": []
+      },
+      "pin": "8232"
+    },
+    {
+      "cog": "SIMONI",
+      "nom": "EVELYN",
+      "contratto": null,
+      "vincoli": {
+        "sezioniEscluse": []
+      },
+      "pin": "3769"
+    },
+    {
+      "cog": "TOMASI",
+      "nom": "MAURO",
+      "contratto": 37,
+      "vincoli": {
+        "sezioniEscluse": []
+      },
+      "pin": "3012"
+    },
+    {
+      "cog": "TRENTINI",
+      "nom": "ELISABETTA",
+      "contratto": 21,
+      "vincoli": {
+        "sezioniEscluse": []
+      },
+      "pin": "4101"
+    },
+    {
+      "cog": "ZENOBI",
+      "nom": "VITA",
+      "contratto": 30,
+      "vincoli": {
+        "sezioniEscluse": []
+      },
+      "pin": "1543"
+    },
+    {
+      "cog": "KHAN",
+      "nom": "IJAZ",
+      "contratto": 18,
+      "vincoli": {
+        "sezioniEscluse": []
+      },
+      "pin": "2552"
+    },
+    {
+      "cog": "CORETTI",
+      "nom": "EMANUELE",
+      "contratto": 1,
+      "vincoli": {
+        "sezioniEscluse": []
+      },
+      "pin": "1116"
+    },
+    {
+      "cog": "GIACOMOZZI",
+      "nom": "GRAZIELLA",
+      "contratto": 1,
+      "vincoli": {
+        "sezioniEscluse": []
+      },
+      "pin": "5056"
+    },
+    {
+      "cog": "RADA",
+      "nom": "SASA",
+      "contratto": 18,
+      "vincoli": {
+        "sezioniEscluse": []
+      },
+      "pin": "6197"
+    },
+    {
+      "cog": "MONTEMURRO",
+      "nom": "Alessio",
+      "contratto": 18,
+      "pin": "8458"
+    },
+    {
+      "cog": "AGNOLETTO",
+      "nom": "Michael",
+      "contratto": 18,
+      "pin": "8408"
+    },
+    {
+      "cog": "FIKRI",
+      "nom": "Mohamed",
+      "contratto": 30,
+      "pin": "5128"
+    },
+    {
+      "cog": "BUTT",
+      "nom": "Adeel",
+      "contratto": 18,
+      "pin": "6239"
+    },
+    {
+      "cog": "MAXI OOH",
+      "nom": "",
+      "contratto": 1,
+      "pin": "8354"
+    },
+    {
+      "cog": "DEANESI",
+      "nom": "Davide",
+      "contratto": 1,
+      "pin": "3871"
+    },
+    {
+      "cog": "EL BAOUNY",
+      "nom": "Amin",
+      "contratto": 18,
+      "pin": "7795"
+    },
+    {
+      "cog": "FERRETTI",
+      "nom": "Daniel",
+      "contratto": 1,
+      "pin": "6955"
+    },
+    {
+      "cog": "ROMANATO",
+      "nom": "ANDREA",
+      "contratto": 1,
+      "pin": "5086"
+    },
+    {
+      "cog": "MOTTER",
+      "nom": "MICHELE",
+      "contratto": 1,
+      "pin": "6900"
+    },
+    {
+      "cog": "SARTORI",
+      "nom": "CAMILLA",
+      "contratto": null,
+      "pin": "9695"
+    }
+  ]
+}
