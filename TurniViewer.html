@@ -205,13 +205,16 @@ function weekKeyToDate(wk){
   const mon=new Date(jan4);mon.setDate(jan4.getDate()-(dow-1)+(week-1)*7);return mon;
 }
 function isToday(date){const t=new Date();return date.getDate()===t.getDate()&&date.getMonth()===t.getMonth()&&date.getFullYear()===t.getFullYear();}
-function getWk(){return Object.keys(data.schedule||{}).sort().pop()||'';}
+function getWk(){
+  // Per il viewer usa la settimana selezionata
+  return getViewWk()||Object.keys(data?.schedule||{}).sort().pop()||'';
+}
 function staffFull(s){return s.nom?s.cog+' '+s.nom:s.cog;}
 function showToast(msg){const t=document.getElementById('toast');t.textContent=msg;t.classList.add('show');setTimeout(()=>t.classList.remove('show'),2500);}
 
 // Flatten all slots in a week
 function allSlotsInWeek(wk){
-  const sched=data.schedule?.[wk]||{};
+  const sched=getScheduleForWk(wk);
   const out=[];
   for(const [dayIdx,day] of Object.entries(sched)){
     for(const [secId,slots] of Object.entries(day)){
@@ -227,7 +230,7 @@ function allSlotsInWeek(wk){
 
 // Get person's slots sorted
 function personSlots(fullName,wk){
-  const sched=data.schedule?.[wk]||{};
+  const sched=getScheduleForWk(wk);
   const sections=data.sections||[];
   const out=[];
   for(const [dayIdx,day] of Object.entries(sched)){
@@ -336,9 +339,25 @@ function renderLogin(){
   const staff=(data.staff||[]).slice().sort((a,b)=>a.cog.localeCompare(b.cog,'it'));
   const slots=allSlotsInWeek(wk);
   const activePeople=new Set(slots.filter(s=>s.person).map(s=>s.person));
+  const weeks=getAllWeeks();
+
+  // Selettore settimana (solo se ci sono più settimane)
+  const weekSelector=weeks.length>1?`
+    <div style="display:flex;align-items:center;gap:8px;margin-bottom:14px;background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:10px 14px">
+      <span style="font-size:13px;color:var(--text2);font-weight:600;white-space:nowrap">📅 Settimana:</span>
+      <select onchange="changeWeek(this.value)" style="flex:1;background:transparent;border:none;font-size:14px;font-weight:700;color:var(--accent);font-family:'Inter',sans-serif;cursor:pointer;outline:none">
+        ${weeks.slice().reverse().map(w=>{
+          const m=weekKeyToDate(w),e=addDays(m,6);
+          const pub=data.weeks?.[w]?.publishedAt?new Date(data.weeks[w].publishedAt):'';
+          const pubLabel=pub?` (pubbl. ${pub.toLocaleDateString('it-IT',{day:'2-digit',month:'2-digit'})})` :'';
+          return`<option value="${w}" ${w===wk?'selected':''}>${fmtDate(m)}–${fmtDate(e)} ${m.getFullYear()}${pubLabel}</option>`;
+        }).join('')}
+      </select>
+    </div>`:'';
 
   const main=document.getElementById('main');
   main.innerHTML=`<div class="screen">
+    ${weekSelector}
     <!-- TAB BAR -->
     <div style="display:flex;background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:4px;margin-bottom:14px;gap:4px">
       <button id="tab-generale" onclick="switchMainTab('generale')" style="
@@ -382,6 +401,13 @@ function renderLogin(){
 
   renderPano(wk,slots,mon);
   renderPersonList(staff,activePeople);
+}
+
+function changeWeek(wk){
+  _selectedWk=wk;
+  _panoDay=null;
+  person=null;
+  renderLogin();
 }
 
 function switchMainTab(tab){
@@ -746,7 +772,32 @@ function renderTurni(){
   </div>`;
 }
 
-// ── INIT ───────────────────────────────────────────────────────
+let _selectedWk=null; // settimana selezionata nel viewer
+
+// Ottieni la settimana da visualizzare (default: più recente)
+function getViewWk(){
+  if(!data)return null;
+  // Nuovo formato: data.weeks
+  const weeks=data.weeks?Object.keys(data.weeks).sort():null;
+  if(weeks&&weeks.length){
+    return _selectedWk&&weeks.includes(_selectedWk)?_selectedWk:weeks[weeks.length-1];
+  }
+  // Vecchio formato: data.schedule
+  const sched=Object.keys(data.schedule||{}).sort();
+  return _selectedWk&&sched.includes(_selectedWk)?_selectedWk:sched[sched.length-1];
+}
+
+// Ottieni lo schedule di una settimana (compatibile vecchio e nuovo formato)
+function getScheduleForWk(wk){
+  if(data.weeks&&data.weeks[wk])return data.weeks[wk].schedule||{};
+  return data.schedule?.[wk]||{};
+}
+
+function getAllWeeks(){
+  if(data.weeks)return Object.keys(data.weeks).sort();
+  return Object.keys(data.schedule||{}).sort();
+}
+
 const GITHUB_JSON_URL='https://aromanato-muse.github.io/Turni_gestionerischioantincendio/turni.json';
 
 function renderLoading(){
