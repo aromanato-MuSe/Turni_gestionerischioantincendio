@@ -836,7 +836,7 @@ async function tryLoadFromGitHub(){
     const res=await fetch(GITHUB_JSON_URL+'?t='+Date.now());
     if(!res.ok)throw new Error('HTTP '+res.status);
     const parsed=await res.json();
-    if(!parsed.weeks&&!parsed.schedule)throw new Error('formato non valido');
+    if(!parsed||typeof parsed!=='object')throw new Error('formato non valido');
     data=parsed;
     localStorage.setItem('turni_viewer_data',JSON.stringify(data));
     _activeTab='generale';_panoDay=null;_selectedWk=null;
