@@ -290,37 +290,19 @@ function goBack(){
 
 // ── SCREENS ────────────────────────────────────────────────────
 function renderWelcome(){
+  // Schermata di errore — il caricamento automatico da GitHub è fallito
   document.getElementById('week-pill').style.display='none';
   document.getElementById('nav-change').style.display='none';
-  const main=document.getElementById('main');
-  main.innerHTML=`<div class="screen">
-    <div class="card" style="margin-bottom:0">
-      <div class="welcome-hero">
-        <div style="font-size:52px">🗓️</div>
-        <h1>I miei turni</h1>
-        <p>Carica il file turni settimanale che ti ha inviato il coordinatore.</p>
-      </div>
-      <div class="file-area">
-        <div class="drop-zone" id="drop-zone" onclick="document.getElementById('file-inp').click()">
-          <div class="dz-icon">📂</div>
-          <strong>Tocca per aprire il file turni</strong>
-          <span>formato .json — ricevuto dal coordinatore</span>
-        </div>
-        <button class="btn btn-primary" onclick="document.getElementById('file-inp').click()">
-          📂 Apri file turni (.json)
-        </button>
-      </div>
+  document.getElementById('main').innerHTML=`<div class="screen" style="display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:60vh;gap:16px;text-align:center;padding:24px">
+    <div style="font-size:52px">⚠️</div>
+    <div style="font-size:18px;font-weight:700">Impossibile caricare i turni</div>
+    <div style="font-size:14px;color:var(--text2);max-width:320px;line-height:1.6">
+      Controlla la connessione internet e riprova.<br>Se il problema persiste contatta il coordinatore.
     </div>
+    <button class="btn btn-primary" style="max-width:240px" onclick="tryLoadFromGitHub()">
+      🔄 Riprova
+    </button>
   </div>`;
-
-  const dz=document.getElementById('drop-zone');
-  dz.addEventListener('dragover',e=>{e.preventDefault();dz.classList.add('drag');});
-  dz.addEventListener('dragleave',()=>dz.classList.remove('drag'));
-  dz.addEventListener('drop',e=>{
-    e.preventDefault();dz.classList.remove('drag');
-    const f=e.dataTransfer.files[0];
-    if(f){const r=new FileReader();r.onload=ev=>{try{data=JSON.parse(ev.target.result);renderLogin();}catch{showToast('❌ File non valido');}};r.readAsText(f);}
-  });
 }
 
 let _activeTab='generale'; // 'generale' | 'personale'
@@ -833,21 +815,29 @@ function renderLoading(){
 async function tryLoadFromGitHub(){
   renderLoading();
   try{
-    const res=await fetch(GITHUB_JSON_URL+'?t='+Date.now());
+    const url=GITHUB_JSON_URL+'?t='+Date.now();
+    console.log('Fetching:',url);
+    const res=await fetch(url);
+    console.log('Response status:',res.status);
     if(!res.ok)throw new Error('HTTP '+res.status);
     const parsed=await res.json();
+    console.log('Parsed keys:',Object.keys(parsed));
     if(!parsed||typeof parsed!=='object')throw new Error('formato non valido');
     data=parsed;
-    localStorage.setItem('turni_viewer_data',JSON.stringify(data));
+    try{localStorage.setItem('turni_viewer_data',JSON.stringify(data));}catch(e){}
     _activeTab='generale';_panoDay=null;_selectedWk=null;
     renderLogin();
   }catch(e){
+    console.error('GitHub fetch error:',e);
     const saved=localStorage.getItem('turni_viewer_data');
     if(saved){
       try{
         const local=JSON.parse(saved);
-        if(local.weeks||local.schedule){data=local;_activeTab='generale';renderLogin();return;}
-      }catch(e2){}
+        if(local.weeks||local.schedule){
+          console.log('Using localStorage fallback');
+          data=local;_activeTab='generale';renderLogin();return;
+        }
+      }catch(e2){console.error('localStorage parse error:',e2);}
     }
     renderWelcome();
   }
