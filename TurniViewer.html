@@ -212,6 +212,13 @@ function getWk(){
 function staffFull(s){return s.nom?s.cog+' '+s.nom:s.cog;}
 function showToast(msg){const t=document.getElementById('toast');t.textContent=msg;t.classList.add('show');setTimeout(()=>t.classList.remove('show'),2500);}
 
+// Ottieni lo schedule di una settimana (compatibile vecchio e nuovo formato)
+function getScheduleForWk(wk){
+  if(!data)return{};
+  if(data.weeks&&data.weeks[wk])return data.weeks[wk].schedule||{};
+  return data.schedule?.[wk]||{};
+}
+
 // Flatten all slots in a week
 function allSlotsInWeek(wk){
   const sched=getScheduleForWk(wk);
