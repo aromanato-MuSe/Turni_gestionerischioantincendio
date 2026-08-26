@@ -757,7 +757,24 @@ function renderTurni(){
         </div>`;
       }).join('')}
     </div>
+
+    <div style="margin-top:16px;display:flex;gap:8px">
+      <button class="btn btn-secondary" onclick="goBack()">← Indietro</button>
+      <button class="btn btn-secondary" onclick="saveOffline()" style="flex:0;white-space:nowrap;background:var(--green-bg);color:var(--green);border-color:var(--green-b)" title="Salva i turni sul dispositivo per vederli senza connessione">
+        📥 Salva offline
+      </button>
+    </div>
   </div>`;
+}
+
+function saveOffline(){
+  try{
+    localStorage.setItem('turni_viewer_data',JSON.stringify(data));
+    localStorage.setItem('turni_offline_person',JSON.stringify(person));
+    showToast('✅ Turni salvati! Visibili anche senza connessione.');
+  }catch(e){
+    showToast('❌ Impossibile salvare sul dispositivo.');
+  }
 }
 
 let _selectedWk=null; // settimana selezionata nel viewer
@@ -833,6 +850,11 @@ async function tryLoadFromGitHub(){
     data=parsed;
     try{localStorage.setItem('turni_viewer_data',JSON.stringify(data));}catch(e){}
     _activeTab='generale';_panoDay=null;_selectedWk=null;
+    // Ripristina la persona salvata se presente
+    try{
+      const saved=localStorage.getItem('turni_offline_person');
+      if(saved){const p=JSON.parse(saved);if(p&&p.full&&p.staffEntry){person=p;}}
+    }catch(e){}
     renderLogin();
   }catch(e){
     console.error('GitHub fetch error:',e);
