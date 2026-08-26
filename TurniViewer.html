@@ -771,10 +771,63 @@ function saveOffline(){
   try{
     localStorage.setItem('turni_viewer_data',JSON.stringify(data));
     localStorage.setItem('turni_offline_person',JSON.stringify(person));
-    showToast('✅ Turni salvati! Visibili anche senza connessione.');
-  }catch(e){
-    showToast('❌ Impossibile salvare sul dispositivo.');
-  }
+  }catch(e){}
+
+  // Genera un file HTML standalone con i turni della persona
+  const wk=getWk();
+  const mon=weekKeyToDate(wk);
+  const s=person.staffEntry;
+  const slots=personSlots(person.full,wk);
+  const DAYS_IT=['Lunedì','Martedì','Mercoledì','Giovedì','Venerdì','Sabato','Domenica'];
+
+  const giorni=Array.from({length:7},(_,d)=>{
+    const date=addDays(mon,d);
+    const tod=isToday(date);
+    const daySlots=slots.filter(sl=>sl.dayIdx===d).sort((a,b)=>toMin(a.start)-toMin(b.start));
+    const slotsHtml=daySlots.length===0
+      ?'<div style="color:#999;font-style:italic;padding:4px 0">Nessun turno</div>'
+      :daySlots.map(sl=>{
+        const h=r2((toMin(sl.end)-toMin(sl.start))/60);
+        return`<div style="background:#e8f4fd;border:1px solid #90caf9;border-radius:8px;padding:10px 12px;margin-bottom:6px">
+          <div style="font-family:monospace;font-size:16px;font-weight:700;color:#1565c0">${esc(sl.start)} – ${esc(sl.end)}</div>
+          <div style="font-size:13px;font-weight:600;margin-top:2px">${esc(sl.secLabel)}</div>
+          ${sl.secArea?`<div style="font-size:11px;color:#666">${esc(sl.secArea)}</div>`:''}
+          <div style="font-size:11px;color:#999;margin-top:3px">${h}h di servizio</div>
+          ${sl.note?`<div style="margin-top:6px;padding:6px 8px;background:#fff;border-radius:5px;border-left:3px solid #2196f3;font-size:12px;color:#444">📝 ${esc(sl.note)}</div>`:''}
+          ${sl.prev?`<div style="font-size:11px;color:#e65100;margin-top:5px">🔴 Dai il cambio a: <b>${esc(sl.prev.person.split(' ')[0])}</b></div>`:''}
+          ${sl.next?`<div style="font-size:11px;color:#2e7d32;margin-top:2px">🟢 Ti dà il cambio: <b>${esc(sl.next.person.split(' ')[0])}</b></div>`:''}
+        </div>`;
+      }).join('');
+    return`<div style="margin-bottom:14px;border-radius:10px;overflow:hidden;border:1px solid ${tod?'#2196f3':'#e0e0e0'}">
+      <div style="padding:10px 14px;background:${tod?'#e3f2fd':'#f5f5f5'};display:flex;align-items:center;gap:10px">
+        <div style="font-size:22px;font-weight:800;color:${tod?'#1565c0':'#333'}">${date.getDate()}</div>
+        <div>
+          <div style="font-size:11px;font-weight:700;text-transform:uppercase;color:#666">${DAYS_IT[d]}</div>
+          <div style="font-size:11px;color:#999">${fmtDate(date)}</div>
+        </div>
+        ${tod?'<span style="margin-left:auto;background:#2196f3;color:#fff;padding:2px 8px;border-radius:8px;font-size:10px;font-weight:700">oggi</span>':''}
+      </div>
+      <div style="padding:10px 12px">${slotsHtml}</div>
+    </div>`;
+  }).join('');
+
+  const html=`<!DOCTYPE html><html lang="it"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Turni ${esc(s?.cog||'')} — Sett.${isoWeek(mon)}</title>
+<style>body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;max-width:480px;margin:0 auto;padding:16px;background:#f5f5f5;color:#222}
+h1{font-size:20px;margin:0 0 4px}p{font-size:13px;color:#666;margin:0 0 16px}</style>
+</head><body>
+<h1>🗓 ${esc(s?.cog||'')} ${esc(s?.nom||'')}</h1>
+<p>Settimana ${isoWeek(mon)} · ${fmtDate(mon)}–${fmtDate(addDays(mon,6))} ${mon.getFullYear()} · salvato il ${new Date().toLocaleDateString('it-IT')}</p>
+${giorni}
+</body></html>`;
+
+  const a=document.createElement('a');
+  a.href='data:text/html;charset=utf-8,'+encodeURIComponent(html);
+  const nome=(s?.cog||'turni').toLowerCase().replace(/\s+/g,'_');
+  a.download=`turni_${nome}_sett${isoWeek(mon)}.html`;
+  a.click();
+  showToast('✅ File scaricato! Aprilo offline quando vuoi.');
 }
 
 let _selectedWk=null; // settimana selezionata nel viewer
