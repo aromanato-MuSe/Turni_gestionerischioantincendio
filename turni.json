@@ -2920,11 +2920,11 @@
           "p-1b": [
             {
               "start": "09:40",
-              "end": "13:30",
+              "end": "14:30",
               "person": ""
             },
             {
-              "start": "13:30",
+              "start": "14:30",
               "end": "18:10",
               "person": ""
             }
@@ -2968,11 +2968,11 @@
           "p1b": [
             {
               "start": "09:40",
-              "end": "14:30",
+              "end": "15:30",
               "person": ""
             },
             {
-              "start": "14:30",
+              "start": "15:30",
               "end": "18:10",
               "person": ""
             }
@@ -2992,11 +2992,11 @@
           "p2b": [
             {
               "start": "09:40",
-              "end": "15:30",
+              "end": "13:30",
               "person": ""
             },
             {
-              "start": "15:30",
+              "start": "13:30",
               "end": "18:10",
               "person": ""
             }
@@ -3016,11 +3016,11 @@
           "p4": [
             {
               "start": "09:40",
-              "end": "15:30",
+              "end": "14:30",
               "person": ""
             },
             {
-              "start": "15:30",
+              "start": "14:30",
               "end": "18:10",
               "person": ""
             }
@@ -3099,7 +3099,7 @@
           "ex_1787751397897": [
             {
               "start": "09:40",
-              "end": "9:41",
+              "end": "18:10",
               "person": ""
             }
           ],
@@ -3121,11 +3121,11 @@
           "p-1b": [
             {
               "start": "09:40",
-              "end": "13:30",
+              "end": "14:30",
               "person": ""
             },
             {
-              "start": "13:30",
+              "start": "14:30",
               "end": "18:10",
               "person": ""
             }
@@ -3169,11 +3169,11 @@
           "p1b": [
             {
               "start": "09:40",
-              "end": "14:30",
+              "end": "15:30",
               "person": ""
             },
             {
-              "start": "14:30",
+              "start": "15:30",
               "end": "18:10",
               "person": ""
             }
@@ -3193,11 +3193,11 @@
           "p2b": [
             {
               "start": "09:40",
-              "end": "15:30",
+              "end": "13:30",
               "person": ""
             },
             {
-              "start": "15:30",
+              "start": "13:30",
               "end": "18:10",
               "person": ""
             }
@@ -3217,11 +3217,11 @@
           "p4": [
             {
               "start": "09:40",
-              "end": "15:30",
+              "end": "14:30",
               "person": ""
             },
             {
-              "start": "15:30",
+              "start": "14:30",
               "end": "18:10",
               "person": ""
             }
@@ -3291,8 +3291,8 @@
           ],
           "ex_1787751397897": [
             {
-              "start": "09:00",
-              "end": "9:30",
+              "start": "09:40",
+              "end": "18:10",
               "person": "",
               "note": "Piano -1"
             },
@@ -3325,7 +3325,7 @@
               "person": "LIMONTA YESIEL"
             },
             {
-              "start": "13:30",
+              "start": "14:30",
               "end": "18:10",
               "person": ""
             }
@@ -3369,11 +3369,11 @@
           "p1b": [
             {
               "start": "09:40",
-              "end": "14:30",
+              "end": "15:30",
               "person": ""
             },
             {
-              "start": "14:30",
+              "start": "15:30",
               "end": "18:10",
               "person": ""
             }
@@ -3393,11 +3393,11 @@
           "p2b": [
             {
               "start": "09:40",
-              "end": "15:30",
+              "end": "13:30",
               "person": ""
             },
             {
-              "start": "15:30",
+              "start": "13:30",
               "end": "18:10",
               "person": ""
             }
@@ -3417,11 +3417,11 @@
           "p4": [
             {
               "start": "09:40",
-              "end": "15:30",
+              "end": "14:30",
               "person": ""
             },
             {
-              "start": "15:30",
+              "start": "14:30",
               "end": "18:10",
               "person": ""
             }
@@ -3483,8 +3483,8 @@
           ],
           "ex_1787751366021": [
             {
-              "start": "08:00",
-              "end": "9:30",
+              "start": "09:40",
+              "end": "18:10",
               "person": "",
               "note": "Piano 0"
             }
@@ -3533,11 +3533,11 @@
           "p-1b": [
             {
               "start": "09:40",
-              "end": "13:30",
+              "end": "14:30",
               "person": ""
             },
             {
-              "start": "13:30",
+              "start": "14:30",
               "end": "18:10",
               "person": ""
             }
@@ -3585,7 +3585,7 @@
               "person": "LIMONTA YESIEL"
             },
             {
-              "start": "14:30",
+              "start": "15:30",
               "end": "18:10",
               "person": ""
             }
@@ -3605,11 +3605,11 @@
           "p2b": [
             {
               "start": "09:40",
-              "end": "15:30",
+              "end": "13:30",
               "person": ""
             },
             {
-              "start": "15:30",
+              "start": "13:30",
               "end": "18:10",
               "person": ""
             }
@@ -3629,11 +3629,11 @@
           "p4": [
             {
               "start": "09:40",
-              "end": "15:30",
+              "end": "14:30",
               "person": ""
             },
             {
-              "start": "15:30",
+              "start": "14:30",
               "end": "18:10",
               "person": ""
             }
@@ -3695,8 +3695,8 @@
           ],
           "ex_1787751366021": [
             {
-              "start": "7:30",
-              "end": "9:30",
+              "start": "09:40",
+              "end": "18:10",
               "person": "",
               "note": "Piano 0"
             }
@@ -3720,11 +3720,11 @@
           "p-1b": [
             {
               "start": "09:40",
-              "end": "13:30",
+              "end": "14:30",
               "person": ""
             },
             {
-              "start": "13:30",
+              "start": "14:30",
               "end": "18:10",
               "person": ""
             }
@@ -3743,8 +3743,8 @@
           ],
           "p0b": [
             {
-              "start": "09:40",
-              "end": "14:30",
+              "start": "14:30",
+              "end": "18:10",
               "person": ""
             },
             {
@@ -3768,11 +3768,11 @@
           "p1b": [
             {
               "start": "09:40",
-              "end": "14:30",
+              "end": "15:30",
               "person": ""
             },
             {
-              "start": "14:30",
+              "start": "15:30",
               "end": "18:10",
               "person": ""
             }
@@ -3792,11 +3792,11 @@
           "p2b": [
             {
               "start": "09:40",
-              "end": "15:30",
+              "end": "13:30",
               "person": ""
             },
             {
-              "start": "15:30",
+              "start": "13:30",
               "end": "18:10",
               "person": ""
             }
@@ -3816,11 +3816,11 @@
           "p4": [
             {
               "start": "09:40",
-              "end": "15:30",
+              "end": "14:30",
               "person": ""
             },
             {
-              "start": "15:30",
+              "start": "14:30",
               "end": "18:10",
               "person": ""
             }
@@ -3882,8 +3882,8 @@
           ],
           "ex_1787751366021": [
             {
-              "start": "07:30",
-              "end": "9:30",
+              "start": "09:40",
+              "end": "18:10",
               "person": "",
               "note": "Piano 0"
             }
@@ -3896,7 +3896,7 @@
             {
               "start": "09:40",
               "end": "13:30",
-              "person": ""
+              "person": "MOTTER MICHELE"
             },
             {
               "start": "13:30",
@@ -3907,13 +3907,13 @@
           "p-1b": [
             {
               "start": "09:40",
-              "end": "13:30",
-              "person": ""
+              "end": "14:30",
+              "person": "CARIA ALBERTO"
             },
             {
-              "start": "13:30",
+              "start": "14:30",
               "end": "19:10",
-              "person": ""
+              "person": "GIACOMETTI FRANCESCO"
             }
           ],
           "p0a": [
@@ -3932,7 +3932,7 @@
             {
               "start": "09:40",
               "end": "14:30",
-              "person": ""
+              "person": "AGNOLETTO Michael"
             },
             {
               "start": "14:30",
@@ -3944,7 +3944,7 @@
             {
               "start": "09:40",
               "end": "14:30",
-              "person": ""
+              "person": "COMPER SIMONE"
             },
             {
               "start": "14:30",
@@ -3955,11 +3955,11 @@
           "p1b": [
             {
               "start": "09:40",
-              "end": "14:30",
+              "end": "13:30",
               "person": ""
             },
             {
-              "start": "14:30",
+              "start": "13:30",
               "end": "19:10",
               "person": ""
             }
@@ -3968,7 +3968,7 @@
             {
               "start": "09:40",
               "end": "14:30",
-              "person": ""
+              "person": "CUSCITO ANGELO"
             },
             {
               "start": "14:30",
@@ -3979,11 +3979,11 @@
           "p2b": [
             {
               "start": "09:40",
-              "end": "15:30",
-              "person": ""
+              "end": "13:30",
+              "person": "GIACOMETTI FRANCESCO"
             },
             {
-              "start": "15:30",
+              "start": "13:30",
               "end": "19:10",
               "person": ""
             }
@@ -4003,13 +4003,13 @@
           "p4": [
             {
               "start": "09:40",
-              "end": "15:30",
+              "end": "14:30",
               "person": ""
             },
             {
-              "start": "15:30",
+              "start": "14:30",
               "end": "19:10",
-              "person": ""
+              "person": "MOTTER MICHELE"
             }
           ],
           "alb0a": [
@@ -4021,7 +4021,7 @@
             {
               "start": "15:30",
               "end": "19:10",
-              "person": ""
+              "person": "AGNOLETTO Michael"
             }
           ],
           "alb0b": [
@@ -4033,19 +4033,19 @@
             {
               "start": "15:30",
               "end": "19:10",
-              "person": ""
+              "person": "CARIA ALBERTO"
             }
           ],
           "alb1": [
             {
               "start": "09:40",
               "end": "15:30",
-              "person": ""
+              "person": "GIULIETTI ANDREA"
             },
             {
               "start": "15:30",
               "end": "19:10",
-              "person": ""
+              "person": "COMPER SIMONE"
             }
           ],
           "alb2": [
@@ -4057,7 +4057,7 @@
             {
               "start": "15:30",
               "end": "19:10",
-              "person": ""
+              "person": "CUSCITO ANGELO"
             }
           ],
           "ref": [
@@ -4076,8 +4076,8 @@
           "ex_1787751397897": [],
           "ex_1787755473205": [
             {
-              "start": "18:00",
-              "end": "25:00",
+              "start": "09:40",
+              "end": "19:10",
               "person": "",
               "note": "orti se bel tempo, p-1 big void se brutto tempo, compresa chiusura museo"
             }
@@ -4088,7 +4088,7 @@
             {
               "start": "09:40",
               "end": "13:30",
-              "person": ""
+              "person": "AGNOLETTO Michael"
             },
             {
               "start": "13:30",
@@ -4099,20 +4099,20 @@
           "p-1b": [
             {
               "start": "09:40",
-              "end": "13:30",
+              "end": "14:30",
               "person": ""
             },
             {
-              "start": "13:30",
+              "start": "14:30",
               "end": "19:10",
-              "person": ""
+              "person": "CARIA ALBERTO"
             }
           ],
           "p0a": [
             {
               "start": "09:40",
               "end": "13:30",
-              "person": ""
+              "person": "CARIA ALBERTO"
             },
             {
               "start": "13:30",
@@ -4124,34 +4124,34 @@
             {
               "start": "09:40",
               "end": "14:30",
-              "person": ""
+              "person": "MOTTER MICHELE"
             },
             {
               "start": "14:30",
               "end": "19:10",
-              "person": ""
+              "person": "CUSCITO ANGELO"
             }
           ],
           "p1a": [
             {
               "start": "09:40",
               "end": "14:30",
-              "person": ""
+              "person": "GIACOMETTI FRANCESCO"
             },
             {
               "start": "14:30",
               "end": "19:10",
-              "person": ""
+              "person": "COMPER SIMONE"
             }
           ],
           "p1b": [
             {
               "start": "09:40",
-              "end": "14:30",
-              "person": ""
+              "end": "13:30",
+              "person": "CUSCITO ANGELO"
             },
             {
-              "start": "14:30",
+              "start": "13:30",
               "end": "19:10",
               "person": ""
             }
@@ -4171,11 +4171,11 @@
           "p2b": [
             {
               "start": "09:40",
-              "end": "15:30",
-              "person": ""
+              "end": "13:30",
+              "person": "COMPER SIMONE"
             },
             {
-              "start": "15:30",
+              "start": "13:30",
               "end": "19:10",
               "person": ""
             }
@@ -4195,13 +4195,13 @@
           "p4": [
             {
               "start": "09:40",
-              "end": "15:30",
-              "person": ""
+              "end": "14:30",
+              "person": "GIULIETTI ANDREA"
             },
             {
-              "start": "15:30",
+              "start": "14:30",
               "end": "19:10",
-              "person": ""
+              "person": "AGNOLETTO Michael"
             }
           ],
           "alb0a": [
@@ -4225,7 +4225,7 @@
             {
               "start": "15:30",
               "end": "19:10",
-              "person": ""
+              "person": "MOTTER MICHELE"
             }
           ],
           "alb1": [
@@ -4237,7 +4237,7 @@
             {
               "start": "15:30",
               "end": "19:10",
-              "person": ""
+              "person": "GIACOMETTI FRANCESCO"
             }
           ],
           "alb2": [
@@ -4249,7 +4249,7 @@
             {
               "start": "15:30",
               "end": "19:10",
-              "person": ""
+              "person": "GIULIETTI ANDREA"
             }
           ],
           "ref": [
@@ -4290,34 +4290,65 @@
         ],
         "_edited": {
           "0": {
-            "ex_1787755473205": true
+            "ex_1787755473205": true,
+            "alb2": true
           },
           "1": {
-            "ex_1787755473205": true
+            "ex_1787755473205": true,
+            "alb2": true
           },
           "2": {
-            "ex_1787755473205": true
+            "ex_1787755473205": true,
+            "alb2": true,
+            "alb1": true
           },
           "3": {
             "ex_1787755473205": true,
-            "ex_1787751397897": true
+            "ex_1787751397897": true,
+            "alb2": true
           },
           "4": {
             "ex_1787755473205": true,
-            "ex_1787751397897": true
+            "ex_1787751397897": true,
+            "alb2": true,
+            "p0b": true
           },
           "5": {
             "ex_1787751397897": true,
-            "ex_1787751366021": true
+            "ex_1787751366021": true,
+            "alb2": true,
+            "p0b": true,
+            "alb0a": true,
+            "p-1a": true,
+            "p4": true,
+            "p-1b": true,
+            "alb0b": true,
+            "p1a": true,
+            "alb1": true,
+            "p2a": true,
+            "p2b": true,
+            "p1b": true
           },
           "6": {
             "ex_1787755473205": true,
             "ex_1787751397897": true,
-            "ex_1787751366021": true
+            "ex_1787751366021": true,
+            "p-1a": true,
+            "p4": true,
+            "p0b": true,
+            "alb0b": true,
+            "p0a": true,
+            "p-1b": true,
+            "p2b": true,
+            "p1a": true,
+            "p1b": true,
+            "alb0a": true,
+            "alb2": true,
+            "alb1": true
           }
         }
       },
-      "publishedAt": "2026-08-26T15:16:38.673Z"
+      "publishedAt": "2026-08-26T16:27:33.466Z"
     },
     "2026-W38": {
       "schedule": {
@@ -5013,5 +5044,5 @@
       "pin": "9695"
     }
   ],
-  "lastUpdated": "2026-08-26T15:16:39.159Z"
+  "lastUpdated": "2026-08-26T16:27:33.912Z"
 }
