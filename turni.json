@@ -3102,14 +3102,15 @@
               "end": "9:41",
               "person": ""
             }
-          ]
+          ],
+          "ex_1787755473205": []
         },
         "1": {
           "p-1a": [
             {
               "start": "09:40",
               "end": "13:30",
-              "person": ""
+              "person": "LIMONTA YESIEL"
             },
             {
               "start": "13:30",
@@ -3162,7 +3163,7 @@
             {
               "start": "14:30",
               "end": "18:10",
-              "person": ""
+              "person": "LIMONTA YESIEL"
             }
           ],
           "p1b": [
@@ -3284,7 +3285,7 @@
             {
               "start": "7:30",
               "end": "9:30",
-              "person": "",
+              "person": "LIMONTA YESIEL",
               "note": "Piano 0"
             }
           ],
@@ -3292,7 +3293,8 @@
             {
               "start": "09:00",
               "end": "9:30",
-              "person": ""
+              "person": "",
+              "note": "Piano -1"
             },
             {
               "start": "18:00",
@@ -3300,7 +3302,8 @@
               "person": "DEANESI Davide",
               "note": "Piano -1 e chiusura"
             }
-          ]
+          ],
+          "ex_1787755473205": []
         },
         "2": {
           "p-1a": [
@@ -3319,7 +3322,7 @@
             {
               "start": "09:40",
               "end": "13:30",
-              "person": ""
+              "person": "LIMONTA YESIEL"
             },
             {
               "start": "13:30",
@@ -3384,7 +3387,7 @@
             {
               "start": "14:30",
               "end": "18:10",
-              "person": ""
+              "person": "LIMONTA YESIEL"
             }
           ],
           "p2b": [
@@ -3490,7 +3493,7 @@
             {
               "start": "5:00",
               "end": "8:00",
-              "person": "",
+              "person": "LIMONTA YESIEL",
               "note": "Piano -1"
             },
             {
@@ -3511,7 +3514,8 @@
               "person": "MOTTER MICHELE",
               "note": "Piano -1, fino alle 01:00"
             }
-          ]
+          ],
+          "ex_1787755473205": []
         },
         "3": {
           "p-1a": [
@@ -3578,7 +3582,7 @@
             {
               "start": "09:40",
               "end": "14:30",
-              "person": ""
+              "person": "LIMONTA YESIEL"
             },
             {
               "start": "14:30",
@@ -3643,7 +3647,7 @@
             {
               "start": "15:30",
               "end": "18:10",
-              "person": ""
+              "person": "LIMONTA YESIEL"
             }
           ],
           "alb0b": [
@@ -3697,13 +3701,8 @@
               "note": "Piano 0"
             }
           ],
-          "ex_1787751397897": [
-            {
-              "start": "09:40",
-              "end": "18:10",
-              "person": ""
-            }
-          ]
+          "ex_1787751397897": [],
+          "ex_1787755473205": []
         },
         "4": {
           "p-1a": [
@@ -3883,18 +3882,14 @@
           ],
           "ex_1787751366021": [
             {
-              "start": "09:40",
-              "end": "18:10",
-              "person": ""
+              "start": "07:30",
+              "end": "9:30",
+              "person": "",
+              "note": "Piano 0"
             }
           ],
-          "ex_1787751397897": [
-            {
-              "start": "09:40",
-              "end": "18:10",
-              "person": ""
-            }
-          ]
+          "ex_1787751397897": [],
+          "ex_1787755473205": []
         },
         "5": {
           "p-1a": [
@@ -4068,22 +4063,23 @@
           "ref": [
             {
               "start": "09:40",
+              "end": "14:30",
+              "person": "TOMASI MAURO"
+            },
+            {
+              "start": "15:30",
               "end": "19:10",
-              "person": ""
+              "person": "TOMASI MAURO"
             }
           ],
-          "ex_1787751366021": [
+          "ex_1787751366021": [],
+          "ex_1787751397897": [],
+          "ex_1787755473205": [
             {
-              "start": "09:40",
-              "end": "19:10",
-              "person": ""
-            }
-          ],
-          "ex_1787751397897": [
-            {
-              "start": "09:40",
-              "end": "19:10",
-              "person": ""
+              "start": "18:00",
+              "end": "25:00",
+              "person": "",
+              "note": "orti se bel tempo, p-1 big void se brutto tempo, compresa chiusura museo"
             }
           ]
         },
@@ -4259,24 +4255,18 @@
           "ref": [
             {
               "start": "09:40",
+              "end": "14:30",
+              "person": "TOMASI MAURO"
+            },
+            {
+              "start": "15:30",
               "end": "19:10",
-              "person": ""
+              "person": "TOMASI MAURO"
             }
           ],
-          "ex_1787751366021": [
-            {
-              "start": "09:40",
-              "end": "19:10",
-              "person": ""
-            }
-          ],
-          "ex_1787751397897": [
-            {
-              "start": "09:40",
-              "end": "19:10",
-              "person": ""
-            }
-          ]
+          "ex_1787751366021": [],
+          "ex_1787751397897": [],
+          "ex_1787755473205": []
         },
         "_extraSections": [
           {
@@ -4290,10 +4280,44 @@
             "label": "\"The Coreography of Water\"",
             "type": "extra",
             "area": "\"The Coreography of Water\""
+          },
+          {
+            "id": "ex_1787755473205",
+            "label": "Evento Cena Antonella Franceschi",
+            "type": "extra",
+            "area": "Evento Cena Antonella Franceschi"
           }
-        ]
+        ],
+        "_edited": {
+          "0": {
+            "ex_1787755473205": true
+          },
+          "1": {
+            "ex_1787755473205": true
+          },
+          "2": {
+            "ex_1787755473205": true
+          },
+          "3": {
+            "ex_1787755473205": true,
+            "ex_1787751397897": true
+          },
+          "4": {
+            "ex_1787755473205": true,
+            "ex_1787751397897": true
+          },
+          "5": {
+            "ex_1787751397897": true,
+            "ex_1787751366021": true
+          },
+          "6": {
+            "ex_1787755473205": true,
+            "ex_1787751397897": true,
+            "ex_1787751366021": true
+          }
+        }
       },
-      "publishedAt": "2026-08-26T14:43:02.899Z"
+      "publishedAt": "2026-08-26T15:16:38.673Z"
     },
     "2026-W38": {
       "schedule": {
@@ -4989,5 +5013,5 @@
       "pin": "9695"
     }
   ],
-  "lastUpdated": "2026-08-26T14:43:03.346Z"
+  "lastUpdated": "2026-08-26T15:16:39.159Z"
 }
