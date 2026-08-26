@@ -217,6 +217,7 @@ function allSlotsInWeek(wk){
   const sched=getScheduleForWk(wk);
   const out=[];
   for(const [dayIdx,day] of Object.entries(sched)){
+    if(isNaN(+dayIdx))continue;
     for(const [secId,slots] of Object.entries(day)){
       if(!Array.isArray(slots))continue;
       for(let si=0;si<slots.length;si++){
@@ -231,16 +232,15 @@ function allSlotsInWeek(wk){
 // Get person's slots sorted
 function personSlots(fullName,wk){
   const sched=getScheduleForWk(wk);
-  const sections=data.sections||[];
   const out=[];
   for(const [dayIdx,day] of Object.entries(sched)){
+    if(isNaN(+dayIdx))continue;
     for(const [secId,slots] of Object.entries(day)){
       if(!Array.isArray(slots))continue;
-      const sec=sections.find(s=>s.id===secId)||{label:secId,type:'piano',area:''};
+      const sec=findSection(secId,wk);
       for(let si=0;si<slots.length;si++){
         const sl=slots[si];
         if(sl&&sl.person===fullName&&sl.start&&sl.end){
-          // Find who was before/after in same section
           const prev=slots.slice(0,si).filter(x=>x&&x.person&&x.end).pop()||null;
           const next=slots.slice(si+1).find(x=>x&&x.person&&x.start)||null;
           out.push({...sl,dayIdx:+dayIdx,secId,secLabel:sec.label,secType:sec.type,secArea:sec.area||'',slotIdx:si,prev,next});
@@ -265,7 +265,7 @@ function onFile(inp){
   r.onload=e=>{
     try{
       const parsed=JSON.parse(e.target.result);
-      if(!parsed.schedule)throw new Error();
+      if(!parsed.schedule&&!parsed.weeks)throw new Error();
       data=parsed;
       _activeTab='generale';
       _panoDay=null;
@@ -473,7 +473,7 @@ function renderPano(wk,slots,mon){
   const bySec={};
   daySlots.forEach(sl=>{
     if(!bySec[sl.secId])bySec[sl.secId]={
-      sec:sections.find(x=>x.id===sl.secId)||{id:sl.secId,label:sl.secId,type:'piano'},
+      sec:findSection(sl.secId,wk),
       slots:[]
     };
     bySec[sl.secId].slots.push(sl);
@@ -801,10 +801,14 @@ function getViewWk(){
   return getCurrentWk(weeks);
 }
 
-// Ottieni lo schedule di una settimana (compatibile vecchio e nuovo formato)
-function getScheduleForWk(wk){
-  if(data.weeks&&data.weeks[wk])return data.weeks[wk].schedule||{};
-  return data.schedule?.[wk]||{};
+// Cerca una sezione per ID nelle sezioni fisse e nelle extra della settimana
+function findSection(secId,wk){
+  const fixed=(data.sections||[]).find(s=>s.id===secId);
+  if(fixed)return fixed;
+  const sched=getScheduleForWk(wk||getWk());
+  const extra=(sched._extraSections||[]).find(s=>s.id===secId);
+  if(extra)return extra;
+  return{id:secId,label:secId,type:'piano',area:''};
 }
 
 function getAllWeeks(){
