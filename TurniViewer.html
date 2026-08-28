@@ -207,7 +207,7 @@ function weekKeyToDate(wk){
 function isToday(date){const t=new Date();return date.getDate()===t.getDate()&&date.getMonth()===t.getMonth()&&date.getFullYear()===t.getFullYear();}
 function getWk(){
   // Per il viewer usa la settimana selezionata
-  return getViewWk()||Object.keys(data?.schedule||{}).sort().pop()||'';
+  return getViewWk()||Object.keys(data&&data.schedule?data.schedule:{}).sort().pop()||'';
 }
 function staffFull(s){return s.nom?s.cog+' '+s.nom:s.cog;}
 function showToast(msg){const t=document.getElementById('toast');t.textContent=msg;t.classList.add('show');setTimeout(()=>t.classList.remove('show'),2500);}
@@ -216,7 +216,7 @@ function showToast(msg){const t=document.getElementById('toast');t.textContent=m
 function getScheduleForWk(wk){
   if(!data)return{};
   if(data.weeks&&data.weeks[wk])return data.weeks[wk].schedule||{};
-  return data.schedule?.[wk]||{};
+  return (data.schedule&&data.schedule[wk])?data.schedule[wk]:{};
 }
 
 // Flatten all slots in a week
@@ -335,7 +335,7 @@ function renderLogin(){
       <select onchange="changeWeek(this.value)" style="flex:1;background:transparent;border:none;font-size:14px;font-weight:700;color:var(--accent);font-family:'Inter',sans-serif;cursor:pointer;outline:none">
         ${weeks.slice().reverse().map(w=>{
           const m=weekKeyToDate(w),e=addDays(m,6);
-          const pub=data.weeks?.[w]?.publishedAt?new Date(data.weeks[w].publishedAt):'';
+          const pub=(data.weeks&&data.weeks[w]&&data.weeks[w].publishedAt)?new Date(data.weeks[w].publishedAt):'';
           const pubLabel=pub?` (pubbl. ${pub.toLocaleDateString('it-IT',{day:'2-digit',month:'2-digit'})})` :'';
           return`<option value="${w}" ${w===wk?'selected':''}>${fmtDate(m)}–${fmtDate(e)} ${m.getFullYear()}${pubLabel}</option>`;
         }).join('')}
@@ -535,7 +535,7 @@ function selectPanoDay(d){
 function renderPersonList(staff,activePeople){
   const el=document.getElementById('person-list');
   if(!el)return;
-  const q=(document.getElementById('search')?.value||'').toUpperCase().trim();
+  const q=((document.getElementById('search')?document.getElementById('search').value:'')||'').toUpperCase().trim();
   const filtered=q?staff.filter(s=>(s.cog+' '+s.nom).toUpperCase().includes(q)):staff;
 
   if(!filtered.length){el.innerHTML=`<div style="text-align:center;color:var(--muted);padding:16px;font-size:13px">Nessun risultato</div>`;return;}
@@ -564,7 +564,7 @@ function renderPersonList(staffSorted,activePeople){
 
   const el=document.getElementById('person-list');
   if(!el)return;
-  const q=(document.getElementById('search')?.value||'').toUpperCase().trim();
+  const q=((document.getElementById('search')?document.getElementById('search').value:'')||'').toUpperCase().trim();
   const filtered=q?staffSorted.filter(s=>(s.cog+' '+s.nom).toUpperCase().includes(q)):staffSorted;
 
   if(!filtered.length){el.innerHTML=`<div style="text-align:center;color:var(--muted);padding:16px;font-size:13px">Nessun risultato</div>`;return;}
@@ -642,13 +642,13 @@ function renderPinScreen(s,full){
       </div>
     </div>
   </div>`;
-  setTimeout(()=>document.getElementById('pin-inp')?.focus(),100);
+  setTimeout(()=>{const pi=document.getElementById('pin-inp');if(pi)pi.focus();},100);
 }
 
 function checkPin(){
   if(!_pendingPerson)return;
-  const entered=(document.getElementById('pin-inp')?.value||'').trim();
-  const correct=_pendingPerson.staffEntry?.pin||'';
+  const entered=((document.getElementById('pin-inp')?document.getElementById('pin-inp').value:'')||'').trim();
+  const correct=(_pendingPerson.staffEntry&&_pendingPerson.staffEntry.pin)||'';
   if(entered===correct){
     person=_pendingPerson;
     _pendingPerson=null;
@@ -660,7 +660,7 @@ function checkPin(){
     const inp=document.getElementById('pin-inp');
     if(inp){inp.value='';inp.focus();}
     // Animazione shake
-    inp?.animate([{transform:'translateX(-4px)'},{transform:'translateX(4px)'},{transform:'none'}],{duration:200});
+    if(inp&&inp.animate)inp.animate([{transform:'translateX(-4px)'},{transform:'translateX(4px)'},{transform:'none'}],{duration:200});
   }
 }
 
@@ -674,7 +674,7 @@ function renderTurni(){
 
   const slots=personSlots(full,wk);
   const weekH=r2(slots.reduce((sum,sl)=>sum+Math.max(0,(toMin(sl.end)-toMin(sl.start))/60),0));
-  const contr=s?.contratto;
+  const contr=(s&&s.contratto!=null?s.contratto:null);
   const diff=contr!=null?r2(weekH-contr):null;
   const oreClass=diff==null?'':diff>0.1?'over':diff<-0.1?'low':'ok';
 
@@ -687,9 +687,9 @@ function renderTurni(){
   main.innerHTML=`<div class="screen">
     <div class="card" style="margin-bottom:12px">
       <div class="person-header">
-        <div class="person-avatar">${esc(s?.cog?.[0]||'?')}</div>
+        <div class="person-avatar">${esc((s&&s.cog?s.cog[0]:'?'))}</div>
         <div class="person-info">
-          <div class="person-name">${esc(s?.cog||full)} ${esc(s?.nom||'')}</div>
+          <div class="person-name">${esc((s&&s.cog?s.cog:full))} ${esc((s&&s.nom?s.nom:''))}</div>
           <div class="person-sub">Settimana ${isoWeek(mon)} · ${fmtDate(mon)}–${fmtDate(end)} ${mon.getFullYear()}</div>
         </div>
       </div>
@@ -717,17 +717,17 @@ function renderTurni(){
             const icon=sl.secType==='referente'?'⭐':sl.secType==='palazzo'?'🏛️':sl.secType==='extra'?'📌':'🔒';
 
             // Cambio turno
-            const prevParts=sl.prev?.person?.split(' ');
-            const nextParts=sl.next?.person?.split(' ');
+            const prevParts=sl.prev&&sl.prev.person?sl.prev.person.split(' '):null;
+            const nextParts=sl.next&&sl.next.person?sl.next.person.split(' '):null;
             const cambioHtml=(sl.prev||sl.next)?`<div class="cambio-row">
               ${sl.prev?`<div class="cambio-item">
                 <div class="cambio-lbl">🔴 Dai il cambio a</div>
-                <div class="cambio-name">${esc(prevParts?.[0]||'')} ${esc(prevParts?.slice(1).join(' ')||'')}</div>
+                <div class="cambio-name">${esc(prevParts&&prevParts[0]?prevParts[0]:'')} ${esc(prevParts?prevParts.slice(1).join(' '):'')}</div>
                 
               </div>`:`<div class="cambio-item" style="opacity:.35"><div class="cambio-lbl">🔴 Dai il cambio a</div><div class="cambio-name" style="font-style:italic">Primo della sezione</div></div>`}
               ${sl.next?`<div class="cambio-item">
                 <div class="cambio-lbl">🟢 Ti dà il cambio</div>
-                <div class="cambio-name">${esc(nextParts?.[0]||'')} ${esc(nextParts?.slice(1).join(' ')||'')}</div>
+                <div class="cambio-name">${esc(nextParts&&nextParts[0]?nextParts[0]:'')} ${esc(nextParts?nextParts.slice(1).join(' '):'')}</div>
                 
               </div>`:`<div class="cambio-item" style="opacity:.35"><div class="cambio-lbl">🟢 Ti dà il cambio</div><div class="cambio-name" style="font-style:italic">Ultimo della sezione</div></div>`}
             </div>`:'';
@@ -817,18 +817,18 @@ function saveOffline(){
 
   const html=`<!DOCTYPE html><html lang="it"><head><meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Turni ${esc(s?.cog||'')} — Sett.${isoWeek(mon)}</title>
+<title>Turni ${esc(s&&s.cog?s.cog:'')} — Sett.${isoWeek(mon)}</title>
 <style>body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;max-width:480px;margin:0 auto;padding:16px;background:#f5f5f5;color:#222}
 h1{font-size:20px;margin:0 0 4px}p{font-size:13px;color:#666;margin:0 0 16px}</style>
 </head><body>
-<h1>🗓 ${esc(s?.cog||'')} ${esc(s?.nom||'')}</h1>
+<h1>🗓 ${esc(s&&s.cog?s.cog:'')} ${esc((s&&s.nom?s.nom:''))}</h1>
 <p>Settimana ${isoWeek(mon)} · ${fmtDate(mon)}–${fmtDate(addDays(mon,6))} ${mon.getFullYear()} · salvato il ${new Date().toLocaleDateString('it-IT')}</p>
 ${giorni}
 </body></html>`;
 
   const a=document.createElement('a');
   a.href='data:text/html;charset=utf-8,'+encodeURIComponent(html);
-  const nome=(s?.cog||'turni').toLowerCase().replace(/\s+/g,'_');
+  const nome=((s&&s.cog?s.cog:'turni')).toLowerCase().replace(/\s+/g,'_');
   a.download=`turni_${nome}_sett${isoWeek(mon)}.html`;
   a.click();
   showToast('✅ File scaricato! Aprilo offline quando vuoi.');
