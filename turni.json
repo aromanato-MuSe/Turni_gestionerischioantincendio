@@ -4868,7 +4868,7 @@
             {
               "start": "13:30",
               "end": "14:30",
-              "person": "ROMANATO ANDREA"
+              "person": "SARTORI CAMILLA"
             },
             {
               "start": "14:30",
@@ -4963,7 +4963,7 @@
             {
               "start": "12:30",
               "end": "13:30",
-              "person": "ROMANATO ANDREA"
+              "person": "SARTORI CAMILLA"
             },
             {
               "start": "13:30",
@@ -6091,7 +6091,7 @@
           }
         ]
       },
-      "publishedAt": "2026-08-28T16:20:09.389Z"
+      "publishedAt": "2026-08-31T08:20:55.562Z"
     }
   },
   "sections": [
@@ -6544,5 +6544,5 @@
       "pin": "6506"
     }
   ],
-  "lastUpdated": "2026-08-28T16:20:09.778Z"
+  "lastUpdated": "2026-08-31T08:20:56.013Z"
 }
