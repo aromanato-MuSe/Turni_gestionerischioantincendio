@@ -4624,18 +4624,13 @@
           "p-1b": [
             {
               "start": "09:40",
-              "end": "12:30",
-              "person": "BUTT Adeel"
-            },
-            {
-              "start": "12:30",
               "end": "13:30",
-              "person": "ROMANATO ANDREA"
+              "person": "BUTT Adeel"
             },
             {
               "start": "13:30",
               "end": "14:30",
-              "person": "BUTT Adeel"
+              "person": "ROMANATO ANDREA"
             },
             {
               "start": "14:30",
@@ -5137,7 +5132,7 @@
             {
               "start": "14:30",
               "end": "18:10",
-              "person": "BALDO ELIO"
+              "person": "PASCUAL LEANDRO"
             }
           ],
           "p1a": [
@@ -5161,7 +5156,7 @@
             {
               "start": "09:40",
               "end": "13:30",
-              "person": "BALDO ELIO"
+              "person": "PASCUAL LEANDRO"
             },
             {
               "start": "13:30",
@@ -6091,7 +6086,7 @@
           }
         ]
       },
-      "publishedAt": "2026-08-31T08:20:55.562Z"
+      "publishedAt": "2026-09-01T07:25:25.238Z"
     }
   },
   "sections": [
@@ -6544,5 +6539,5 @@
       "pin": "6506"
     }
   ],
-  "lastUpdated": "2026-08-31T08:20:56.013Z"
+  "lastUpdated": "2026-09-01T07:25:25.697Z"
 }
