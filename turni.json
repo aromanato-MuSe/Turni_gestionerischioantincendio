@@ -3790,8 +3790,13 @@
             },
             {
               "start": "14:30",
-              "end": "19:10",
+              "end": "17:50",
               "person": "GIACOMETTI FRANCESCO"
+            },
+            {
+              "start": "17:50",
+              "end": "19:10",
+              "person": "LOSS Francesca"
             }
           ],
           "p1a": [
@@ -3880,7 +3885,7 @@
           ],
           "alb0b": [
             {
-              "start": "09:40",
+              "start": "09:30",
               "end": "15:30",
               "person": "GIACOMOZZI GRAZIELLA"
             },
@@ -3925,10 +3930,22 @@
               "note": "orti se bel tempo, p-1 big void se brutto tempo, compresa chiusura museo"
             },
             {
+              "start": "18:00",
+              "end": "20:00",
+              "person": "GIACOMETTI FRANCESCO",
+              "note": "orti se bel tempo, p-1 big void se brutto tempo, compresa chiusura museo"
+            },
+            {
               "start": "20:00",
               "end": "25:00",
               "person": "DEANESI Davide",
               "note": "orti se bel tempo, p-1 big void se brutto tempo, compresa chiusura museo"
+            },
+            {
+              "start": "20:00",
+              "end": "25:00",
+              "person": "RICCIO ROSARIA",
+              "note": "orti se bel tempo, p-1 big void se brutto tempo, compresa chiusura museo. Fine alle 1:00"
             }
           ]
         },
@@ -4068,7 +4085,7 @@
           ],
           "alb0b": [
             {
-              "start": "09:40",
+              "start": "09:30",
               "end": "15:30",
               "person": "GAETANO MICHELANGELO"
             },
@@ -4270,7 +4287,7 @@
           "6": "REFERENTE DI GIORNATA\tTOMASI MAURO"
         }
       },
-      "publishedAt": "2026-08-27T15:11:47.182Z"
+      "publishedAt": "2026-09-01T15:23:41.255Z"
     },
     "2026-W38": {
       "schedule": {
@@ -6539,5 +6556,5 @@
       "pin": "6506"
     }
   ],
-  "lastUpdated": "2026-09-01T07:25:25.697Z"
+  "lastUpdated": "2026-09-01T15:23:41.694Z"
 }
