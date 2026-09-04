@@ -2954,7 +2954,9 @@
             }
           ],
           "ex_1787751397897": [],
-          "ex_1787755473205": []
+          "ex_1787755473205": [],
+          "ex_1788510282657_0": [],
+          "ex_1788510282657_1": []
         },
         "1": {
           "p-1a": [
@@ -3160,7 +3162,9 @@
               "note": "Piano -1 e chiusura"
             }
           ],
-          "ex_1787755473205": []
+          "ex_1787755473205": [],
+          "ex_1788510282657_0": [],
+          "ex_1788510282657_1": []
         },
         "2": {
           "p-1a": [
@@ -3377,7 +3381,9 @@
               "note": "Piano -1, fino alle 01:00"
             }
           ],
-          "ex_1787755473205": []
+          "ex_1787755473205": [],
+          "ex_1788510282657_0": [],
+          "ex_1788510282657_1": []
         },
         "3": {
           "p-1a": [
@@ -3560,7 +3566,9 @@
             }
           ],
           "ex_1787751397897": [],
-          "ex_1787755473205": []
+          "ex_1787755473205": [],
+          "ex_1788510282657_0": [],
+          "ex_1788510282657_1": []
         },
         "4": {
           "p-1a": [
@@ -3748,7 +3756,9 @@
             }
           ],
           "ex_1787751397897": [],
-          "ex_1787755473205": []
+          "ex_1787755473205": [],
+          "ex_1788510282657_0": [],
+          "ex_1788510282657_1": []
         },
         "5": {
           "p-1a": [
@@ -3952,6 +3962,34 @@
               "person": "RICCIO ROSARIA",
               "note": "orti se bel tempo, p-1 big void se brutto tempo, compresa chiusura museo. Fine alle 1:00"
             }
+          ],
+          "ex_1788510282657_0": [
+            {
+              "start": "18:00",
+              "end": "20:00",
+              "person": "TOMASI MAURO",
+              "note": "orti se bel tempo, p-1 big void se brutto tempo, compresa chiusura museo."
+            },
+            {
+              "start": "20:00",
+              "end": "25:00",
+              "person": "DEANESI Davide",
+              "note": "orti se bel tempo, p-1 big void se brutto tempo, compresa chiusura museo. Fine all'1:00"
+            }
+          ],
+          "ex_1788510282657_1": [
+            {
+              "start": "18:00",
+              "end": "20:00",
+              "person": "GIACOMETTI FRANCESCO",
+              "note": "orti se bel tempo, p-1 big void se brutto tempo, compresa chiusura museo."
+            },
+            {
+              "start": "20:00",
+              "end": "25:00",
+              "person": "RICCIO ROSARIA",
+              "note": "orti se bel tempo, p-1 big void se brutto tempo, compresa chiusura museo. Fine all'1:00"
+            }
           ]
         },
         "6": {
@@ -4127,7 +4165,9 @@
           ],
           "ex_1787751366021": [],
           "ex_1787751397897": [],
-          "ex_1787755473205": []
+          "ex_1787755473205": [],
+          "ex_1788510282657_0": [],
+          "ex_1788510282657_1": []
         },
         "_extraSections": [
           {
@@ -4143,10 +4183,16 @@
             "area": "\"The Coreography of Water\""
           },
           {
-            "id": "ex_1787755473205",
-            "label": "Evento Cena Antonella Franceschi",
+            "id": "ex_1788510282657_0",
+            "label": "Evento Antonella Franceschi A",
             "type": "extra",
-            "area": "Evento Cena Antonella Franceschi"
+            "area": "Evento Antonella Franceschi"
+          },
+          {
+            "id": "ex_1788510282657_1",
+            "label": "Evento Antonella Franceschi B",
+            "type": "extra",
+            "area": "Evento Antonella Franceschi"
           }
         ],
         "_edited": {
@@ -4167,7 +4213,9 @@
             "p3": true,
             "p4": true,
             "alb0a": true,
-            "alb1": true
+            "alb1": true,
+            "ex_1788510282657_0": true,
+            "ex_1788510282657_1": true
           },
           "1": {
             "ex_1787755473205": true,
@@ -4185,7 +4233,9 @@
             "p2b": true,
             "p-1a": true,
             "p0b": true,
-            "p1b": true
+            "p1b": true,
+            "ex_1788510282657_0": true,
+            "ex_1788510282657_1": true
           },
           "2": {
             "ex_1787755473205": true,
@@ -4204,7 +4254,9 @@
             "p2a": true,
             "alb0a": true,
             "p3": true,
-            "p1b": true
+            "p1b": true,
+            "ex_1788510282657_0": true,
+            "ex_1788510282657_1": true
           },
           "3": {
             "ex_1787755473205": true,
@@ -4223,7 +4275,9 @@
             "p1b": true,
             "alb0a": true,
             "p2a": true,
-            "p0a": true
+            "p0a": true,
+            "ex_1788510282657_0": true,
+            "ex_1788510282657_1": true
           },
           "4": {
             "ex_1787755473205": true,
@@ -4242,7 +4296,9 @@
             "p2a": true,
             "p3": true,
             "p0a": true,
-            "alb1": true
+            "alb1": true,
+            "ex_1788510282657_0": true,
+            "ex_1788510282657_1": true
           },
           "5": {
             "ex_1787751397897": true,
@@ -4261,7 +4317,9 @@
             "p1b": true,
             "p0a": true,
             "ex_1787755473205": true,
-            "p3": true
+            "p3": true,
+            "ex_1788510282657_0": true,
+            "ex_1788510282657_1": true
           },
           "6": {
             "ex_1787755473205": true,
@@ -4280,7 +4338,9 @@
             "alb2": true,
             "alb1": true,
             "p2a": true,
-            "p3": true
+            "p3": true,
+            "ex_1788510282657_0": true,
+            "ex_1788510282657_1": true
           }
         },
         "_dayNotes": {
@@ -4292,7 +4352,7 @@
           "6": "REFERENTE DI GIORNATA\tTOMASI MAURO"
         }
       },
-      "publishedAt": "2026-09-01T16:10:15.185Z"
+      "publishedAt": "2026-09-04T09:00:37.573Z"
     },
     "2026-W38": {
       "schedule": {
@@ -6561,5 +6621,5 @@
       "pin": "6506"
     }
   ],
-  "lastUpdated": "2026-09-01T16:10:15.599Z"
+  "lastUpdated": "2026-09-04T09:00:38.033Z"
 }
