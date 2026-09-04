@@ -492,7 +492,10 @@ function renderPano(wk,slots,mon){
           `</div>`;
       }).join('');
       return`<div style="margin-bottom:10px;border-radius:10px;overflow:hidden;border:1px solid rgba(0,0,0,.08)">`+
-        `<div style="padding:8px 12px;background:${b};border-bottom:2px solid ${c};font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.6px;color:${c}">${esc(g.sec.label)}</div>`+
+        `<div style="padding:8px 12px;background:${b};border-bottom:2px solid ${c}">`+
+          `<div style="font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.6px;color:${c}">${esc(g.sec.label)}</div>`+
+          (g.sec.area&&g.sec.area!==g.sec.label?`<div style="font-size:10px;color:${c};opacity:.7;margin-top:1px">${esc(g.sec.area)}</div>`:'')+
+        `</div>`+
         `${rows}</div>`;
     }).join('');
 
