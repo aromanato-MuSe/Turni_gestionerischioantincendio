@@ -3152,14 +3152,7 @@
           "ex_1787751397897": [],
           "ex_1788510282657_0": [],
           "ex_1788510282657_1": [],
-          "ex_1788530700793_0": [
-            {
-              "start": "09:00",
-              "end": "9:40",
-              "person": "ROCCO GIOVANNA",
-              "note": "Piano -1"
-            }
-          ],
+          "ex_1788530700793_0": [],
           "ex_1788530700793_1": [
             {
               "start": "18:00",
@@ -3169,7 +3162,7 @@
             },
             {
               "start": "19:00",
-              "end": "21:00",
+              "end": "22:00",
               "person": "GIACOMETTI FRANCESCO",
               "note": "Piano -1 e chiusura"
             }
@@ -3364,14 +3357,7 @@
               "note": "Piano 0"
             }
           ],
-          "ex_1787751397897": [
-            {
-              "start": "5:00",
-              "end": "8:00",
-              "person": "LIMONTA YESIEL",
-              "note": "Piano -1"
-            }
-          ],
+          "ex_1787751397897": [],
           "ex_1788510282657_0": [],
           "ex_1788510282657_1": [],
           "ex_1788530700793_0": [
@@ -4409,7 +4395,7 @@
           "6": "REFERENTE DI GIORNATA\tTOMASI MAURO"
         }
       },
-      "publishedAt": "2026-09-04T14:20:42.342Z"
+      "publishedAt": "2026-09-07T17:15:56.860Z"
     },
     "2026-W38": {
       "schedule": {
@@ -6422,7 +6408,7 @@
     {
       "cog": "IVASHCHUK",
       "nom": "NINA",
-      "contratto": null,
+      "contratto": 24,
       "vincoli": {
         "sezioniEscluse": []
       },
@@ -6593,7 +6579,7 @@
     {
       "cog": "RADA",
       "nom": "SASA",
-      "contratto": 18,
+      "contratto": 1,
       "vincoli": {
         "sezioniEscluse": []
       },
@@ -6602,7 +6588,7 @@
     {
       "cog": "MONTEMURRO",
       "nom": "Alessio",
-      "contratto": 18,
+      "contratto": 1,
       "pin": "8458"
     },
     {
@@ -6638,7 +6624,7 @@
     {
       "cog": "EL BAOUNY",
       "nom": "Amin",
-      "contratto": 18,
+      "contratto": 1,
       "pin": "7795"
     },
     {
@@ -6670,13 +6656,7 @@
       "nom": "Francesca",
       "contratto": 18,
       "pin": "6697"
-    },
-    {
-      "cog": "TOMASI",
-      "nom": "Rachele",
-      "contratto": 1,
-      "pin": "6506"
     }
   ],
-  "lastUpdated": "2026-09-04T14:20:42.732Z"
+  "lastUpdated": "2026-09-07T17:15:57.275Z"
 }
