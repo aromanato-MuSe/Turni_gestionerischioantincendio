@@ -3075,6 +3075,11 @@
             },
             {
               "start": "13:00",
+              "end": "13:15",
+              "person": "ROMANATO ANDREA"
+            },
+            {
+              "start": "13:15",
               "end": "18:10",
               "person": "HUSSAIN SADAM"
             }
@@ -4395,7 +4400,7 @@
           "6": "REFERENTE DI GIORNATA\tTOMASI MAURO"
         }
       },
-      "publishedAt": "2026-09-07T17:15:56.860Z"
+      "publishedAt": "2026-09-08T10:23:11.818Z"
     },
     "2026-W38": {
       "schedule": {
@@ -6658,5 +6663,5 @@
       "pin": "6697"
     }
   ],
-  "lastUpdated": "2026-09-07T17:15:57.275Z"
+  "lastUpdated": "2026-09-08T10:23:12.242Z"
 }
