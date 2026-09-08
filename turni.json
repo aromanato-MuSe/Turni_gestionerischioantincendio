@@ -2954,8 +2954,6 @@
             }
           ],
           "ex_1787751397897": [],
-          "ex_1788510282657_0": [],
-          "ex_1788510282657_1": [],
           "ex_1788530700793_0": [],
           "ex_1788530700793_1": []
         },
@@ -3092,11 +3090,11 @@
             },
             {
               "start": "14:30",
-              "end": "17:00",
+              "end": "16:45",
               "person": "GIACOMETTI FRANCESCO"
             },
             {
-              "start": "17:00",
+              "start": "16:45",
               "end": "18:10",
               "person": "ROMANATO ANDREA"
             }
@@ -3155,8 +3153,6 @@
             }
           ],
           "ex_1787751397897": [],
-          "ex_1788510282657_0": [],
-          "ex_1788510282657_1": [],
           "ex_1788530700793_0": [],
           "ex_1788530700793_1": [
             {
@@ -3363,8 +3359,6 @@
             }
           ],
           "ex_1787751397897": [],
-          "ex_1788510282657_0": [],
-          "ex_1788510282657_1": [],
           "ex_1788530700793_0": [
             {
               "start": "18:00",
@@ -3569,8 +3563,6 @@
             }
           ],
           "ex_1787751397897": [],
-          "ex_1788510282657_0": [],
-          "ex_1788510282657_1": [],
           "ex_1788530700793_0": [
             {
               "start": "09:40",
@@ -3772,8 +3764,6 @@
             }
           ],
           "ex_1787751397897": [],
-          "ex_1788510282657_0": [],
-          "ex_1788510282657_1": [],
           "ex_1788530700793_0": [
             {
               "start": "09:40",
@@ -3834,13 +3824,8 @@
             },
             {
               "start": "14:30",
-              "end": "17:50",
-              "person": "GIACOMETTI FRANCESCO"
-            },
-            {
-              "start": "17:50",
               "end": "19:10",
-              "person": "LOSS Francesca"
+              "person": "GIACOMETTI FRANCESCO"
             }
           ],
           "p1a": [
@@ -3966,34 +3951,6 @@
           ],
           "ex_1787751366021": [],
           "ex_1787751397897": [],
-          "ex_1788510282657_0": [
-            {
-              "start": "18:00",
-              "end": "20:00",
-              "person": "TOMASI MAURO",
-              "note": "orti se bel tempo, p-1 big void se brutto tempo, compresa chiusura museo."
-            },
-            {
-              "start": "20:00",
-              "end": "25:00",
-              "person": "DEANESI Davide",
-              "note": "orti se bel tempo, p-1 big void se brutto tempo, compresa chiusura museo. Fine all'1:00"
-            }
-          ],
-          "ex_1788510282657_1": [
-            {
-              "start": "18:00",
-              "end": "20:00",
-              "person": "GIACOMETTI FRANCESCO",
-              "note": "orti se bel tempo, p-1 big void se brutto tempo, compresa chiusura museo."
-            },
-            {
-              "start": "20:00",
-              "end": "24:00",
-              "person": "RICCIO ROSARIA",
-              "note": "orti se bel tempo, p-1 big void se brutto tempo, compresa chiusura museo."
-            }
-          ],
           "ex_1788530700793_0": [
             {
               "start": "09:40",
@@ -4182,8 +4139,6 @@
           ],
           "ex_1787751366021": [],
           "ex_1787751397897": [],
-          "ex_1788510282657_0": [],
-          "ex_1788510282657_1": [],
           "ex_1788530700793_0": [
             {
               "start": "09:40",
@@ -4211,18 +4166,6 @@
             "label": "\"The Coreography of Water\"",
             "type": "extra",
             "area": "\"The Coreography of Water\""
-          },
-          {
-            "id": "ex_1788510282657_0",
-            "label": "Evento Antonella Franceschi A",
-            "type": "extra",
-            "area": "Evento Antonella Franceschi"
-          },
-          {
-            "id": "ex_1788510282657_1",
-            "label": "Evento Antonella Franceschi B",
-            "type": "extra",
-            "area": "Evento Antonella Franceschi"
           },
           {
             "id": "ex_1788530700793_0",
@@ -4400,7 +4343,7 @@
           "6": "REFERENTE DI GIORNATA\tTOMASI MAURO"
         }
       },
-      "publishedAt": "2026-09-08T10:23:11.818Z"
+      "publishedAt": "2026-09-08T15:10:14.433Z"
     },
     "2026-W38": {
       "schedule": {
@@ -6663,5 +6606,5 @@
       "pin": "6697"
     }
   ],
-  "lastUpdated": "2026-09-08T10:23:12.242Z"
+  "lastUpdated": "2026-09-08T15:10:14.868Z"
 }
