@@ -3824,8 +3824,9 @@
             },
             {
               "start": "14:30",
-              "end": "19:10",
-              "person": "GIACOMETTI FRANCESCO"
+              "end": "20:00",
+              "person": "GIACOMETTI FRANCESCO",
+              "note": "CHIUSURA"
             }
           ],
           "p1a": [
@@ -4343,7 +4344,7 @@
           "6": "REFERENTE DI GIORNATA\tTOMASI MAURO"
         }
       },
-      "publishedAt": "2026-09-08T15:10:14.433Z"
+      "publishedAt": "2026-09-08T15:11:37.839Z"
     },
     "2026-W38": {
       "schedule": {
@@ -6606,5 +6607,5 @@
       "pin": "6697"
     }
   ],
-  "lastUpdated": "2026-09-08T15:10:14.868Z"
+  "lastUpdated": "2026-09-08T15:11:38.256Z"
 }
