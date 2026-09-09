@@ -3536,7 +3536,7 @@
           ],
           "alb2": [
             {
-              "start": "09:00",
+              "start": "08:00",
               "end": "12:00",
               "person": "GIULIETTI ANDREA"
             },
@@ -3737,7 +3737,7 @@
           ],
           "alb2": [
             {
-              "start": "09:00",
+              "start": "08:00",
               "end": "12:00",
               "person": "IVASHCHUK NINA"
             },
@@ -4344,7 +4344,7 @@
           "6": "REFERENTE DI GIORNATA\tTOMASI MAURO"
         }
       },
-      "publishedAt": "2026-09-08T15:11:37.839Z"
+      "publishedAt": "2026-09-09T07:25:47.903Z"
     },
     "2026-W38": {
       "schedule": {
@@ -6607,5 +6607,5 @@
       "pin": "6697"
     }
   ],
-  "lastUpdated": "2026-09-08T15:11:38.256Z"
+  "lastUpdated": "2026-09-09T07:25:48.325Z"
 }
