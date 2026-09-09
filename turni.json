@@ -3190,8 +3190,13 @@
             },
             {
               "start": "13:30",
+              "end": "16:00",
+              "person": "FIKRI Mohamed"
+            },
+            {
+              "start": "16:00",
               "end": "18:10",
-              "person": "HUSSAIN SADAM"
+              "person": "PUSCEDDU ERNESTO"
             }
           ],
           "p0a": [
@@ -3244,7 +3249,7 @@
             {
               "start": "14:30",
               "end": "15:30",
-              "person": "SARTORI CAMILLA"
+              "person": "DALIPI KARLOTTA"
             },
             {
               "start": "15:30",
@@ -3268,7 +3273,7 @@
             {
               "start": "09:40",
               "end": "12:30",
-              "person": "HUSSAIN SADAM"
+              "person": "DALIPI KARLOTTA"
             },
             {
               "start": "12:30",
@@ -3371,13 +3376,13 @@
             {
               "start": "18:00",
               "end": "19:00",
-              "person": "HUSSAIN SADAM",
+              "person": "RICCIO ROSARIA",
               "note": "Piano -1"
             },
             {
               "start": "19:00",
               "end": "25:00",
-              "person": "GIACOMETTI FRANCESCO",
+              "person": "PUSCEDDU ERNESTO",
               "note": "Piano -1, fino alle 01:00"
             }
           ]
@@ -4344,7 +4349,7 @@
           "6": "REFERENTE DI GIORNATA\tTOMASI MAURO"
         }
       },
-      "publishedAt": "2026-09-09T07:25:47.903Z"
+      "publishedAt": "2026-09-09T14:06:19.478Z"
     },
     "2026-W38": {
       "schedule": {
@@ -6605,7 +6610,13 @@
       "nom": "Francesca",
       "contratto": 18,
       "pin": "6697"
+    },
+    {
+      "cog": "DALIPI",
+      "nom": "KARLOTTA",
+      "contratto": null,
+      "pin": "4865"
     }
   ],
-  "lastUpdated": "2026-09-09T07:25:48.325Z"
+  "lastUpdated": "2026-09-09T14:06:20.099Z"
 }
