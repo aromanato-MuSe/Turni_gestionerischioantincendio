@@ -3417,11 +3417,11 @@
             },
             {
               "start": "13:30",
-              "end": "15:00",
-              "person": "ROMANATO ANDREA"
+              "end": "17:00",
+              "person": "FIKRI Mohamed"
             },
             {
-              "start": "15:00",
+              "start": "17:00",
               "end": "18:10",
               "person": "IVASHCHUK NINA"
             }
@@ -4341,7 +4341,7 @@
           "6": "REFERENTE DI GIORNATA\tTOMASI MAURO"
         }
       },
-      "publishedAt": "2026-09-10T06:19:03.941Z"
+      "publishedAt": "2026-09-10T10:52:15.509Z"
     },
     "2026-W38": {
       "schedule": {
@@ -6610,5 +6610,5 @@
       "pin": "4865"
     }
   ],
-  "lastUpdated": "2026-09-10T06:19:04.404Z"
+  "lastUpdated": "2026-09-10T10:52:15.972Z"
 }
