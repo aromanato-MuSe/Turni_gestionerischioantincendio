@@ -3646,9 +3646,8 @@
             },
             {
               "start": "14:30",
-              "end": "19:00",
-              "person": "CAMPANELLA ILARIA",
-              "note": "CHIUSURA"
+              "end": "18:10",
+              "person": "CAMPANELLA ILARIA"
             }
           ],
           "p1b": [
@@ -3659,8 +3658,9 @@
             },
             {
               "start": "13:30",
-              "end": "18:10",
-              "person": "RICCIO ROSARIA"
+              "end": "19:00",
+              "person": "RICCIO ROSARIA",
+              "note": "CHIUSURA"
             }
           ],
           "p2a": [
@@ -4341,7 +4341,7 @@
           "6": "REFERENTE DI GIORNATA\tTOMASI MAURO"
         }
       },
-      "publishedAt": "2026-09-10T10:52:15.509Z"
+      "publishedAt": "2026-09-11T08:42:54.366Z"
     },
     "2026-W38": {
       "schedule": {
@@ -6610,5 +6610,5 @@
       "pin": "4865"
     }
   ],
-  "lastUpdated": "2026-09-10T10:52:15.972Z"
+  "lastUpdated": "2026-09-11T08:42:54.802Z"
 }
