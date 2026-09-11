@@ -3618,7 +3618,7 @@
             {
               "start": "13:30",
               "end": "15:00",
-              "person": "ROMANATO ANDREA"
+              "person": "MARCHETTI NANCY"
             },
             {
               "start": "15:00",
@@ -3688,6 +3688,11 @@
             },
             {
               "start": "13:30",
+              "end": "15:00",
+              "person": "ROMANATO ANDREA"
+            },
+            {
+              "start": "15:00",
               "end": "18:10",
               "person": "MARCHETTI NANCY"
             }
@@ -4341,7 +4346,7 @@
           "6": "REFERENTE DI GIORNATA\tTOMASI MAURO"
         }
       },
-      "publishedAt": "2026-09-11T08:42:54.366Z"
+      "publishedAt": "2026-09-11T11:05:35.139Z"
     },
     "2026-W38": {
       "schedule": {
@@ -6610,5 +6615,5 @@
       "pin": "4865"
     }
   ],
-  "lastUpdated": "2026-09-11T08:42:54.802Z"
+  "lastUpdated": "2026-09-11T11:05:35.615Z"
 }
