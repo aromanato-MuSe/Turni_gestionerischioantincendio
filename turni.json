@@ -3822,8 +3822,13 @@
             },
             {
               "start": "13:30",
+              "end": "13:45",
+              "person": "IVASHCHUK NINA"
+            },
+            {
+              "start": "13:45",
               "end": "19:10",
-              "person": "CORETTI EMANUELE"
+              "person": "LOSS Francesca"
             }
           ],
           "p0b": [
@@ -3896,7 +3901,7 @@
             {
               "start": "13:30",
               "end": "19:10",
-              "person": "FIKRI Mohamed"
+              "person": "CORETTI EMANUELE"
             }
           ],
           "p4": [
@@ -4346,7 +4351,7 @@
           "6": "REFERENTE DI GIORNATA\tTOMASI MAURO"
         }
       },
-      "publishedAt": "2026-09-11T11:05:35.139Z"
+      "publishedAt": "2026-09-12T08:58:01.671Z"
     },
     "2026-W38": {
       "schedule": {
@@ -6615,5 +6620,5 @@
       "pin": "4865"
     }
   ],
-  "lastUpdated": "2026-09-11T11:05:35.615Z"
+  "lastUpdated": "2026-09-12T08:58:02.207Z"
 }
