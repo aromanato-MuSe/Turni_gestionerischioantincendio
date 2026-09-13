@@ -485,25 +485,25 @@ function renderPano(wk,slots,mon){
     :secGroups.map(g=>{
       const c=tc(g.sec.type),b=tb(g.sec.type);
       const secC=tc(g.sec.type),secB=tb(g.sec.type),secBo=tbo(g.sec.type);
+      const secC=tc(g.sec.type),secB=tb(g.sec.type),secBo=tbo(g.sec.type);
       var secTr=SEC_TESSERE[g.sec.id];
+      var trLabel=secTr?(' — 🪹'+secTr.tes+' 📻'+secTr.rad):""; 
       const rows=g.slots.map(function(sl){
         var cog=sl.person.split(' ')[0];
         var nom=sl.person.split(' ').slice(1).join(' ');
-        var trBadge=secTr?('<span style="font-family:monospace;font-size:10px;color:'+secC+';opacity:.65;white-space:nowrap;margin-left:8px">🪹'+secTr.tes+' 📻'+secTr.rad+'</span>'):""; 
         return '<div style="display:flex;align-items:center;gap:10px;padding:10px 12px;border-bottom:1px solid var(--border)">'
           +'<div style="font-family:monospace;font-size:13px;font-weight:600;color:'+secC+';white-space:nowrap;min-width:112px">'+esc(sl.start)+' – '+esc(sl.end)+'</div>'
-          +'<div style="flex:1;display:flex;align-items:center;flex-wrap:wrap;gap:4px">'
-          +'<span style="font-size:15px;font-weight:700;color:var(--text)">'+esc(cog)+'</span>'
+          +'<div style="flex:1"><span style="font-size:15px;font-weight:700;color:var(--text)">'+esc(cog)+'</span>'
           +(nom?'<span style="font-size:13px;color:var(--text2);margin-left:5px">'+esc(nom)+'</span>':'')
-          +trBadge+'</div></div>';
+          +'</div></div>';
       }).join('');
-      return'<div style="margin-bottom:10px;border-radius:10px;overflow:hidden;border:1px solid var(--border)">'+ 
-        '<div style="padding:8px 12px;background:'+secB+';border-bottom:2px solid '+secBo+'">'+ 
-          '<div style="font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.6px;color:'+secC+'">'+esc(g.sec.label)+'</div>'+
-          (g.sec.area&&g.sec.area!==g.sec.label?'<div style="font-size:10px;color:'+secC+';opacity:.7;margin-top:1px">'+esc(g.sec.area)+'</div>':'')+
-        '</div>'+
-        rows+'</div>';
-    }).join('');
+      return'<div style="margin-bottom:10px;border-radius:10px;overflow:hidden;border:1px solid var(--border)">'
+        +'<div style="padding:8px 12px;background:'+secB+';border-bottom:2px solid '+secBo+'">'
+          +'<div style="font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.6px;color:'+secC+'">'+esc(g.sec.label)+'</div>'
+          +(g.sec.area&&g.sec.area!==g.sec.label?'<div style="font-size:10px;color:'+secC+';opacity:.75;margin-top:2px">'+esc(g.sec.area)+trLabel+'</div>'
+            :(secTr?'<div style="font-size:10px;color:'+secC+';opacity:.75;margin-top:2px">'+trLabel.trim()+'</div>':''))
+        +'</div>'
+        +rows+'</div>';
 
   grid.innerHTML=
     `<div style="display:table;width:100%;border-bottom:2px solid var(--border);background:var(--surface)">`+
@@ -531,6 +531,8 @@ function renderPano(wk,slots,mon){
       `</div>`+
       (dayNote?'<div style="background:var(--yellow-bg);border:1px solid var(--yellow);border-radius:8px;padding:9px 12px;margin-bottom:12px;display:flex;gap:8px;align-items:flex-start;font-size:13px;color:var(--yellow);line-height:1.5">\uD83D\uDCDD <span>'+esc(dayNote)+'</span></div>':'')+
       `${detailHtml}</div>`;
+}
+
 }
 
 function selectPanoDay(d){
@@ -731,18 +733,24 @@ function renderTurni(){
             const nextParts=sl.next&&sl.next.person?sl.next.person.split(' '):null;
             var cambioHtml='';
             if(sl.prev||sl.next){
-              cambioHtml='<div class="cambio-row">';
+              cambioHtml='<div style="display:flex;gap:6px;margin-top:8px;padding-top:8px;border-top:1px solid rgba(128,128,128,.2)">';
               if(sl.prev){
-                cambioHtml+='<div class="cambio-item"><div class="cambio-lbl">🔴 Dai il cambio a</div>';
-                cambioHtml+='<div class="cambio-name">'+esc(prevParts&&prevParts[0]?prevParts[0]:'')+' '+esc(prevParts?prevParts.slice(1).join(' '):'')+' </div></div>';
+                cambioHtml+='<div style="flex:1;border-radius:8px;padding:8px 10px;background:rgba(239,68,68,.15);border:1px solid rgba(239,68,68,.35)">';
+                cambioHtml+='<div style="font-size:10px;font-weight:700;letter-spacing:.4px;color:#f87171;margin-bottom:4px">🔴 DAI IL CAMBIO A</div>';
+                cambioHtml+='<div style="font-size:14px;font-weight:700;color:var(--text)">'+esc(prevParts&&prevParts[0]?prevParts[0]:'')+' '+esc(prevParts?prevParts.slice(1).join(' '):'')+'</div></div>';
               } else {
-                cambioHtml+='<div class="cambio-item" style="opacity:.35"><div class="cambio-lbl">🔴 Dai il cambio a</div><div class="cambio-name" style="font-style:italic">Primo della sezione</div></div>';
+                cambioHtml+='<div style="flex:1;border-radius:8px;padding:8px 10px;background:rgba(128,128,128,.08);border:1px dashed rgba(128,128,128,.3)">';
+                cambioHtml+='<div style="font-size:10px;font-weight:700;letter-spacing:.4px;color:var(--muted);margin-bottom:4px">🔴 DAI IL CAMBIO A</div>';
+                cambioHtml+='<div style="font-size:12px;font-style:italic;color:var(--muted)">Primo della sezione</div></div>';
               }
               if(sl.next){
-                cambioHtml+='<div class="cambio-item"><div class="cambio-lbl">🟢 Ti dà il cambio</div>';
-                cambioHtml+='<div class="cambio-name">'+esc(nextParts&&nextParts[0]?nextParts[0]:'')+' '+esc(nextParts?nextParts.slice(1).join(' '):'')+' </div></div>';
+                cambioHtml+='<div style="flex:1;border-radius:8px;padding:8px 10px;background:rgba(34,197,94,.15);border:1px solid rgba(34,197,94,.35)">';
+                cambioHtml+='<div style="font-size:10px;font-weight:700;letter-spacing:.4px;color:#4ade80;margin-bottom:4px">🟢 TI DÀ IL CAMBIO</div>';
+                cambioHtml+='<div style="font-size:14px;font-weight:700;color:var(--text)">'+esc(nextParts&&nextParts[0]?nextParts[0]:'')+' '+esc(nextParts?nextParts.slice(1).join(' '):'')+'</div></div>';
               } else {
-                cambioHtml+='<div class="cambio-item" style="opacity:.35"><div class="cambio-lbl">🟢 Ti dà il cambio</div><div class="cambio-name" style="font-style:italic">Ultimo della sezione</div></div>';
+                cambioHtml+='<div style="flex:1;border-radius:8px;padding:8px 10px;background:rgba(128,128,128,.08);border:1px dashed rgba(128,128,128,.3)">';
+                cambioHtml+='<div style="font-size:10px;font-weight:700;letter-spacing:.4px;color:var(--muted);margin-bottom:4px">🟢 TI DÀ IL CAMBIO</div>';
+                cambioHtml+='<div style="font-size:12px;font-style:italic;color:var(--muted)">Ultimo della sezione</div></div>';
               }
               cambioHtml+='</div>';
             }
