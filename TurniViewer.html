@@ -25,8 +25,10 @@
 @media(prefers-color-scheme:dark){:root{
   --bg:#0f172a;--surface:#1e293b;--border:#334155;--border2:#475569;
   --text:#f1f5f9;--text2:#94a3b8;--muted:#64748b;
-  --accent-bg:#172554;--green-bg:#052e16;--orange-bg:#431407;--red-bg:#450a0a;
-  --purple-bg:#2e1065;--yellow-bg:#1c1300;
+  --accent:#60a5fa;--accent-dark:#93c5fd;
+  --accent-bg:#172554;--green:#4ade80;--green-bg:#052e16;--green-b:#166534;
+  --orange:#fb923c;--orange-bg:#431407;--red:#f87171;--red-bg:#450a0a;
+  --purple:#a78bfa;--purple-bg:#2e1065;--yellow:#fbbf24;--yellow-bg:#1c1300;
   --slot-blue-bg:#1e3a5f;--slot-blue-b:#3b82f6;--slot-blue-t:#93c5fd;
   --slot-pink-bg:#500724;--slot-pink-b:#be185d;--slot-pink-t:#fbcfe8;
   --slot-green-bg:#052e16;--slot-green-b:#16a34a;--slot-green-t:#86efac;
@@ -474,8 +476,9 @@ function renderPano(wk,slots,mon){
     return(ai<0?99:ai)-(bi<0?99:bi);
   });
 
-  const tc=t=>t==='referente'?'#ca8a04':t==='palazzo'?'#059669':'#3b82f6';
-  const tb=t=>t==='referente'?'#fefce8':t==='palazzo'?'#d1fae5':'#dbeafe';
+  const tc=t=>t==='referente'?'var(--slot-ref-t)':t==='palazzo'?'var(--slot-palazzo-t)':'var(--slot-blue-t)';
+  const tb=t=>t==='referente'?'var(--slot-ref-bg)':t==='palazzo'?'var(--slot-palazzo-bg)':'var(--slot-blue-bg)';
+  const tbo=t=>t==='referente'?'var(--slot-ref-b)':t==='palazzo'?'var(--slot-palazzo-b)':'var(--slot-blue-b)';
 
   const detailHtml=secGroups.length===0
     ?`<div style="text-align:center;padding:24px;color:var(--muted);font-size:14px">Nessun turno assegnato</div>`
@@ -484,19 +487,20 @@ function renderPano(wk,slots,mon){
       const rows=g.slots.map(sl=>{
         const cog=sl.person.split(' ')[0];
         const nom=sl.person.split(' ').slice(1).join(' ');
-        return`<div style="display:flex;align-items:center;gap:10px;padding:10px 12px;border-bottom:1px solid rgba(0,0,0,.06)">`+
+        return'<div style="display:flex;align-items:center;gap:10px;padding:10px 12px;border-bottom:1px solid var(--border)">'+
           `<div style="font-family:'JetBrains Mono',monospace;font-size:13px;font-weight:600;color:${c};white-space:nowrap;min-width:112px">${esc(sl.start)} – ${esc(sl.end)}</div>`+
           `<div style="flex:1"><span style="font-size:15px;font-weight:700;color:var(--text)">${esc(cog)}</span>`+
           (nom?'<span style="font-size:13px;color:var(--text2);margin-left:5px">'+esc(nom)+'</span>':'')+
           '</div>'+
           `</div>`;
       }).join('');
-      return`<div style="margin-bottom:10px;border-radius:10px;overflow:hidden;border:1px solid rgba(0,0,0,.08)">`+
-        `<div style="padding:8px 12px;background:${b};border-bottom:2px solid ${c}">`+
-          `<div style="font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.6px;color:${c}">${esc(g.sec.label)}</div>`+
-          (g.sec.area&&g.sec.area!==g.sec.label?`<div style="font-size:10px;color:${c};opacity:.7;margin-top:1px">${esc(g.sec.area)}</div>`:'')+
-        `</div>`+
-        `${rows}</div>`;
+      const secC=tc(g.sec.type),secB=tb(g.sec.type),secBo=tbo(g.sec.type);
+      return'<div style="margin-bottom:10px;border-radius:10px;overflow:hidden;border:1px solid var(--border)">'+ 
+        '<div style="padding:8px 12px;background:'+secB+';border-bottom:2px solid '+secBo+'">'+ 
+          '<div style="font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.6px;color:'+secC+'">'+esc(g.sec.label)+'</div>'+
+          (g.sec.area&&g.sec.area!==g.sec.label?'<div style="font-size:10px;color:'+secC+';opacity:.7;margin-top:1px">'+esc(g.sec.area)+'</div>':'')+
+        '</div>'+
+        rows+'</div>';
     }).join('');
 
   grid.innerHTML=
@@ -523,7 +527,7 @@ function renderPano(wk,slots,mon){
         `${DAYS_IT[_panoDay]} ${fmtDate(selDate)}`+
         `<span style="font-weight:400;color:var(--muted);font-size:13px;margin-left:8px">${daySlots.length} ${daySlots.length===1?'turno':'turni'}</span>`+
       `</div>`+
-      (dayNote?`<div style="background:#fefce8;border:1px solid #fde047;border-radius:8px;padding:9px 12px;margin-bottom:12px;display:flex;gap:8px;align-items:flex-start;font-size:13px;color:#854d0e;line-height:1.5">📝 <span>${esc(dayNote)}</span></div>`:'')+
+      (dayNote?'<div style="background:var(--yellow-bg);border:1px solid var(--yellow);border-radius:8px;padding:9px 12px;margin-bottom:12px;display:flex;gap:8px;align-items:flex-start;font-size:13px;color:var(--yellow);line-height:1.5">\uD83D\uDCDD <span>'+esc(dayNote)+'</span></div>':'')+
       `${detailHtml}</div>`;
 }
 
@@ -746,7 +750,8 @@ function renderTurni(){
                 <div class="slot-main">
                   <div class="slot-time">${esc(sl.start)} – ${esc(sl.end)}</div>
                   <div class="slot-sec">${esc(sl.secLabel)}</div>
-                  ${sl.secArea?`<div class="slot-area">${esc(sl.secArea)}</div>`:''}
+                  ${sl.secArea?'<div class="slot-area">'+esc(sl.secArea)+'</div>':''}
+                  ${(function(){var t=SEC_TESSERE[sl.secId];return t?'<div style="margin-top:4px;display:flex;gap:8px;font-size:11px;font-family:\'JetBrains Mono\',monospace;color:var(--muted)"><span title="Tessera emergenza">🪪 '+t.tes+'</span><span title="Radio">📻 '+t.rad+'</span></div>':'';})()} 
                   <div class="slot-h-badge">${h}h di servizio</div>
                   ${sl.note?`<div style="margin-top:6px;padding:6px 8px;background:rgba(0,0,0,.06);border-radius:6px;border-left:3px solid var(--accent);font-size:12px;color:var(--text2);line-height:1.4">📝 ${esc(sl.note)}</div>`:''}
                 </div>
@@ -936,6 +941,15 @@ async function tryLoadFromGitHub(){
     renderWelcome();
   }
 }
+
+// Mappa sezione → tessera emergenza + radio
+var SEC_TESSERE={
+  'p-1a':{tes:131,rad:101},'p-1b':{tes:132,rad:102},
+  'p0a': {tes:133,rad:103},'p0b': {tes:134,rad:104},
+  'p1a': {tes:135,rad:105},'p1b': {tes:136,rad:106},
+  'p2a': {tes:137,rad:107},'p2b': {tes:138,rad:108},
+  'p3':  {tes:139,rad:109},'p4':  {tes:140,rad:110}
+};
 
 // Debug visibile su schermo per iOS
 window.onerror=function(msg,src,line){
