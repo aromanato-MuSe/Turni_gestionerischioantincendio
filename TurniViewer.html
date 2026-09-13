@@ -484,17 +484,19 @@ function renderPano(wk,slots,mon){
     ?`<div style="text-align:center;padding:24px;color:var(--muted);font-size:14px">Nessun turno assegnato</div>`
     :secGroups.map(g=>{
       const c=tc(g.sec.type),b=tb(g.sec.type);
-      const rows=g.slots.map(sl=>{
-        const cog=sl.person.split(' ')[0];
-        const nom=sl.person.split(' ').slice(1).join(' ');
-        return'<div style="display:flex;align-items:center;gap:10px;padding:10px 12px;border-bottom:1px solid var(--border)">'+
-          `<div style="font-family:'JetBrains Mono',monospace;font-size:13px;font-weight:600;color:${c};white-space:nowrap;min-width:112px">${esc(sl.start)} – ${esc(sl.end)}</div>`+
-          `<div style="flex:1"><span style="font-size:15px;font-weight:700;color:var(--text)">${esc(cog)}</span>`+
-          (nom?'<span style="font-size:13px;color:var(--text2);margin-left:5px">'+esc(nom)+'</span>':'')+
-          '</div>'+
-          `</div>`;
-      }).join('');
       const secC=tc(g.sec.type),secB=tb(g.sec.type),secBo=tbo(g.sec.type);
+      var secTr=SEC_TESSERE[g.sec.id];
+      const rows=g.slots.map(function(sl){
+        var cog=sl.person.split(' ')[0];
+        var nom=sl.person.split(' ').slice(1).join(' ');
+        var trBadge=secTr?('<span style="font-family:monospace;font-size:10px;color:'+secC+';opacity:.65;white-space:nowrap;margin-left:8px">🪹'+secTr.tes+' 📻'+secTr.rad+'</span>'):""; 
+        return '<div style="display:flex;align-items:center;gap:10px;padding:10px 12px;border-bottom:1px solid var(--border)">'
+          +'<div style="font-family:monospace;font-size:13px;font-weight:600;color:'+secC+';white-space:nowrap;min-width:112px">'+esc(sl.start)+' – '+esc(sl.end)+'</div>'
+          +'<div style="flex:1;display:flex;align-items:center;flex-wrap:wrap;gap:4px">'
+          +'<span style="font-size:15px;font-weight:700;color:var(--text)">'+esc(cog)+'</span>'
+          +(nom?'<span style="font-size:13px;color:var(--text2);margin-left:5px">'+esc(nom)+'</span>':'')
+          +trBadge+'</div></div>';
+      }).join('');
       return'<div style="margin-bottom:10px;border-radius:10px;overflow:hidden;border:1px solid var(--border)">'+ 
         '<div style="padding:8px 12px;background:'+secB+';border-bottom:2px solid '+secBo+'">'+ 
           '<div style="font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.6px;color:'+secC+'">'+esc(g.sec.label)+'</div>'+
