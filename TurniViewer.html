@@ -485,9 +485,8 @@ function renderPano(wk,slots,mon){
     :secGroups.map(g=>{
       const c=tc(g.sec.type),b=tb(g.sec.type);
       const secC=tc(g.sec.type),secB=tb(g.sec.type),secBo=tbo(g.sec.type);
-      const secC=tc(g.sec.type),secB=tb(g.sec.type),secBo=tbo(g.sec.type);
       var secTr=SEC_TESSERE[g.sec.id];
-      var trLabel=secTr?(' — 🪹'+secTr.tes+' 📻'+secTr.rad):""; 
+      var trLabel=secTr?(' — Tes.'+secTr.tes+' / Rad.'+secTr.rad):''; 
       const rows=g.slots.map(function(sl){
         var cog=sl.person.split(' ')[0];
         var nom=sl.person.split(' ').slice(1).join(' ');
@@ -504,35 +503,36 @@ function renderPano(wk,slots,mon){
             :(secTr?'<div style="font-size:10px;color:'+secC+';opacity:.75;margin-top:2px">'+trLabel.trim()+'</div>':''))
         +'</div>'
         +rows+'</div>';
+    }).join('');
 
-  grid.innerHTML=
-    `<div style="display:table;width:100%;border-bottom:2px solid var(--border);background:var(--surface)">`+
-    `<div style="display:table-row">${
-      Array.from({length:7},(_,d)=>{
-        const date=addDays(mon,d);
-        const isWe=d>=5;
-        const tod=isToday(date);
-        const sel=d===_panoDay;
-        const cnt=byDay[d].length;
-        return`<div onclick="selectPanoDay(${d})" style="`+
-          `display:table-cell;text-align:center;cursor:pointer;padding:8px 0 6px;`+
-          `border-bottom:3px solid ${sel?'var(--accent)':'transparent'};`+
-          `color:${sel?'var(--accent)':tod?'var(--accent-dark)':isWe?'var(--accent)':'var(--text2)'};`+
-          `font-weight:${sel?700:500};transition:border-color .15s;font-family:'Inter',sans-serif;width:14.28%">`+
-          `<div style="font-size:9px;text-transform:uppercase;letter-spacing:.6px;margin-bottom:2px">${DAYS_S[d]}</div>`+
-          `<div style="font-size:17px;font-weight:800;line-height:1;font-family:'JetBrains Mono',monospace">${date.getDate()}</div>`+
-          `</div>`;
-      }).join('')
-    }</div></div>`+
-    `<div style="padding:14px 14px 14px">`+
-      `<div style="font-size:14px;font-weight:700;color:var(--text);margin-bottom:${dayNote?'8px':'12px'}">`+
-        `${DAYS_IT[_panoDay]} ${fmtDate(selDate)}`+
-        `<span style="font-weight:400;color:var(--muted);font-size:13px;margin-left:8px">${daySlots.length} ${daySlots.length===1?'turno':'turni'}</span>`+
-      `</div>`+
-      (dayNote?'<div style="background:var(--yellow-bg);border:1px solid var(--yellow);border-radius:8px;padding:9px 12px;margin-bottom:12px;display:flex;gap:8px;align-items:flex-start;font-size:13px;color:var(--yellow);line-height:1.5">\uD83D\uDCDD <span>'+esc(dayNote)+'</span></div>':'')+
-      `${detailHtml}</div>`;
-}
+  var dayBarHtml='<div style="display:table;width:100%;border-bottom:2px solid var(--border);background:var(--surface)"><div style="display:table-row">';
+  Array.from({length:7},function(_,d){
+    var date=addDays(mon,d);
+    var isWe=d>=5;
+    var tod=isToday(date);
+    var sel=d===_panoDay;
+    var borderColor=sel?'var(--accent)':'transparent';
+    var textColor=sel?'var(--accent)':tod?'var(--accent-dark)':isWe?'var(--accent)':'var(--text2)';
+    var fw=sel?700:500;
+    dayBarHtml+='<div onclick="selectPanoDay('+d+')" style="'
+      +'display:table-cell;text-align:center;cursor:pointer;padding:8px 0 6px;'
+      +'border-bottom:3px solid '+borderColor+';'
+      +'color:'+textColor+';'
+      +'font-weight:'+fw+';transition:border-color .15s;font-family:Inter,sans-serif;width:14.28%">'
+      +'<div style="font-size:9px;text-transform:uppercase;letter-spacing:.6px;margin-bottom:2px">'+DAYS_S[d]+'</div>'
+      +'<div style="font-size:17px;font-weight:800;line-height:1;font-family:monospace">'+date.getDate()+'</div>'
+      +'</div>';
+  });
+  dayBarHtml+='</div></div>';
 
+  var noteHtml=dayNote?('<div style="background:var(--yellow-bg);border:1px solid var(--yellow);border-radius:8px;padding:9px 12px;margin-bottom:12px;display:flex;gap:8px;align-items:flex-start;font-size:13px;color:var(--yellow);line-height:1.5">📝 <span>'+esc(dayNote)+'</span></div>'):'';
+
+  var titleHtml='<div style="font-size:14px;font-weight:700;color:var(--text);margin-bottom:'+(dayNote?'8px':'12px')+'">'
+    +DAYS_IT[_panoDay]+' '+fmtDate(selDate)
+    +'<span style="font-weight:400;color:var(--muted);font-size:13px;margin-left:8px">'+daySlots.length+' '+(daySlots.length===1?'turno':'turni')+'</span>'
+    +'</div>';
+
+  grid.innerHTML=dayBarHtml+'<div style="padding:14px 14px 14px">'+titleHtml+noteHtml+detailHtml+'</div>';
 }
 
 function selectPanoDay(d){
