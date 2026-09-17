@@ -6168,6 +6168,1254 @@
         ]
       },
       "publishedAt": "2026-09-01T07:25:25.238Z"
+    },
+    "2026-W40": {
+      "schedule": {
+        "0": {
+          "p-1a": [],
+          "p-1b": [],
+          "p0a": [],
+          "p0b": [],
+          "p1a": [],
+          "p1b": [],
+          "p2a": [],
+          "p2b": [],
+          "p3": [],
+          "p4": [],
+          "alb0a": [],
+          "alb0b": [
+            {
+              "start": "8:00",
+              "end": "12:00",
+              "person": "LIMONTA YESIEL",
+              "note": "Disallestimento/allestimento PdA"
+            },
+            {
+              "start": "13:00",
+              "end": "18:00",
+              "person": "HUSSAIN SADAM"
+            }
+          ],
+          "alb1": [
+            {
+              "start": "8:00",
+              "end": "12:00",
+              "person": "GIULIETTI ANDREA"
+            },
+            {
+              "start": "13:00",
+              "end": "18:00",
+              "person": "LIMONTA YESIEL",
+              "note": "Disallestimento/allestimetno PdA"
+            }
+          ],
+          "alb2": [
+            {
+              "start": "8:00",
+              "end": "12:00",
+              "person": "HUSSAIN SADAM"
+            },
+            {
+              "start": "13:00",
+              "end": "18:00",
+              "person": "GIULIETTI ANDREA"
+            }
+          ],
+          "ref": [
+            {
+              "start": "09:40",
+              "end": "18:10",
+              "person": ""
+            }
+          ],
+          "ex_1789650323807_0": [
+            {
+              "start": "16:00",
+              "end": "18:15",
+              "person": "DEANESI Davide"
+            },
+            {
+              "start": "18:15",
+              "end": "19:00",
+              "person": "LIMONTA YESIEL"
+            },
+            {
+              "start": "19:00",
+              "end": "23:00",
+              "person": "DEANESI Davide",
+              "note": "Lobby e chiusura"
+            }
+          ],
+          "ex_1789650323807_1": [],
+          "ex_1789651132809": []
+        },
+        "1": {
+          "p-1a": [
+            {
+              "start": "09:40",
+              "end": "13:30",
+              "person": "LIMONTA YESIEL"
+            },
+            {
+              "start": "13:30",
+              "end": "18:10",
+              "person": "CUSCITO ANGELO"
+            }
+          ],
+          "p-1b": [
+            {
+              "start": "09:40",
+              "end": "14:30",
+              "person": "CAMPANELLA ILARIA"
+            },
+            {
+              "start": "14:30",
+              "end": "18:10",
+              "person": ""
+            }
+          ],
+          "p0a": [
+            {
+              "start": "09:40",
+              "end": "12:30",
+              "person": "CUSCITO ANGELO"
+            },
+            {
+              "start": "12:30",
+              "end": "18:10",
+              "person": ""
+            }
+          ],
+          "p0b": [
+            {
+              "start": "09:40",
+              "end": "14:30",
+              "person": ""
+            },
+            {
+              "start": "14:30",
+              "end": "18:10",
+              "person": ""
+            }
+          ],
+          "p1a": [
+            {
+              "start": "09:40",
+              "end": "14:30",
+              "person": ""
+            },
+            {
+              "start": "14:30",
+              "end": "18:10",
+              "person": ""
+            }
+          ],
+          "p1b": [
+            {
+              "start": "09:40",
+              "end": "15:30",
+              "person": ""
+            },
+            {
+              "start": "15:30",
+              "end": "18:10",
+              "person": "CAMPANELLA ILARIA"
+            }
+          ],
+          "p2a": [
+            {
+              "start": "09:40",
+              "end": "14:30",
+              "person": "ROCCO GIOVANNA"
+            },
+            {
+              "start": "14:30",
+              "end": "18:10",
+              "person": "GAETANO MICHELANGELO"
+            }
+          ],
+          "p2b": [
+            {
+              "start": "09:40",
+              "end": "13:30",
+              "person": "GAETANO MICHELANGELO"
+            },
+            {
+              "start": "13:30",
+              "end": "18:10",
+              "person": ""
+            }
+          ],
+          "p3": [
+            {
+              "start": "09:40",
+              "end": "15:30",
+              "person": ""
+            },
+            {
+              "start": "15:30",
+              "end": "18:10",
+              "person": ""
+            }
+          ],
+          "p4": [
+            {
+              "start": "09:40",
+              "end": "14:30",
+              "person": ""
+            },
+            {
+              "start": "14:30",
+              "end": "18:10",
+              "person": "LIMONTA YESIEL"
+            }
+          ],
+          "alb0a": [],
+          "alb0b": [
+            {
+              "start": "8:00",
+              "end": "12:00",
+              "person": "GIULIETTI ANDREA",
+              "note": "Disallestimento/allestimento PdA"
+            },
+            {
+              "start": "13:00",
+              "end": "18:00",
+              "person": "",
+              "note": "Disallestimento/allestimetno PdA"
+            }
+          ],
+          "alb1": [
+            {
+              "start": "8:00",
+              "end": "12:00",
+              "person": "",
+              "note": "Disallestimento/allestimento PdA"
+            },
+            {
+              "start": "13:00",
+              "end": "18:00",
+              "person": "GIULIETTI ANDREA",
+              "note": "Disallestimento/allestimetno PdA"
+            }
+          ],
+          "alb2": [
+            {
+              "start": "8:00",
+              "end": "12:00",
+              "person": "",
+              "note": "Disallestimento/allestimento PdA"
+            },
+            {
+              "start": "13:00",
+              "end": "18:00",
+              "person": "",
+              "note": "Disallestimento/allestimetno PdA"
+            }
+          ],
+          "ref": [
+            {
+              "start": "09:40",
+              "end": "18:10",
+              "person": ""
+            }
+          ],
+          "ex_1789650323807_0": [],
+          "ex_1789650323807_1": [],
+          "ex_1789651132809": []
+        },
+        "2": {
+          "p-1a": [
+            {
+              "start": "09:40",
+              "end": "13:30",
+              "person": ""
+            },
+            {
+              "start": "13:30",
+              "end": "18:10",
+              "person": ""
+            }
+          ],
+          "p-1b": [
+            {
+              "start": "09:40",
+              "end": "12:30",
+              "person": ""
+            },
+            {
+              "start": "12:30",
+              "end": "18:10",
+              "person": ""
+            }
+          ],
+          "p0a": [
+            {
+              "start": "09:40",
+              "end": "13:30",
+              "person": ""
+            },
+            {
+              "start": "13:30",
+              "end": "18:10",
+              "person": ""
+            }
+          ],
+          "p0b": [
+            {
+              "start": "09:40",
+              "end": "14:30",
+              "person": ""
+            },
+            {
+              "start": "14:30",
+              "end": "18:10",
+              "person": ""
+            }
+          ],
+          "p1a": [
+            {
+              "start": "09:40",
+              "end": "14:30",
+              "person": "ROCCO GIOVANNA"
+            },
+            {
+              "start": "14:30",
+              "end": "18:10",
+              "person": ""
+            }
+          ],
+          "p1b": [
+            {
+              "start": "09:40",
+              "end": "15:30",
+              "person": ""
+            },
+            {
+              "start": "15:30",
+              "end": "18:10",
+              "person": ""
+            }
+          ],
+          "p2a": [
+            {
+              "start": "09:40",
+              "end": "14:30",
+              "person": ""
+            },
+            {
+              "start": "14:30",
+              "end": "18:10",
+              "person": ""
+            }
+          ],
+          "p2b": [
+            {
+              "start": "09:40",
+              "end": "13:30",
+              "person": ""
+            },
+            {
+              "start": "13:30",
+              "end": "18:10",
+              "person": ""
+            }
+          ],
+          "p3": [
+            {
+              "start": "09:40",
+              "end": "15:30",
+              "person": ""
+            },
+            {
+              "start": "15:30",
+              "end": "18:10",
+              "person": ""
+            }
+          ],
+          "p4": [
+            {
+              "start": "09:40",
+              "end": "14:30",
+              "person": ""
+            },
+            {
+              "start": "14:30",
+              "end": "18:10",
+              "person": ""
+            }
+          ],
+          "alb0a": [],
+          "alb0b": [
+            {
+              "start": "8:00",
+              "end": "12:00",
+              "person": "",
+              "note": "Disallestimento/allestimento PdA"
+            },
+            {
+              "start": "13:00",
+              "end": "18:00",
+              "person": "",
+              "note": "Disallestimento/allestimetno PdA"
+            }
+          ],
+          "alb1": [
+            {
+              "start": "8:00",
+              "end": "12:00",
+              "person": "",
+              "note": "Disallestimento/allestimento PdA"
+            },
+            {
+              "start": "13:00",
+              "end": "18:00",
+              "person": "",
+              "note": "Disallestimento/allestimetno PdA"
+            }
+          ],
+          "alb2": [
+            {
+              "start": "8:00",
+              "end": "12:00",
+              "person": "",
+              "note": "Disallestimento/allestimento PdA"
+            },
+            {
+              "start": "13:00",
+              "end": "18:00",
+              "person": "",
+              "note": "Disallestimento/allestimetno PdA"
+            }
+          ],
+          "ref": [
+            {
+              "start": "09:40",
+              "end": "18:10",
+              "person": ""
+            }
+          ],
+          "ex_1789650323807_0": [
+            {
+              "start": "09:40",
+              "end": "18:10",
+              "person": ""
+            }
+          ],
+          "ex_1789650323807_1": [
+            {
+              "start": "09:40",
+              "end": "18:10",
+              "person": ""
+            }
+          ],
+          "ex_1789651132809": []
+        },
+        "3": {
+          "p-1a": [
+            {
+              "start": "09:40",
+              "end": "13:30",
+              "person": ""
+            },
+            {
+              "start": "13:30",
+              "end": "18:10",
+              "person": ""
+            }
+          ],
+          "p-1b": [
+            {
+              "start": "09:40",
+              "end": "14:30",
+              "person": ""
+            },
+            {
+              "start": "14:30",
+              "end": "18:10",
+              "person": ""
+            }
+          ],
+          "p0a": [
+            {
+              "start": "09:40",
+              "end": "13:30",
+              "person": ""
+            },
+            {
+              "start": "13:30",
+              "end": "18:10",
+              "person": ""
+            }
+          ],
+          "p0b": [
+            {
+              "start": "09:40",
+              "end": "14:30",
+              "person": ""
+            },
+            {
+              "start": "14:30",
+              "end": "18:10",
+              "person": ""
+            }
+          ],
+          "p1a": [
+            {
+              "start": "09:40",
+              "end": "14:30",
+              "person": ""
+            },
+            {
+              "start": "14:30",
+              "end": "18:10",
+              "person": ""
+            }
+          ],
+          "p1b": [
+            {
+              "start": "09:40",
+              "end": "15:30",
+              "person": ""
+            },
+            {
+              "start": "15:30",
+              "end": "18:10",
+              "person": ""
+            }
+          ],
+          "p2a": [
+            {
+              "start": "09:40",
+              "end": "14:30",
+              "person": ""
+            },
+            {
+              "start": "14:30",
+              "end": "18:10",
+              "person": ""
+            }
+          ],
+          "p2b": [
+            {
+              "start": "09:40",
+              "end": "13:30",
+              "person": ""
+            },
+            {
+              "start": "13:30",
+              "end": "18:10",
+              "person": ""
+            }
+          ],
+          "p3": [
+            {
+              "start": "09:40",
+              "end": "15:30",
+              "person": ""
+            },
+            {
+              "start": "15:30",
+              "end": "18:10",
+              "person": ""
+            }
+          ],
+          "p4": [
+            {
+              "start": "09:40",
+              "end": "14:30",
+              "person": ""
+            },
+            {
+              "start": "14:30",
+              "end": "18:10",
+              "person": ""
+            }
+          ],
+          "alb0a": [],
+          "alb0b": [
+            {
+              "start": "8:00",
+              "end": "12:00",
+              "person": "",
+              "note": "Disallestimento/allestimento PdA"
+            },
+            {
+              "start": "13:00",
+              "end": "18:00",
+              "person": "",
+              "note": "Disallestimento/allestimetno PdA"
+            }
+          ],
+          "alb1": [
+            {
+              "start": "8:00",
+              "end": "12:00",
+              "person": "",
+              "note": "Disallestimento/allestimento PdA"
+            },
+            {
+              "start": "13:00",
+              "end": "18:00",
+              "person": "",
+              "note": "Disallestimento/allestimetno PdA"
+            }
+          ],
+          "alb2": [
+            {
+              "start": "8:00",
+              "end": "12:00",
+              "person": "",
+              "note": "Disallestimento/allestimento PdA"
+            },
+            {
+              "start": "13:00",
+              "end": "18:00",
+              "person": "",
+              "note": "Disallestimento/allestimetno PdA"
+            }
+          ],
+          "ref": [
+            {
+              "start": "09:40",
+              "end": "18:10",
+              "person": ""
+            }
+          ],
+          "ex_1789650323807_0": [],
+          "ex_1789650323807_1": [],
+          "ex_1789651132809": []
+        },
+        "4": {
+          "p-1a": [
+            {
+              "start": "09:40",
+              "end": "13:30",
+              "person": ""
+            },
+            {
+              "start": "13:30",
+              "end": "18:10",
+              "person": ""
+            }
+          ],
+          "p-1b": [
+            {
+              "start": "09:40",
+              "end": "14:30",
+              "person": ""
+            },
+            {
+              "start": "14:30",
+              "end": "18:10",
+              "person": ""
+            }
+          ],
+          "p0a": [
+            {
+              "start": "09:40",
+              "end": "13:30",
+              "person": ""
+            },
+            {
+              "start": "13:30",
+              "end": "18:10",
+              "person": ""
+            }
+          ],
+          "p0b": [
+            {
+              "start": "09:40",
+              "end": "14:30",
+              "person": ""
+            },
+            {
+              "start": "14:30",
+              "end": "18:10",
+              "person": ""
+            }
+          ],
+          "p1a": [
+            {
+              "start": "09:40",
+              "end": "14:30",
+              "person": ""
+            },
+            {
+              "start": "14:30",
+              "end": "18:10",
+              "person": ""
+            }
+          ],
+          "p1b": [
+            {
+              "start": "09:40",
+              "end": "15:30",
+              "person": ""
+            },
+            {
+              "start": "15:30",
+              "end": "18:10",
+              "person": ""
+            }
+          ],
+          "p2a": [
+            {
+              "start": "09:40",
+              "end": "14:30",
+              "person": ""
+            },
+            {
+              "start": "14:30",
+              "end": "18:10",
+              "person": ""
+            }
+          ],
+          "p2b": [
+            {
+              "start": "09:40",
+              "end": "13:30",
+              "person": ""
+            },
+            {
+              "start": "13:30",
+              "end": "18:10",
+              "person": ""
+            }
+          ],
+          "p3": [
+            {
+              "start": "09:40",
+              "end": "15:30",
+              "person": ""
+            },
+            {
+              "start": "15:30",
+              "end": "18:10",
+              "person": ""
+            }
+          ],
+          "p4": [
+            {
+              "start": "09:40",
+              "end": "14:30",
+              "person": ""
+            },
+            {
+              "start": "14:30",
+              "end": "18:10",
+              "person": ""
+            }
+          ],
+          "alb0a": [],
+          "alb0b": [
+            {
+              "start": "8:00",
+              "end": "12:00",
+              "person": "",
+              "note": "Disallestimento/allestimento PdA"
+            },
+            {
+              "start": "13:00",
+              "end": "18:00",
+              "person": "",
+              "note": "Disallestimento/allestimetno PdA"
+            }
+          ],
+          "alb1": [
+            {
+              "start": "8:00",
+              "end": "12:00",
+              "person": "",
+              "note": "Disallestimento/allestimento PdA"
+            },
+            {
+              "start": "13:00",
+              "end": "18:00",
+              "person": "",
+              "note": "Disallestimento/allestimetno PdA"
+            }
+          ],
+          "alb2": [
+            {
+              "start": "8:00",
+              "end": "12:00",
+              "person": "",
+              "note": "Disallestimento/allestimento PdA"
+            },
+            {
+              "start": "13:00",
+              "end": "18:00",
+              "person": "",
+              "note": "Disallestimento/allestimetno PdA"
+            }
+          ],
+          "ref": [
+            {
+              "start": "09:40",
+              "end": "18:10",
+              "person": ""
+            }
+          ],
+          "ex_1789650323807_0": [],
+          "ex_1789650323807_1": [],
+          "ex_1789651132809": []
+        },
+        "5": {
+          "p-1a": [
+            {
+              "start": "09:40",
+              "end": "13:30",
+              "person": ""
+            },
+            {
+              "start": "13:30",
+              "end": "19:10",
+              "person": ""
+            }
+          ],
+          "p-1b": [
+            {
+              "start": "09:40",
+              "end": "14:30",
+              "person": ""
+            },
+            {
+              "start": "14:30",
+              "end": "19:10",
+              "person": ""
+            }
+          ],
+          "p0a": [
+            {
+              "start": "09:40",
+              "end": "13:30",
+              "person": ""
+            },
+            {
+              "start": "13:30",
+              "end": "19:10",
+              "person": ""
+            }
+          ],
+          "p0b": [
+            {
+              "start": "09:40",
+              "end": "14:30",
+              "person": ""
+            },
+            {
+              "start": "14:30",
+              "end": "19:10",
+              "person": ""
+            }
+          ],
+          "p1a": [
+            {
+              "start": "09:40",
+              "end": "14:30",
+              "person": ""
+            },
+            {
+              "start": "14:30",
+              "end": "19:10",
+              "person": ""
+            }
+          ],
+          "p1b": [
+            {
+              "start": "09:40",
+              "end": "15:30",
+              "person": ""
+            },
+            {
+              "start": "15:30",
+              "end": "19:10",
+              "person": ""
+            }
+          ],
+          "p2a": [
+            {
+              "start": "09:40",
+              "end": "14:30",
+              "person": ""
+            },
+            {
+              "start": "14:30",
+              "end": "19:10",
+              "person": ""
+            }
+          ],
+          "p2b": [
+            {
+              "start": "09:40",
+              "end": "13:30",
+              "person": ""
+            },
+            {
+              "start": "13:30",
+              "end": "19:10",
+              "person": ""
+            }
+          ],
+          "p3": [
+            {
+              "start": "09:40",
+              "end": "15:30",
+              "person": ""
+            },
+            {
+              "start": "15:30",
+              "end": "19:10",
+              "person": ""
+            }
+          ],
+          "p4": [
+            {
+              "start": "09:40",
+              "end": "14:30",
+              "person": ""
+            },
+            {
+              "start": "14:30",
+              "end": "19:10",
+              "person": ""
+            }
+          ],
+          "alb0a": [],
+          "alb0b": [
+            {
+              "start": "8:00",
+              "end": "12:00",
+              "person": "",
+              "note": "Disallestimento/allestimento PdA"
+            },
+            {
+              "start": "13:00",
+              "end": "19:00",
+              "person": "",
+              "note": "Disallestimento/allestimento PdA"
+            }
+          ],
+          "alb1": [
+            {
+              "start": "8:00",
+              "end": "12:00",
+              "person": "",
+              "note": "Disallestimento/allestimento PdA"
+            },
+            {
+              "start": "13:00",
+              "end": "19:00",
+              "person": "",
+              "note": "Disallestimento/allestimento PdA"
+            }
+          ],
+          "alb2": [
+            {
+              "start": "8:00",
+              "end": "12:00",
+              "person": "",
+              "note": "Disallestimento/allestimento PdA"
+            },
+            {
+              "start": "13:00",
+              "end": "19:00",
+              "person": "",
+              "note": "Disallestimento/allestimento PdA"
+            }
+          ],
+          "ref": [
+            {
+              "start": "09:40",
+              "end": "19:10",
+              "person": ""
+            }
+          ],
+          "ex_1789650323807_0": [],
+          "ex_1789650323807_1": [],
+          "ex_1789651132809": [
+            {
+              "start": "09:00",
+              "end": "9:30",
+              "person": ""
+            }
+          ]
+        },
+        "6": {
+          "p-1a": [
+            {
+              "start": "09:40",
+              "end": "13:30",
+              "person": ""
+            },
+            {
+              "start": "13:30",
+              "end": "19:10",
+              "person": ""
+            }
+          ],
+          "p-1b": [
+            {
+              "start": "09:40",
+              "end": "14:30",
+              "person": ""
+            },
+            {
+              "start": "14:30",
+              "end": "19:10",
+              "person": ""
+            }
+          ],
+          "p0a": [
+            {
+              "start": "09:40",
+              "end": "13:30",
+              "person": ""
+            },
+            {
+              "start": "13:30",
+              "end": "19:10",
+              "person": ""
+            }
+          ],
+          "p0b": [
+            {
+              "start": "09:40",
+              "end": "14:30",
+              "person": ""
+            },
+            {
+              "start": "14:30",
+              "end": "19:10",
+              "person": ""
+            }
+          ],
+          "p1a": [
+            {
+              "start": "09:40",
+              "end": "14:30",
+              "person": ""
+            },
+            {
+              "start": "14:30",
+              "end": "19:10",
+              "person": ""
+            }
+          ],
+          "p1b": [
+            {
+              "start": "09:40",
+              "end": "15:30",
+              "person": ""
+            },
+            {
+              "start": "15:30",
+              "end": "19:10",
+              "person": ""
+            }
+          ],
+          "p2a": [
+            {
+              "start": "09:40",
+              "end": "14:30",
+              "person": ""
+            },
+            {
+              "start": "14:30",
+              "end": "19:10",
+              "person": ""
+            }
+          ],
+          "p2b": [
+            {
+              "start": "09:40",
+              "end": "13:30",
+              "person": ""
+            },
+            {
+              "start": "13:30",
+              "end": "19:10",
+              "person": ""
+            }
+          ],
+          "p3": [
+            {
+              "start": "09:40",
+              "end": "15:30",
+              "person": ""
+            },
+            {
+              "start": "15:30",
+              "end": "19:10",
+              "person": ""
+            }
+          ],
+          "p4": [
+            {
+              "start": "09:40",
+              "end": "14:30",
+              "person": ""
+            },
+            {
+              "start": "14:30",
+              "end": "19:10",
+              "person": ""
+            }
+          ],
+          "alb0a": [],
+          "alb0b": [
+            {
+              "start": "8:00",
+              "end": "12:00",
+              "person": "",
+              "note": "Disallestimento/allestimento PdA"
+            },
+            {
+              "start": "13:00",
+              "end": "19:00",
+              "person": "",
+              "note": "Disallestimento/allestimento PdA"
+            }
+          ],
+          "alb1": [
+            {
+              "start": "8:00",
+              "end": "12:00",
+              "person": "",
+              "note": "Disallestimento/allestimento PdA"
+            },
+            {
+              "start": "13:00",
+              "end": "19:00",
+              "person": "",
+              "note": "Disallestimento/allestimento PdA"
+            }
+          ],
+          "alb2": [
+            {
+              "start": "8:00",
+              "end": "12:00",
+              "person": "",
+              "note": "Disallestimento/allestimento PdA"
+            },
+            {
+              "start": "13:00",
+              "end": "19:00",
+              "person": "",
+              "note": "Disallestimento/allestimento PdA"
+            }
+          ],
+          "ref": [
+            {
+              "start": "09:40",
+              "end": "19:10",
+              "person": ""
+            }
+          ],
+          "ex_1789650323807_0": [],
+          "ex_1789650323807_1": [],
+          "ex_1789651132809": []
+        },
+        "_edited": {
+          "0": {
+            "alb0b": true,
+            "alb1": true,
+            "alb0a": true,
+            "p-1a": true,
+            "p-1b": true,
+            "p0a": true,
+            "p0b": true,
+            "p1a": true,
+            "p1b": true,
+            "p2a": true,
+            "p2b": true,
+            "p3": true,
+            "p4": true,
+            "ex_1789650323807_1": true,
+            "ex_1789650323807_0": true,
+            "ex_1789651132809": true,
+            "alb2": true
+          },
+          "1": {
+            "alb0b": true,
+            "alb1": true,
+            "alb0a": true,
+            "ex_1789650323807_1": true,
+            "ex_1789650323807_0": true,
+            "ex_1789651132809": true,
+            "p-1a": true,
+            "p4": true,
+            "p0a": true,
+            "p-1b": true,
+            "p1b": true,
+            "p2b": true,
+            "p2a": true
+          },
+          "2": {
+            "alb0b": true,
+            "alb1": true,
+            "alb0a": true,
+            "ex_1789651132809": true,
+            "p-1b": true,
+            "p1a": true
+          },
+          "3": {
+            "alb0b": true,
+            "alb1": true,
+            "alb0a": true,
+            "ex_1789650323807_1": true,
+            "ex_1789650323807_0": true,
+            "ex_1789651132809": true
+          },
+          "4": {
+            "alb0b": true,
+            "alb1": true,
+            "alb0a": true,
+            "ex_1789650323807_1": true,
+            "ex_1789650323807_0": true,
+            "ex_1789651132809": true
+          },
+          "5": {
+            "alb0b": true,
+            "alb1": true,
+            "alb0a": true,
+            "ex_1789650323807_1": true,
+            "alb2": true,
+            "ex_1789650323807_0": true,
+            "ex_1789651132809": true
+          },
+          "6": {
+            "alb0b": true,
+            "alb1": true,
+            "alb0a": true,
+            "ex_1789650323807_1": true,
+            "ex_1789650323807_0": true,
+            "ex_1789651132809": true
+          }
+        },
+        "_extraSections": [
+          {
+            "id": "ex_1789650323807_0",
+            "label": "Evento Culturale - SomAtomica A",
+            "type": "extra",
+            "area": "Evento Culturale - SomAtomica"
+          },
+          {
+            "id": "ex_1789650323807_1",
+            "label": "Evento Culturale - SomAtomica B",
+            "type": "extra",
+            "area": "Evento Culturale - SomAtomica"
+          },
+          {
+            "id": "ex_1789651132809",
+            "label": "Evento - Attività distretto educazione",
+            "type": "extra",
+            "area": "Evento - Attività distretto educazione"
+          }
+        ]
+      },
+      "publishedAt": "2026-09-17T13:32:09.003Z"
     }
   },
   "sections": [
@@ -6620,5 +7868,5 @@
       "pin": "4865"
     }
   ],
-  "lastUpdated": "2026-09-17T10:19:32.205Z"
+  "lastUpdated": "2026-09-17T13:32:09.497Z"
 }
