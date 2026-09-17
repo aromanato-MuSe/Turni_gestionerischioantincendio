@@ -3274,7 +3274,7 @@
               "person": "DALIPI KARLOTTA"
             },
             {
-              "start": "12:30",
+              "start": "16:00",
               "end": "18:10",
               "person": "FIKRI Mohamed"
             }
@@ -4351,7 +4351,7 @@
           "6": "REFERENTE DI GIORNATA\tTOMASI MAURO"
         }
       },
-      "publishedAt": "2026-09-12T08:58:01.671Z"
+      "publishedAt": "2026-09-17T10:19:31.716Z"
     },
     "2026-W38": {
       "schedule": {
@@ -6620,5 +6620,5 @@
       "pin": "4865"
     }
   ],
-  "lastUpdated": "2026-09-12T08:58:02.207Z"
+  "lastUpdated": "2026-09-17T10:19:32.205Z"
 }
