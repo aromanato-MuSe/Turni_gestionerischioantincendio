@@ -7324,9 +7324,20 @@
             },
             {
               "start": "13:00",
-              "end": "19:00",
+              "end": "16:00",
               "person": "PUSCEDDU ERNESTO",
               "note": "Disallestimento/allestimento PdA"
+            },
+            {
+              "start": "16:00",
+              "end": "16:30",
+              "person": "TOMASI MAURO"
+            },
+            {
+              "start": "16:30",
+              "end": "19:30",
+              "person": "PUSCEDDU ERNESTO",
+              "note": "Chiusura PdA"
             }
           ],
           "alb1": [
@@ -7338,9 +7349,19 @@
             },
             {
               "start": "13:00",
-              "end": "19:00",
+              "end": "16:30",
               "person": "BUTT Adeel",
               "note": "Disallestimento/allestimento PdA"
+            },
+            {
+              "start": "16:30",
+              "end": "17:00",
+              "person": "TOMASI MAURO"
+            },
+            {
+              "start": "17:00",
+              "end": "19:30",
+              "person": "BUTT Adeel"
             }
           ],
           "alb2": [
@@ -7553,7 +7574,7 @@
           "6": "Referente ufficio: Andrea       Referente antincendio: Tomasi Mauro"
         }
       },
-      "publishedAt": "2026-09-18T11:20:34.512Z"
+      "publishedAt": "2026-09-18T14:58:58.625Z"
     }
   },
   "sections": [
@@ -8012,5 +8033,5 @@
       "pin": "3788"
     }
   ],
-  "lastUpdated": "2026-09-18T11:20:35.009Z"
+  "lastUpdated": "2026-09-18T14:58:59.075Z"
 }
