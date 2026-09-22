@@ -6629,7 +6629,7 @@
           "ex_1789650323807_0": [
             {
               "start": "18:00",
-              "end": "23:00",
+              "end": "24:00",
               "person": "DEANESI Davide",
               "note": "p0 (se necessario) + lobby"
             }
@@ -7184,14 +7184,7 @@
           ],
           "ex_1789650323807_0": [],
           "ex_1789650323807_1": [],
-          "ex_1789651132809": [
-            {
-              "start": "09:00",
-              "end": "9:30",
-              "person": "GIACOMETTI FRANCESCO",
-              "note": "Piano 0"
-            }
-          ],
+          "ex_1789651132809": [],
           "ex_1789653505724": []
         },
         "6": {
@@ -7576,7 +7569,7 @@
           "6": "Referente ufficio: Andrea       Referente antincendio: Tomasi Mauro"
         }
       },
-      "publishedAt": "2026-09-18T15:05:03.221Z"
+      "publishedAt": "2026-09-22T14:02:20.871Z"
     }
   },
   "sections": [
@@ -8035,5 +8028,5 @@
       "pin": "3788"
     }
   ],
-  "lastUpdated": "2026-09-18T15:05:04.046Z"
+  "lastUpdated": "2026-09-22T14:02:21.340Z"
 }
