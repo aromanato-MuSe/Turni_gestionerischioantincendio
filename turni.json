@@ -6420,6 +6420,11 @@
           "alb1": [
             {
               "start": "8:00",
+              "end": "8:30",
+              "person": "ROMANATO ANDREA"
+            },
+            {
+              "start": "8:30",
               "end": "12:00",
               "person": "BALDO ELIO",
               "note": "Disallestimento/allestimento PdA"
@@ -7618,7 +7623,7 @@
           "6": "Referente ufficio: Andrea       Referente antincendio: Tomasi Mauro"
         }
       },
-      "publishedAt": "2026-09-28T08:07:56.314Z"
+      "publishedAt": "2026-09-28T10:44:33.210Z"
     },
     "2026-W41": {
       "schedule": {
@@ -9746,5 +9751,5 @@
       "pin": "3788"
     }
   ],
-  "lastUpdated": "2026-09-28T08:07:56.930Z"
+  "lastUpdated": "2026-09-28T10:44:33.846Z"
 }
