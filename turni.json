@@ -6230,6 +6230,11 @@
           ],
           "ex_1789650323807_0": [
             {
+              "start": "13:00",
+              "end": "16:00",
+              "person": "TRENTINI ELISABETTA"
+            },
+            {
               "start": "16:00",
               "end": "18:15",
               "person": "DEANESI Davide",
@@ -7608,7 +7613,7 @@
           "6": "Referente ufficio: Andrea       Referente antincendio: Tomasi Mauro"
         }
       },
-      "publishedAt": "2026-09-25T09:09:08.283Z"
+      "publishedAt": "2026-09-28T06:27:14.753Z"
     },
     "2026-W41": {
       "schedule": {
@@ -9736,5 +9741,5 @@
       "pin": "3788"
     }
   ],
-  "lastUpdated": "2026-09-25T13:49:11.307Z"
+  "lastUpdated": "2026-09-28T06:27:15.404Z"
 }
