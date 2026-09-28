@@ -6904,7 +6904,7 @@
             {
               "start": "09:40",
               "end": "14:30",
-              "person": "LOSS Francesca"
+              "person": "ELHALI MANAR"
             },
             {
               "start": "14:30",
@@ -7623,7 +7623,7 @@
           "6": "Referente ufficio: Andrea       Referente antincendio: Tomasi Mauro"
         }
       },
-      "publishedAt": "2026-09-28T10:44:33.210Z"
+      "publishedAt": "2026-09-28T12:17:17.435Z"
     },
     "2026-W41": {
       "schedule": {
@@ -9751,5 +9751,5 @@
       "pin": "3788"
     }
   ],
-  "lastUpdated": "2026-09-28T10:44:33.846Z"
+  "lastUpdated": "2026-09-28T12:17:18.810Z"
 }
