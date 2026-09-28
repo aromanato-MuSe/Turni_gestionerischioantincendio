@@ -6675,7 +6675,7 @@
             {
               "start": "09:40",
               "end": "13:30",
-              "person": "NARDELLI ANNA MARIA"
+              "person": "SANTOS NAYARA"
             },
             {
               "start": "13:30",
@@ -6709,7 +6709,12 @@
           ],
           "p0b": [
             {
-              "start": "09:40",
+              "start": "9:40",
+              "end": "13:30",
+              "person": "IVASHCHUK NINA"
+            },
+            {
+              "start": "13:30",
               "end": "14:30",
               "person": "SANTOS NAYARA"
             },
@@ -7613,7 +7618,7 @@
           "6": "Referente ufficio: Andrea       Referente antincendio: Tomasi Mauro"
         }
       },
-      "publishedAt": "2026-09-28T06:27:14.753Z"
+      "publishedAt": "2026-09-28T08:07:56.314Z"
     },
     "2026-W41": {
       "schedule": {
@@ -9741,5 +9746,5 @@
       "pin": "3788"
     }
   ],
-  "lastUpdated": "2026-09-28T06:27:15.404Z"
+  "lastUpdated": "2026-09-28T08:07:56.930Z"
 }
