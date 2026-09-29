@@ -8065,18 +8065,7 @@
           "alb0b": [],
           "alb1": [],
           "alb2": [],
-          "ref": [
-            {
-              "start": "09:30",
-              "end": "14:30",
-              "person": "FERRETTI GIANLUCA"
-            },
-            {
-              "start": "14:30",
-              "end": "18:10",
-              "person": "BALDO ELIO"
-            }
-          ],
+          "ref": [],
           "ex_1790344091386_4zlu": [
             {
               "start": "08:00",
@@ -8241,18 +8230,7 @@
           "alb0b": [],
           "alb1": [],
           "alb2": [],
-          "ref": [
-            {
-              "start": "09:30",
-              "end": "14:30",
-              "person": "FERRETTI GIANLUCA"
-            },
-            {
-              "start": "14:30",
-              "end": "18:10",
-              "person": "CAMPANELLA ILARIA"
-            }
-          ],
+          "ref": [],
           "ex_1790344091386_4zlu": [
             {
               "start": "08:00",
@@ -8439,18 +8417,7 @@
           "alb0b": [],
           "alb1": [],
           "alb2": [],
-          "ref": [
-            {
-              "start": "09:30",
-              "end": "14:30",
-              "person": "FERRETTI GIANLUCA"
-            },
-            {
-              "start": "14:30",
-              "end": "18:10",
-              "person": "TOMASI MAURO"
-            }
-          ],
+          "ref": [],
           "ex_1790344091386_4zlu": [
             {
               "start": "08:00",
@@ -9282,8 +9249,7 @@
           "1": "Referente/supporto: 09.40 - 13.30 15.30 - 16.00 IVASHCHUK DI SUPPORTO"
         }
       },
-      "publishedAt": "2026-09-29T09:14:01.603Z",
-      "publishedFrom": "mobile"
+      "publishedAt": "2026-09-29T09:25:26.382Z"
     }
   },
   "sections": [
@@ -9388,6 +9354,12 @@
   ],
   "staff": [
     {
+      "cog": "AGNOLETTO",
+      "nom": "Michael",
+      "contratto": 18,
+      "pin": "8408"
+    },
+    {
       "cog": "BALDO",
       "nom": "ELIO",
       "contratto": 25,
@@ -9395,6 +9367,18 @@
         "sezioniEscluse": []
       },
       "pin": "8544"
+    },
+    {
+      "cog": "BUFFA",
+      "nom": "Francesco",
+      "contratto": null,
+      "pin": "3788"
+    },
+    {
+      "cog": "BUTT",
+      "nom": "Adeel",
+      "contratto": 18,
+      "pin": "6239"
     },
     {
       "cog": "CAMPANELLA",
@@ -9424,6 +9408,15 @@
       "pin": "9874"
     },
     {
+      "cog": "CORETTI",
+      "nom": "EMANUELE",
+      "contratto": 1,
+      "vincoli": {
+        "sezioniEscluse": []
+      },
+      "pin": "1116"
+    },
+    {
       "cog": "CUSCITO",
       "nom": "ANGELO",
       "contratto": 37,
@@ -9433,6 +9426,36 @@
       "pin": "5986"
     },
     {
+      "cog": "DALIPI",
+      "nom": "KARLOTTA",
+      "contratto": null,
+      "pin": "4865"
+    },
+    {
+      "cog": "DALPAS",
+      "nom": "MATTEO",
+      "contratto": 1,
+      "pin": "2591"
+    },
+    {
+      "cog": "DEANESI",
+      "nom": "Davide",
+      "contratto": 1,
+      "pin": "3871"
+    },
+    {
+      "cog": "EL BAOUNY",
+      "nom": "Amin",
+      "contratto": 1,
+      "pin": "7795"
+    },
+    {
+      "cog": "ELHALI",
+      "nom": "MANAR",
+      "contratto": 18,
+      "pin": "3674"
+    },
+    {
       "cog": "FERRETTI",
       "nom": "GIANLUCA",
       "contratto": 37,
@@ -9440,6 +9463,12 @@
         "sezioniEscluse": []
       },
       "pin": "6001"
+    },
+    {
+      "cog": "FIKRI",
+      "nom": "Mohamed",
+      "contratto": 18,
+      "pin": "5128"
     },
     {
       "cog": "GAETANO",
@@ -9458,6 +9487,15 @@
         "sezioniEscluse": []
       },
       "pin": "9095"
+    },
+    {
+      "cog": "GIACOMOZZI",
+      "nom": "GRAZIELLA",
+      "contratto": 1,
+      "vincoli": {
+        "sezioniEscluse": []
+      },
+      "pin": "5056"
     },
     {
       "cog": "GIULIETTI",
@@ -9487,6 +9525,15 @@
       "pin": "8575"
     },
     {
+      "cog": "KHAN",
+      "nom": "IJAZ",
+      "contratto": 18,
+      "vincoli": {
+        "sezioniEscluse": []
+      },
+      "pin": "2552"
+    },
+    {
       "cog": "LIMONTA",
       "nom": "YESIEL",
       "contratto": 37,
@@ -9494,6 +9541,12 @@
         "sezioniEscluse": []
       },
       "pin": "5057"
+    },
+    {
+      "cog": "LOSS",
+      "nom": "Francesca",
+      "contratto": 18,
+      "pin": "6697"
     },
     {
       "cog": "MARCHETTI",
@@ -9505,6 +9558,12 @@
       "pin": "2826"
     },
     {
+      "cog": "MAXI OOH",
+      "nom": "",
+      "contratto": 1,
+      "pin": "8354"
+    },
+    {
       "cog": "MICHELETTI",
       "nom": "LORENZO",
       "contratto": 18,
@@ -9512,6 +9571,18 @@
         "sezioniEscluse": []
       },
       "pin": "1984"
+    },
+    {
+      "cog": "MONTEMURRO",
+      "nom": "Alessio",
+      "contratto": 1,
+      "pin": "8458"
+    },
+    {
+      "cog": "MOTTER",
+      "nom": "MICHELE",
+      "contratto": 1,
+      "pin": "6900"
     },
     {
       "cog": "NARDELLI",
@@ -9550,6 +9621,15 @@
       "pin": "2742"
     },
     {
+      "cog": "RADA",
+      "nom": "SASA",
+      "contratto": 1,
+      "vincoli": {
+        "sezioniEscluse": []
+      },
+      "pin": "6197"
+    },
+    {
       "cog": "RICCIO",
       "nom": "ROSARIA",
       "contratto": 37,
@@ -9568,6 +9648,12 @@
       "pin": "5994"
     },
     {
+      "cog": "ROMANATO",
+      "nom": "ANDREA",
+      "contratto": 1,
+      "pin": "5086"
+    },
+    {
       "cog": "SANTOS",
       "nom": "NAYARA",
       "contratto": 21,
@@ -9575,6 +9661,12 @@
         "sezioniEscluse": []
       },
       "pin": "1134"
+    },
+    {
+      "cog": "SARTORI",
+      "nom": "CAMILLA",
+      "contratto": null,
+      "pin": "9695"
     },
     {
       "cog": "SILVESTRI",
@@ -9620,133 +9712,7 @@
         "sezioniEscluse": []
       },
       "pin": "1543"
-    },
-    {
-      "cog": "KHAN",
-      "nom": "IJAZ",
-      "contratto": 18,
-      "vincoli": {
-        "sezioniEscluse": []
-      },
-      "pin": "2552"
-    },
-    {
-      "cog": "CORETTI",
-      "nom": "EMANUELE",
-      "contratto": 1,
-      "vincoli": {
-        "sezioniEscluse": []
-      },
-      "pin": "1116"
-    },
-    {
-      "cog": "GIACOMOZZI",
-      "nom": "GRAZIELLA",
-      "contratto": 1,
-      "vincoli": {
-        "sezioniEscluse": []
-      },
-      "pin": "5056"
-    },
-    {
-      "cog": "RADA",
-      "nom": "SASA",
-      "contratto": 1,
-      "vincoli": {
-        "sezioniEscluse": []
-      },
-      "pin": "6197"
-    },
-    {
-      "cog": "MONTEMURRO",
-      "nom": "Alessio",
-      "contratto": 1,
-      "pin": "8458"
-    },
-    {
-      "cog": "AGNOLETTO",
-      "nom": "Michael",
-      "contratto": 18,
-      "pin": "8408"
-    },
-    {
-      "cog": "FIKRI",
-      "nom": "Mohamed",
-      "contratto": 18,
-      "pin": "5128"
-    },
-    {
-      "cog": "BUTT",
-      "nom": "Adeel",
-      "contratto": 18,
-      "pin": "6239"
-    },
-    {
-      "cog": "MAXI OOH",
-      "nom": "",
-      "contratto": 1,
-      "pin": "8354"
-    },
-    {
-      "cog": "DEANESI",
-      "nom": "Davide",
-      "contratto": 1,
-      "pin": "3871"
-    },
-    {
-      "cog": "EL BAOUNY",
-      "nom": "Amin",
-      "contratto": 1,
-      "pin": "7795"
-    },
-    {
-      "cog": "ROMANATO",
-      "nom": "ANDREA",
-      "contratto": 1,
-      "pin": "5086"
-    },
-    {
-      "cog": "MOTTER",
-      "nom": "MICHELE",
-      "contratto": 1,
-      "pin": "6900"
-    },
-    {
-      "cog": "SARTORI",
-      "nom": "CAMILLA",
-      "contratto": null,
-      "pin": "9695"
-    },
-    {
-      "cog": "ELHALI",
-      "nom": "MANAR",
-      "contratto": 18,
-      "pin": "3674"
-    },
-    {
-      "cog": "LOSS",
-      "nom": "Francesca",
-      "contratto": 18,
-      "pin": "6697"
-    },
-    {
-      "cog": "DALIPI",
-      "nom": "KARLOTTA",
-      "contratto": null,
-      "pin": "4865"
-    },
-    {
-      "cog": "BUFFA",
-      "nom": "Francesco",
-      "contratto": null,
-      "pin": "3788"
-    },
-    {
-      "cog": "DALPAS",
-      "nom": "MATTEO",
-      "contratto": 1,
-      "pin": "2591"
     }
   ],
-  "lastUpdated": "2026-09-29T09:14:01.603Z"
+  "lastUpdated": "2026-09-29T09:25:27.171Z"
 }
