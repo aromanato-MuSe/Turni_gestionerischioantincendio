@@ -6363,7 +6363,7 @@
             {
               "start": "14:30",
               "end": "18:10",
-              "person": "ROMANATO ANDREA"
+              "person": "DALPAS MATTEO"
             }
           ],
           "p2b": [
@@ -7623,7 +7623,7 @@
           "6": "Referente ufficio: Andrea       Referente antincendio: Tomasi Mauro"
         }
       },
-      "publishedAt": "2026-09-28T12:17:17.435Z"
+      "publishedAt": "2026-09-29T07:54:46.397Z"
     },
     "2026-W41": {
       "schedule": {
@@ -9749,7 +9749,13 @@
       "nom": "Francesco",
       "contratto": null,
       "pin": "3788"
+    },
+    {
+      "cog": "DALPAS",
+      "nom": "MATTEO",
+      "contratto": 1,
+      "pin": "2591"
     }
   ],
-  "lastUpdated": "2026-09-28T12:17:18.810Z"
+  "lastUpdated": "2026-09-29T07:54:47.247Z"
 }
