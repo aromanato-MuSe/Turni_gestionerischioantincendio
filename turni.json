@@ -6363,7 +6363,7 @@
             {
               "start": "14:30",
               "end": "18:10",
-              "person": "DALPAS MATTEO"
+              "person": "SARTORI CAMILLA"
             }
           ],
           "p2b": [
@@ -7623,7 +7623,8 @@
           "6": "Referente ufficio: Andrea       Referente antincendio: Tomasi Mauro"
         }
       },
-      "publishedAt": "2026-09-29T08:02:12.846Z"
+      "publishedAt": "2026-09-29T09:04:12.187Z",
+      "publishedFrom": "mobile"
     },
     "2026-W41": {
       "schedule": {
@@ -9757,5 +9758,5 @@
       "pin": "2591"
     }
   ],
-  "lastUpdated": "2026-09-29T08:02:13.446Z"
+  "lastUpdated": "2026-09-29T09:04:12.188Z"
 }
