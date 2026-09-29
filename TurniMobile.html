@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Turni Edit">
+<title>Turni MUSE · Modifica</title>
+<style>
+:root{
+  --bg:#f1f5f9;--surface:#fff;--surface2:#f8fafc;--border:#e2e8f0;--border2:#cbd5e1;
+  --text:#0f172a;--text2:#475569;--muted:#94a3b8;
+  --accent:#2563eb;--accent-bg:#eff6ff;--green:#16a34a;--green-bg:#f0fdf4;
+  --red:#dc2626;--red-bg:#fef2f2;--orange:#ea580c;--orange-bg:#fff7ed;
+  --piano:#3b82f6;--palazzo:#059669;--ref:#ca8a04;--extra:#7c3aed;
+}
+@media(prefers-color-scheme:dark){:root{
+  --bg:#0f172a;--surface:#1e293b;--surface2:#172033;--border:#334155;--border2:#475569;
+  --text:#f1f5f9;--text2:#cbd5e1;--muted:#64748b;
+  --accent:#60a5fa;--accent-bg:#172554;--green:#4ade80;--green-bg:#052e16;
+  --red:#f87171;--red-bg:#450a0a;--orange:#fb923c;--orange-bg:#431407;
+  --piano:#60a5fa;--palazzo:#34d399;--ref:#fbbf24;--extra:#a78bfa;
+}}
+*{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
+html,body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;font-size:15px}
+body{padding-bottom:calc(84px + env(safe-area-inset-bottom))}
+.top{position:sticky;top:0;z-index:20;background:var(--surface);border-bottom:1px solid var(--border);padding:calc(10px + env(safe-area-inset-top)) 14px 10px}
+.top-row{display:flex;align-items:center;gap:10px}
+.brand{font-weight:800;font-size:15px;letter-spacing:.5px;flex:1}
+.brand small{display:block;font-weight:500;font-size:11px;color:var(--muted);letter-spacing:0}
+.icon-btn{border:1px solid var(--border2);background:var(--surface2);color:var(--text);border-radius:10px;padding:7px 11px;font-size:14px}
+select.wk{width:100%;margin-top:10px;padding:9px 10px;border-radius:10px;border:1px solid var(--border2);background:var(--surface2);color:var(--text);font-size:14px}
+.days{display:flex;gap:4px;margin-top:10px}
+.day{flex:1;border:none;background:none;padding:6px 0 7px;border-radius:10px;color:var(--text2);text-align:center}
+.day .dn{font-size:10px;text-transform:uppercase;letter-spacing:.5px}
+.day .dd{font-size:17px;font-weight:800;line-height:1.15}
+.day.sel{background:var(--accent);color:#fff}
+.day.today:not(.sel) .dd{color:var(--accent)}
+.day .dot{width:5px;height:5px;border-radius:50%;background:var(--orange);margin:2px auto 0;visibility:hidden}
+.day.dirty .dot{visibility:visible}
+.main{padding:12px 12px 20px}
+.note-day{background:var(--orange-bg);color:var(--orange);border-radius:10px;padding:9px 12px;font-size:13px;margin-bottom:10px;white-space:pre-line}
+.sec{background:var(--surface);border:1px solid var(--border);border-radius:14px;margin-bottom:10px;overflow:hidden}
+.sec-h{padding:9px 12px 7px;border-left:4px solid var(--piano);display:flex;align-items:baseline;gap:8px}
+.sec-h b{font-size:13px;text-transform:uppercase;letter-spacing:.4px}
+.sec-h span{font-size:11px;color:var(--muted);flex:1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.sec.palazzo .sec-h{border-left-color:var(--palazzo)}
+.sec.referente .sec-h{border-left-color:var(--ref)}
+.sec.extra .sec-h{border-left-color:var(--extra)}
+.slot{display:flex;align-items:center;gap:10px;padding:11px 12px;border-top:1px solid var(--border);min-height:48px}
+.slot:active{background:var(--surface2)}
+.slot .t{font-family:ui-monospace,Menlo,monospace;font-size:13px;font-weight:600;color:var(--text2);min-width:98px}
+.slot .p{flex:1;font-weight:700;font-size:15px}
+.slot .p.empty{color:var(--muted);font-weight:500;font-style:italic}
+.slot .p small{font-weight:400;font-size:12px;color:var(--text2);margin-left:4px}
+.slot .n{font-size:13px}
+.slot.changed{background:var(--orange-bg)}
+.add{display:block;width:100%;border:none;border-top:1px dashed var(--border2);background:none;color:var(--accent);padding:9px;font-size:13px;font-weight:600}
+.toggle{display:block;width:100%;border:1px dashed var(--border2);background:none;color:var(--text2);border-radius:12px;padding:10px;font-size:13px;margin-top:4px}
+.bar{position:fixed;left:0;right:0;bottom:0;z-index:30;background:var(--surface);border-top:1px solid var(--border);padding:10px 14px calc(10px + env(safe-area-inset-bottom));display:flex;gap:10px;align-items:center}
+.bar .info{flex:1;font-size:12px;color:var(--text2)}
+.btn{border:none;border-radius:12px;padding:12px 16px;font-size:15px;font-weight:700}
+.btn-primary{background:var(--accent);color:#fff}
+.btn-primary:disabled{opacity:.4}
+.btn-ghost{background:var(--surface2);color:var(--text);border:1px solid var(--border2)}
+.btn-danger{background:var(--red-bg);color:var(--red)}
+.overlay{position:fixed;inset:0;background:rgba(0,0,0,.45);z-index:50;display:none;align-items:flex-end}
+.overlay.open{display:flex}
+.sheet{background:var(--surface);width:100%;border-radius:18px 18px 0 0;padding:16px 16px calc(16px + env(safe-area-inset-bottom));max-height:88vh;overflow:auto}
+.sheet h3{font-size:17px;margin-bottom:2px}
+.sheet .sub{font-size:13px;color:var(--muted);margin-bottom:14px}
+.lbl{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;color:var(--muted);margin:12px 0 5px}
+.inp{width:100%;padding:11px 12px;border-radius:10px;border:1px solid var(--border2);background:var(--surface2);color:var(--text);font-size:16px}
+.times{display:flex;gap:10px}
+.times .inp{flex:1}
+.plist{max-height:34vh;overflow:auto;border:1px solid var(--border);border-radius:10px;margin-top:6px}
+.pitem{padding:11px 12px;border-bottom:1px solid var(--border);font-size:15px}
+.pitem:last-child{border-bottom:none}
+.pitem.sel{background:var(--accent-bg);color:var(--accent);font-weight:700}
+.pitem small{color:var(--muted);margin-left:4px}
+.actions{display:flex;gap:8px;margin-top:18px;flex-wrap:wrap}
+.actions .btn{flex:1;min-width:30%}
+.toast{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(92px + env(safe-area-inset-bottom));background:#0f172a;color:#fff;padding:10px 16px;border-radius:12px;font-size:14px;z-index:60;opacity:0;transition:opacity .2s;pointer-events:none;max-width:90vw;text-align:center}
+.toast.show{opacity:1}
+.center{text-align:center;padding:60px 20px;color:var(--text2)}
+.spin{width:34px;height:34px;border:3px solid var(--border2);border-top-color:var(--accent);border-radius:50%;margin:0 auto 14px;animation:sp 1s linear infinite}
+@keyframes sp{to{transform:rotate(360deg)}}
+#dbg{position:fixed;bottom:0;left:0;right:0;background:#fee2e2;color:#991b1b;font:11px monospace;padding:6px 8px;z-index:99;display:none;max-height:30vh;overflow:auto}
+</style>
+</head>
+<body>
+
+<div class="top">
+  <div class="top-row">
+    <div class="brand">TURNI · MUSE <small id="status">Modifica rapida</small></div>
+    <button class="icon-btn" onclick="reload()">🔄</button>
+    <button class="icon-btn" onclick="openSettings()">⚙️</button>
+  </div>
+  <select class="wk" id="wk-sel" onchange="changeWeek(this.value)" style="display:none"></select>
+  <div class="days" id="days"></div>
+</div>
+
+<div class="main" id="main"><div class="center"><div class="spin"></div>Caricamento turni…</div></div>
+
+<div class="bar">
+  <div class="info" id="bar-info">Nessuna modifica</div>
+  <button class="btn btn-primary" id="pub-btn" onclick="publish()" disabled>📤 Pubblica</button>
+</div>
+
+<div class="overlay" id="overlay" onclick="if(event.target===this)closeSheet()"><div class="sheet" id="sheet"></div></div>
+<div class="toast" id="toast"></div>
+<div id="dbg"></div>
+
+<script>
+var GH_OWNER='aromanato-muse';
+var GH_REPO='Turni_gestionerischioantincendio';
+var GH_FILE='turni.json';
+var GH_API='https://api.github.com/repos/'+GH_OWNER+'/'+GH_REPO+'/contents/'+GH_FILE;
+var PAGES_URL='https://'+GH_OWNER+'.github.io/'+GH_REPO+'/'+GH_FILE;
+var TOKEN_KEY='tm_gh_token';
+
+var DAYS=['Lun','Mar','Mer','Gio','Ven','Sab','Dom'];
+var DAYS_L=['Lunedì','Martedì','Mercoledì','Giovedì','Venerdì','Sabato','Domenica'];
+
+var data=null;        // intero turni.json
+var loadedSha=null;   // sha del file al caricamento
+var curWk=null,curDay=0;
+var dirtyWeeks={};    // wk -> true
+var changed={};       // "wk|d|sec|i" -> true (per evidenziare)
+var showEmpty=false;
+var ctx=null;         // slot in modifica
+
+window.onerror=function(msg,src,line){var d=document.getElementById('dbg');d.style.display='block';d.innerHTML+='<div>❌ '+String(msg).replace(/</g,'&lt;')+' (riga '+line+')</div>';return false;};
+
+// ── utilità ───────────────────────────────────────────
+function esc(s){return String(s==null?'':s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
+function pad(n){return String(n).padStart(2,'0');}
+function addDays(d,n){var t=new Date(d);t.setDate(t.getDate()+n);return t;}
+function fmtDate(d){return pad(d.getDate())+'/'+pad(d.getMonth()+1);}
+function getMonday(d){var t=new Date(d);t.setHours(0,0,0,0);var day=t.getDay();t.setDate(t.getDate()-(day===0?6:day-1));return t;}
+function isoWeek(d){var t=new Date(d);t.setHours(0,0,0,0);t.setDate(t.getDate()+3-(t.getDay()+6)%7);var w1=new Date(t.getFullYear(),0,4);return 1+Math.round(((t-w1)/86400000-3+(w1.getDay()+6)%7)/7);}
+function wkKey(mon){return mon.getFullYear()+'-W'+pad(isoWeek(mon));}
+function wkToDate(k){var m=String(k).match(/(\d{4})-W(\d{1,2})/);if(!m)return getMonday(new Date());var mon=getMonday(new Date(+m[1],0,4));return addDays(mon,(+m[2]-1)*7);}
+function toMin(s){var m=String(s||'').match(/(\d{1,2})[:.](\d{2})/);return m?(+m[1])*60+(+m[2]):null;}
+function isToday(d){var n=new Date();return d.getDate()===n.getDate()&&d.getMonth()===n.getMonth()&&d.getFullYear()===n.getFullYear();}
+function toast(msg){var t=document.getElementById('toast');t.textContent=msg;t.className='toast show';clearTimeout(t._h);t._h=setTimeout(function(){t.className='toast';},2600);}
+function staffFull(s){return ((s.cog||'')+' '+(s.nom||'')).trim();}
+function getToken(){try{return localStorage.getItem(TOKEN_KEY)||'';}catch(e){return'';}}
+function b64decode(s){return decodeURIComponent(escape(atob(String(s).replace(/\n/g,''))));}
+function b64encode(s){return btoa(unescape(encodeURIComponent(s)));}
+
+// ── caricamento ───────────────────────────────────────
+function fetchRemote(){
+  var headers={'Accept':'application/vnd.github.v3+json'};
+  var tok=getToken();if(tok)headers['Authorization']='token '+tok;
+  return fetch(GH_API+'?t='+Date.now(),{headers:headers,cache:'no-store'}).then(function(r){
+    if(!r.ok)throw new Error('HTTP '+r.status);
+    return r.json();
+  }).then(function(j){
+    return{sha:j.sha,json:JSON.parse(b64decode(j.content))};
+  });
+}
+
+function load(){
+  document.getElementById('main').innerHTML='<div class="center"><div class="spin"></div>Caricamento turni…</div>';
+  fetchRemote().catch(function(){
+    // ripiego: GitHub Pages (senza sha)
+    return fetch(PAGES_URL+'?t='+Date.now(),{cache:'no-store'}).then(function(r){
+      if(!r.ok)throw new Error('HTTP '+r.status);
+      return r.json().then(function(j){return{sha:null,json:j};});
+    });
+  }).then(function(res){
+    data=res.json;loadedSha=res.sha;dirtyWeeks={};changed={};
+    if(!data.weeks)data.weeks={};
+    pickWeek();render();
+    document.getElementById('status').textContent='Aggiornato '+new Date().toLocaleTimeString('it-IT',{hour:'2-digit',minute:'2-digit'});
+  }).catch(function(e){
+    document.getElementById('main').innerHTML='<div class="center">⚠️ Impossibile caricare i turni.<br><br>'+esc(e.message)+'<br><br><button class="btn btn-ghost" onclick="load()">Riprova</button></div>';
+  });
+}
+
+function reload(){
+  if(Object.keys(dirtyWeeks).length&&!confirm('Hai modifiche non pubblicate. Ricaricare e perderle?'))return;
+  load();
+}
+
+function pickWeek(){
+  var weeks=Object.keys(data.weeks).sort();
+  var now=wkKey(getMonday(new Date()));
+  if(!curWk||weeks.indexOf(curWk)<0){
+    curWk=weeks.indexOf(now)>=0?now:(weeks.filter(function(w){return w>=now;})[0]||weeks[weeks.length-1]||now);
+  }
+  var mon=wkToDate(curWk);
+  curDay=0;
+  for(var d=0;d<7;d++)if(isToday(addDays(mon,d)))curDay=d;
+  var sel=document.getElementById('wk-sel');
+  sel.innerHTML=weeks.map(function(w){
+    var m=wkToDate(w);
+    return'<option value="'+w+'"'+(w===curWk?' selected':'')+'>Settimana '+fmtDate(m)+' – '+fmtDate(addDays(m,6))+'</option>';
+  }).join('');
+  sel.style.display=weeks.length>1?'block':'none';
+}
+
+function changeWeek(w){curWk=w;var mon=wkToDate(w);curDay=0;for(var d=0;d<7;d++)if(isToday(addDays(mon,d)))curDay=d;render();}
+function selectDay(d){curDay=d;render();window.scrollTo(0,0);}
+
+// ── dati settimana ────────────────────────────────────
+function sched(){
+  if(!data.weeks[curWk])data.weeks[curWk]={schedule:{}};
+  if(!data.weeks[curWk].schedule)data.weeks[curWk].schedule={};
+  return data.weeks[curWk].schedule;
+}
+function sectionsOf(){
+  var base=(data.sections||[]).slice();
+  var ex=sched()._extraSections||[];
+  return base.concat(ex);
+}
+function slotsOf(d,secId,create){
+  var s=sched();
+  if(!s[d]){if(!create)return[];s[d]={};}
+  if(!s[d][secId]){if(!create)return[];s[d][secId]=[];}
+  return s[d][secId];
+}
+function markEdited(d,secId){
+  var s=sched();
+  if(!s._edited)s._edited={};
+  if(!s._edited[d])s._edited[d]={};
+  s._edited[d][secId]=true;
+  dirtyWeeks[curWk]=true;
+}
+
+// ── render ────────────────────────────────────────────
+function render(){
+  var mon=wkToDate(curWk);
+  var dh='';
+  for(var d=0;d<7;d++){
+    var dt=addDays(mon,d);
+    var dirty=false;
+    for(var k in changed)if(k.indexOf(curWk+'|'+d+'|')===0)dirty=true;
+    dh+='<button class="day'+(d===curDay?' sel':'')+(isToday(dt)?' today':'')+(dirty?' dirty':'')+'" onclick="selectDay('+d+')">'
+      +'<div class="dn">'+DAYS[d]+'</div><div class="dd">'+dt.getDate()+'</div><div class="dot"></div></button>';
+  }
+  document.getElementById('days').innerHTML=dh;
+
+  var s=sched();
+  var h='';
+  var note=(s._dayNotes||{})[curDay];
+  h+='<div style="font-size:13px;color:var(--muted);margin:2px 2px 10px">'+DAYS_L[curDay]+' '+fmtDate(addDays(mon,curDay))+'</div>';
+  if(note)h+='<div class="note-day">📝 '+esc(note)+'</div>';
+
+  var hidden=0;
+  sectionsOf().forEach(function(sec){
+    var slots=slotsOf(curDay,sec.id,false);
+    var hasAny=slots.some(function(x){return x.person;});
+    if(!hasAny&&!showEmpty&&!slots.length){hidden++;return;}
+    if(!hasAny&&!showEmpty){hidden++;return;}
+    h+='<div class="sec '+esc(sec.type||'piano')+'">';
+    h+='<div class="sec-h"><b>'+esc(sec.label)+'</b><span>'+esc(sec.area&&sec.area!==sec.label?sec.area:'')+'</span></div>';
+    slots.forEach(function(sl,i){
+      var parts=String(sl.person||'').split(' ');
+      var key=curWk+'|'+curDay+'|'+sec.id+'|'+i;
+      h+='<div class="slot'+(changed[key]?' changed':'')+'" onclick="openSlot(\''+sec.id+'\','+i+')">'
+        +'<div class="t">'+esc(sl.start||'--:--')+'–'+esc(sl.end||'--:--')+'</div>'
+        +(sl.person?'<div class="p">'+esc(parts[0])+'<small>'+esc(parts.slice(1).join(' '))+'</small></div>':'<div class="p empty">vuoto</div>')
+        +(sl.note?'<div class="n">📝</div>':'')
+        +'</div>';
+    });
+    h+='<button class="add" onclick="addSlot(\''+sec.id+'\')">＋ Aggiungi slot</button></div>';
+  });
+  if(hidden)h+='<button class="toggle" onclick="showEmpty=true;render()">Mostra sezioni senza persone ('+hidden+')</button>';
+  else if(showEmpty)h+='<button class="toggle" onclick="showEmpty=false;render()">Nascondi sezioni senza persone</button>';
+  document.getElementById('main').innerHTML=h;
+
+  var n=Object.keys(changed).length;
+  document.getElementById('bar-info').textContent=n?(n+' modific'+(n===1?'a':'he')+' da pubblicare'):'Nessuna modifica';
+  document.getElementById('pub-btn').disabled=!Object.keys(dirtyWeeks).length;
+}
+
+// ── editor slot ───────────────────────────────────────
+function secById(id){var r=null;sectionsOf().forEach(function(s){if(s.id===id)r=s;});return r;}
+
+function addSlot(secId){
+  var slots=slotsOf(curDay,secId,true);
+  var last=slots[slots.length-1];
+  slots.push({start:last&&last.end?last.end:'',end:'',person:''});
+  openSlot(secId,slots.length-1,true);
+}
+
+function openSlot(secId,i,isNew){
+  var sl=slotsOf(curDay,secId,true)[i];if(!sl)return;
+  var sec=secById(secId)||{label:secId};
+  ctx={secId:secId,i:i,isNew:!!isNew,person:sl.person||''};
+  var mon=wkToDate(curWk);
+  var h='<h3>'+esc(sec.label)+'</h3><div class="sub">'+DAYS_L[curDay]+' '+fmtDate(addDays(mon,curDay))+(sec.area&&sec.area!==sec.label?' · '+esc(sec.area):'')+'</div>';
+  h+='<div class="lbl">Orario</div><div class="times">'
+    +'<input class="inp" type="time" id="e-start" value="'+esc(sl.start||'')+'">'
+    +'<input class="inp" type="time" id="e-end" value="'+esc(sl.end||'')+'"></div>';
+  h+='<div class="lbl">Persona</div>'
+    +'<input class="inp" id="e-search" placeholder="Cerca cognome…" autocomplete="off" oninput="renderPeople()">'
+    +'<div class="plist" id="e-plist"></div>';
+  h+='<div class="lbl">Nota</div><input class="inp" id="e-note" value="'+esc(sl.note||'')+'" placeholder="Facoltativa">';
+  h+='<div class="actions">'
+    +'<button class="btn btn-danger" onclick="deleteSlot()">🗑 Elimina</button>'
+    +'<button class="btn btn-ghost" onclick="closeSheet()">Annulla</button>'
+    +'<button class="btn btn-primary" onclick="saveSlot()">✓ Salva</button></div>';
+  document.getElementById('sheet').innerHTML=h;
+  document.getElementById('overlay').className='overlay open';
+  renderPeople();
+}
+
+function busyElsewhere(full){
+  // persona già in turno lo stesso giorno in un'altra posizione (solo avviso)
+  var s=sched();var day=s[curDay]||{};var hits=[];
+  for(var secId in day){
+    (day[secId]||[]).forEach(function(x,i){
+      if(x.person===full&&!(secId===ctx.secId&&i===ctx.i))hits.push((x.start||'')+'–'+(x.end||''));
+    });
+  }
+  return hits;
+}
+
+function renderPeople(){
+  var q=(document.getElementById('e-search').value||'').toUpperCase().trim();
+  var staff=(data.staff||[]).slice().sort(function(a,b){return String(a.cog).localeCompare(String(b.cog),'it');});
+  var h='<div class="pitem'+(ctx.person===''?' sel':'')+'" onclick="pickPerson(\'\')">— Nessuno (slot vuoto)</div>';
+  var found=false;
+  staff.forEach(function(s){
+    var full=staffFull(s);
+    if(q&&full.toUpperCase().indexOf(q)<0)return;
+    found=true;
+    var busy=busyElsewhere(full);
+    h+='<div class="pitem'+(ctx.person===full?' sel':'')+'" onclick="pickPerson(\''+esc(full).replace(/'/g,"\\'")+'\')">'
+      +'<b>'+esc(s.cog)+'</b><small>'+esc(s.nom||'')+'</small>'
+      +(busy.length?'<small style="color:var(--orange)"> · già in turno '+esc(busy.join(', '))+'</small>':'')
+      +'</div>';
+  });
+  if(ctx.person&&!staff.some(function(s){return staffFull(s)===ctx.person;})){
+    h+='<div class="pitem sel">'+esc(ctx.person)+'<small>(non in elenco)</small></div>';
+  }
+  if(q&&!found)h+='<div class="pitem" style="color:var(--muted)">Nessun risultato</div>';
+  document.getElementById('e-plist').innerHTML=h;
+}
+function pickPerson(full){ctx.person=full;renderPeople();}
+
+function saveSlot(){
+  var st=document.getElementById('e-start').value,en=document.getElementById('e-end').value;
+  if(!st||!en){toast('Inserisci orario di inizio e fine');return;}
+  if(toMin(en)<=toMin(st)){toast('L\'orario di fine deve essere dopo l\'inizio');return;}
+  var slots=slotsOf(curDay,ctx.secId,true);
+  var sl=slots[ctx.i];
+  sl.start=st;sl.end=en;sl.person=ctx.person;
+  var note=(document.getElementById('e-note').value||'').trim();
+  if(note)sl.note=note;else delete sl.note;
+  slots.sort(function(a,b){return(toMin(a.start)||0)-(toMin(b.start)||0);});
+  var ni=slots.indexOf(sl);
+  changed[curWk+'|'+curDay+'|'+ctx.secId+'|'+ni]=true;
+  markEdited(curDay,ctx.secId);
+  closeSheet(true);render();toast('Salvato — ricordati di pubblicare');
+}
+
+function deleteSlot(){
+  if(!confirm('Eliminare questo slot?'))return;
+  var slots=slotsOf(curDay,ctx.secId,true);
+  slots.splice(ctx.i,1);
+  changed[curWk+'|'+curDay+'|'+ctx.secId+'|del'+Date.now()]=true;
+  markEdited(curDay,ctx.secId);
+  closeSheet(true);render();toast('Slot eliminato');
+}
+
+function closeSheet(saved){
+  if(!saved&&ctx&&ctx.isNew){
+    var slots=slotsOf(curDay,ctx.secId,true);
+    var sl=slots[ctx.i];
+    if(sl&&!sl.person&&!sl.end)slots.splice(ctx.i,1);
+  }
+  ctx=null;
+  document.getElementById('overlay').className='overlay';
+}
+
+// ── token ─────────────────────────────────────────────
+function openSettings(afterSave){
+  var tok=getToken();
+  var h='<h3>Impostazioni</h3><div class="sub">Il token serve solo per pubblicare. Resta salvato su questo telefono.</div>'
+    +'<div class="lbl">Token GitHub</div>'
+    +'<input class="inp" type="password" id="tok" value="'+esc(tok)+'" placeholder="ghp_… o github_pat_…" autocomplete="off">'
+    +'<div style="font-size:12px;color:var(--muted);margin-top:8px">'+(tok?'✅ Token presente su questo dispositivo.':'Nessun token salvato: puoi consultare e modificare, ma non pubblicare.')+'</div>'
+    +'<div class="actions">'
+    +(tok?'<button class="btn btn-danger" onclick="clearToken()">Rimuovi</button>':'')
+    +'<button class="btn btn-ghost" onclick="closeSheet()">Chiudi</button>'
+    +'<button class="btn btn-primary" onclick="saveToken('+(afterSave?'true':'false')+')">Salva</button></div>';
+  document.getElementById('sheet').innerHTML=h;
+  document.getElementById('overlay').className='overlay open';
+}
+function saveToken(thenPublish){
+  var v=(document.getElementById('tok').value||'').trim();
+  if(!v){toast('Incolla il token');return;}
+  try{localStorage.setItem(TOKEN_KEY,v);}catch(e){}
+  closeSheet();toast('Token salvato');
+  if(thenPublish)publish();
+}
+function clearToken(){try{localStorage.removeItem(TOKEN_KEY);}catch(e){}closeSheet();toast('Token rimosso');}
+
+// ── pubblicazione ─────────────────────────────────────
+function publish(){
+  var weeks=Object.keys(dirtyWeeks);if(!weeks.length)return;
+  var tok=getToken();
+  if(!tok){openSettings(true);return;}
+  var btn=document.getElementById('pub-btn');
+  btn.disabled=true;btn.textContent='⏳';
+  fetchRemote().then(function(remote){
+    if(loadedSha&&remote.sha!==loadedSha){
+      if(!confirm('Attenzione: i turni online sono stati modificati dopo che hai aperto questa pagina (da PC o da un altro telefono).\n\nPubblicando, la tua versione di questa settimana sostituisce quella online. Continuare?'))throw new Error('annullato');
+    }
+    var merged=remote.json||{};
+    if(!merged.weeks)merged.weeks={};
+    weeks.forEach(function(w){
+      merged.weeks[w]={schedule:data.weeks[w].schedule,publishedAt:new Date().toISOString(),publishedFrom:'mobile'};
+    });
+    merged.lastUpdated=new Date().toISOString();
+    var body={message:'Modifica da mobile — '+new Date().toLocaleString('it-IT'),content:b64encode(JSON.stringify(merged,null,2)),sha:remote.sha};
+    return fetch(GH_API,{method:'PUT',headers:{'Authorization':'token '+tok,'Accept':'application/vnd.github.v3+json','Content-Type':'application/json'},body:JSON.stringify(body)})
+      .then(function(r){
+        if(r.status===401||r.status===403)throw new Error('Token non valido o senza permessi. Controllalo in ⚙️');
+        if(!r.ok)return r.json().catch(function(){return{};}).then(function(j){throw new Error(r.status+': '+(j.message||'errore'));});
+        return r.json();
+      }).then(function(j){
+        loadedSha=j.content&&j.content.sha?j.content.sha:null;
+        data=merged;dirtyWeeks={};changed={};
+        render();
+        toast('✅ Pubblicato! I dipendenti vedono le modifiche entro pochi minuti');
+      });
+  }).catch(function(e){
+    if(e.message!=='annullato')alert('Pubblicazione non riuscita:\n'+e.message);
+  }).then(function(){
+    btn.textContent='📤 Pubblica';
+    btn.disabled=!Object.keys(dirtyWeeks).length;
+  });
+}
+
+window.addEventListener('beforeunload',function(e){
+  if(Object.keys(dirtyWeeks).length){e.preventDefault();e.returnValue='';}
+});
+
+load();
+</script>
+</body>
+</html>
