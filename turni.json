@@ -7071,7 +7071,7 @@
             {
               "start": "09:40",
               "end": "13:30",
-              "person": "BUFFA Francesco"
+              "person": "ANGELI GABRIELE"
             },
             {
               "start": "13:30",
@@ -7643,7 +7643,7 @@
           "6": "Referente ufficio: Andrea       Referente antincendio: Tomasi Mauro"
         }
       },
-      "publishedAt": "2026-09-30T08:04:22.057Z"
+      "publishedAt": "2026-09-30T10:30:51.837Z"
     },
     "2026-W41": {
       "schedule": {
@@ -9379,6 +9379,12 @@
       "pin": "8408"
     },
     {
+      "cog": "ANGELI",
+      "nom": "GABRIELE",
+      "contratto": 1,
+      "pin": "7401"
+    },
+    {
       "cog": "BALDO",
       "nom": "ELIO",
       "contratto": 25,
@@ -9733,5 +9739,5 @@
       "pin": "1543"
     }
   ],
-  "lastUpdated": "2026-09-30T08:04:22.801Z"
+  "lastUpdated": "2026-09-30T10:30:52.469Z"
 }
