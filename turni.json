@@ -6827,13 +6827,13 @@
             {
               "start": "8:00",
               "end": "12:00",
-              "person": "TOMASI MAURO",
+              "person": "GAETANO MICHELANGELO",
               "note": "Disallestimento/allestimento PdA"
             },
             {
               "start": "13:00",
               "end": "18:00",
-              "person": "TRENTINI ELISABETTA",
+              "person": "GAETANO MICHELANGELO",
               "note": "Disallestimento/allestimetno PdA"
             }
           ],
@@ -6841,7 +6841,7 @@
             {
               "start": "8:00",
               "end": "12:00",
-              "person": "GAETANO MICHELANGELO",
+              "person": "TOMASI MAURO",
               "note": "Disallestimento/allestimento PdA"
             },
             {
@@ -6861,7 +6861,7 @@
             {
               "start": "13:00",
               "end": "18:00",
-              "person": "GAETANO MICHELANGELO",
+              "person": "TRENTINI ELISABETTA",
               "note": "Disallestimento/allestimetno PdA"
             }
           ],
@@ -7643,7 +7643,7 @@
           "6": "Referente ufficio: Andrea       Referente antincendio: Tomasi Mauro"
         }
       },
-      "publishedAt": "2026-09-30T10:30:51.837Z"
+      "publishedAt": "2026-09-30T13:14:30.859Z"
     },
     "2026-W41": {
       "schedule": {
@@ -9739,5 +9739,5 @@
       "pin": "1543"
     }
   ],
-  "lastUpdated": "2026-09-30T10:30:52.469Z"
+  "lastUpdated": "2026-09-30T13:14:31.294Z"
 }
