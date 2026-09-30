@@ -6478,7 +6478,7 @@
             {
               "start": "13:30",
               "end": "14:30",
-              "person": "ROMANATO ANDREA"
+              "person": "BALDO ELIO"
             },
             {
               "start": "14:30",
@@ -6501,6 +6501,16 @@
           "p0a": [
             {
               "start": "09:40",
+              "end": "10:00",
+              "person": "BALDO ELIO"
+            },
+            {
+              "start": "10:00",
+              "end": "12:00",
+              "person": "ELHALI MANAR"
+            },
+            {
+              "start": "12:00",
               "end": "12:30",
               "person": "BALDO ELIO"
             },
@@ -6566,6 +6576,11 @@
             },
             {
               "start": "13:30",
+              "end": "14:30",
+              "person": "ROMANATO ANDREA"
+            },
+            {
+              "start": "14:30",
               "end": "18:10",
               "person": "BALDO ELIO"
             }
@@ -6612,9 +6627,14 @@
           "alb1": [
             {
               "start": "8:00",
-              "end": "12:00",
+              "end": "10:00",
               "person": "CAMPANELLA ILARIA",
               "note": "Disallestimento/allestimento PdA"
+            },
+            {
+              "start": "10:00",
+              "end": "12:00",
+              "person": "BALDO ELIO"
             },
             {
               "start": "13:00",
@@ -7623,8 +7643,7 @@
           "6": "Referente ufficio: Andrea       Referente antincendio: Tomasi Mauro"
         }
       },
-      "publishedAt": "2026-09-29T09:05:58.661Z",
-      "publishedFrom": "mobile"
+      "publishedAt": "2026-09-30T08:04:22.057Z"
     },
     "2026-W41": {
       "schedule": {
@@ -9714,5 +9733,5 @@
       "pin": "1543"
     }
   ],
-  "lastUpdated": "2026-09-29T09:25:27.171Z"
+  "lastUpdated": "2026-09-30T08:04:22.801Z"
 }
