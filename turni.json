@@ -6900,7 +6900,7 @@
             {
               "start": "09:40",
               "end": "14:30",
-              "person": "PASCUAL LEANDRO"
+              "person": "ROCCO GIOVANNA"
             },
             {
               "start": "14:30",
@@ -6923,13 +6923,23 @@
           "p0b": [
             {
               "start": "09:40",
+              "end": "12:30",
+              "person": "BALDO ELIO"
+            },
+            {
+              "start": "12:30",
               "end": "14:30",
               "person": "ELHALI MANAR"
             },
             {
               "start": "14:30",
-              "end": "18:10",
+              "end": "15:30",
               "person": "NARDELLI ANNA MARIA"
+            },
+            {
+              "start": "15:30",
+              "end": "18:10",
+              "person": "LOSS Francesca"
             }
           ],
           "p1a": [
@@ -6959,8 +6969,13 @@
           "p2a": [
             {
               "start": "09:40",
+              "end": "13:00",
+              "person": "RADA SASA"
+            },
+            {
+              "start": "13:00",
               "end": "14:30",
-              "person": "ROCCO GIOVANNA"
+              "person": "FERRETTI GIANLUCA"
             },
             {
               "start": "14:30",
@@ -6972,6 +6987,11 @@
           "p2b": [
             {
               "start": "09:40",
+              "end": "12:00",
+              "person": "FERRETTI GIANLUCA"
+            },
+            {
+              "start": "12:00",
               "end": "13:30",
               "person": "AGNOLETTO Michael"
             },
@@ -6990,7 +7010,7 @@
             {
               "start": "15:30",
               "end": "18:10",
-              "person": "PASCUAL LEANDRO"
+              "person": "NARDELLI ANNA MARIA"
             }
           ],
           "p4": [
@@ -7030,16 +7050,21 @@
             {
               "start": "13:00",
               "end": "18:00",
-              "person": "FIKRI Mohamed",
+              "person": "KHAN IJAZ",
               "note": "Disallestimento/allestimetno PdA"
             }
           ],
           "alb2": [
             {
-              "start": "8:00",
-              "end": "12:00",
-              "person": "FIKRI Mohamed",
+              "start": "08:00",
+              "end": "09:30",
+              "person": "FERRETTI GIANLUCA",
               "note": "Disallestimento/allestimento PdA"
+            },
+            {
+              "start": "09:30",
+              "end": "12:00",
+              "person": "AGNOLETTO Michael"
             },
             {
               "start": "13:00",
@@ -7643,7 +7668,8 @@
           "6": "Referente ufficio: Andrea       Referente antincendio: Tomasi Mauro"
         }
       },
-      "publishedAt": "2026-09-30T13:14:30.859Z"
+      "publishedAt": "2026-10-02T08:07:37.151Z",
+      "publishedFrom": "mobile"
     },
     "2026-W41": {
       "schedule": {
@@ -9739,5 +9765,5 @@
       "pin": "1543"
     }
   ],
-  "lastUpdated": "2026-09-30T13:14:31.294Z"
+  "lastUpdated": "2026-10-02T08:07:37.158Z"
 }
