@@ -7096,7 +7096,7 @@
             {
               "start": "09:40",
               "end": "13:30",
-              "person": "ANGELI GABRIELE"
+              "person": "NARDELLI ANNA MARIA"
             },
             {
               "start": "13:30",
@@ -7120,7 +7120,7 @@
             {
               "start": "09:40",
               "end": "13:30",
-              "person": "TOMASI MAURO"
+              "person": "CAMPANELLA ILARIA"
             },
             {
               "start": "13:30",
@@ -7174,7 +7174,7 @@
             {
               "start": "14:30",
               "end": "19:10",
-              "person": "TOMASI MAURO"
+              "person": "CAMPANELLA ILARIA"
             }
           ],
           "p2b": [
@@ -7218,7 +7218,7 @@
             {
               "start": "8:00",
               "end": "12:00",
-              "person": "PASCUAL LEANDRO",
+              "person": "TOMASI MAURO",
               "note": "Disallestimento/allestimento PdA"
             },
             {
@@ -7238,7 +7238,7 @@
             {
               "start": "13:00",
               "end": "19:00",
-              "person": "PASCUAL LEANDRO",
+              "person": "TOMASI MAURO",
               "note": "Disallestimento/allestimento PdA"
             }
           ],
@@ -7668,8 +7668,7 @@
           "6": "Referente ufficio: Andrea       Referente antincendio: Tomasi Mauro"
         }
       },
-      "publishedAt": "2026-10-02T08:07:37.151Z",
-      "publishedFrom": "mobile"
+      "publishedAt": "2026-10-03T09:15:36.505Z"
     },
     "2026-W41": {
       "schedule": {
@@ -9302,15 +9301,13 @@
       "id": "p-1a",
       "label": "Piano −1a",
       "type": "piano",
-      "area": "Dinosauri zona 1,2,3 /DNA",
-      "nSlots": 2
+      "area": "Dinosauri zona 1,2,3 /DNA"
     },
     {
       "id": "p-1b",
       "label": "Piano −1b",
       "type": "piano",
-      "area": "Mostre temporanee piccolo vuoto/Serra",
-      "nSlots": 2
+      "area": "Mostre temporanee piccolo vuoto/Serra"
     },
     {
       "id": "p0a",
@@ -9389,12 +9386,6 @@
       "label": "Referente",
       "type": "referente",
       "area": "Referente di giornata"
-    },
-    {
-      "id": "ex_1787500861773",
-      "label": "EVENTO X",
-      "type": "extra",
-      "area": "EVENTO X"
     }
   ],
   "staff": [
@@ -9765,5 +9756,5 @@
       "pin": "1543"
     }
   ],
-  "lastUpdated": "2026-10-02T08:07:37.158Z"
+  "lastUpdated": "2026-10-03T09:15:36.923Z"
 }
