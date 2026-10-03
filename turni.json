@@ -6782,6 +6782,11 @@
             },
             {
               "start": "12:30",
+              "end": "13.00",
+              "person": "SARTORI CAMILLA"
+            },
+            {
+              "start": "13.00",
               "end": "18:10",
               "person": "KHAN IJAZ"
             }
@@ -6794,8 +6799,18 @@
             },
             {
               "start": "13:30",
+              "end": "15:00",
+              "person": "SARTORI CAMILLA"
+            },
+            {
+              "start": "15:00",
+              "end": "16:00",
+              "person": "BALDO ELIO"
+            },
+            {
+              "start": "16:00",
               "end": "18:10",
-              "person": "FIKRI Mohamed"
+              "person": "DALPAS MATTEO"
             }
           ],
           "p3": [
@@ -6868,8 +6883,13 @@
           "ref": [
             {
               "start": "09:40",
-              "end": "18:10",
-              "person": ""
+              "end": "14:00",
+              "person": "FERRETTI GIANLUCA"
+            },
+            {
+              "start": "14:30",
+              "end": "17:00",
+              "person": "FERRETTI GIANLUCA"
             }
           ],
           "ex_1789650323807_0": [],
@@ -7256,7 +7276,13 @@
               "note": "Disallestimento/allestimento PdA"
             }
           ],
-          "ref": [],
+          "ref": [
+            {
+              "start": "09:40",
+              "end": "19:10",
+              "person": ""
+            }
+          ],
           "ex_1789650323807_0": [],
           "ex_1789650323807_1": [],
           "ex_1789653505724": [],
@@ -7346,7 +7372,7 @@
             {
               "start": "09:40",
               "end": "14:30",
-              "person": "PASCUAL LEANDRO"
+              "person": "TOMASI MAURO"
             },
             {
               "start": "14:30",
@@ -7557,7 +7583,8 @@
             "p4": true,
             "p2b": true,
             "p2a": true,
-            "alb2": true
+            "alb2": true,
+            "ref": true
           },
           "4": {
             "alb0b": true,
@@ -7657,7 +7684,7 @@
           "6": "Referente ufficio: Andrea       Referente antincendio: Tomasi Mauro"
         }
       },
-      "publishedAt": "2026-10-03T09:17:57.808Z"
+      "publishedAt": "2026-10-03T09:34:18.552Z"
     },
     "2026-W41": {
       "schedule": {
@@ -9745,5 +9772,5 @@
       "pin": "1543"
     }
   ],
-  "lastUpdated": "2026-10-03T09:17:58.254Z"
+  "lastUpdated": "2026-10-03T09:34:19.075Z"
 }
