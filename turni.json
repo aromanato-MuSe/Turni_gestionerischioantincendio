@@ -7256,18 +7256,7 @@
               "note": "Disallestimento/allestimento PdA"
             }
           ],
-          "ref": [
-            {
-              "start": "09:30",
-              "end": "14:30",
-              "person": "CAMPANELLA ILARIA"
-            },
-            {
-              "start": "15:30",
-              "end": "19:10",
-              "person": "CAMPANELLA ILARIA"
-            }
-          ],
+          "ref": [],
           "ex_1789650323807_0": [],
           "ex_1789650323807_1": [],
           "ex_1789653505724": [],
@@ -7668,7 +7657,7 @@
           "6": "Referente ufficio: Andrea       Referente antincendio: Tomasi Mauro"
         }
       },
-      "publishedAt": "2026-10-03T09:15:36.505Z"
+      "publishedAt": "2026-10-03T09:17:57.808Z"
     },
     "2026-W41": {
       "schedule": {
@@ -9756,5 +9745,5 @@
       "pin": "1543"
     }
   ],
-  "lastUpdated": "2026-10-03T09:15:36.923Z"
+  "lastUpdated": "2026-10-03T09:17:58.254Z"
 }
