@@ -6745,6 +6745,16 @@
             },
             {
               "start": "14:30",
+              "end": "15:00",
+              "person": "BALDO ELIO"
+            },
+            {
+              "start": "15:00",
+              "end": "16:00",
+              "person": "IVASHCHUK NINA"
+            },
+            {
+              "start": "16:00",
               "end": "19:00",
               "person": "BALDO ELIO",
               "note": "Chiusura"
@@ -7684,7 +7694,7 @@
           "6": "Referente ufficio: Andrea       Referente antincendio: Tomasi Mauro"
         }
       },
-      "publishedAt": "2026-10-03T09:34:18.552Z"
+      "publishedAt": "2026-10-03T10:16:05.814Z"
     },
     "2026-W41": {
       "schedule": {
@@ -9772,5 +9782,5 @@
       "pin": "1543"
     }
   ],
-  "lastUpdated": "2026-10-03T09:34:19.075Z"
+  "lastUpdated": "2026-10-03T10:16:06.291Z"
 }
