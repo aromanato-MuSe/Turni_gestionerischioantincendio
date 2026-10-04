@@ -7284,7 +7284,7 @@
             {
               "start": "13:30",
               "end": "19:10",
-              "person": "FIKRI Mohamed"
+              "person": "TOMASI MAURO"
             }
           ],
           "p-1b": [
@@ -7314,8 +7314,13 @@
           "p0b": [
             {
               "start": "09:40",
-              "end": "14:30",
+              "end": "12:30",
               "person": "CUSCITO ANGELO"
+            },
+            {
+              "start": "12:30",
+              "end": "14:30",
+              "person": "LOSS Francesca"
             },
             {
               "start": "14:30",
@@ -7351,8 +7356,13 @@
           "p2a": [
             {
               "start": "09:40",
-              "end": "14:30",
+              "end": "12:30",
               "person": "TOMASI MAURO"
+            },
+            {
+              "start": "12:30",
+              "end": "14:30",
+              "person": "CUSCITO ANGELO"
             },
             {
               "start": "14:30",
@@ -7413,7 +7423,7 @@
             {
               "start": "16:00",
               "end": "16:30",
-              "person": "TOMASI MAURO"
+              "person": "GIACOMETTI FRANCESCO"
             },
             {
               "start": "16:30",
@@ -7438,7 +7448,7 @@
             {
               "start": "16:30",
               "end": "17:00",
-              "person": "TOMASI MAURO"
+              "person": "GIACOMETTI FRANCESCO"
             },
             {
               "start": "17:00",
@@ -7460,18 +7470,7 @@
               "note": "Disallestimento/allestimento PdA"
             }
           ],
-          "ref": [
-            {
-              "start": "09:30",
-              "end": "14:30",
-              "person": "TOMASI MAURO"
-            },
-            {
-              "start": "15:30",
-              "end": "19:10",
-              "person": "TOMASI MAURO"
-            }
-          ],
+          "ref": [],
           "ex_1789650323807_0": [],
           "ex_1789650323807_1": [],
           "ex_1789653505724": [],
@@ -7664,7 +7663,7 @@
           "6": "Referente ufficio: Andrea       Referente antincendio: Tomasi Mauro"
         }
       },
-      "publishedAt": "2026-10-03T10:30:32.221Z"
+      "publishedAt": "2026-10-04T07:01:54.608Z"
     },
     "2026-W41": {
       "schedule": {
@@ -9297,13 +9296,15 @@
       "id": "p-1a",
       "label": "Piano −1a",
       "type": "piano",
-      "area": "Dinosauri zona 1,2,3 /DNA"
+      "area": "Dinosauri zona 1,2,3 /DNA",
+      "nSlots": 2
     },
     {
       "id": "p-1b",
       "label": "Piano −1b",
       "type": "piano",
-      "area": "Mostre temporanee piccolo vuoto/Serra"
+      "area": "Mostre temporanee piccolo vuoto/Serra",
+      "nSlots": 2
     },
     {
       "id": "p0a",
@@ -9382,6 +9383,12 @@
       "label": "Referente",
       "type": "referente",
       "area": "Referente di giornata"
+    },
+    {
+      "id": "ex_1787500861773",
+      "label": "EVENTO X",
+      "type": "extra",
+      "area": "EVENTO X"
     }
   ],
   "staff": [
@@ -9752,5 +9759,5 @@
       "pin": "1543"
     }
   ],
-  "lastUpdated": "2026-10-03T10:30:32.697Z"
+  "lastUpdated": "2026-10-04T07:01:55.023Z"
 }
