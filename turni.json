@@ -7775,7 +7775,7 @@
             {
               "start": "09:40",
               "end": "13:30",
-              "person": "GAETANO MICHELANGELO"
+              "person": "RICCIO ROSARIA"
             },
             {
               "start": "13:30",
@@ -7804,7 +7804,7 @@
             {
               "start": "13:30",
               "end": "14:30",
-              "person": "IVASHCHUK NINA"
+              "person": "DALPAS MATTEO"
             },
             {
               "start": "14:30",
@@ -7820,8 +7820,13 @@
             },
             {
               "start": "14:30",
+              "end": "15:30",
+              "person": "DALPAS MATTEO"
+            },
+            {
+              "start": "15:30",
               "end": "18:10",
-              "person": "GAETANO MICHELANGELO"
+              "person": "IVASHCHUK NINA"
             },
             {
               "start": "18:10",
@@ -7858,7 +7863,7 @@
             {
               "start": "09:40",
               "end": "13:30",
-              "person": "RICCIO ROSARIA"
+              "person": "DALIPI KARLOTTA"
             },
             {
               "start": "13:30",
@@ -9288,7 +9293,7 @@
           "1": "Referente/supporto: 09.40 - 13.30 15.30 - 16.00 IVASHCHUK DI SUPPORTO"
         }
       },
-      "publishedAt": "2026-09-29T09:25:26.382Z"
+      "publishedAt": "2026-10-06T07:16:28.708Z"
     }
   },
   "sections": [
@@ -9759,5 +9764,5 @@
       "pin": "1543"
     }
   ],
-  "lastUpdated": "2026-10-04T07:01:55.023Z"
+  "lastUpdated": "2026-10-06T07:16:29.223Z"
 }
