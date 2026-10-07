@@ -7815,16 +7815,16 @@
           "p0b": [
             {
               "start": "09:40",
-              "end": "14:30",
+              "end": "15:00",
               "person": "EL BAOUNY Amin"
             },
             {
-              "start": "14:30",
-              "end": "15:30",
+              "start": "15:00",
+              "end": "16:00",
               "person": "DALPAS MATTEO"
             },
             {
-              "start": "15:30",
+              "start": "16:00",
               "end": "18:10",
               "person": "IVASHCHUK NINA"
             },
@@ -9314,7 +9314,7 @@
           "2": "Referente ufficio: Karlotta      Referente antincendio: 9:30-14:30 Ferretti -  14:30-18:10 Baldo"
         }
       },
-      "publishedAt": "2026-10-07T07:36:28.025Z"
+      "publishedAt": "2026-10-07T14:25:26.668Z"
     }
   },
   "sections": [
@@ -9322,15 +9322,13 @@
       "id": "p-1a",
       "label": "Piano −1a",
       "type": "piano",
-      "area": "Dinosauri zona 1,2,3 /DNA",
-      "nSlots": 2
+      "area": "Dinosauri zona 1,2,3 /DNA"
     },
     {
       "id": "p-1b",
       "label": "Piano −1b",
       "type": "piano",
-      "area": "Mostre temporanee piccolo vuoto/Serra",
-      "nSlots": 2
+      "area": "Mostre temporanee piccolo vuoto/Serra"
     },
     {
       "id": "p0a",
@@ -9409,12 +9407,6 @@
       "label": "Referente",
       "type": "referente",
       "area": "Referente di giornata"
-    },
-    {
-      "id": "ex_1787500861773",
-      "label": "EVENTO X",
-      "type": "extra",
-      "area": "EVENTO X"
     }
   ],
   "staff": [
@@ -9785,5 +9777,5 @@
       "pin": "1543"
     }
   ],
-  "lastUpdated": "2026-10-07T07:36:28.473Z"
+  "lastUpdated": "2026-10-07T14:25:27.142Z"
 }
