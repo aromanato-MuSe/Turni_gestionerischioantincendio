@@ -8007,24 +8007,39 @@
             {
               "start": "13:30",
               "end": "14:30",
-              "person": "IVASHCHUK NINA"
+              "person": "DALIPI KARLOTTA"
             },
             {
               "start": "14:30",
-              "end": "18:10",
+              "end": "17:20",
               "person": "AGNOLETTO Michael"
+            },
+            {
+              "start": "17:20",
+              "end": "18:10",
+              "person": "TRENTINI ELISABETTA"
             }
           ],
           "p0b": [
             {
               "start": "09:40",
               "end": "14:30",
-              "person": "SANTOS NAYARA"
+              "person": "IVASHCHUK NINA"
             },
             {
               "start": "14:30",
+              "end": "15:00",
+              "person": "DALIPI KARLOTTA"
+            },
+            {
+              "start": "15:00",
+              "end": "15:30",
+              "person": "IVASHCHUK NINA"
+            },
+            {
+              "start": "15:30",
               "end": "18:10",
-              "person": "PASCUAL LEANDRO"
+              "person": "EL BAOUNY Amin"
             },
             {
               "start": "18:10",
@@ -8037,7 +8052,7 @@
             {
               "start": "09:40",
               "end": "13:30",
-              "person": "PASCUAL LEANDRO"
+              "person": "TOMASI MAURO"
             },
             {
               "start": "13:30",
@@ -8049,7 +8064,7 @@
             {
               "start": "09:40",
               "end": "14:30",
-              "person": "GAETANO MICHELANGELO"
+              "person": "SANTOS NAYARA"
             },
             {
               "start": "14:30",
@@ -8061,7 +8076,7 @@
             {
               "start": "09:40",
               "end": "13:30",
-              "person": "TOMASI MAURO"
+              "person": "DALIPI KARLOTTA"
             },
             {
               "start": "13:30",
@@ -8101,8 +8116,13 @@
             },
             {
               "start": "14:30",
-              "end": "18:10",
+              "end": "17:20",
               "person": "TRENTINI ELISABETTA"
+            },
+            {
+              "start": "17:20",
+              "end": "18:10",
+              "person": "AGNOLETTO Michael"
             }
           ],
           "alb0a": [],
@@ -9293,7 +9313,7 @@
           "1": "Referente/supporto: 09.40 - 13.30 15.30 - 16.00 IVASHCHUK DI SUPPORTO"
         }
       },
-      "publishedAt": "2026-10-06T07:16:28.708Z"
+      "publishedAt": "2026-10-07T07:35:24.043Z"
     }
   },
   "sections": [
@@ -9764,5 +9784,5 @@
       "pin": "1543"
     }
   ],
-  "lastUpdated": "2026-10-06T07:16:29.223Z"
+  "lastUpdated": "2026-10-07T07:35:24.476Z"
 }
