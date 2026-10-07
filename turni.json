@@ -7767,7 +7767,8 @@
               "note": "p0 + CHIUSURA"
             }
           ],
-          "ex_1791386698843": []
+          "ex_1791388352579_0": [],
+          "ex_1791388352579_1": []
         },
         "1": {
           "p-1a": [
@@ -7963,7 +7964,8 @@
           "ex_1790344091388_utbt": [],
           "ex_1790344091388_j61z": [],
           "ex_1791383664996": [],
-          "ex_1791386698843": []
+          "ex_1791388352579_0": [],
+          "ex_1791388352579_1": []
         },
         "2": {
           "p-1a": [
@@ -8161,14 +8163,15 @@
           "ex_1790344091388_utbt": [],
           "ex_1790344091388_j61z": [],
           "ex_1791383664996": [],
-          "ex_1791386698843": [
+          "ex_1791388352579_0": [
             {
               "start": "09:00",
               "end": "9:30",
               "person": "TOMASI MAURO",
               "note": "p0"
             }
-          ]
+          ],
+          "ex_1791388352579_1": []
         },
         "3": {
           "p-1a": [
@@ -8179,7 +8182,7 @@
             },
             {
               "start": "13:30",
-              "end": "18:10",
+              "end": "18:00",
               "person": "PUSCEDDU ERNESTO"
             }
           ],
@@ -8192,14 +8195,19 @@
             {
               "start": "14:30",
               "end": "18:10",
-              "person": "GAETANO MICHELANGELO"
+              "person": "MOTTER MICHELE"
             }
           ],
           "p0a": [
             {
               "start": "09:40",
+              "end": "12:30",
+              "person": "ELHALI MANAR"
+            },
+            {
+              "start": "12:30",
               "end": "13:30",
-              "person": "TRENTINI ELISABETTA"
+              "person": "MOTTER MICHELE"
             },
             {
               "start": "13:30",
@@ -8215,8 +8223,13 @@
             },
             {
               "start": "14:30",
-              "end": "18:10",
+              "end": "17:30",
               "person": "IVASHCHUK NINA"
+            },
+            {
+              "start": "17:30",
+              "end": "18:10",
+              "person": "ELHALI MANAR"
             }
           ],
           "p1a": [
@@ -8271,7 +8284,7 @@
             {
               "start": "09:40",
               "end": "13:30",
-              "person": "GAETANO MICHELANGELO"
+              "person": "TRENTINI ELISABETTA"
             },
             {
               "start": "13:30",
@@ -8322,12 +8335,14 @@
             {
               "start": "18:00",
               "end": "18:30",
-              "person": "PUSCEDDU ERNESTO"
+              "person": "PUSCEDDU ERNESTO",
+              "note": "lobby"
             },
             {
               "start": "18:30",
               "end": "20:30",
-              "person": "CAMPANELLA ILARIA"
+              "person": "CAMPANELLA ILARIA",
+              "note": "lobby + CHIUSURA"
             }
           ],
           "ex_1790344091387_hnc4": [],
@@ -8341,7 +8356,15 @@
           "ex_1790344091388_utbt": [],
           "ex_1790344091388_j61z": [],
           "ex_1791383664996": [],
-          "ex_1791386698843": []
+          "ex_1791388352579_0": [
+            {
+              "start": "09:00",
+              "end": "9:30",
+              "person": "ROCCO GIOVANNA",
+              "note": "p0"
+            }
+          ],
+          "ex_1791388352579_1": []
         },
         "4": {
           "p-1a": [
@@ -8547,7 +8570,8 @@
           "ex_1790344091388_utbt": [],
           "ex_1790344091388_j61z": [],
           "ex_1791383664996": [],
-          "ex_1791386698843": []
+          "ex_1791388352579_0": [],
+          "ex_1791388352579_1": []
         },
         "5": {
           "p-1a": [
@@ -8764,7 +8788,8 @@
           "ex_1790344091388_8wgd": [],
           "ex_1790344091388_d3zr": [],
           "ex_1791383664996": [],
-          "ex_1791386698843": []
+          "ex_1791388352579_0": [],
+          "ex_1791388352579_1": []
         },
         "6": {
           "p-1a": [
@@ -8965,7 +8990,8 @@
           "ex_1790344091388_utbt": [],
           "ex_1790344091388_j61z": [],
           "ex_1791383664996": [],
-          "ex_1791386698843": []
+          "ex_1791388352579_0": [],
+          "ex_1791388352579_1": []
         },
         "_edited": {
           "0": {
@@ -9001,7 +9027,9 @@
             "ex_1790344091388_utbt": true,
             "ex_1790344091388_j61z": true,
             "ex_1791383664996": true,
-            "ex_1791386698843": true
+            "ex_1791386698843": true,
+            "ex_1791388352579_0": true,
+            "ex_1791388352579_1": true
           },
           "1": {
             "ex_1790344091386_4zlu": true,
@@ -9036,7 +9064,9 @@
             "ex_1790344091388_utbt": true,
             "ex_1790344091388_j61z": true,
             "ex_1791383664996": true,
-            "ex_1791386698843": true
+            "ex_1791386698843": true,
+            "ex_1791388352579_1": true,
+            "ex_1791388352579_0": true
           },
           "2": {
             "ex_1790344091386_4zlu": true,
@@ -9071,7 +9101,9 @@
             "ex_1790344091388_utbt": true,
             "ex_1790344091388_j61z": true,
             "ex_1791383664996": true,
-            "ex_1791386698843": true
+            "ex_1791386698843": true,
+            "ex_1791388352579_0": true,
+            "ex_1791388352579_1": true
           },
           "3": {
             "ex_1790344091386_4zlu": true,
@@ -9106,7 +9138,9 @@
             "ex_1790344091388_utbt": true,
             "ex_1790344091388_j61z": true,
             "ex_1791383664996": true,
-            "ex_1791386698843": true
+            "ex_1791386698843": true,
+            "ex_1791388352579_0": true,
+            "ex_1791388352579_1": true
           },
           "4": {
             "ex_1790344091386_4zlu": true,
@@ -9141,7 +9175,9 @@
             "ex_1790344091388_utbt": true,
             "ex_1790344091388_j61z": true,
             "ex_1791383664996": true,
-            "ex_1791386698843": true
+            "ex_1791386698843": true,
+            "ex_1791388352579_1": true,
+            "ex_1791388352579_0": true
           },
           "5": {
             "ex_1790344091386_4zlu": true,
@@ -9176,7 +9212,9 @@
             "ex_1790344091388_utbt": true,
             "ex_1790344091388_j61z": true,
             "ex_1791383664996": true,
-            "ex_1791386698843": true
+            "ex_1791386698843": true,
+            "ex_1791388352579_1": true,
+            "ex_1791388352579_0": true
           },
           "6": {
             "ex_1790344091386_4zlu": true,
@@ -9211,7 +9249,9 @@
             "alb1": true,
             "alb2": true,
             "ex_1791383664996": true,
-            "ex_1791386698843": true
+            "ex_1791386698843": true,
+            "ex_1791388352579_1": true,
+            "ex_1791388352579_0": true
           }
         },
         "_extraSections": [
@@ -9258,11 +9298,18 @@
             "event": "Corso di formazione dipendenti Progettone - Ecoopera"
           },
           {
-            "id": "ex_1791386698843",
-            "label": "Attività educativa",
+            "id": "ex_1791388352579_0",
+            "label": "attività educativa A",
             "type": "extra",
-            "area": "Attività educativa",
-            "event": "Attività educativa"
+            "area": "attività educativa",
+            "event": "attività educativa"
+          },
+          {
+            "id": "ex_1791388352579_1",
+            "label": "attività educativa B",
+            "type": "extra",
+            "area": "attività educativa",
+            "event": "attività educativa"
           },
           {
             "id": "ex_1790344091388_63tt",
@@ -9309,10 +9356,11 @@
         ],
         "_dayNotes": {
           "1": "REFERENTE\n09.30 - 14.30 13.30 FERRETTI\n14.30 - 18.10 BALDO 09.40 - 13.00 14.30 - 15.30 IVASHCHUK",
-          "2": "Referente ufficio: Karlotta      Referente antincendio: 9:30-14:30 Ferretti -  14:30-18:10 Baldo"
+          "2": "Referente ufficio: Karlotta      Referente antincendio: 9:30-14:30 Ferretti -  14:30-18:10 Baldo",
+          "3": "REFERENTE\n09.30 - 14.30 FERRETTI\n14.30 - 18.10 CAMPANELLA   13.30 - 14.30\nMOTTER SUPPORTO"
         }
       },
-      "publishedAt": "2026-10-07T15:35:47.610Z"
+      "publishedAt": "2026-10-07T15:56:00.970Z"
     }
   },
   "sections": [
@@ -9775,5 +9823,5 @@
       "pin": "1543"
     }
   ],
-  "lastUpdated": "2026-10-07T15:35:48.390Z"
+  "lastUpdated": "2026-10-07T15:56:01.444Z"
 }
