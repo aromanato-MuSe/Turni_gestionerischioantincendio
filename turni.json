@@ -7726,25 +7726,11 @@
               "person": "GAETANO MICHELANGELO"
             }
           ],
-          "ex_1790344091387_zval": [
-            {
-              "start": "09:00",
-              "end": "13:00",
-              "person": "GIACOMETTI FRANCESCO"
-            }
-          ],
           "ex_1790344091387_92st": [
             {
               "start": "09:00",
               "end": "13:00",
               "person": "NARDELLI ANNA MARIA"
-            }
-          ],
-          "ex_1790344091387_u2kr": [
-            {
-              "start": "09:00",
-              "end": "13:00",
-              "person": "PASCUAL LEANDRO"
             }
           ],
           "ex_1790344091387_e48c": [
@@ -7956,9 +7942,7 @@
             }
           ],
           "ex_1790344091387_hnc4": [],
-          "ex_1790344091387_zval": [],
           "ex_1790344091387_92st": [],
-          "ex_1790344091387_u2kr": [],
           "ex_1790344091387_e48c": [],
           "ex_1790344091387_bc87": [],
           "ex_1790344091388_63tt": [],
@@ -8156,9 +8140,7 @@
           ],
           "ex_1790344091387_uogx": [],
           "ex_1790344091387_hnc4": [],
-          "ex_1790344091387_zval": [],
           "ex_1790344091387_92st": [],
-          "ex_1790344091387_u2kr": [],
           "ex_1790344091387_e48c": [],
           "ex_1790344091387_bc87": [],
           "ex_1790344091387_022h": [],
@@ -8333,9 +8315,7 @@
           ],
           "ex_1790344091387_uogx": [],
           "ex_1790344091387_hnc4": [],
-          "ex_1790344091387_zval": [],
           "ex_1790344091387_92st": [],
-          "ex_1790344091387_u2kr": [],
           "ex_1790344091387_e48c": [],
           "ex_1790344091387_bc87": [],
           "ex_1790344091387_022h": [],
@@ -8544,9 +8524,7 @@
           ],
           "ex_1790344091387_uogx": [],
           "ex_1790344091387_hnc4": [],
-          "ex_1790344091387_zval": [],
           "ex_1790344091387_92st": [],
-          "ex_1790344091387_u2kr": [],
           "ex_1790344091387_e48c": [],
           "ex_1790344091387_bc87": [],
           "ex_1790344091387_022h": [],
@@ -8763,9 +8741,7 @@
           "ex_1790344091387_y4ir": [],
           "ex_1790344091387_uogx": [],
           "ex_1790344091387_hnc4": [],
-          "ex_1790344091387_zval": [],
           "ex_1790344091387_92st": [],
-          "ex_1790344091387_u2kr": [],
           "ex_1790344091387_e48c": [],
           "ex_1790344091387_bc87": [],
           "ex_1790344091387_022h": [],
@@ -8965,9 +8941,7 @@
           "ex_1790344091387_y4ir": [],
           "ex_1790344091387_uogx": [],
           "ex_1790344091387_hnc4": [],
-          "ex_1790344091387_zval": [],
           "ex_1790344091387_92st": [],
-          "ex_1790344091387_u2kr": [],
           "ex_1790344091387_e48c": [],
           "ex_1790344091387_bc87": [],
           "ex_1790344091387_022h": [],
@@ -9237,20 +9211,8 @@
             "area": "Formazione corso sicurezza specifica"
           },
           {
-            "id": "ex_1790344091387_zval",
-            "label": "Formazione corso sicurezza specifica B",
-            "type": "extra",
-            "area": "Formazione corso sicurezza specifica"
-          },
-          {
             "id": "ex_1790344091387_92st",
             "label": "Formazione corso sicurezza specifica C",
-            "type": "extra",
-            "area": "Formazione corso sicurezza specifica"
-          },
-          {
-            "id": "ex_1790344091387_u2kr",
-            "label": "Formazione corso sicurezza specifica D",
             "type": "extra",
             "area": "Formazione corso sicurezza specifica"
           },
@@ -9314,7 +9276,7 @@
           "2": "Referente ufficio: Karlotta      Referente antincendio: 9:30-14:30 Ferretti -  14:30-18:10 Baldo"
         }
       },
-      "publishedAt": "2026-10-07T14:25:26.668Z"
+      "publishedAt": "2026-10-07T14:30:09.315Z"
     }
   },
   "sections": [
@@ -9777,5 +9739,5 @@
       "pin": "1543"
     }
   ],
-  "lastUpdated": "2026-10-07T14:25:27.142Z"
+  "lastUpdated": "2026-10-07T14:30:09.807Z"
 }
