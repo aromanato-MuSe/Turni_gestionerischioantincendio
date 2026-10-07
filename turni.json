@@ -8122,23 +8122,24 @@
               "person": "AGNOLETTO Michael"
             }
           ],
-          "alb0a": [
-            {
-              "start": "08:00",
-              "end": "12:00",
-              "person": "CAMPANELLA ILARIA"
-            },
-            {
-              "start": "13:00",
-              "end": "18:00",
-              "person": "CAMPANELLA ILARIA"
-            }
-          ],
+          "alb0a": [],
           "alb0b": [],
           "alb1": [
             {
               "start": "08:00",
               "end": "12:00",
+              "person": "CAMPANELLA ILARIA"
+            },
+            {
+              "start": "13:00",
+              "end": "18:00",
+              "person": "CAMPANELLA ILARIA"
+            }
+          ],
+          "alb2": [
+            {
+              "start": "08:00",
+              "end": "12:00",
               "person": "RICCIO ROSARIA"
             },
             {
@@ -8147,7 +8148,6 @@
               "person": "RICCIO ROSARIA"
             }
           ],
-          "alb2": [],
           "ref": [],
           "ex_1790344091387_hnc4": [],
           "ex_1790344091387_92st": [],
@@ -9251,18 +9251,18 @@
             "event": "Attività educativa"
           },
           {
-            "id": "ex_1790344091387_bc87",
-            "label": "Visita medica",
-            "type": "extra",
-            "area": "Visita medica",
-            "event": "Visita medica"
-          },
-          {
             "id": "ex_1790344091387_022h",
             "label": "Corso di formazione dipendenti Progettone - Ecoopera",
             "type": "extra",
             "area": "p0",
             "event": "Corso di formazione dipendenti Progettone - Ecoopera"
+          },
+          {
+            "id": "ex_1790344091387_bc87",
+            "label": "Visita medica",
+            "type": "extra",
+            "area": "Visita medica",
+            "event": "Visita medica"
           },
           {
             "id": "ex_1790344091388_63tt",
@@ -9312,7 +9312,7 @@
           "2": "Referente ufficio: Karlotta      Referente antincendio: 9:30-14:30 Ferretti -  14:30-18:10 Baldo"
         }
       },
-      "publishedAt": "2026-10-07T15:30:25.290Z"
+      "publishedAt": "2026-10-07T15:32:19.618Z"
     }
   },
   "sections": [
@@ -9775,5 +9775,5 @@
       "pin": "1543"
     }
   ],
-  "lastUpdated": "2026-10-07T15:30:25.767Z"
+  "lastUpdated": "2026-10-07T15:32:20.148Z"
 }
