@@ -7768,7 +7768,7 @@
             }
           ],
           "ex_1791388352579_0": [],
-          "ex_1791456728307": []
+          "ex_1791457323027": []
         },
         "1": {
           "p-1a": [
@@ -7965,7 +7965,7 @@
           "ex_1790344091388_j61z": [],
           "ex_1791383664996": [],
           "ex_1791388352579_0": [],
-          "ex_1791456728307": []
+          "ex_1791457323027": []
         },
         "2": {
           "p-1a": [
@@ -8171,7 +8171,7 @@
               "note": "p0"
             }
           ],
-          "ex_1791456728307": []
+          "ex_1791457323027": []
         },
         "3": {
           "p-1a": [
@@ -8364,7 +8364,7 @@
               "note": "p0"
             }
           ],
-          "ex_1791456728307": []
+          "ex_1791457323027": []
         },
         "4": {
           "p-1a": [
@@ -8583,7 +8583,7 @@
           "ex_1790344091388_j61z": [],
           "ex_1791383664996": [],
           "ex_1791388352579_0": [],
-          "ex_1791456728307": []
+          "ex_1791457323027": []
         },
         "5": {
           "p-1a": [
@@ -8793,7 +8793,7 @@
               "start": "20:00",
               "end": "22:30",
               "person": "FIKRI Mohamed",
-              "note": "lobby"
+              "note": "lobby + CHIUSURA"
             }
           ],
           "ex_1790344091388_j61z": [
@@ -8815,16 +8815,18 @@
           "ex_1790344091388_d3zr": [],
           "ex_1791383664996": [],
           "ex_1791388352579_0": [],
-          "ex_1791456728307": [
+          "ex_1791457323027": [
             {
               "start": "09:40",
               "end": "14:00",
-              "person": "GIACOMOZZI GRAZIELLA"
+              "person": "GIACOMOZZI GRAZIELLA",
+              "note": "PdA\nsi muove sui piani"
             },
             {
               "start": "14:00",
               "end": "19:10",
-              "person": "BUFFA Francesco"
+              "person": "BUFFA Francesco",
+              "note": "PdA\nsi muove sui piani"
             }
           ]
         },
@@ -9023,7 +9025,7 @@
           "ex_1790344091388_j61z": [],
           "ex_1791383664996": [],
           "ex_1791388352579_0": [],
-          "ex_1791456728307": []
+          "ex_1791457323027": []
         },
         "_edited": {
           "0": {
@@ -9065,7 +9067,8 @@
             "ex_1791456476666": true,
             "ex_1791456728307": true,
             "ex_1791456732066": true,
-            "ex_1791456736986": true
+            "ex_1791456736986": true,
+            "ex_1791457323027": true
           },
           "1": {
             "ex_1790344091386_4zlu": true,
@@ -9106,7 +9109,8 @@
             "ex_1791456476666": true,
             "ex_1791456736986": true,
             "ex_1791456732066": true,
-            "ex_1791456728307": true
+            "ex_1791456728307": true,
+            "ex_1791457323027": true
           },
           "2": {
             "ex_1790344091386_4zlu": true,
@@ -9147,7 +9151,8 @@
             "ex_1791456476666": true,
             "ex_1791456728307": true,
             "ex_1791456732066": true,
-            "ex_1791456736986": true
+            "ex_1791456736986": true,
+            "ex_1791457323027": true
           },
           "3": {
             "ex_1790344091386_4zlu": true,
@@ -9188,7 +9193,8 @@
             "ex_1791456476666": true,
             "ex_1791456728307": true,
             "ex_1791456732066": true,
-            "ex_1791456736986": true
+            "ex_1791456736986": true,
+            "ex_1791457323027": true
           },
           "4": {
             "ex_1790344091386_4zlu": true,
@@ -9229,7 +9235,8 @@
             "ex_1791456476666": true,
             "ex_1791456728307": true,
             "ex_1791456732066": true,
-            "ex_1791456736986": true
+            "ex_1791456736986": true,
+            "ex_1791457323027": true
           },
           "5": {
             "ex_1790344091386_4zlu": true,
@@ -9270,7 +9277,8 @@
             "ex_1791456476666": true,
             "ex_1791456736986": true,
             "ex_1791456732066": true,
-            "ex_1791456728307": true
+            "ex_1791456728307": true,
+            "ex_1791457323027": true
           },
           "6": {
             "ex_1790344091386_4zlu": true,
@@ -9311,7 +9319,8 @@
             "ex_1791456476666": true,
             "ex_1791456728307": true,
             "ex_1791456732066": true,
-            "ex_1791456736986": true
+            "ex_1791456736986": true,
+            "ex_1791457323027": true
           }
         },
         "_extraSections": [
@@ -9394,24 +9403,24 @@
           },
           {
             "id": "ex_1790344091388_utbt",
-            "label": "Chiedimi come sto A",
+            "label": "Chiedimi come sto",
             "type": "extra",
             "area": "lobby - compresa chiusura museo",
-            "event": "EVENTO"
+            "event": "Chiedimi come sto"
           },
           {
             "id": "ex_1790344091388_j61z",
-            "label": "Chiedimi come sto B",
+            "label": "Chiedimi come sto",
             "type": "extra",
             "area": "lobby - compresa chiusura museo",
-            "event": "EVENTO"
+            "event": "Chiedimi come sto"
           },
           {
-            "id": "ex_1791456728307",
-            "label": "Giornata del contemporaneo",
+            "id": "ex_1791457323027",
+            "label": "Giornata del Conteporaneo",
             "type": "extra",
-            "area": "lobby - compresa chiusura museo",
-            "event": "EVENTO"
+            "area": "Giornata del Conteporaneo",
+            "event": "Giornata del Conteporaneo"
           }
         ],
         "_dayNotes": {
@@ -9423,7 +9432,7 @@
           "6": "REFERENTE\n09.30 - 14.30 TOMASI\n15.30 - 19.10 TOMASI"
         }
       },
-      "publishedAt": "2026-10-08T10:55:27.138Z"
+      "publishedAt": "2026-10-08T11:03:24.313Z"
     }
   },
   "sections": [
@@ -9886,5 +9895,5 @@
       "pin": "1543"
     }
   ],
-  "lastUpdated": "2026-10-08T10:55:27.914Z"
+  "lastUpdated": "2026-10-08T11:03:25.418Z"
 }
