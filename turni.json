@@ -8406,11 +8406,11 @@
           "p0a": [
             {
               "start": "09:40",
-              "end": "13:00",
-              "person": "RADA SASA"
+              "end": "11:50",
+              "person": "MOTTER MICHELE"
             },
             {
-              "start": "13:00",
+              "start": "11:50",
               "end": "13:30",
               "person": "LOSS Francesca"
             },
@@ -9528,12 +9528,12 @@
           "1": "REFERENTE\n09.30 - 14.30 13.30 FERRETTI\n14.30 - 18.10 BALDO\n\nIVASHCHUK\n09.40 - 13.00 14.30 - 15.30",
           "2": "Referente ufficio: Karlotta      Referente antincendio: 9:30-14:30 Ferretti -  14:30-18:10 Baldo",
           "3": "REFERENTE\n09.30 - 14.30 FERRETTI\n14.30 - 18.10 CAMPANELLA\n\nMOTTER SUPPORTO\n13.30 - 14.30",
-          "4": "REFERENTE\n09.30 - 14.30 FERRETTI\n14.30 - 18.10 TOMASI\n\nMOTTER DI SUPPORTO\n09.40 - 12.00",
+          "4": "REFERENTE\n09.30 - 14.30 FERRETTI\n14.30 - 18.10 TOMASI",
           "5": "REFERENTE\n09.30 - 14.30 BALDO\n15.30 - 19.10 BALDO",
           "6": "REFERENTE\n09.30 - 14.30 TOMASI\n15.30 - 19.10 TOMASI"
         }
       },
-      "publishedAt": "2026-10-08T11:10:39.113Z"
+      "publishedAt": "2026-10-08T20:28:09.421Z"
     }
   },
   "sections": [
@@ -9996,5 +9996,5 @@
       "pin": "1543"
     }
   ],
-  "lastUpdated": "2026-10-08T11:10:39.862Z"
+  "lastUpdated": "2026-10-08T20:28:10.539Z"
 }
