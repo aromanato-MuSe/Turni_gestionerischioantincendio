@@ -8635,8 +8635,13 @@
             },
             {
               "start": "14:30",
-              "end": "19:10",
+              "end": "18:00",
               "person": "COMPER SIMONE"
+            },
+            {
+              "start": "18:00",
+              "end": "19:10",
+              "person": "ELHALI MANAR"
             }
           ],
           "p1a": [
@@ -8655,11 +8660,11 @@
             {
               "start": "09:40",
               "end": "14:30",
-              "person": "BALDO ELIO"
+              "person": "MICHELETTI LORENZO"
             },
             {
               "start": "14:30",
-              "end": "19:10",
+              "end": "19:00",
               "person": "GIACOMETTI FRANCESCO"
             }
           ],
@@ -8667,7 +8672,7 @@
             {
               "start": "09:40",
               "end": "13:30",
-              "person": "GAETANO MICHELANGELO"
+              "person": "KHAN IJAZ"
             },
             {
               "start": "13:30",
@@ -8708,7 +8713,7 @@
             {
               "start": "14:30",
               "end": "19:10",
-              "person": "GAETANO MICHELANGELO"
+              "person": "KHAN IJAZ"
             }
           ],
           "alb0a": [
@@ -8761,28 +8766,37 @@
           ],
           "ref": [
             {
-              "start": "09:30",
+              "start": "09:40",
               "end": "14:30",
-              "person": "BALDO ELIO"
-            },
-            {
-              "start": "15:30",
-              "end": "19:10",
               "person": "BALDO ELIO"
             }
           ],
           "ex_1790344091388_utbt": [
             {
               "start": "18:00",
+              "end": "19:10",
+              "person": "COMPER SIMONE",
+              "note": "lobby"
+            },
+            {
+              "start": "19:10",
+              "end": "20:00",
+              "person": "CUSCITO ANGELO",
+              "note": "lobby"
+            },
+            {
+              "start": "20:00",
               "end": "22:30",
-              "person": "DEANESI Davide"
+              "person": "FIKRI Mohamed",
+              "note": "lobby"
             }
           ],
           "ex_1790344091388_j61z": [
             {
               "start": "19:00",
               "end": "20:30",
-              "person": "GIACOMETTI FRANCESCO"
+              "person": "GIACOMETTI FRANCESCO",
+              "note": "lobby"
             }
           ],
           "ex_1790344091387_hnc4": [],
@@ -8973,11 +8987,6 @@
             }
           ],
           "ref": [
-            {
-              "start": "09:30",
-              "end": "14:30",
-              "person": "TOMASI MAURO"
-            },
             {
               "start": "15:30",
               "end": "19:10",
@@ -9356,10 +9365,12 @@
           "1": "REFERENTE\n09.30 - 14.30 13.30 FERRETTI\n14.30 - 18.10 BALDO\n\nIVASHCHUK\n09.40 - 13.00 14.30 - 15.30",
           "2": "Referente ufficio: Karlotta      Referente antincendio: 9:30-14:30 Ferretti -  14:30-18:10 Baldo",
           "3": "REFERENTE\n09.30 - 14.30 FERRETTI\n14.30 - 18.10 CAMPANELLA\n\nMOTTER SUPPORTO\n13.30 - 14.30",
-          "4": "REFERENTE\n09.30 - 14.30 FERRETTI\n14.30 - 18.10 TOMASI\n\nMOTTER DI SUPPORTO\n09.40 - 12.00"
+          "4": "REFERENTE\n09.30 - 14.30 FERRETTI\n14.30 - 18.10 TOMASI\n\nMOTTER DI SUPPORTO\n09.40 - 12.00",
+          "5": "REFERENTE\n09.30 - 14.30 BALDO\n15.30 - 19.10 BALDO",
+          "6": "REFERENTE\n09.30 - 14.30 TOMASI\n15.30 - 19.10 TOMASI"
         }
       },
-      "publishedAt": "2026-10-08T10:38:34.172Z"
+      "publishedAt": "2026-10-08T10:44:48.187Z"
     }
   },
   "sections": [
@@ -9822,5 +9833,5 @@
       "pin": "1543"
     }
   ],
-  "lastUpdated": "2026-10-08T10:38:34.883Z"
+  "lastUpdated": "2026-10-08T10:44:48.991Z"
 }
