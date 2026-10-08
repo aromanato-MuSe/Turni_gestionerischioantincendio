@@ -8852,14 +8852,14 @@
             {
               "start": "14:30",
               "end": "19:10",
-              "person": "GAETANO MICHELANGELO"
+              "person": "ANGELI GABRIELE"
             }
           ],
           "p0a": [
             {
               "start": "09:40",
               "end": "13:30",
-              "person": "MONTEMURRO Alessio"
+              "person": "ELHALI MANAR"
             },
             {
               "start": "13:30",
@@ -8961,7 +8961,7 @@
             {
               "start": "09:40",
               "end": "13:30",
-              "person": "GAETANO MICHELANGELO"
+              "person": "MONTEMURRO Alessio"
             },
             {
               "start": "13:30",
@@ -9432,7 +9432,7 @@
           "6": "REFERENTE\n09.30 - 14.30 TOMASI\n15.30 - 19.10 TOMASI"
         }
       },
-      "publishedAt": "2026-10-08T11:03:24.313Z"
+      "publishedAt": "2026-10-08T11:04:47.353Z"
     }
   },
   "sections": [
@@ -9895,5 +9895,5 @@
       "pin": "1543"
     }
   ],
-  "lastUpdated": "2026-10-08T11:03:25.418Z"
+  "lastUpdated": "2026-10-08T11:04:48.110Z"
 }
