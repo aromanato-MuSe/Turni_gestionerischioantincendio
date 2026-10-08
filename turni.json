@@ -7767,8 +7767,7 @@
               "note": "p0 + CHIUSURA"
             }
           ],
-          "ex_1791388352579_0": [],
-          "ex_1791388352579_1": []
+          "ex_1791388352579_0": []
         },
         "1": {
           "p-1a": [
@@ -7964,8 +7963,7 @@
           "ex_1790344091388_utbt": [],
           "ex_1790344091388_j61z": [],
           "ex_1791383664996": [],
-          "ex_1791388352579_0": [],
-          "ex_1791388352579_1": []
+          "ex_1791388352579_0": []
         },
         "2": {
           "p-1a": [
@@ -8170,8 +8168,7 @@
               "person": "TOMASI MAURO",
               "note": "p0"
             }
-          ],
-          "ex_1791388352579_1": []
+          ]
         },
         "3": {
           "p-1a": [
@@ -8363,8 +8360,7 @@
               "person": "ROCCO GIOVANNA",
               "note": "p0"
             }
-          ],
-          "ex_1791388352579_1": []
+          ]
         },
         "4": {
           "p-1a": [
@@ -8376,7 +8372,7 @@
             {
               "start": "13:30",
               "end": "18:10",
-              "person": "MICHELETTI LORENZO"
+              "person": "FIKRI Mohamed"
             }
           ],
           "p-1b": [
@@ -8394,25 +8390,35 @@
           "p0a": [
             {
               "start": "09:40",
+              "end": "13:00",
+              "person": "RADA SASA"
+            },
+            {
+              "start": "13:00",
               "end": "13:30",
-              "person": "LIMONTA YESIEL"
+              "person": "LOSS Francesca"
             },
             {
               "start": "13:30",
               "end": "14:30",
-              "person": "IVASHCHUK NINA"
+              "person": "MOTTER MICHELE"
             },
             {
               "start": "14:30",
               "end": "18:10",
-              "person": "GIACOMETTI FRANCESCO"
+              "person": "TRENTINI ELISABETTA"
             }
           ],
           "p0b": [
             {
               "start": "09:40",
+              "end": "13:30",
+              "person": "EL BAOUNY Amin"
+            },
+            {
+              "start": "13:30",
               "end": "14:30",
-              "person": "ROCCO GIOVANNA"
+              "person": "LOSS Francesca"
             },
             {
               "start": "14:30",
@@ -8447,14 +8453,14 @@
             {
               "start": "14:30",
               "end": "18:10",
-              "person": "PASCUAL LEANDRO"
+              "person": "EL BAOUNY Amin"
             }
           ],
           "p2a": [
             {
               "start": "09:40",
               "end": "13:30",
-              "person": "PASCUAL LEANDRO"
+              "person": "LIMONTA YESIEL"
             },
             {
               "start": "13:30",
@@ -8466,12 +8472,12 @@
             {
               "start": "09:40",
               "end": "14:30",
-              "person": "EL BAOUNY Amin"
+              "person": "ROCCO GIOVANNA"
             },
             {
               "start": "14:30",
-              "end": "18:10",
-              "person": "TRENTINI ELISABETTA"
+              "end": "18:00",
+              "person": "GIACOMETTI FRANCESCO"
             }
           ],
           "p3": [
@@ -8498,7 +8504,9 @@
               "person": "LIMONTA YESIEL"
             }
           ],
-          "alb0a": [
+          "alb0a": [],
+          "alb0b": [],
+          "alb1": [
             {
               "start": "08:00",
               "end": "12:00",
@@ -8507,16 +8515,15 @@
             {
               "start": "12:00",
               "end": "12:30",
-              "person": "IVASHCHUK NINA"
+              "person": "MOTTER MICHELE"
             },
             {
-              "start": "12:30",
+              "start": "13:00",
               "end": "18:00",
               "person": "RICCIO ROSARIA"
             }
           ],
-          "alb0b": [],
-          "alb1": [
+          "alb2": [
             {
               "start": "08:00",
               "end": "12:30",
@@ -8525,7 +8532,7 @@
             {
               "start": "12:30",
               "end": "13:00",
-              "person": "IVASHCHUK NINA"
+              "person": "MOTTER MICHELE"
             },
             {
               "start": "13:00",
@@ -8533,18 +8540,19 @@
               "person": "CAMPANELLA ILARIA"
             }
           ],
-          "alb2": [],
           "ref": [],
           "ex_1790344091388_04q8": [
             {
               "start": "18:00",
               "end": "19:00",
-              "person": "GIACOMETTI FRANCESCO"
+              "person": "GIACOMETTI FRANCESCO",
+              "note": "p0 Albere"
             },
             {
               "start": "19:00",
               "end": "23:00",
-              "person": "PUSCEDDU ERNESTO"
+              "person": "PUSCEDDU ERNESTO",
+              "note": "p0 Albere"
             }
           ],
           "ex_1790344091388_8wgd": [
@@ -8570,8 +8578,7 @@
           "ex_1790344091388_utbt": [],
           "ex_1790344091388_j61z": [],
           "ex_1791383664996": [],
-          "ex_1791388352579_0": [],
-          "ex_1791388352579_1": []
+          "ex_1791388352579_0": []
         },
         "5": {
           "p-1a": [
@@ -8788,8 +8795,7 @@
           "ex_1790344091388_8wgd": [],
           "ex_1790344091388_d3zr": [],
           "ex_1791383664996": [],
-          "ex_1791388352579_0": [],
-          "ex_1791388352579_1": []
+          "ex_1791388352579_0": []
         },
         "6": {
           "p-1a": [
@@ -8990,8 +8996,7 @@
           "ex_1790344091388_utbt": [],
           "ex_1790344091388_j61z": [],
           "ex_1791383664996": [],
-          "ex_1791388352579_0": [],
-          "ex_1791388352579_1": []
+          "ex_1791388352579_0": []
         },
         "_edited": {
           "0": {
@@ -9299,14 +9304,7 @@
           },
           {
             "id": "ex_1791388352579_0",
-            "label": "attività educativa A",
-            "type": "extra",
-            "area": "attività educativa",
-            "event": "attività educativa"
-          },
-          {
-            "id": "ex_1791388352579_1",
-            "label": "attività educativa B",
+            "label": "attività educativa",
             "type": "extra",
             "area": "attività educativa",
             "event": "attività educativa"
@@ -9355,12 +9353,13 @@
           }
         ],
         "_dayNotes": {
-          "1": "REFERENTE\n09.30 - 14.30 13.30 FERRETTI\n14.30 - 18.10 BALDO 09.40 - 13.00 14.30 - 15.30 IVASHCHUK",
+          "1": "REFERENTE\n09.30 - 14.30 13.30 FERRETTI\n14.30 - 18.10 BALDO\n\nIVASHCHUK\n09.40 - 13.00 14.30 - 15.30",
           "2": "Referente ufficio: Karlotta      Referente antincendio: 9:30-14:30 Ferretti -  14:30-18:10 Baldo",
-          "3": "REFERENTE\n09.30 - 14.30 FERRETTI\n14.30 - 18.10 CAMPANELLA   13.30 - 14.30\nMOTTER SUPPORTO"
+          "3": "REFERENTE\n09.30 - 14.30 FERRETTI\n14.30 - 18.10 CAMPANELLA\n\nMOTTER SUPPORTO\n13.30 - 14.30",
+          "4": "REFERENTE\n09.30 - 14.30 FERRETTI\n14.30 - 18.10 TOMASI\n\nMOTTER DI SUPPORTO\n09.40 - 12.00"
         }
       },
-      "publishedAt": "2026-10-07T15:56:00.970Z"
+      "publishedAt": "2026-10-08T10:38:34.172Z"
     }
   },
   "sections": [
@@ -9823,5 +9822,5 @@
       "pin": "1543"
     }
   ],
-  "lastUpdated": "2026-10-07T15:56:01.444Z"
+  "lastUpdated": "2026-10-08T10:38:34.883Z"
 }
