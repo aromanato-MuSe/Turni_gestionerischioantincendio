@@ -11483,8 +11483,13 @@
           "p0a": [
             {
               "start": "09:40",
-              "end": "14:30",
+              "end": "14:00",
               "person": "ROCCO GIOVANNA"
+            },
+            {
+              "start": "14:00",
+              "end": "14:30",
+              "person": ""
             },
             {
               "start": "14:30",
@@ -11524,11 +11529,11 @@
           "p1b": [
             {
               "start": "09:40",
-              "end": "13:00",
-              "person": ""
+              "end": "14:00",
+              "person": "DALPAS MATTEO"
             },
             {
-              "start": "13:00",
+              "start": "14:00",
               "end": "15:30",
               "person": ""
             },
@@ -12568,7 +12573,7 @@
           "1": "REFERENTE\n09.30 - 13.00 Ferretti\n13.00 - 18.10 Tomasi"
         }
       },
-      "publishedAt": "2026-10-12T12:43:02.767Z"
+      "publishedAt": "2026-10-12T12:53:52.066Z"
     }
   },
   "sections": [
@@ -13037,5 +13042,5 @@
       "pin": "1543"
     }
   ],
-  "lastUpdated": "2026-10-12T12:43:03.902Z"
+  "lastUpdated": "2026-10-12T12:53:53.130Z"
 }
