@@ -11414,6 +11414,1161 @@
         }
       },
       "publishedAt": "2026-10-09T15:21:29.197Z"
+    },
+    "2026-W42": {
+      "schedule": {
+        "0": {
+          "p-1a": [],
+          "p-1b": [],
+          "p0a": [],
+          "p0b": [],
+          "p1a": [],
+          "p1b": [],
+          "p2a": [],
+          "p2b": [],
+          "p3": [],
+          "p4": [],
+          "ref": [],
+          "alb0a": [],
+          "alb0b": [],
+          "alb1": [],
+          "alb2": [],
+          "ex_1791808004496_0": [
+            {
+              "start": "9:00",
+              "end": "10:00",
+              "person": "FERRETTI GIANLUCA"
+            }
+          ],
+          "ex_1791808004496_1": [
+            {
+              "start": "9:00",
+              "end": "12:00",
+              "person": "ANGELI GABRIELE"
+            },
+            {
+              "start": "13:00",
+              "end": "16:00",
+              "person": "ANGELI GABRIELE"
+            }
+          ]
+        },
+        "1": {
+          "p-1a": [
+            {
+              "start": "09:00",
+              "end": "13:30",
+              "person": "GIACOMETTI FRANCESCO",
+              "note": "Per seguire le classi (9:00-9:30)"
+            },
+            {
+              "start": "13:30",
+              "end": "18:10",
+              "person": "MICHELETTI LORENZO"
+            }
+          ],
+          "p-1b": [
+            {
+              "start": "09:40",
+              "end": "14:30",
+              "person": "SILVESTRI"
+            },
+            {
+              "start": "14:30",
+              "end": "19:00",
+              "person": "RICCIO ROSARIA",
+              "note": "CHIUSURA"
+            }
+          ],
+          "p0a": [
+            {
+              "start": "09:40",
+              "end": "14:30",
+              "person": "ROCCO GIOVANNA"
+            },
+            {
+              "start": "14:30",
+              "end": "15:30",
+              "person": "SILVESTRI"
+            },
+            {
+              "start": "15:30",
+              "end": "18:10",
+              "person": "COMPER SIMONE"
+            }
+          ],
+          "p0b": [
+            {
+              "start": "09:40",
+              "end": "13:00",
+              "person": "PASCUAL LEANDRO"
+            },
+            {
+              "start": "14:00",
+              "end": "18:10",
+              "person": "TOMASI MAURO"
+            }
+          ],
+          "p1a": [
+            {
+              "start": "09:40",
+              "end": "13:30",
+              "person": "LIMONTA YESIEL"
+            },
+            {
+              "start": "13:30",
+              "end": "18:10",
+              "person": "SANTOS NAYARA"
+            }
+          ],
+          "p1b": [
+            {
+              "start": "09:40",
+              "end": "13:00",
+              "person": ""
+            },
+            {
+              "start": "13:00",
+              "end": "15:30",
+              "person": ""
+            },
+            {
+              "start": "15:30",
+              "end": "18:10",
+              "person": "PUSCEDDU ERNESTO"
+            }
+          ],
+          "p2a": [
+            {
+              "start": "09:40",
+              "end": "12:10",
+              "person": "TOMASI MAURO"
+            },
+            {
+              "start": "11:10",
+              "end": "13:30",
+              "person": "SANTOS NAYARA"
+            },
+            {
+              "start": "13:30",
+              "end": "18:10",
+              "person": "BUTT Adeel"
+            }
+          ],
+          "p2b": [
+            {
+              "start": "09:40",
+              "end": "14:00",
+              "person": "IVASHCHUK NINA"
+            },
+            {
+              "start": "14:00",
+              "end": "18:10",
+              "person": "PASCUAL LEANDRO"
+            }
+          ],
+          "p3": [
+            {
+              "start": "09:40",
+              "end": "13:30",
+              "person": "CUSCITO ANGELO"
+            },
+            {
+              "start": "13:30",
+              "end": "18:10",
+              "person": "KHAN IJAZ"
+            }
+          ],
+          "p4": [
+            {
+              "start": "09:40",
+              "end": "14:30",
+              "person": "COMPER SIMONE"
+            },
+            {
+              "start": "14:30",
+              "end": "18:10",
+              "person": "LIMONTA YESIEL"
+            }
+          ],
+          "ref": [],
+          "alb0a": [
+            {
+              "start": "09:40",
+              "end": "13:30",
+              "person": "RICCIO ROSARIA"
+            },
+            {
+              "start": "13:30",
+              "end": "18:30",
+              "person": "CAMPANELLA ILARIA",
+              "note": "Corso formazione docenti (18.10-18.30 - p0 Palazzo delle Albere)"
+            }
+          ],
+          "alb0b": [],
+          "alb1": [
+            {
+              "start": "09:40",
+              "end": "14:30",
+              "person": "PUSCEDDU ERNESTO"
+            },
+            {
+              "start": "14:30",
+              "end": "18:10",
+              "person": "GIACOMETTI FRANCESCO"
+            }
+          ],
+          "alb2": [
+            {
+              "start": "09:40",
+              "end": "14:30",
+              "person": "NARDELLI ANNA MARIA"
+            },
+            {
+              "start": "14:30",
+              "end": "18:10",
+              "person": "CUSCITO ANGELO"
+            }
+          ],
+          "ex_1791808004496_0": [],
+          "ex_1791808004496_1": []
+        },
+        "2": {
+          "p-1a": [
+            {
+              "start": "09:40",
+              "end": "13:30",
+              "person": ""
+            },
+            {
+              "start": "13:30",
+              "end": "18:10",
+              "person": ""
+            }
+          ],
+          "p-1b": [
+            {
+              "start": "09:40",
+              "end": "14:30",
+              "person": ""
+            },
+            {
+              "start": "14:30",
+              "end": "18:10",
+              "person": ""
+            }
+          ],
+          "p0a": [
+            {
+              "start": "09:40",
+              "end": "13:30",
+              "person": ""
+            },
+            {
+              "start": "13:30",
+              "end": "18:10",
+              "person": ""
+            }
+          ],
+          "p0b": [
+            {
+              "start": "09:40",
+              "end": "14:30",
+              "person": ""
+            },
+            {
+              "start": "14:30",
+              "end": "18:10",
+              "person": ""
+            }
+          ],
+          "p1a": [
+            {
+              "start": "09:40",
+              "end": "14:30",
+              "person": ""
+            },
+            {
+              "start": "14:30",
+              "end": "18:10",
+              "person": ""
+            }
+          ],
+          "p1b": [
+            {
+              "start": "09:40",
+              "end": "15:30",
+              "person": ""
+            },
+            {
+              "start": "15:30",
+              "end": "18:10",
+              "person": ""
+            }
+          ],
+          "p2a": [
+            {
+              "start": "09:40",
+              "end": "14:30",
+              "person": ""
+            },
+            {
+              "start": "14:30",
+              "end": "18:10",
+              "person": ""
+            }
+          ],
+          "p2b": [
+            {
+              "start": "09:40",
+              "end": "13:30",
+              "person": ""
+            },
+            {
+              "start": "13:30",
+              "end": "18:10",
+              "person": ""
+            }
+          ],
+          "p3": [
+            {
+              "start": "09:40",
+              "end": "15:30",
+              "person": ""
+            },
+            {
+              "start": "15:30",
+              "end": "18:10",
+              "person": ""
+            }
+          ],
+          "p4": [
+            {
+              "start": "09:40",
+              "end": "14:30",
+              "person": ""
+            },
+            {
+              "start": "14:30",
+              "end": "18:10",
+              "person": ""
+            }
+          ],
+          "ref": [
+            {
+              "start": "09:40",
+              "end": "18:10",
+              "person": ""
+            }
+          ],
+          "alb0a": [
+            {
+              "start": "09:40",
+              "end": "15:30",
+              "person": ""
+            },
+            {
+              "start": "15:30",
+              "end": "18:10",
+              "person": ""
+            }
+          ],
+          "alb0b": [],
+          "alb1": [
+            {
+              "start": "09:40",
+              "end": "15:30",
+              "person": ""
+            },
+            {
+              "start": "15:30",
+              "end": "18:10",
+              "person": ""
+            }
+          ],
+          "alb2": [
+            {
+              "start": "09:40",
+              "end": "15:30",
+              "person": ""
+            },
+            {
+              "start": "15:30",
+              "end": "18:10",
+              "person": ""
+            }
+          ],
+          "ex_1791808004496_0": [],
+          "ex_1791808004496_1": []
+        },
+        "3": {
+          "p-1a": [
+            {
+              "start": "09:40",
+              "end": "13:30",
+              "person": ""
+            },
+            {
+              "start": "13:30",
+              "end": "18:10",
+              "person": ""
+            }
+          ],
+          "p-1b": [
+            {
+              "start": "09:40",
+              "end": "14:30",
+              "person": ""
+            },
+            {
+              "start": "14:30",
+              "end": "18:10",
+              "person": ""
+            }
+          ],
+          "p0a": [
+            {
+              "start": "09:40",
+              "end": "13:30",
+              "person": ""
+            },
+            {
+              "start": "13:30",
+              "end": "18:10",
+              "person": ""
+            }
+          ],
+          "p0b": [
+            {
+              "start": "09:40",
+              "end": "14:30",
+              "person": ""
+            },
+            {
+              "start": "14:30",
+              "end": "18:10",
+              "person": ""
+            }
+          ],
+          "p1a": [
+            {
+              "start": "09:40",
+              "end": "14:30",
+              "person": ""
+            },
+            {
+              "start": "14:30",
+              "end": "18:10",
+              "person": ""
+            }
+          ],
+          "p1b": [
+            {
+              "start": "09:40",
+              "end": "15:30",
+              "person": ""
+            },
+            {
+              "start": "15:30",
+              "end": "18:10",
+              "person": ""
+            }
+          ],
+          "p2a": [
+            {
+              "start": "09:40",
+              "end": "14:30",
+              "person": ""
+            },
+            {
+              "start": "14:30",
+              "end": "18:10",
+              "person": ""
+            }
+          ],
+          "p2b": [
+            {
+              "start": "09:40",
+              "end": "13:30",
+              "person": ""
+            },
+            {
+              "start": "13:30",
+              "end": "18:10",
+              "person": ""
+            }
+          ],
+          "p3": [
+            {
+              "start": "09:40",
+              "end": "15:30",
+              "person": ""
+            },
+            {
+              "start": "15:30",
+              "end": "18:10",
+              "person": ""
+            }
+          ],
+          "p4": [
+            {
+              "start": "09:40",
+              "end": "14:30",
+              "person": ""
+            },
+            {
+              "start": "14:30",
+              "end": "18:10",
+              "person": ""
+            }
+          ],
+          "ref": [
+            {
+              "start": "09:40",
+              "end": "18:10",
+              "person": ""
+            }
+          ],
+          "alb0a": [
+            {
+              "start": "09:40",
+              "end": "15:30",
+              "person": ""
+            },
+            {
+              "start": "15:30",
+              "end": "18:10",
+              "person": ""
+            }
+          ],
+          "alb0b": [],
+          "alb1": [
+            {
+              "start": "09:40",
+              "end": "15:30",
+              "person": ""
+            },
+            {
+              "start": "15:30",
+              "end": "18:10",
+              "person": ""
+            }
+          ],
+          "alb2": [
+            {
+              "start": "09:40",
+              "end": "15:30",
+              "person": ""
+            },
+            {
+              "start": "15:30",
+              "end": "18:10",
+              "person": ""
+            }
+          ],
+          "ex_1791808004496_0": [],
+          "ex_1791808004496_1": []
+        },
+        "4": {
+          "p-1a": [
+            {
+              "start": "09:40",
+              "end": "13:30",
+              "person": ""
+            },
+            {
+              "start": "13:30",
+              "end": "18:10",
+              "person": ""
+            }
+          ],
+          "p-1b": [
+            {
+              "start": "09:40",
+              "end": "14:30",
+              "person": ""
+            },
+            {
+              "start": "14:30",
+              "end": "18:10",
+              "person": ""
+            }
+          ],
+          "p0a": [
+            {
+              "start": "09:40",
+              "end": "13:30",
+              "person": ""
+            },
+            {
+              "start": "13:30",
+              "end": "18:10",
+              "person": ""
+            }
+          ],
+          "p0b": [
+            {
+              "start": "09:40",
+              "end": "14:30",
+              "person": ""
+            },
+            {
+              "start": "14:30",
+              "end": "18:10",
+              "person": ""
+            }
+          ],
+          "p1a": [
+            {
+              "start": "09:40",
+              "end": "14:30",
+              "person": ""
+            },
+            {
+              "start": "14:30",
+              "end": "18:10",
+              "person": ""
+            }
+          ],
+          "p1b": [
+            {
+              "start": "09:40",
+              "end": "15:30",
+              "person": ""
+            },
+            {
+              "start": "15:30",
+              "end": "18:10",
+              "person": ""
+            }
+          ],
+          "p2a": [
+            {
+              "start": "09:40",
+              "end": "14:30",
+              "person": ""
+            },
+            {
+              "start": "14:30",
+              "end": "18:10",
+              "person": ""
+            }
+          ],
+          "p2b": [
+            {
+              "start": "09:40",
+              "end": "13:30",
+              "person": ""
+            },
+            {
+              "start": "13:30",
+              "end": "18:10",
+              "person": ""
+            }
+          ],
+          "p3": [
+            {
+              "start": "09:40",
+              "end": "15:30",
+              "person": ""
+            },
+            {
+              "start": "15:30",
+              "end": "18:10",
+              "person": ""
+            }
+          ],
+          "p4": [
+            {
+              "start": "09:40",
+              "end": "14:30",
+              "person": ""
+            },
+            {
+              "start": "14:30",
+              "end": "18:10",
+              "person": ""
+            }
+          ],
+          "ref": [
+            {
+              "start": "09:40",
+              "end": "18:10",
+              "person": ""
+            }
+          ],
+          "alb0a": [
+            {
+              "start": "09:40",
+              "end": "15:30",
+              "person": ""
+            },
+            {
+              "start": "15:30",
+              "end": "18:10",
+              "person": ""
+            }
+          ],
+          "alb0b": [],
+          "alb1": [
+            {
+              "start": "09:40",
+              "end": "15:30",
+              "person": ""
+            },
+            {
+              "start": "15:30",
+              "end": "18:10",
+              "person": ""
+            }
+          ],
+          "alb2": [
+            {
+              "start": "09:40",
+              "end": "15:30",
+              "person": ""
+            },
+            {
+              "start": "15:30",
+              "end": "18:10",
+              "person": ""
+            }
+          ],
+          "ex_1791808004496_0": [],
+          "ex_1791808004496_1": []
+        },
+        "5": {
+          "p-1a": [
+            {
+              "start": "09:40",
+              "end": "13:30",
+              "person": ""
+            },
+            {
+              "start": "13:30",
+              "end": "19:10",
+              "person": ""
+            }
+          ],
+          "p-1b": [
+            {
+              "start": "09:40",
+              "end": "14:30",
+              "person": ""
+            },
+            {
+              "start": "14:30",
+              "end": "19:10",
+              "person": ""
+            }
+          ],
+          "p0a": [
+            {
+              "start": "09:40",
+              "end": "13:30",
+              "person": ""
+            },
+            {
+              "start": "13:30",
+              "end": "19:10",
+              "person": ""
+            }
+          ],
+          "p0b": [
+            {
+              "start": "09:40",
+              "end": "14:30",
+              "person": ""
+            },
+            {
+              "start": "14:30",
+              "end": "19:10",
+              "person": ""
+            }
+          ],
+          "p1a": [
+            {
+              "start": "09:40",
+              "end": "14:30",
+              "person": ""
+            },
+            {
+              "start": "14:30",
+              "end": "19:10",
+              "person": ""
+            }
+          ],
+          "p1b": [
+            {
+              "start": "09:40",
+              "end": "15:30",
+              "person": ""
+            },
+            {
+              "start": "15:30",
+              "end": "19:10",
+              "person": ""
+            }
+          ],
+          "p2a": [
+            {
+              "start": "09:40",
+              "end": "14:30",
+              "person": ""
+            },
+            {
+              "start": "14:30",
+              "end": "19:10",
+              "person": ""
+            }
+          ],
+          "p2b": [
+            {
+              "start": "09:40",
+              "end": "13:30",
+              "person": ""
+            },
+            {
+              "start": "13:30",
+              "end": "19:10",
+              "person": ""
+            }
+          ],
+          "p3": [
+            {
+              "start": "09:40",
+              "end": "15:30",
+              "person": ""
+            },
+            {
+              "start": "15:30",
+              "end": "19:10",
+              "person": ""
+            }
+          ],
+          "p4": [
+            {
+              "start": "09:40",
+              "end": "14:30",
+              "person": ""
+            },
+            {
+              "start": "14:30",
+              "end": "19:10",
+              "person": ""
+            }
+          ],
+          "ref": [
+            {
+              "start": "09:40",
+              "end": "19:10",
+              "person": ""
+            }
+          ],
+          "alb0a": [
+            {
+              "start": "09:40",
+              "end": "15:30",
+              "person": ""
+            },
+            {
+              "start": "15:30",
+              "end": "19:10",
+              "person": ""
+            }
+          ],
+          "alb0b": [],
+          "alb1": [
+            {
+              "start": "09:40",
+              "end": "15:30",
+              "person": ""
+            },
+            {
+              "start": "15:30",
+              "end": "19:10",
+              "person": ""
+            }
+          ],
+          "alb2": [
+            {
+              "start": "09:40",
+              "end": "15:30",
+              "person": ""
+            },
+            {
+              "start": "15:30",
+              "end": "19:10",
+              "person": ""
+            }
+          ],
+          "ex_1791808004496_0": [],
+          "ex_1791808004496_1": []
+        },
+        "6": {
+          "p-1a": [
+            {
+              "start": "09:40",
+              "end": "13:30",
+              "person": ""
+            },
+            {
+              "start": "13:30",
+              "end": "19:10",
+              "person": ""
+            }
+          ],
+          "p-1b": [
+            {
+              "start": "09:40",
+              "end": "14:30",
+              "person": ""
+            },
+            {
+              "start": "14:30",
+              "end": "19:10",
+              "person": ""
+            }
+          ],
+          "p0a": [
+            {
+              "start": "09:40",
+              "end": "13:30",
+              "person": ""
+            },
+            {
+              "start": "13:30",
+              "end": "19:10",
+              "person": ""
+            }
+          ],
+          "p0b": [
+            {
+              "start": "09:40",
+              "end": "14:30",
+              "person": ""
+            },
+            {
+              "start": "14:30",
+              "end": "19:10",
+              "person": ""
+            }
+          ],
+          "p1a": [
+            {
+              "start": "09:40",
+              "end": "14:30",
+              "person": ""
+            },
+            {
+              "start": "14:30",
+              "end": "19:10",
+              "person": ""
+            }
+          ],
+          "p1b": [
+            {
+              "start": "09:40",
+              "end": "15:30",
+              "person": ""
+            },
+            {
+              "start": "15:30",
+              "end": "19:10",
+              "person": ""
+            }
+          ],
+          "p2a": [
+            {
+              "start": "09:40",
+              "end": "14:30",
+              "person": ""
+            },
+            {
+              "start": "14:30",
+              "end": "19:10",
+              "person": ""
+            }
+          ],
+          "p2b": [
+            {
+              "start": "09:40",
+              "end": "13:30",
+              "person": ""
+            },
+            {
+              "start": "13:30",
+              "end": "19:10",
+              "person": ""
+            }
+          ],
+          "p3": [
+            {
+              "start": "09:40",
+              "end": "15:30",
+              "person": ""
+            },
+            {
+              "start": "15:30",
+              "end": "19:10",
+              "person": ""
+            }
+          ],
+          "p4": [
+            {
+              "start": "09:40",
+              "end": "14:30",
+              "person": ""
+            },
+            {
+              "start": "14:30",
+              "end": "19:10",
+              "person": ""
+            }
+          ],
+          "ref": [
+            {
+              "start": "09:40",
+              "end": "19:10",
+              "person": ""
+            }
+          ],
+          "alb0a": [
+            {
+              "start": "09:40",
+              "end": "15:30",
+              "person": ""
+            },
+            {
+              "start": "15:30",
+              "end": "19:10",
+              "person": ""
+            }
+          ],
+          "alb0b": [
+            {
+              "start": "09:40",
+              "end": "15:30",
+              "person": ""
+            },
+            {
+              "start": "15:30",
+              "end": "19:10",
+              "person": ""
+            }
+          ],
+          "alb1": [
+            {
+              "start": "09:40",
+              "end": "15:30",
+              "person": ""
+            },
+            {
+              "start": "15:30",
+              "end": "19:10",
+              "person": ""
+            }
+          ],
+          "alb2": [
+            {
+              "start": "09:40",
+              "end": "15:30",
+              "person": ""
+            },
+            {
+              "start": "15:30",
+              "end": "19:10",
+              "person": ""
+            }
+          ],
+          "ex_1791808004496_0": [],
+          "ex_1791808004496_1": []
+        },
+        "_edited": {
+          "0": {
+            "p-1a": true,
+            "p-1b": true,
+            "p0a": true,
+            "p0b": true,
+            "p1a": true,
+            "p1b": true,
+            "p2a": true,
+            "p2b": true,
+            "p3": true,
+            "p4": true,
+            "ref": true,
+            "alb0a": true,
+            "alb0b": true,
+            "alb1": true,
+            "alb2": true,
+            "ex_1791808004496_0": true,
+            "ex_1791808004496_1": true
+          },
+          "1": {
+            "p-1a": true,
+            "p-1b": true,
+            "p0a": true,
+            "p0b": true,
+            "p1a": true,
+            "p1b": true,
+            "p2b": true,
+            "p3": true,
+            "p2a": true,
+            "p4": true,
+            "ref": true,
+            "alb0a": true,
+            "alb0b": true,
+            "alb1": true,
+            "alb2": true,
+            "ex_1791808004496_0": true,
+            "ex_1791808004496_1": true
+          },
+          "2": {
+            "ex_1791808004496_0": true,
+            "ex_1791808004496_1": true,
+            "alb0b": true
+          },
+          "3": {
+            "ex_1791808004496_0": true,
+            "ex_1791808004496_1": true,
+            "alb0b": true
+          },
+          "4": {
+            "ex_1791808004496_0": true,
+            "ex_1791808004496_1": true,
+            "alb0b": true
+          },
+          "5": {
+            "ex_1791808004496_1": true,
+            "ex_1791808004496_0": true,
+            "alb0b": true
+          },
+          "6": {
+            "ex_1791808004496_0": true,
+            "ex_1791808004496_1": true
+          }
+        },
+        "_extraSections": [
+          {
+            "id": "ex_1791808004496_0",
+            "label": "Mostra Water Flow A",
+            "type": "extra",
+            "area": "Mostra Water Flow",
+            "event": "Mostra Water Flow"
+          },
+          {
+            "id": "ex_1791808004496_1",
+            "label": "Mostra Water Flow B",
+            "type": "extra",
+            "area": "Mostra Water Flow",
+            "event": "Mostra Water Flow"
+          }
+        ],
+        "_dayNotes": {
+          "1": "REFERENTE\n09.30 - 13.00 Ferretti\n13.00 - 18.10 Tomasi"
+        }
+      },
+      "publishedAt": "2026-10-12T12:43:02.767Z"
     }
   },
   "sections": [
@@ -11882,5 +13037,5 @@
       "pin": "1543"
     }
   ],
-  "lastUpdated": "2026-10-12T09:22:25.082Z"
+  "lastUpdated": "2026-10-12T12:43:03.902Z"
 }
