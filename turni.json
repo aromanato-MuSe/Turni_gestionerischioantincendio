@@ -12408,9 +12408,10 @@
           ],
           "alb2": [
             {
-              "start": "09:40",
+              "start": "09:00",
               "end": "13:30",
-              "person": "MOTTER MICHELE"
+              "person": "MOTTER MICHELE",
+              "note": "Distretto dell'educazione (9:00-9:30 - p0 MUSE)"
             },
             {
               "start": "13:30",
@@ -12829,7 +12830,7 @@
           "6": "REFERENTE:\nCampanella 09.30 - 19.10"
         }
       },
-      "publishedAt": "2026-10-12T14:13:45.686Z"
+      "publishedAt": "2026-10-12T14:58:39.377Z"
     }
   },
   "sections": [
@@ -13298,5 +13299,5 @@
       "pin": "1543"
     }
   ],
-  "lastUpdated": "2026-10-12T14:13:46.799Z"
+  "lastUpdated": "2026-10-12T14:58:40.416Z"
 }
