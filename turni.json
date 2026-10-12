@@ -8896,12 +8896,12 @@
             {
               "start": "13:30",
               "end": "19:10",
-              "person": "CARIA ALBERTO"
+              "person": "FIKRI Mohamed"
             }
           ],
           "p-1b": [
             {
-              "start": "09:40",
+              "start": "10:00",
               "end": "14:30",
               "person": "MICHELETTI LORENZO"
             },
@@ -8914,20 +8914,30 @@
           "p0a": [
             {
               "start": "09:40",
-              "end": "13:30",
+              "end": "14:00",
               "person": "ELHALI MANAR"
             },
             {
-              "start": "13:30",
+              "start": "14:30",
+              "end": "15:30",
+              "person": "LOSS Francesca"
+            },
+            {
+              "start": "15:30",
               "end": "19:10",
-              "person": "FIKRI Mohamed"
+              "person": "TOMASI MAURO"
             }
           ],
           "p0b": [
             {
               "start": "09:40",
-              "end": "14:30",
+              "end": "14:00",
               "person": "TOMASI MAURO"
+            },
+            {
+              "start": "14:00",
+              "end": "14:30",
+              "person": "PUSCEDDU ERNESTO"
             },
             {
               "start": "14:30",
@@ -8937,18 +8947,23 @@
             {
               "start": "19:10",
               "end": "20:00",
-              "person": "GIACOMETTI FRANCESCO",
+              "person": "RICCIO ROSARIA",
               "note": "CHIUSURA"
             }
           ],
           "p1a": [
             {
               "start": "09:40",
-              "end": "13:30",
+              "end": "14:00",
               "person": "CUSCITO ANGELO"
             },
             {
-              "start": "13:30",
+              "start": "14:00",
+              "end": "14:30",
+              "person": "ANGELI GABRIELE"
+            },
+            {
+              "start": "14:30",
               "end": "19:10",
               "person": "PUSCEDDU ERNESTO"
             }
@@ -8961,15 +8976,20 @@
             },
             {
               "start": "14:30",
+              "end": "15:30",
+              "person": "TOMASI MAURO"
+            },
+            {
+              "start": "15:30",
               "end": "19:10",
-              "person": "ORANGIFARD NIMA"
+              "person": "MOTTER MICHELE"
             }
           ],
           "p2a": [
             {
-              "start": "09:40",
+              "start": "10:15",
               "end": "13:30",
-              "person": "ORANGIFARD NIMA"
+              "person": "PUSCEDDU ERNESTO"
             },
             {
               "start": "13:30",
@@ -9028,6 +9048,16 @@
           "alb0b": [
             {
               "start": "09:30",
+              "end": "14:30",
+              "person": "GIACOMOZZI GRAZIELLA"
+            },
+            {
+              "start": "14:30",
+              "end": "15:00",
+              "person": "NARDELLI ANNA MARIA"
+            },
+            {
+              "start": "15:00",
               "end": "15:30",
               "person": "GIACOMOZZI GRAZIELLA"
             },
@@ -9058,16 +9088,10 @@
             {
               "start": "15:30",
               "end": "19:10",
-              "person": "MOTTER MICHELE"
+              "person": "GIACOMOZZI GRAZIELLA"
             }
           ],
-          "ref": [
-            {
-              "start": "15:30",
-              "end": "19:10",
-              "person": "TOMASI MAURO"
-            }
-          ],
+          "ref": [],
           "ex_1790344091387_hnc4": [],
           "ex_1790344091387_92st": [],
           "ex_1790344091387_e48c": [],
@@ -9533,7 +9557,7 @@
           "6": "REFERENTE\n09.30 - 14.30 TOMASI\n15.30 - 19.10 TOMASI"
         }
       },
-      "publishedAt": "2026-10-08T20:28:09.421Z"
+      "publishedAt": "2026-10-12T09:22:24.168Z"
     },
     "2026-W43": {
       "schedule": {
@@ -11397,15 +11421,13 @@
       "id": "p-1a",
       "label": "Piano −1a",
       "type": "piano",
-      "area": "Dinosauri zona 1,2,3 /DNA",
-      "nSlots": 2
+      "area": "Dinosauri zona 1,2,3 /DNA"
     },
     {
       "id": "p-1b",
       "label": "Piano −1b",
       "type": "piano",
-      "area": "Mostre temporanee piccolo vuoto/Serra",
-      "nSlots": 2
+      "area": "Mostre temporanee piccolo vuoto/Serra"
     },
     {
       "id": "p0a",
@@ -11484,12 +11506,6 @@
       "label": "Referente",
       "type": "referente",
       "area": "Referente di giornata"
-    },
-    {
-      "id": "ex_1787500861773",
-      "label": "EVENTO X",
-      "type": "extra",
-      "area": "EVENTO X"
     }
   ],
   "staff": [
@@ -11866,5 +11882,5 @@
       "pin": "1543"
     }
   ],
-  "lastUpdated": "2026-10-09T15:21:29.693Z"
+  "lastUpdated": "2026-10-12T09:22:25.082Z"
 }
