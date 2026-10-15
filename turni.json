@@ -11857,7 +11857,7 @@
             {
               "start": "14:30",
               "end": "18:10",
-              "person": "PASCUAL LEANDRO"
+              "person": "DALPAS MATTEO"
             }
           ],
           "p1a": [
@@ -11870,12 +11870,12 @@
             {
               "start": "14:30",
               "end": "15:30",
-              "person": "SILVESTRI"
+              "person": "BALDO ELIO"
             },
             {
               "start": "15:30",
               "end": "18:10",
-              "person": "LIMONTA YESIEL"
+              "person": "TOMASI MAURO"
             }
           ],
           "p1b": [
@@ -11945,13 +11945,7 @@
               "note": "Insieme si cresce (18:10-19:30 - p0 compresa CHIUSURA)"
             }
           ],
-          "ref": [
-            {
-              "start": "13:30",
-              "end": "18:10",
-              "person": "FERRETTI GIANLUCA"
-            }
-          ],
+          "ref": [],
           "alb0a": [
             {
               "start": "09:40",
@@ -11961,20 +11955,25 @@
             {
               "start": "14:30",
               "end": "18:10",
-              "person": "GIACOMETTI FRANCESCO"
+              "person": "PASCUAL LEANDRO"
             }
           ],
           "alb0b": [],
           "alb1": [
             {
               "start": "09:40",
-              "end": "15:30",
+              "end": "13:30",
               "person": "BALDO ELIO"
+            },
+            {
+              "start": "13:30",
+              "end": "15:30",
+              "person": "SILVESTRI"
             },
             {
               "start": "15:30",
               "end": "18:10",
-              "person": "TOMASI MAURO"
+              "person": "LIMONTA YESIEL"
             }
           ],
           "alb2": [
@@ -12814,13 +12813,13 @@
         "_dayNotes": {
           "1": "REFERENTI:\n09.30 - 13.00 Ferretti\n13.00 - 18.10 Tomasi",
           "2": "REFERENTI:\n09.30 - 15.30 Ferretti\n15.30 - 18.10 Campanella",
-          "3": "REFERENTI:\n09.30 - 13.30 Tomasi\n13.30 - 18.10 Ferretti",
+          "3": "REFERENTE\n09.30 - 13.30 Tomasi\n13.30 - 15.30 Baldo\n15.30 - 18.10 Tomasi",
           "4": "REFERENTE:\nFerretti",
           "5": "REFERENTE:\nBaldo 09.30 - 19.10",
           "6": "REFERENTE:\nCampanella 09.30 - 19.10"
         }
       },
-      "publishedAt": "2026-10-12T14:58:39.377Z"
+      "publishedAt": "2026-10-15T11:10:13.605Z"
     }
   },
   "sections": [
@@ -12828,15 +12827,13 @@
       "id": "p-1a",
       "label": "Piano −1a",
       "type": "piano",
-      "area": "Dinosauri zona 1,2,3 /DNA",
-      "nSlots": 2
+      "area": "Dinosauri zona 1,2,3 /DNA"
     },
     {
       "id": "p-1b",
       "label": "Piano −1b",
       "type": "piano",
-      "area": "Mostre temporanee piccolo vuoto/Serra",
-      "nSlots": 2
+      "area": "Mostre temporanee piccolo vuoto/Serra"
     },
     {
       "id": "p0a",
@@ -12915,12 +12912,6 @@
       "label": "Referente",
       "type": "referente",
       "area": "Referente di giornata"
-    },
-    {
-      "id": "ex_1787500861773",
-      "label": "EVENTO X",
-      "type": "extra",
-      "area": "EVENTO X"
     }
   ],
   "staff": [
@@ -13297,5 +13288,5 @@
       "pin": "1543"
     }
   ],
-  "lastUpdated": "2026-10-15T07:51:06.753Z"
+  "lastUpdated": "2026-10-15T11:10:14.131Z"
 }
