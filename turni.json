@@ -10332,18 +10332,8 @@
             },
             {
               "start": "13:30",
-              "end": "14:30",
-              "person": "SIMONI EVELYN"
-            },
-            {
-              "start": "14:30",
-              "end": "15:00",
-              "person": "ROMANATO ANDREA"
-            },
-            {
-              "start": "15:00",
               "end": "18:10",
-              "person": "IVASHCHUK NINA"
+              "person": "ANGELI GABRIELE"
             }
           ],
           "p0b": [
@@ -10859,7 +10849,7 @@
             {
               "start": "09:40",
               "end": "15:30",
-              "person": "ANGELI GABRIELE"
+              "person": "PUSCEDDU ERNESTO"
             },
             {
               "start": "15:30",
@@ -11413,7 +11403,7 @@
           "6": "Referente ufficio: Andrea\nReferente antincendio: Baldo Elio"
         }
       },
-      "publishedAt": "2026-10-09T15:21:29.197Z"
+      "publishedAt": "2026-10-15T07:51:06.296Z"
     },
     "2026-W42": {
       "schedule": {
@@ -12838,13 +12828,15 @@
       "id": "p-1a",
       "label": "Piano −1a",
       "type": "piano",
-      "area": "Dinosauri zona 1,2,3 /DNA"
+      "area": "Dinosauri zona 1,2,3 /DNA",
+      "nSlots": 2
     },
     {
       "id": "p-1b",
       "label": "Piano −1b",
       "type": "piano",
-      "area": "Mostre temporanee piccolo vuoto/Serra"
+      "area": "Mostre temporanee piccolo vuoto/Serra",
+      "nSlots": 2
     },
     {
       "id": "p0a",
@@ -12923,6 +12915,12 @@
       "label": "Referente",
       "type": "referente",
       "area": "Referente di giornata"
+    },
+    {
+      "id": "ex_1787500861773",
+      "label": "EVENTO X",
+      "type": "extra",
+      "area": "EVENTO X"
     }
   ],
   "staff": [
@@ -13299,5 +13297,5 @@
       "pin": "1543"
     }
   ],
-  "lastUpdated": "2026-10-12T14:58:40.416Z"
+  "lastUpdated": "2026-10-15T07:51:06.753Z"
 }
