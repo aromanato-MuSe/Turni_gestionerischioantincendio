@@ -12135,7 +12135,7 @@
           ],
           "alb0a": [
             {
-              "start": "09:40",
+              "start": "09:30",
               "end": "14:30",
               "person": "GAETANO MICHELANGELO"
             },
@@ -12819,7 +12819,7 @@
           "6": "REFERENTE:\nCampanella 09.30 - 19.10"
         }
       },
-      "publishedAt": "2026-10-15T11:10:13.605Z"
+      "publishedAt": "2026-10-16T07:46:05.488Z"
     }
   },
   "sections": [
@@ -12827,13 +12827,15 @@
       "id": "p-1a",
       "label": "Piano −1a",
       "type": "piano",
-      "area": "Dinosauri zona 1,2,3 /DNA"
+      "area": "Dinosauri zona 1,2,3 /DNA",
+      "nSlots": 2
     },
     {
       "id": "p-1b",
       "label": "Piano −1b",
       "type": "piano",
-      "area": "Mostre temporanee piccolo vuoto/Serra"
+      "area": "Mostre temporanee piccolo vuoto/Serra",
+      "nSlots": 2
     },
     {
       "id": "p0a",
@@ -12912,6 +12914,12 @@
       "label": "Referente",
       "type": "referente",
       "area": "Referente di giornata"
+    },
+    {
+      "id": "ex_1787500861773",
+      "label": "EVENTO X",
+      "type": "extra",
+      "area": "EVENTO X"
     }
   ],
   "staff": [
@@ -13288,5 +13296,5 @@
       "pin": "1543"
     }
   ],
-  "lastUpdated": "2026-10-15T11:10:14.131Z"
+  "lastUpdated": "2026-10-16T07:46:05.798Z"
 }
