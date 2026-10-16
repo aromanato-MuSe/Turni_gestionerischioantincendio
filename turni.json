@@ -12069,7 +12069,7 @@
             {
               "start": "14:30",
               "end": "18:10",
-              "person": "GIACOMETTI FRANCESCO"
+              "person": "DALPAS MATTEO"
             }
           ],
           "p2a": [
@@ -12087,13 +12087,18 @@
           "p2b": [
             {
               "start": "09:40",
-              "end": "14:30",
+              "end": "13:30",
               "person": "PASCUAL LEANDRO"
+            },
+            {
+              "start": "13:30",
+              "end": "14:30",
+              "person": "DALPAS MATTEO"
             },
             {
               "start": "14:30",
               "end": "15:30",
-              "person": "DALPAS MATTEO"
+              "person": "PASCUAL LEANDRO"
             },
             {
               "start": "15:30",
@@ -12187,7 +12192,7 @@
             {
               "start": "19:00",
               "end": "22:30",
-              "person": "GIACOMETTI FRANCESCO",
+              "person": "EL BAOUNY Amin",
               "note": "p0"
             }
           ],
@@ -12819,7 +12824,7 @@
           "6": "REFERENTE:\nCampanella 09.30 - 19.10"
         }
       },
-      "publishedAt": "2026-10-16T07:46:05.488Z"
+      "publishedAt": "2026-10-16T11:23:28.991Z"
     }
   },
   "sections": [
@@ -13296,5 +13301,5 @@
       "pin": "1543"
     }
   ],
-  "lastUpdated": "2026-10-16T07:46:05.798Z"
+  "lastUpdated": "2026-10-16T11:23:29.558Z"
 }
