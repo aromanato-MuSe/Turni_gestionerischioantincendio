@@ -11592,7 +11592,7 @@
           "ref": [],
           "alb0a": [
             {
-              "start": "09:40",
+              "start": "09:30",
               "end": "13:30",
               "person": "RICCIO ROSARIA"
             },
@@ -11770,7 +11770,7 @@
           "ref": [],
           "alb0a": [
             {
-              "start": "09:40",
+              "start": "09:30",
               "end": "13:30",
               "person": "GAETANO MICHELANGELO"
             },
@@ -11948,7 +11948,7 @@
           "ref": [],
           "alb0a": [
             {
-              "start": "09:40",
+              "start": "09:30",
               "end": "14:30",
               "person": "LIMONTA YESIEL"
             },
@@ -12233,7 +12233,7 @@
               "person": "PUSCEDDU ERNESTO"
             },
             {
-              "start": "13:30",
+              "start": "14:30",
               "end": "19:10",
               "person": "CUSCITO ANGELO"
             }
@@ -12594,7 +12594,7 @@
           ],
           "alb0a": [
             {
-              "start": "09:40",
+              "start": "09:30",
               "end": "15:30",
               "person": "SANTOS NAYARA"
             },
@@ -12848,7 +12848,7 @@
           "6": "REFERENTE:\nCampanella 09.30 - 19.10"
         }
       },
-      "publishedAt": "2026-10-17T08:11:46.345Z"
+      "publishedAt": "2026-10-17T08:18:00.929Z"
     }
   },
   "sections": [
@@ -13317,5 +13317,5 @@
       "pin": "1543"
     }
   ],
-  "lastUpdated": "2026-10-17T08:11:46.878Z"
+  "lastUpdated": "2026-10-17T08:18:01.564Z"
 }
