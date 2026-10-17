@@ -12253,16 +12253,26 @@
           "p0a": [
             {
               "start": "09:40",
-              "end": "12:30",
-              "person": "FIKRI Mohamed"
-            },
-            {
-              "start": "12:30",
-              "end": "13:30",
+              "end": "10:00",
               "person": "IVASHCHUK NINA"
             },
             {
-              "start": "13:30",
+              "start": "10:00",
+              "end": "12:30",
+              "person": "KHAN IJAZ"
+            },
+            {
+              "start": "12:30",
+              "end": "14:00",
+              "person": "IVASHCHUK NINA"
+            },
+            {
+              "start": "14:00",
+              "end": "15:30",
+              "person": "LOSS Francesca"
+            },
+            {
+              "start": "15:30",
               "end": "19:10",
               "person": "AGNOLETTO Michael"
             }
@@ -12312,11 +12322,21 @@
           "p2a": [
             {
               "start": "09:40",
-              "end": "13:30",
-              "person": "MARCHETTI NANCY"
+              "end": "12:00",
+              "person": "BALDO ELIO"
             },
             {
-              "start": "13:30",
+              "start": "12:00",
+              "end": "13:00",
+              "person": "BUTT Adeel"
+            },
+            {
+              "start": "13:00",
+              "end": "15:30",
+              "person": "BALDO ELIO"
+            },
+            {
+              "start": "15:30",
               "end": "19:10",
               "person": "TRENTINI ELISABETTA"
             }
@@ -12341,8 +12361,13 @@
             },
             {
               "start": "13:30",
+              "end": "15:30",
+              "person": "AGNOLETTO Michael"
+            },
+            {
+              "start": "15:30",
               "end": "19:10",
-              "person": "FIKRI Mohamed"
+              "person": "BALDO ELIO"
             }
           ],
           "p4": [
@@ -12357,18 +12382,17 @@
               "person": "ORANGIFARD NIMA"
             }
           ],
-          "ref": [
-            {
-              "start": "09:40",
-              "end": "19:10",
-              "person": "BALDO ELIO"
-            }
-          ],
+          "ref": [],
           "alb0a": [
             {
-              "start": "09:40",
+              "start": "09:30",
+              "end": "13:30",
+              "person": "CUSCITO ANGELO"
+            },
+            {
+              "start": "13:30",
               "end": "15:30",
-              "person": "GIACOMETTI FRANCESCO"
+              "person": "TRENTINI ELISABETTA"
             },
             {
               "start": "15:30",
@@ -12380,7 +12404,7 @@
             {
               "start": "09:40",
               "end": "13:30",
-              "person": "CUSCITO ANGELO"
+              "person": "MARCHETTI NANCY"
             },
             {
               "start": "13:30",
@@ -12824,7 +12848,7 @@
           "6": "REFERENTE:\nCampanella 09.30 - 19.10"
         }
       },
-      "publishedAt": "2026-10-16T11:23:28.991Z"
+      "publishedAt": "2026-10-17T08:11:46.345Z"
     }
   },
   "sections": [
@@ -12832,15 +12856,13 @@
       "id": "p-1a",
       "label": "Piano −1a",
       "type": "piano",
-      "area": "Dinosauri zona 1,2,3 /DNA",
-      "nSlots": 2
+      "area": "Dinosauri zona 1,2,3 /DNA"
     },
     {
       "id": "p-1b",
       "label": "Piano −1b",
       "type": "piano",
-      "area": "Mostre temporanee piccolo vuoto/Serra",
-      "nSlots": 2
+      "area": "Mostre temporanee piccolo vuoto/Serra"
     },
     {
       "id": "p0a",
@@ -12919,12 +12941,6 @@
       "label": "Referente",
       "type": "referente",
       "area": "Referente di giornata"
-    },
-    {
-      "id": "ex_1787500861773",
-      "label": "EVENTO X",
-      "type": "extra",
-      "area": "EVENTO X"
     }
   ],
   "staff": [
@@ -13301,5 +13317,5 @@
       "pin": "1543"
     }
   ],
-  "lastUpdated": "2026-10-16T11:23:29.558Z"
+  "lastUpdated": "2026-10-17T08:11:46.878Z"
 }
