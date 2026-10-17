@@ -12536,7 +12536,7 @@
             {
               "start": "13:30",
               "end": "19:10",
-              "person": "FIKRI Mohamed"
+              "person": "CAMPANELLA ILARIA"
             }
           ],
           "p2b": [
@@ -12588,7 +12588,7 @@
           "ref": [
             {
               "start": "09:40",
-              "end": "19:10",
+              "end": "12:30",
               "person": "CAMPANELLA ILARIA"
             }
           ],
@@ -12848,7 +12848,7 @@
           "6": "REFERENTE:\nCampanella 09.30 - 19.10"
         }
       },
-      "publishedAt": "2026-10-17T08:18:45.280Z"
+      "publishedAt": "2026-10-17T10:31:01.553Z"
     }
   },
   "sections": [
@@ -13317,5 +13317,5 @@
       "pin": "1543"
     }
   ],
-  "lastUpdated": "2026-10-17T08:18:45.771Z"
+  "lastUpdated": "2026-10-17T10:31:02.208Z"
 }
