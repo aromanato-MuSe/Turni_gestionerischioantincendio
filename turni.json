@@ -9572,13 +9572,7 @@
           "p2b": [],
           "p3": [],
           "p4": [],
-          "ref": [
-            {
-              "start": "09:40",
-              "end": "18:10",
-              "person": ""
-            }
-          ],
+          "ref": [],
           "alb0a": [],
           "alb0b": [],
           "alb1": [],
@@ -9784,13 +9778,7 @@
               "person": "PUSCEDDU ERNESTO"
             }
           ],
-          "ref": [
-            {
-              "start": "09:40",
-              "end": "18:10",
-              "person": ""
-            }
-          ],
+          "ref": [],
           "alb0a": [
             {
               "start": "08:45",
@@ -9989,16 +9977,10 @@
               "person": "GAETANO MICHELANGELO"
             }
           ],
-          "ref": [
-            {
-              "start": "09:40",
-              "end": "18:10",
-              "person": ""
-            }
-          ],
+          "ref": [],
           "alb0a": [
             {
-              "start": "09:40",
+              "start": "09:30",
               "end": "13:30",
               "person": "GAETANO MICHELANGELO"
             },
@@ -10215,16 +10197,10 @@
               "note": "CHIUSURA"
             }
           ],
-          "ref": [
-            {
-              "start": "09:40",
-              "end": "18:10",
-              "person": ""
-            }
-          ],
+          "ref": [],
           "alb0a": [
             {
-              "start": "09:40",
+              "start": "09:30",
               "end": "14:00",
               "person": "SIMONI EVELYN"
             },
@@ -10422,16 +10398,10 @@
               "person": "PASCUAL LEANDRO"
             }
           ],
-          "ref": [
-            {
-              "start": "09:40",
-              "end": "18:10",
-              "person": ""
-            }
-          ],
+          "ref": [],
           "alb0a": [
             {
-              "start": "09:40",
+              "start": "09:30",
               "end": "15:30",
               "person": "FIKRI Mohamed"
             },
@@ -10659,7 +10629,7 @@
           ],
           "alb0a": [
             {
-              "start": "09:40",
+              "start": "09:30",
               "end": "15:30",
               "person": "CARIA ALBERTO"
             },
@@ -10885,7 +10855,7 @@
           ],
           "alb0a": [
             {
-              "start": "09:40",
+              "start": "09:30",
               "end": "15:30",
               "person": "AGNOLETTO Michael"
             },
@@ -11179,7 +11149,8 @@
             "ex_1791359872049_1": true,
             "ex_1791359872049_2": true,
             "ex_1791383599823_3": true,
-            "ex_1791539961629": true
+            "ex_1791539961629": true,
+            "ref": true
           },
           "1": {
             "ex_1791383351239": true,
@@ -11214,7 +11185,8 @@
             "p1b": true,
             "alb2": true,
             "p4": true,
-            "ex_1791539961629": true
+            "ex_1791539961629": true,
+            "ref": true
           },
           "2": {
             "ex_1791383351239": true,
@@ -11249,7 +11221,8 @@
             "p3": true,
             "alb1": true,
             "alb2": true,
-            "ex_1791539961629": true
+            "ex_1791539961629": true,
+            "ref": true
           },
           "3": {
             "ex_1791359872049_0": true,
@@ -11284,7 +11257,8 @@
             "p0b": true,
             "alb1": true,
             "alb2": true,
-            "ex_1791539961629": true
+            "ex_1791539961629": true,
+            "ref": true
           },
           "4": {
             "ex_1791359872049_2": true,
@@ -11319,7 +11293,8 @@
             "alb0a": true,
             "p1b": true,
             "alb2": true,
-            "ex_1791539961629": true
+            "ex_1791539961629": true,
+            "ref": true
           },
           "5": {
             "ex_1791383351239": true,
@@ -11403,7 +11378,7 @@
           "6": "Referente ufficio: Andrea\nReferente antincendio: Baldo Elio"
         }
       },
-      "publishedAt": "2026-10-15T07:51:06.296Z"
+      "publishedAt": "2026-10-20T07:34:31.731Z"
     },
     "2026-W42": {
       "schedule": {
@@ -12856,13 +12831,15 @@
       "id": "p-1a",
       "label": "Piano −1a",
       "type": "piano",
-      "area": "Dinosauri zona 1,2,3 /DNA"
+      "area": "Dinosauri zona 1,2,3 /DNA",
+      "nSlots": 2
     },
     {
       "id": "p-1b",
       "label": "Piano −1b",
       "type": "piano",
-      "area": "Mostre temporanee piccolo vuoto/Serra"
+      "area": "Mostre temporanee piccolo vuoto/Serra",
+      "nSlots": 2
     },
     {
       "id": "p0a",
@@ -12941,6 +12918,12 @@
       "label": "Referente",
       "type": "referente",
       "area": "Referente di giornata"
+    },
+    {
+      "id": "ex_1787500861773",
+      "label": "EVENTO X",
+      "type": "extra",
+      "area": "EVENTO X"
     }
   ],
   "staff": [
@@ -13283,7 +13266,7 @@
     {
       "cog": "SIMONI",
       "nom": "EVELYN",
-      "contratto": null,
+      "contratto": 24,
       "vincoli": {
         "sezioniEscluse": []
       },
@@ -13317,5 +13300,5 @@
       "pin": "1543"
     }
   ],
-  "lastUpdated": "2026-10-17T10:31:02.208Z"
+  "lastUpdated": "2026-10-20T07:34:32.261Z"
 }
