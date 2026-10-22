@@ -10119,8 +10119,13 @@
             },
             {
               "start": "14:30",
-              "end": "18:10",
+              "end": "15:30",
               "person": "GIACOMETTI FRANCESCO"
+            },
+            {
+              "start": "15:30",
+              "end": "18:10",
+              "person": "SIMONI EVELYN"
             }
           ],
           "p1a": [
@@ -10150,8 +10155,13 @@
           "p2a": [
             {
               "start": "09:40",
+              "end": "13:30",
+              "person": "ROMANATO ANDREA"
+            },
+            {
+              "start": "13:30",
               "end": "14:30",
-              "person": "SANTOS NAYARA"
+              "person": "SARTORI CAMILLA"
             },
             {
               "start": "14:30",
@@ -10181,7 +10191,7 @@
             {
               "start": "15:30",
               "end": "18:10",
-              "person": "SANTOS NAYARA"
+              "person": "GIACOMETTI FRANCESCO"
             }
           ],
           "p4": [
@@ -11378,7 +11388,7 @@
           "6": "Referente ufficio: Andrea\nReferente antincendio: Baldo Elio"
         }
       },
-      "publishedAt": "2026-10-20T07:34:31.731Z"
+      "publishedAt": "2026-10-22T07:07:29.866Z"
     },
     "2026-W42": {
       "schedule": {
@@ -13300,5 +13310,5 @@
       "pin": "1543"
     }
   ],
-  "lastUpdated": "2026-10-20T07:34:32.261Z"
+  "lastUpdated": "2026-10-22T07:07:30.449Z"
 }
