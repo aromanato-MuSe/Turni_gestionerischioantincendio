@@ -10331,7 +10331,7 @@
             {
               "start": "14:30",
               "end": "18:10",
-              "person": "RICCIO ROSARIA"
+              "person": "TRENTINI ELISABETTA"
             }
           ],
           "p1a": [
@@ -10356,14 +10356,19 @@
             {
               "start": "14:30",
               "end": "18:10",
-              "person": "TRENTINI ELISABETTA"
+              "person": "RICCIO ROSARIA"
             }
           ],
           "p2a": [
             {
               "start": "09:40",
+              "end": "11:30",
+              "person": "ROMANATO ANDREA"
+            },
+            {
+              "start": "11:30",
               "end": "14:30",
-              "person": "ROCCO GIOVANNA"
+              "person": "FIKRI Mohamed"
             },
             {
               "start": "14:30",
@@ -10411,7 +10416,12 @@
           "ref": [],
           "alb0a": [
             {
-              "start": "09:30",
+              "start": "9:30",
+              "end": "14:30",
+              "person": "ROCCO GIOVANNA"
+            },
+            {
+              "start": "14:30",
               "end": "15:30",
               "person": "FIKRI Mohamed"
             },
@@ -11388,7 +11398,7 @@
           "6": "Referente ufficio: Andrea\nReferente antincendio: Baldo Elio"
         }
       },
-      "publishedAt": "2026-10-22T07:07:29.866Z"
+      "publishedAt": "2026-10-23T06:33:42.550Z"
     },
     "2026-W42": {
       "schedule": {
@@ -13310,5 +13320,5 @@
       "pin": "1543"
     }
   ],
-  "lastUpdated": "2026-10-22T07:07:30.449Z"
+  "lastUpdated": "2026-10-23T06:33:43.049Z"
 }
