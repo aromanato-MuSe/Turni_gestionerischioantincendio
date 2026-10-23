@@ -10366,7 +10366,7 @@
               "person": "ROMANATO ANDREA"
             },
             {
-              "start": "11:30",
+              "start": "12:45",
               "end": "14:30",
               "person": "FIKRI Mohamed"
             },
@@ -11398,7 +11398,7 @@
           "6": "Referente ufficio: Andrea\nReferente antincendio: Baldo Elio"
         }
       },
-      "publishedAt": "2026-10-23T06:58:55.279Z"
+      "publishedAt": "2026-10-23T10:42:44.647Z"
     },
     "2026-W42": {
       "schedule": {
@@ -13320,5 +13320,5 @@
       "pin": "1543"
     }
   ],
-  "lastUpdated": "2026-10-23T06:58:55.860Z"
+  "lastUpdated": "2026-10-23T10:42:45.252Z"
 }
