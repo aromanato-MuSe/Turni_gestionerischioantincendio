@@ -10300,11 +10300,11 @@
           "p-1b": [
             {
               "start": "09:40",
-              "end": "14:30",
+              "end": "15:30",
               "person": "SILVESTRI"
             },
             {
-              "start": "14:30",
+              "start": "15:30",
               "end": "18:10",
               "person": "MOTTER MICHELE"
             }
@@ -11398,7 +11398,7 @@
           "6": "Referente ufficio: Andrea\nReferente antincendio: Baldo Elio"
         }
       },
-      "publishedAt": "2026-10-23T06:33:42.550Z"
+      "publishedAt": "2026-10-23T06:58:55.279Z"
     },
     "2026-W42": {
       "schedule": {
@@ -13320,5 +13320,5 @@
       "pin": "1543"
     }
   ],
-  "lastUpdated": "2026-10-23T06:33:43.049Z"
+  "lastUpdated": "2026-10-23T06:58:55.860Z"
 }
