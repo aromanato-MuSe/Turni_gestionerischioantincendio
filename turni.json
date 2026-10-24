@@ -10743,7 +10743,7 @@
             {
               "start": "09:40",
               "end": "13:30",
-              "person": "MARCHETTI NANCY"
+              "person": "BUTT Adeel"
             },
             {
               "start": "13:30",
@@ -10771,27 +10771,32 @@
             },
             {
               "start": "13:30",
-              "end": "19:10",
+              "end": "15:25",
               "person": "CORETTI EMANUELE"
+            },
+            {
+              "start": "15:25",
+              "end": "19:10",
+              "person": "ELHALI MANAR"
             }
           ],
           "p0b": [
             {
               "start": "09:40",
-              "end": "14:30",
-              "person": "GIACOMETTI FRANCESCO"
+              "end": "13:30",
+              "person": "ELHALI MANAR"
             },
             {
-              "start": "14:30",
+              "start": "13:30",
               "end": "19:00",
-              "person": "BUTT Adeel"
+              "person": "TRENTINI ELISABETTA"
             }
           ],
           "p1a": [
             {
               "start": "09:40",
               "end": "14:30",
-              "person": "CAMPANELLA ILARIA"
+              "person": "GIACOMETTI FRANCESCO"
             },
             {
               "start": "14:30",
@@ -10819,15 +10824,15 @@
             },
             {
               "start": "14:30",
-              "end": "19:10",
-              "person": "TRENTINI ELISABETTA"
+              "end": "19:00",
+              "person": "BUTT Adeel"
             }
           ],
           "p2b": [
             {
               "start": "09:40",
               "end": "13:30",
-              "person": "BUTT Adeel"
+              "person": "MARCHETTI NANCY"
             },
             {
               "start": "13:30",
@@ -10906,7 +10911,7 @@
             {
               "start": "15:30",
               "end": "19:10",
-              "person": "CAMPANELLA ILARIA"
+              "person": "CORETTI EMANUELE"
             }
           ],
           "alb2": [
@@ -11398,7 +11403,7 @@
           "6": "Referente ufficio: Andrea\nReferente antincendio: Baldo Elio"
         }
       },
-      "publishedAt": "2026-10-24T10:37:45.226Z"
+      "publishedAt": "2026-10-24T19:10:17.268Z"
     },
     "2026-W42": {
       "schedule": {
@@ -14810,5 +14815,5 @@
       "pin": "1543"
     }
   ],
-  "lastUpdated": "2026-10-24T10:37:45.777Z"
+  "lastUpdated": "2026-10-24T19:10:17.702Z"
 }
