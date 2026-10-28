@@ -12883,7 +12883,26 @@
           "ex_1792410235077_92dk": [],
           "ex_1792410235077_4fur": [],
           "ex_1792410235077_vde4": [],
-          "ex_1792410235077_g0sb": []
+          "ex_1792410235077_g0sb": [],
+          "ex_1793187072053_0": [],
+          "ex_1793187072053_1": [],
+          "ex_1793187072053_2": [],
+          "ex_1793187072053_3": [],
+          "ex_1793187072053_4": [],
+          "ex_1793187072053_5": [],
+          "ex_1793187347124": [],
+          "ex_1793187372245": [],
+          "ex_1793187393092": [],
+          "ex_1793187412676": [],
+          "ex_1793187437940": [],
+          "ex_1793187487716": [],
+          "ex_1793187516140": [],
+          "ex_1793187543580": [],
+          "ex_1793187568667": [],
+          "ex_1793187599676": [],
+          "ex_1793187628445": [],
+          "ex_1793187645949": [],
+          "ex_1793187664349": []
         },
         "1": {
           "p-1a": [
@@ -13078,7 +13097,26 @@
           "ex_1792410235077_92dk": [],
           "ex_1792410235077_4fur": [],
           "ex_1792410235077_vde4": [],
-          "ex_1792410235077_g0sb": []
+          "ex_1792410235077_g0sb": [],
+          "ex_1793187072053_0": [],
+          "ex_1793187072053_1": [],
+          "ex_1793187072053_2": [],
+          "ex_1793187072053_3": [],
+          "ex_1793187072053_4": [],
+          "ex_1793187072053_5": [],
+          "ex_1793187347124": [],
+          "ex_1793187372245": [],
+          "ex_1793187393092": [],
+          "ex_1793187412676": [],
+          "ex_1793187437940": [],
+          "ex_1793187487716": [],
+          "ex_1793187516140": [],
+          "ex_1793187543580": [],
+          "ex_1793187568667": [],
+          "ex_1793187599676": [],
+          "ex_1793187628445": [],
+          "ex_1793187645949": [],
+          "ex_1793187664349": []
         },
         "2": {
           "p-1a": [
@@ -13266,7 +13304,26 @@
           "ex_1792410235077_92dk": [],
           "ex_1792410235077_4fur": [],
           "ex_1792410235077_vde4": [],
-          "ex_1792410235077_g0sb": []
+          "ex_1792410235077_g0sb": [],
+          "ex_1793187072053_0": [],
+          "ex_1793187072053_1": [],
+          "ex_1793187072053_2": [],
+          "ex_1793187072053_3": [],
+          "ex_1793187072053_4": [],
+          "ex_1793187072053_5": [],
+          "ex_1793187347124": [],
+          "ex_1793187372245": [],
+          "ex_1793187393092": [],
+          "ex_1793187412676": [],
+          "ex_1793187437940": [],
+          "ex_1793187487716": [],
+          "ex_1793187516140": [],
+          "ex_1793187543580": [],
+          "ex_1793187568667": [],
+          "ex_1793187599676": [],
+          "ex_1793187628445": [],
+          "ex_1793187645949": [],
+          "ex_1793187664349": []
         },
         "3": {
           "p-1a": [
@@ -13494,7 +13551,159 @@
           ],
           "ex_1792410235077_f2e4": [],
           "ex_1792410235077_vde4": [],
-          "ex_1792410235077_g0sb": []
+          "ex_1792410235077_g0sb": [],
+          "ex_1793187072053_0": [
+            {
+              "start": "08:30",
+              "end": "9:30",
+              "person": "ANGELI GABRIELE",
+              "note": "PdA"
+            }
+          ],
+          "ex_1793187072053_1": [
+            {
+              "start": "08:30",
+              "end": "9:30",
+              "person": "BALDO ELIO",
+              "note": "PdA"
+            }
+          ],
+          "ex_1793187072053_2": [
+            {
+              "start": "8:30",
+              "end": "9:30",
+              "person": "DALIPI KARLOTTA",
+              "note": "PdA"
+            }
+          ],
+          "ex_1793187072053_3": [
+            {
+              "start": "8:30",
+              "end": "9:30",
+              "person": "FERRETTI GIANLUCA",
+              "note": "PdA"
+            }
+          ],
+          "ex_1793187072053_4": [
+            {
+              "start": "08:30",
+              "end": "09:30",
+              "person": "FIKRI Mohamed",
+              "note": "PdA"
+            }
+          ],
+          "ex_1793187072053_5": [
+            {
+              "start": "8:30",
+              "end": "9:30",
+              "person": "GIACOMETTI FRANCESCO",
+              "note": "PdA"
+            }
+          ],
+          "ex_1793187347124": [
+            {
+              "start": "08:30",
+              "end": "9:30",
+              "person": "IVASHCHUK NINA",
+              "note": "PdA"
+            }
+          ],
+          "ex_1793187372245": [
+            {
+              "start": "8:30",
+              "end": "9:30",
+              "person": "KHAN IJAZ",
+              "note": "PdA"
+            }
+          ],
+          "ex_1793187393092": [
+            {
+              "start": "8:30",
+              "end": "9:30",
+              "person": "MICHELETTI LORENZO",
+              "note": "PdA"
+            }
+          ],
+          "ex_1793187412676": [
+            {
+              "start": "8:30",
+              "end": "9:30",
+              "person": "ORANGIFARD NIMA",
+              "note": "PdA"
+            }
+          ],
+          "ex_1793187437940": [
+            {
+              "start": "8:30",
+              "end": "9:30",
+              "person": "PUSCEDDU ERNESTO",
+              "note": "PdA"
+            }
+          ],
+          "ex_1793187487716": [
+            {
+              "start": "8:30",
+              "end": "9:30",
+              "person": "RADA SASA",
+              "note": "PdA"
+            }
+          ],
+          "ex_1793187516140": [
+            {
+              "start": "8:30",
+              "end": "9:30",
+              "person": "RICCIO ROSARIA",
+              "note": "PdA"
+            }
+          ],
+          "ex_1793187543580": [
+            {
+              "start": "08:30",
+              "end": "9:30",
+              "person": "ROCCO GIOVANNA",
+              "note": "PdA"
+            }
+          ],
+          "ex_1793187568667": [
+            {
+              "start": "08:30",
+              "end": "9:30",
+              "person": "ROMANATO ANDREA",
+              "note": "PdA"
+            }
+          ],
+          "ex_1793187599676": [
+            {
+              "start": "8:30",
+              "end": "9:30",
+              "person": "SANTOS NAYARA",
+              "note": "PdA"
+            }
+          ],
+          "ex_1793187628445": [
+            {
+              "start": "08:30",
+              "end": "9:30",
+              "person": "SARTORI CAMILLA",
+              "note": "PdA"
+            }
+          ],
+          "ex_1793187645949": [
+            {
+              "start": "08:30",
+              "end": "9:30",
+              "person": "SILVESTRI",
+              "note": "PdA"
+            }
+          ],
+          "ex_1793187664349": [
+            {
+              "start": "08:30",
+              "end": "9:30",
+              "person": "SIMONI EVELYN",
+              "note": "PdA"
+            }
+          ]
         },
         "4": {
           "p-1a": [
@@ -13676,7 +13885,26 @@
           "ex_1792410235077_92dk": [],
           "ex_1792410235077_4fur": [],
           "ex_1792410235077_vde4": [],
-          "ex_1792410235077_g0sb": []
+          "ex_1792410235077_g0sb": [],
+          "ex_1793187072053_0": [],
+          "ex_1793187072053_1": [],
+          "ex_1793187072053_2": [],
+          "ex_1793187072053_3": [],
+          "ex_1793187072053_4": [],
+          "ex_1793187072053_5": [],
+          "ex_1793187347124": [],
+          "ex_1793187372245": [],
+          "ex_1793187393092": [],
+          "ex_1793187412676": [],
+          "ex_1793187437940": [],
+          "ex_1793187487716": [],
+          "ex_1793187516140": [],
+          "ex_1793187543580": [],
+          "ex_1793187568667": [],
+          "ex_1793187599676": [],
+          "ex_1793187628445": [],
+          "ex_1793187645949": [],
+          "ex_1793187664349": []
         },
         "5": {
           "p-1a": [
@@ -13881,7 +14109,26 @@
           "ex_1792410235077_41ir": [],
           "ex_1792410235077_neyb": [],
           "ex_1792410235077_92dk": [],
-          "ex_1792410235077_4fur": []
+          "ex_1792410235077_4fur": [],
+          "ex_1793187072053_0": [],
+          "ex_1793187072053_1": [],
+          "ex_1793187072053_2": [],
+          "ex_1793187072053_3": [],
+          "ex_1793187072053_4": [],
+          "ex_1793187072053_5": [],
+          "ex_1793187347124": [],
+          "ex_1793187372245": [],
+          "ex_1793187393092": [],
+          "ex_1793187412676": [],
+          "ex_1793187437940": [],
+          "ex_1793187487716": [],
+          "ex_1793187516140": [],
+          "ex_1793187543580": [],
+          "ex_1793187568667": [],
+          "ex_1793187599676": [],
+          "ex_1793187628445": [],
+          "ex_1793187645949": [],
+          "ex_1793187664349": []
         },
         "6": {
           "p-1a": [
@@ -14078,7 +14325,26 @@
           "ex_1792410235077_92dk": [],
           "ex_1792410235077_4fur": [],
           "ex_1792410235077_vde4": [],
-          "ex_1792410235077_g0sb": []
+          "ex_1792410235077_g0sb": [],
+          "ex_1793187072053_0": [],
+          "ex_1793187072053_1": [],
+          "ex_1793187072053_2": [],
+          "ex_1793187072053_3": [],
+          "ex_1793187072053_4": [],
+          "ex_1793187072053_5": [],
+          "ex_1793187347124": [],
+          "ex_1793187372245": [],
+          "ex_1793187393092": [],
+          "ex_1793187412676": [],
+          "ex_1793187437940": [],
+          "ex_1793187487716": [],
+          "ex_1793187516140": [],
+          "ex_1793187543580": [],
+          "ex_1793187568667": [],
+          "ex_1793187599676": [],
+          "ex_1793187628445": [],
+          "ex_1793187645949": [],
+          "ex_1793187664349": []
         },
         "_edited": {
           "0": {
@@ -14183,7 +14449,26 @@
             "ex_1792410235077_92dk": true,
             "ex_1792410235077_4fur": true,
             "ex_1792410235077_vde4": true,
-            "ex_1792410235077_g0sb": true
+            "ex_1792410235077_g0sb": true,
+            "ex_1793187072053_0": true,
+            "ex_1793187072053_1": true,
+            "ex_1793187072053_2": true,
+            "ex_1793187072053_3": true,
+            "ex_1793187072053_4": true,
+            "ex_1793187072053_5": true,
+            "ex_1793187347124": true,
+            "ex_1793187372245": true,
+            "ex_1793187393092": true,
+            "ex_1793187412676": true,
+            "ex_1793187437940": true,
+            "ex_1793187487716": true,
+            "ex_1793187516140": true,
+            "ex_1793187543580": true,
+            "ex_1793187568667": true,
+            "ex_1793187599676": true,
+            "ex_1793187628445": true,
+            "ex_1793187645949": true,
+            "ex_1793187664349": true
           },
           "4": {
             "ex_1792410235076_4ns5": true,
@@ -14327,6 +14612,139 @@
             "type": "extra",
             "area": "p0 Palazzo delle Albere",
             "event": "Halloween al MUSE - Paure e veleni"
+          },
+          {
+            "id": "ex_1793187072053_0",
+            "label": "Formazione\nMostra temporanea Water flow A",
+            "type": "extra",
+            "area": "Formazione\nMostra temporanea Water flow",
+            "event": "Formazione\nMostra temporanea Water flow"
+          },
+          {
+            "id": "ex_1793187072053_1",
+            "label": "Formazione\nMostra temporanea Water flow B",
+            "type": "extra",
+            "area": "Formazione\nMostra temporanea Water flow",
+            "event": "Formazione\nMostra temporanea Water flow"
+          },
+          {
+            "id": "ex_1793187072053_2",
+            "label": "Formazione\nMostra temporanea Water flow C",
+            "type": "extra",
+            "area": "Formazione\nMostra temporanea Water flow",
+            "event": "Formazione\nMostra temporanea Water flow"
+          },
+          {
+            "id": "ex_1793187072053_3",
+            "label": "Formazione\nMostra temporanea Water flow D",
+            "type": "extra",
+            "area": "Formazione\nMostra temporanea Water flow",
+            "event": "Formazione\nMostra temporanea Water flow"
+          },
+          {
+            "id": "ex_1793187072053_4",
+            "label": "Formazione\nMostra temporanea Water flow E",
+            "type": "extra",
+            "area": "Formazione\nMostra temporanea Water flow",
+            "event": "Formazione\nMostra temporanea Water flow"
+          },
+          {
+            "id": "ex_1793187072053_5",
+            "label": "Formazione\nMostra temporanea Water flow F",
+            "type": "extra",
+            "area": "Formazione\nMostra temporanea Water flow",
+            "event": "Formazione\nMostra temporanea Water flow"
+          },
+          {
+            "id": "ex_1793187347124",
+            "label": "Formazione\nMostra temporanea Water flow G",
+            "type": "extra",
+            "area": "Formazione\nMostra temporanea Water flow",
+            "event": "Formazione\nMostra temporanea Water flow"
+          },
+          {
+            "id": "ex_1793187372245",
+            "label": "Formazione\nMostra temporanea Water flow H",
+            "type": "extra",
+            "area": "Formazione\nMostra temporanea Water flow",
+            "event": "Formazione\nMostra temporanea Water flow"
+          },
+          {
+            "id": "ex_1793187393092",
+            "label": "Formazione\nMostra temporanea Water flow I",
+            "type": "extra",
+            "area": "Formazione\nMostra temporanea Water flow",
+            "event": "Formazione\nMostra temporanea Water flow"
+          },
+          {
+            "id": "ex_1793187412676",
+            "label": "Formazione\nMostra temporanea Water flow J",
+            "type": "extra",
+            "area": "Formazione\nMostra temporanea Water flow",
+            "event": "Formazione\nMostra temporanea Water flow"
+          },
+          {
+            "id": "ex_1793187437940",
+            "label": "Formazione\nMostra temporanea Water flow K",
+            "type": "extra",
+            "area": "Formazione\nMostra temporanea Water flow",
+            "event": "Formazione\nMostra temporanea Water flow"
+          },
+          {
+            "id": "ex_1793187487716",
+            "label": "Formazione\nMostra temporanea Water flow L",
+            "type": "extra",
+            "area": "Formazione\nMostra temporanea Water flow",
+            "event": "Formazione\nMostra temporanea Water flow"
+          },
+          {
+            "id": "ex_1793187516140",
+            "label": "Formazione\nMostra temporanea Water flow M",
+            "type": "extra",
+            "area": "Formazione\nMostra temporanea Water flow",
+            "event": "Formazione\nMostra temporanea Water flow"
+          },
+          {
+            "id": "ex_1793187543580",
+            "label": "Formazione\nMostra temporanea Water flow N",
+            "type": "extra",
+            "area": "Formazione\nMostra temporanea Water flow",
+            "event": "Formazione\nMostra temporanea Water flow"
+          },
+          {
+            "id": "ex_1793187568667",
+            "label": "Formazione\nMostra temporanea Water flow O",
+            "type": "extra",
+            "area": "Formazione\nMostra temporanea Water flow",
+            "event": "Formazione\nMostra temporanea Water flow"
+          },
+          {
+            "id": "ex_1793187599676",
+            "label": "Formazione\nMostra temporanea Water flow P",
+            "type": "extra",
+            "area": "Formazione\nMostra temporanea Water flow",
+            "event": "Formazione\nMostra temporanea Water flow"
+          },
+          {
+            "id": "ex_1793187628445",
+            "label": "Formazione\nMostra temporanea Water flow Q",
+            "type": "extra",
+            "area": "Formazione\nMostra temporanea Water flow",
+            "event": "Formazione\nMostra temporanea Water flow"
+          },
+          {
+            "id": "ex_1793187645949",
+            "label": "Formazione\nMostra temporanea Water flow R",
+            "type": "extra",
+            "area": "Formazione\nMostra temporanea Water flow",
+            "event": "Formazione\nMostra temporanea Water flow"
+          },
+          {
+            "id": "ex_1793187664349",
+            "label": "Formazione\nMostra temporanea Water flow S",
+            "type": "extra",
+            "area": "Formazione\nMostra temporanea Water flow",
+            "event": "Formazione\nMostra temporanea Water flow"
           }
         ],
         "_dayNotes": {
@@ -14338,7 +14756,7 @@
           "6": "Referente: CAMPANELLA  ILARIA\n\nSupporto: 09.30 - 09.40 14.30 - 15.30 GAETANO SUPPORTO"
         }
       },
-      "publishedAt": "2026-10-24T07:30:13.978Z"
+      "publishedAt": "2026-10-28T11:41:35.548Z"
     }
   },
   "sections": [
@@ -14346,15 +14764,13 @@
       "id": "p-1a",
       "label": "Piano −1a",
       "type": "piano",
-      "area": "Dinosauri zona 1,2,3 /DNA",
-      "nSlots": 2
+      "area": "Dinosauri zona 1,2,3 /DNA"
     },
     {
       "id": "p-1b",
       "label": "Piano −1b",
       "type": "piano",
-      "area": "Mostre temporanee piccolo vuoto/Serra",
-      "nSlots": 2
+      "area": "Mostre temporanee piccolo vuoto/Serra"
     },
     {
       "id": "p0a",
@@ -14433,12 +14849,6 @@
       "label": "Referente",
       "type": "referente",
       "area": "Referente di giornata"
-    },
-    {
-      "id": "ex_1787500861773",
-      "label": "EVENTO X",
-      "type": "extra",
-      "area": "EVENTO X"
     }
   ],
   "staff": [
@@ -14815,5 +15225,5 @@
       "pin": "1543"
     }
   ],
-  "lastUpdated": "2026-10-24T19:10:17.702Z"
+  "lastUpdated": "2026-10-28T11:41:36.104Z"
 }
