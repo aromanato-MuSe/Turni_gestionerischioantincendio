@@ -17045,35 +17045,40 @@
             {
               "start": "17:00",
               "end": "21:00",
-              "person": "BUSTOS KEVIN"
+              "person": "BUSTOS KEVIN",
+              "note": "Lobby+chiusura"
             }
           ],
           "ex_1793271973400_haso": [
             {
               "start": "17:00",
               "end": "19:30",
-              "person": "LIMONTA YESIEL"
+              "person": "LIMONTA YESIEL",
+              "note": "Lobby"
             }
           ],
           "ex_1793271973400_jk65": [
             {
               "start": "18:10",
               "end": "20:45",
-              "person": "CAMPANELLA ILARIA"
+              "person": "CAMPANELLA ILARIA",
+              "note": "PdA piano 0"
             }
           ],
           "ex_1793271973400_xisf": [
             {
               "start": "18:10",
               "end": "20:00",
-              "person": "TOMASI MAURO"
+              "person": "TOMASI MAURO",
+              "note": "PdA piano 1"
             }
           ],
           "ex_1793271973400_6flp": [
             {
               "start": "18:10",
               "end": "20:30",
-              "person": "BALDO ELIO"
+              "person": "BALDO ELIO",
+              "note": "PdA piano 2"
             }
           ],
           "ex_1793271973398_zjb5": [],
@@ -18239,7 +18244,7 @@
           "6": "Referente ufficio: Camilla\nReferente antincendio: Baldo"
         }
       },
-      "publishedAt": "2026-10-29T11:26:15.419Z"
+      "publishedAt": "2026-10-29T11:28:36.314Z"
     }
   },
   "sections": [
@@ -18722,5 +18727,5 @@
       "pin": "1543"
     }
   ],
-  "lastUpdated": "2026-10-29T11:26:16.089Z"
+  "lastUpdated": "2026-10-29T11:28:36.901Z"
 }
