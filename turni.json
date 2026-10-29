@@ -13346,7 +13346,7 @@
             },
             {
               "start": "14:30",
-              "end": "18:10",
+              "end": "18:00",
               "person": "PUSCEDDU ERNESTO"
             }
           ],
@@ -13354,7 +13354,7 @@
             {
               "start": "09:40",
               "end": "13:30",
-              "person": "FIKRI Mohamed"
+              "person": "LOSS Francesca"
             },
             {
               "start": "13:30",
@@ -13370,8 +13370,13 @@
             },
             {
               "start": "14:30",
+              "end": "15:00",
+              "person": "ROCCO GIOVANNA"
+            },
+            {
+              "start": "15:00",
               "end": "18:10",
-              "person": "LIMONTA YESIEL"
+              "person": "SIMONI EVELYN"
             }
           ],
           "p1a": [
@@ -13443,7 +13448,7 @@
             {
               "start": "14:30",
               "end": "18:10",
-              "person": "FIKRI Mohamed"
+              "person": "LIMONTA YESIEL"
             }
           ],
           "ref": [
@@ -13515,7 +13520,7 @@
             {
               "start": "18:00",
               "end": "20:30",
-              "person": "FIKRI Mohamed",
+              "person": "PUSCEDDU ERNESTO",
               "note": "Piano 1 PdA"
             }
           ],
@@ -14852,7 +14857,7 @@
           "6": "Referente: CAMPANELLA  ILARIA\n\nSupporto: 09.30 - 09.40 14.30 - 15.30 GAETANO SUPPORTO"
         }
       },
-      "publishedAt": "2026-10-28T11:47:50.525Z"
+      "publishedAt": "2026-10-29T09:29:07.257Z"
     },
     "2026-W46": {
       "schedule": {
@@ -17041,5 +17046,5 @@
       "pin": "1543"
     }
   ],
-  "lastUpdated": "2026-10-28T14:12:57.436Z"
+  "lastUpdated": "2026-10-29T09:29:07.872Z"
 }
