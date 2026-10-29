@@ -13727,7 +13727,7 @@
             {
               "start": "09:40",
               "end": "14:30",
-              "person": "CUSCITO ANGELO"
+              "person": "COMPER SIMONE"
             },
             {
               "start": "14:30",
@@ -13750,8 +13750,13 @@
           "p0b": [
             {
               "start": "09:40",
+              "end": "13:00",
+              "person": "ELHALI MANAR"
+            },
+            {
+              "start": "13:00",
               "end": "14:30",
-              "person": "COMPER SIMONE"
+              "person": "CUSCITO ANGELO"
             },
             {
               "start": "14:30",
@@ -14857,7 +14862,7 @@
           "6": "Referente: CAMPANELLA  ILARIA\n\nSupporto: 09.30 - 09.40 14.30 - 15.30 GAETANO SUPPORTO"
         }
       },
-      "publishedAt": "2026-10-29T09:29:07.257Z"
+      "publishedAt": "2026-10-29T10:48:17.393Z"
     },
     "2026-W46": {
       "schedule": {
@@ -17046,5 +17051,5 @@
       "pin": "1543"
     }
   ],
-  "lastUpdated": "2026-10-29T09:29:07.872Z"
+  "lastUpdated": "2026-10-29T10:48:17.989Z"
 }
