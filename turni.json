@@ -17182,6 +17182,11 @@
             },
             {
               "start": "13:30",
+              "end": "14:30",
+              "person": "ROMANATO ANDREA"
+            },
+            {
+              "start": "14:30",
               "end": "18:10",
               "person": "SARTORI CAMILLA"
             }
@@ -18244,7 +18249,7 @@
           "6": "Referente ufficio: Camilla\nReferente antincendio: Baldo"
         }
       },
-      "publishedAt": "2026-10-29T11:28:36.314Z"
+      "publishedAt": "2026-10-30T15:45:29.077Z"
     }
   },
   "sections": [
@@ -18727,5 +18732,5 @@
       "pin": "1543"
     }
   ],
-  "lastUpdated": "2026-10-29T11:28:36.901Z"
+  "lastUpdated": "2026-10-30T15:45:29.761Z"
 }
