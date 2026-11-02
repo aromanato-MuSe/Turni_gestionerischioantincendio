@@ -15562,7 +15562,7 @@
             {
               "start": "09:40",
               "end": "14:30",
-              "person": "FIKRI Mohamed"
+              "person": "MOTTER MICHELE"
             },
             {
               "start": "14:30",
@@ -15799,7 +15799,7 @@
             {
               "start": "15:30",
               "end": "20:30",
-              "person": "MOTTER MICHELE",
+              "person": "FIKRI Mohamed",
               "note": "Lobby"
             }
           ]
@@ -16000,20 +16000,7 @@
           "ex_1793112049401_0": [],
           "ex_1793112049401_1": [],
           "ex_1793112591472": [],
-          "ex_1793112726895_0": [
-            {
-              "start": "09:00",
-              "end": "13:30",
-              "person": "NARDELLI ANNA MARIA",
-              "note": "Sala conferenze"
-            },
-            {
-              "start": "13:30",
-              "end": "19:00",
-              "person": "MONTEMURRO Alessio",
-              "note": "Sala conferenze"
-            }
-          ],
+          "ex_1793112726895_0": [],
           "ex_1793112726895_1": [
             {
               "start": "19:30",
@@ -16026,7 +16013,7 @@
             {
               "start": "19:30",
               "end": "23:30",
-              "person": "CORETTI EMANUELE",
+              "person": "NARDELLI ANNA MARIA",
               "note": "Lobby + chiusura"
             }
           ]
@@ -16066,7 +16053,7 @@
             {
               "start": "13:30",
               "end": "19:10",
-              "person": "CORETTI EMANUELE"
+              "person": "BALDO ELIO"
             }
           ],
           "p0b": [
@@ -16078,7 +16065,7 @@
             {
               "start": "13:15",
               "end": "14:30",
-              "person": "ELHALI MANAR"
+              "person": "CUSCITO ANGELO"
             },
             {
               "start": "14:30",
@@ -16253,20 +16240,7 @@
           "ex_1793112049401_0": [],
           "ex_1793112049401_1": [],
           "ex_1793112591472": [],
-          "ex_1793112726895_0": [
-            {
-              "start": "09:00",
-              "end": "13:30",
-              "person": "CUSCITO ANGELO",
-              "note": "Sala conferenze"
-            },
-            {
-              "start": "13:30",
-              "end": "18:00",
-              "person": "BALDO ELIO",
-              "note": "Sala conferenze"
-            }
-          ],
+          "ex_1793112726895_0": [],
           "ex_1793112726895_1": [
             {
               "start": "14:15",
@@ -16568,7 +16542,7 @@
           "6": "Referente ufficio: Romanato Andrea\n---\nReferente antincendio: Tomasi Mauro"
         }
       },
-      "publishedAt": "2026-10-28T14:12:56.924Z"
+      "publishedAt": "2026-11-02T09:48:33.825Z"
     },
     "2026-W45": {
       "schedule": {
@@ -18732,5 +18706,5 @@
       "pin": "1543"
     }
   ],
-  "lastUpdated": "2026-10-30T15:45:29.761Z"
+  "lastUpdated": "2026-11-02T09:48:34.507Z"
 }
