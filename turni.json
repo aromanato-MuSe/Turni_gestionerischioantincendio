@@ -17121,8 +17121,13 @@
           "p0b": [
             {
               "start": "09:40",
-              "end": "14:30",
+              "end": "12:30",
               "person": "CARIA ALBERTO"
+            },
+            {
+              "start": "12:30",
+              "end": "14:30",
+              "person": "SIMONI EVELYN"
             },
             {
               "start": "14:30",
@@ -17145,8 +17150,13 @@
           "p1b": [
             {
               "start": "09:40",
+              "end": "12:30",
+              "person": "SARTORI CAMILLA"
+            },
+            {
+              "start": "12:30",
               "end": "14:30",
-              "person": "DALPAS MATTEO"
+              "person": "CARIA ALBERTO"
             },
             {
               "start": "14:30",
@@ -17158,7 +17168,7 @@
             {
               "start": "09:40",
               "end": "14:30",
-              "person": "ROCCO GIOVANNA"
+              "person": "ORANGIFARD NIMA"
             },
             {
               "start": "14:30",
@@ -18230,7 +18240,7 @@
           "6": "Referente ufficio: Camilla\nReferente antincendio: Baldo"
         }
       },
-      "publishedAt": "2026-11-03T12:38:53.284Z"
+      "publishedAt": "2026-11-03T16:22:20.335Z"
     }
   },
   "sections": [
@@ -18713,5 +18723,5 @@
       "pin": "1543"
     }
   ],
-  "lastUpdated": "2026-11-03T12:38:54.068Z"
+  "lastUpdated": "2026-11-03T16:22:20.958Z"
 }
