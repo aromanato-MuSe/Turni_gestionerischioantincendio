@@ -16623,13 +16623,18 @@
           "p0b": [
             {
               "start": "09:40",
-              "end": "14:30",
+              "end": "13:30",
               "person": "LOSS Francesca"
             },
             {
               "start": "14:30",
               "end": "18:10",
               "person": "ORANGIFARD NIMA"
+            },
+            {
+              "start": "14:30",
+              "end": "18:10",
+              "person": ""
             }
           ],
           "p1a": [
@@ -16719,18 +16724,7 @@
               "person": "RICCIO ROSARIA"
             }
           ],
-          "ref": [
-            {
-              "start": "09:30",
-              "end": "13:30",
-              "person": "CAMPANELLA ILARIA"
-            },
-            {
-              "start": "13:30",
-              "end": "18:10",
-              "person": "FERRETTI GIANLUCA"
-            }
-          ],
+          "ref": [],
           "alb0a": [
             {
               "start": "09:30",
@@ -16994,18 +16988,7 @@
               "person": "BUTT Adeel"
             }
           ],
-          "ref": [
-            {
-              "start": "09:30",
-              "end": "15:30",
-              "person": "FERRETTI GIANLUCA"
-            },
-            {
-              "start": "15:30",
-              "end": "18:10",
-              "person": "TOMASI MAURO"
-            }
-          ],
+          "ref": [],
           "alb0a": [
             {
               "start": "09:30",
@@ -17224,18 +17207,7 @@
               "person": "CUSCITO ANGELO"
             }
           ],
-          "ref": [
-            {
-              "start": "09:30",
-              "end": "13:30",
-              "person": "TOMASI MAURO"
-            },
-            {
-              "start": "13:30",
-              "end": "18:10",
-              "person": "FERRETTI GIANLUCA"
-            }
-          ],
+          "ref": [],
           "alb0a": [
             {
               "start": "09:30",
@@ -18258,7 +18230,7 @@
           "6": "Referente ufficio: Camilla\nReferente antincendio: Baldo"
         }
       },
-      "publishedAt": "2026-11-03T12:19:11.107Z"
+      "publishedAt": "2026-11-03T12:38:53.284Z"
     }
   },
   "sections": [
@@ -18741,5 +18713,5 @@
       "pin": "1543"
     }
   ],
-  "lastUpdated": "2026-11-03T12:19:11.812Z"
+  "lastUpdated": "2026-11-03T12:38:54.068Z"
 }
