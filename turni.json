@@ -16789,9 +16789,14 @@
           ],
           "ex_1793271973399_3b0y": [
             {
-              "start": "18:00",
+              "start": "18:10",
+              "end": "19:00",
+              "person": "TOMASI MAURO"
+            },
+            {
+              "start": "19:00",
               "end": "24:00",
-              "person": "ANGELI GABRIELE",
+              "person": "RICCIO ROSARIA",
               "note": "Piano -1"
             }
           ],
@@ -16867,7 +16872,7 @@
             {
               "start": "09:40",
               "end": "13:30",
-              "person": "AGNOLETTO Michael"
+              "person": "IVASHCHUK NINA"
             },
             {
               "start": "13:30",
@@ -16912,8 +16917,18 @@
           "p1b": [
             {
               "start": "09:40",
+              "end": "12:00",
+              "person": "AGNOLETTO Michael"
+            },
+            {
+              "start": "12:00",
+              "end": "13:00",
+              "person": "ROMANATO ANDREA"
+            },
+            {
+              "start": "13:00",
               "end": "14:30",
-              "person": "ROCCO GIOVANNA"
+              "person": "AGNOLETTO Michael"
             },
             {
               "start": "14:30",
@@ -16923,7 +16938,12 @@
           ],
           "p2a": [
             {
-              "start": "09:40",
+              "start": "9:40",
+              "end": "11:00",
+              "person": "SARTORI CAMILLA"
+            },
+            {
+              "start": "11:00",
               "end": "13:30",
               "person": "RICCIO ROSARIA"
             },
@@ -18238,7 +18258,7 @@
           "6": "Referente ufficio: Camilla\nReferente antincendio: Baldo"
         }
       },
-      "publishedAt": "2026-11-03T08:34:44.352Z"
+      "publishedAt": "2026-11-03T12:19:11.107Z"
     }
   },
   "sections": [
@@ -18721,5 +18741,5 @@
       "pin": "1543"
     }
   ],
-  "lastUpdated": "2026-11-03T08:34:45.004Z"
+  "lastUpdated": "2026-11-03T12:19:11.812Z"
 }
