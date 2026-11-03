@@ -16624,7 +16624,7 @@
             {
               "start": "09:40",
               "end": "14:30",
-              "person": "SANTOS NAYARA"
+              "person": "LOSS Francesca"
             },
             {
               "start": "14:30",
@@ -16640,6 +16640,11 @@
             },
             {
               "start": "13:30",
+              "end": "14:30",
+              "person": "DALPAS MATTEO"
+            },
+            {
+              "start": "14:30",
               "end": "18:10",
               "person": "EL BAOUNY Amin"
             }
@@ -16677,7 +16682,7 @@
             {
               "start": "09:40",
               "end": "13:30",
-              "person": "GIACOMETTI FRANCESCO"
+              "person": "DALPAS MATTEO"
             },
             {
               "start": "13:30",
@@ -16742,8 +16747,13 @@
           "alb1": [
             {
               "start": "09:40",
+              "end": "13:30",
+              "person": "GIACOMETTI FRANCESCO"
+            },
+            {
+              "start": "13:30",
               "end": "14:30",
-              "person": "ROCCO GIOVANNA"
+              "person": "EL BAOUNY Amin"
             },
             {
               "start": "14:30",
@@ -16807,7 +16817,12 @@
           ],
           "ex_1793271973399_h3b6": [
             {
-              "start": "18:00",
+              "start": "18:10",
+              "end": "19:00",
+              "person": "BUTT Adeel"
+            },
+            {
+              "start": "19:00",
               "end": "24:00",
               "person": "EL BAOUNY Amin",
               "note": "Piano 1"
@@ -18223,7 +18238,7 @@
           "6": "Referente ufficio: Camilla\nReferente antincendio: Baldo"
         }
       },
-      "publishedAt": "2026-10-30T15:45:29.077Z"
+      "publishedAt": "2026-11-03T08:34:44.352Z"
     }
   },
   "sections": [
@@ -18706,5 +18721,5 @@
       "pin": "1543"
     }
   ],
-  "lastUpdated": "2026-11-02T09:48:34.507Z"
+  "lastUpdated": "2026-11-03T08:34:45.004Z"
 }
