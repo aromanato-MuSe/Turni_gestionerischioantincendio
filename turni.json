@@ -17422,8 +17422,13 @@
           "p3": [
             {
               "start": "09:40",
+              "end": "12:30",
+              "person": "IVASHCHUK NINA"
+            },
+            {
+              "start": "12:30",
               "end": "14:30",
-              "person": "ROCCO GIOVANNA"
+              "person": "DALIPI KARLOTTA"
             },
             {
               "start": "14:30",
@@ -17775,8 +17780,13 @@
           "p0b": [
             {
               "start": "09:40",
-              "end": "14:30",
+              "end": "13:00",
               "person": "TRENTINI ELISABETTA"
+            },
+            {
+              "start": "13:00",
+              "end": "14:30",
+              "person": "BALDO ELIO"
             },
             {
               "start": "14:30",
@@ -18240,7 +18250,8 @@
           "6": "Referente ufficio: Camilla\nReferente antincendio: Baldo"
         }
       },
-      "publishedAt": "2026-11-03T16:22:20.335Z"
+      "publishedAt": "2026-11-06T08:18:03.296Z",
+      "publishedBy": "Andrea"
     }
   },
   "sections": [
@@ -18723,5 +18734,5 @@
       "pin": "1543"
     }
   ],
-  "lastUpdated": "2026-11-03T16:22:20.958Z"
+  "lastUpdated": "2026-11-06T08:18:04.046Z"
 }
