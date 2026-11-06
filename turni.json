@@ -15261,7 +15261,7 @@
           ],
           "alb0a": [
             {
-              "start": "09:40",
+              "start": "09:30",
               "end": "14:30",
               "person": "SIMONI EVELYN"
             },
@@ -15459,7 +15459,7 @@
           ],
           "alb0a": [
             {
-              "start": "09:40",
+              "start": "09:30",
               "end": "15:30",
               "person": "CUSCITO ANGELO"
             },
@@ -16542,7 +16542,7 @@
           "6": "Referente ufficio: Romanato Andrea\n---\nReferente antincendio: Tomasi Mauro"
         }
       },
-      "publishedAt": "2026-11-06T12:44:46.539Z",
+      "publishedAt": "2026-11-06T12:49:11.771Z",
       "publishedBy": "Andrea"
     },
     "2026-W45": {
@@ -18745,5 +18745,5 @@
       "pin": "1543"
     }
   ],
-  "lastUpdated": "2026-11-06T12:44:47.197Z"
+  "lastUpdated": "2026-11-06T12:49:12.444Z"
 }
