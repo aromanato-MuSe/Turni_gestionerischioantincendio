@@ -15243,13 +15243,13 @@
           "p4": [
             {
               "start": "09:40",
-              "end": "14:30",
-              "person": "SIMONI EVELYN"
+              "end": "15:30",
+              "person": "GAETANO MICHELANGELO"
             },
             {
-              "start": "14:30",
+              "start": "15:30",
               "end": "18:10",
-              "person": "TRENTINI ELISABETTA"
+              "person": "TOMASI MAURO"
             }
           ],
           "ref": [
@@ -15261,14 +15261,14 @@
           ],
           "alb0a": [
             {
-              "start": "09:30",
-              "end": "15:30",
-              "person": "GAETANO MICHELANGELO"
+              "start": "09:40",
+              "end": "14:30",
+              "person": "SIMONI EVELYN"
             },
             {
-              "start": "15:30",
+              "start": "14:30",
               "end": "18:10",
-              "person": "TOMASI MAURO"
+              "person": "TRENTINI ELISABETTA"
             }
           ],
           "alb0b": [],
@@ -15459,19 +15459,6 @@
           ],
           "alb0a": [
             {
-              "start": "09:30",
-              "end": "14:00",
-              "person": "SIMONI EVELYN"
-            },
-            {
-              "start": "14:00",
-              "end": "18:10",
-              "person": "BUSTOS KEVIN"
-            }
-          ],
-          "alb0b": [],
-          "alb1": [
-            {
               "start": "09:40",
               "end": "15:30",
               "person": "CUSCITO ANGELO"
@@ -15480,6 +15467,19 @@
               "start": "15:30",
               "end": "18:10",
               "person": "SANTOS NAYARA"
+            }
+          ],
+          "alb0b": [],
+          "alb1": [
+            {
+              "start": "09:40",
+              "end": "14:00",
+              "person": "SIMONI EVELYN"
+            },
+            {
+              "start": "14:00",
+              "end": "18:10",
+              "person": "BUSTOS KEVIN"
             }
           ],
           "alb2": [
@@ -16542,7 +16542,8 @@
           "6": "Referente ufficio: Romanato Andrea\n---\nReferente antincendio: Tomasi Mauro"
         }
       },
-      "publishedAt": "2026-11-02T09:48:33.825Z"
+      "publishedAt": "2026-11-06T12:44:46.539Z",
+      "publishedBy": "Andrea"
     },
     "2026-W45": {
       "schedule": {
@@ -18744,5 +18745,5 @@
       "pin": "1543"
     }
   ],
-  "lastUpdated": "2026-11-06T11:24:11.296Z"
+  "lastUpdated": "2026-11-06T12:44:47.197Z"
 }
