@@ -17334,7 +17334,12 @@
           ],
           "p0a": [
             {
-              "start": "09:40",
+              "start": "9:40",
+              "end": "11:30",
+              "person": "LOSS Francesca"
+            },
+            {
+              "start": "11:30",
               "end": "14:30",
               "person": "PASCUAL LEANDRO"
             },
@@ -17389,7 +17394,7 @@
             {
               "start": "09:40",
               "end": "13:30",
-              "person": "FIKRI Mohamed"
+              "person": "ROMANATO ANDREA"
             },
             {
               "start": "13:30",
@@ -17427,8 +17432,13 @@
             },
             {
               "start": "12:30",
-              "end": "14:30",
+              "end": "13:00",
               "person": "DALIPI KARLOTTA"
+            },
+            {
+              "start": "13:00",
+              "end": "14:30",
+              "person": "ANGELI GABRIELE"
             },
             {
               "start": "14:30",
@@ -17445,7 +17455,7 @@
             {
               "start": "14:30",
               "end": "18:10",
-              "person": "FIKRI Mohamed"
+              "person": "ANGELI GABRIELE"
             }
           ],
           "ref": [],
@@ -18250,7 +18260,7 @@
           "6": "Referente ufficio: Camilla\nReferente antincendio: Baldo"
         }
       },
-      "publishedAt": "2026-11-06T08:18:03.296Z",
+      "publishedAt": "2026-11-06T11:24:10.627Z",
       "publishedBy": "Andrea"
     }
   },
@@ -18734,5 +18744,5 @@
       "pin": "1543"
     }
   ],
-  "lastUpdated": "2026-11-06T08:18:04.046Z"
+  "lastUpdated": "2026-11-06T11:24:11.296Z"
 }
