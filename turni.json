@@ -15057,13 +15057,13 @@
             {
               "start": "9:00",
               "end": "9:30",
-              "person": "ROCCO GIOVANNA",
+              "person": "KHAN IJAZ",
               "note": "Attività educative (apertura PdA)"
             },
             {
               "start": "09:40",
               "end": "14:30",
-              "person": "ROCCO GIOVANNA"
+              "person": "KHAN IJAZ"
             },
             {
               "start": "14:30",
@@ -15232,7 +15232,7 @@
             {
               "start": "09:40",
               "end": "14:30",
-              "person": "ROCCO GIOVANNA"
+              "person": "PUSCEDDU ERNESTO"
             },
             {
               "start": "14:30",
@@ -16542,7 +16542,7 @@
           "6": "Referente ufficio: Romanato Andrea\n---\nReferente antincendio: Tomasi Mauro"
         }
       },
-      "publishedAt": "2026-11-06T12:53:09.353Z",
+      "publishedAt": "2026-11-09T09:48:51.303Z",
       "publishedBy": "Andrea"
     },
     "2026-W45": {
@@ -18745,5 +18745,5 @@
       "pin": "1543"
     }
   ],
-  "lastUpdated": "2026-11-06T12:53:09.906Z"
+  "lastUpdated": "2026-11-09T09:48:51.866Z"
 }
