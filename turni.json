@@ -15549,7 +15549,7 @@
             {
               "start": "08:00",
               "end": "13:30",
-              "person": "CAMPANELLA ILARIA",
+              "person": "BALDO ELIO",
               "note": "Anticipo per Festival della famiglia"
             },
             {
@@ -15580,7 +15580,7 @@
             {
               "start": "14:30",
               "end": "18:00",
-              "person": "CAMPANELLA ILARIA"
+              "person": "BALDO ELIO"
             }
           ],
           "p1b": [
@@ -16053,7 +16053,7 @@
             {
               "start": "13:30",
               "end": "19:10",
-              "person": "BALDO ELIO"
+              "person": "CAMPANELLA ILARIA"
             }
           ],
           "p0b": [
@@ -16183,7 +16183,7 @@
             {
               "start": "09:40",
               "end": "12:30",
-              "person": "BALDO ELIO"
+              "person": "CAMPANELLA ILARIA"
             },
             {
               "start": "12:30",
@@ -16542,7 +16542,7 @@
           "6": "Referente ufficio: Romanato Andrea\n---\nReferente antincendio: Tomasi Mauro"
         }
       },
-      "publishedAt": "2026-11-09T09:48:51.303Z",
+      "publishedAt": "2026-11-09T11:06:29.543Z",
       "publishedBy": "Andrea"
     },
     "2026-W45": {
@@ -18745,5 +18745,5 @@
       "pin": "1543"
     }
   ],
-  "lastUpdated": "2026-11-09T09:48:51.866Z"
+  "lastUpdated": "2026-11-09T11:06:30.215Z"
 }
