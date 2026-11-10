@@ -14958,8 +14958,13 @@
             },
             {
               "start": "13:30",
-              "end": "18:10",
+              "end": "15:00",
               "person": "MICHELETTI LORENZO"
+            },
+            {
+              "start": "15:00",
+              "end": "18:10",
+              "person": "IVASHCHUK NINA"
             }
           ],
           "p0b": [
@@ -15006,8 +15011,13 @@
             },
             {
               "start": "14:30",
-              "end": "18:10",
+              "end": "15:00",
               "person": "ROMANATO ANDREA"
+            },
+            {
+              "start": "15:00",
+              "end": "18:10",
+              "person": "MICHELETTI LORENZO"
             }
           ],
           "p2b": [
@@ -16542,7 +16552,7 @@
           "6": "Referente ufficio: Romanato Andrea\n---\nReferente antincendio: Tomasi Mauro"
         }
       },
-      "publishedAt": "2026-11-09T13:15:02.937Z",
+      "publishedAt": "2026-11-10T10:48:25.082Z",
       "publishedBy": "Andrea"
     },
     "2026-W45": {
@@ -18745,5 +18755,5 @@
       "pin": "1543"
     }
   ],
-  "lastUpdated": "2026-11-09T13:15:03.301Z"
+  "lastUpdated": "2026-11-10T10:48:25.610Z"
 }
