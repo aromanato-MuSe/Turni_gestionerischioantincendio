@@ -15222,6 +15222,11 @@
             },
             {
               "start": "14:30",
+              "end": "15:30",
+              "person": "ROMANATO ANDREA"
+            },
+            {
+              "start": "15:30",
               "end": "18:10",
               "person": "DALPAS MATTEO"
             }
@@ -16552,7 +16557,7 @@
           "6": "Referente ufficio: Romanato Andrea\n---\nReferente antincendio: Tomasi Mauro"
         }
       },
-      "publishedAt": "2026-11-11T08:21:36.706Z",
+      "publishedAt": "2026-11-11T08:55:26.010Z",
       "publishedBy": "Andrea"
     },
     "2026-W45": {
@@ -18755,5 +18760,5 @@
       "pin": "1543"
     }
   ],
-  "lastUpdated": "2026-11-11T08:21:37.291Z"
+  "lastUpdated": "2026-11-11T08:55:26.682Z"
 }
