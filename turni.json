@@ -16015,7 +16015,14 @@
           "ex_1793112049401_0": [],
           "ex_1793112049401_1": [],
           "ex_1793112591472": [],
-          "ex_1793112726895_0": [],
+          "ex_1793112726895_0": [
+            {
+              "start": "19:30",
+              "end": "22:30",
+              "person": "PUSCEDDU ERNESTO",
+              "note": "Piano +1"
+            }
+          ],
           "ex_1793112726895_1": [
             {
               "start": "19:30",
@@ -16557,7 +16564,7 @@
           "6": "Referente ufficio: Romanato Andrea\n---\nReferente antincendio: Tomasi Mauro"
         }
       },
-      "publishedAt": "2026-11-11T11:00:23.423Z",
+      "publishedAt": "2026-11-11T11:53:57.143Z",
       "publishedBy": "Andrea"
     },
     "2026-W45": {
@@ -18760,5 +18767,5 @@
       "pin": "1543"
     }
   ],
-  "lastUpdated": "2026-11-11T11:00:24.071Z"
+  "lastUpdated": "2026-11-11T11:53:57.854Z"
 }
