@@ -15348,7 +15348,7 @@
             {
               "start": "09:40",
               "end": "13:30",
-              "person": "TRENTINI ELISABETTA"
+              "person": "ORANGIFARD NIMA"
             },
             {
               "start": "13:30",
@@ -15365,7 +15365,7 @@
             {
               "start": "14:30",
               "end": "18:10",
-              "person": "HOSNI NAOUFAL"
+              "person": "TRENTINI ELISABETTA"
             }
           ],
           "p0a": [
@@ -15384,7 +15384,7 @@
             {
               "start": "09:40",
               "end": "13:30",
-              "person": "ORANGIFARD NIMA"
+              "person": "TRENTINI ELISABETTA"
             },
             {
               "start": "13:30",
@@ -15402,7 +15402,7 @@
             {
               "start": "14:30",
               "end": "18:10",
-              "person": "TRENTINI ELISABETTA"
+              "person": "HOSNI NAOUFAL"
             }
           ],
           "p1b": [
@@ -15426,7 +15426,7 @@
             {
               "start": "14:30",
               "end": "18:10",
-              "person": "ROMANATO ANDREA"
+              "person": "DALPAS MATTEO"
             }
           ],
           "p2b": [
@@ -16557,7 +16557,7 @@
           "6": "Referente ufficio: Romanato Andrea\n---\nReferente antincendio: Tomasi Mauro"
         }
       },
-      "publishedAt": "2026-11-11T08:55:26.010Z",
+      "publishedAt": "2026-11-11T11:00:23.423Z",
       "publishedBy": "Andrea"
     },
     "2026-W45": {
@@ -18760,5 +18760,5 @@
       "pin": "1543"
     }
   ],
-  "lastUpdated": "2026-11-11T08:55:26.682Z"
+  "lastUpdated": "2026-11-11T11:00:24.071Z"
 }
