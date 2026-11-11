@@ -15397,7 +15397,7 @@
             {
               "start": "09:40",
               "end": "14:30",
-              "person": "SANTOS NAYARA"
+              "person": "PASCUAL LEANDRO"
             },
             {
               "start": "14:30",
@@ -15494,7 +15494,7 @@
             {
               "start": "15:30",
               "end": "18:10",
-              "person": "SANTOS NAYARA"
+              "person": "PASCUAL LEANDRO"
             }
           ],
           "alb2": [
@@ -16564,7 +16564,7 @@
           "6": "Referente ufficio: Romanato Andrea\n---\nReferente antincendio: Tomasi Mauro"
         }
       },
-      "publishedAt": "2026-11-11T11:53:57.143Z",
+      "publishedAt": "2026-11-11T13:24:21.829Z",
       "publishedBy": "Andrea"
     },
     "2026-W45": {
@@ -18767,5 +18767,5 @@
       "pin": "1543"
     }
   ],
-  "lastUpdated": "2026-11-11T11:53:57.854Z"
+  "lastUpdated": "2026-11-11T13:24:22.524Z"
 }
