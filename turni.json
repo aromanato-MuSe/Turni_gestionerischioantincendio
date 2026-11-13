@@ -15581,8 +15581,13 @@
             },
             {
               "start": "14:30",
+              "end": "15:00",
+              "person": "DALPAS MATTEO"
+            },
+            {
+              "start": "15:00",
               "end": "18:10",
-              "person": "NARDELLI ANNA MARIA"
+              "person": "ELHALI MANAR"
             }
           ],
           "p1a": [
@@ -15620,7 +15625,7 @@
             {
               "start": "14:30",
               "end": "18:10",
-              "person": "ROMANATO ANDREA"
+              "person": "NARDELLI ANNA MARIA"
             }
           ],
           "p2b": [
@@ -16564,7 +16569,7 @@
           "6": "Referente ufficio: Romanato Andrea\n---\nReferente antincendio: Tomasi Mauro"
         }
       },
-      "publishedAt": "2026-11-12T07:31:14.442Z",
+      "publishedAt": "2026-11-13T09:52:17.084Z",
       "publishedBy": "Andrea"
     },
     "2026-W45": {
@@ -18767,5 +18772,5 @@
       "pin": "1543"
     }
   ],
-  "lastUpdated": "2026-11-12T07:31:14.817Z"
+  "lastUpdated": "2026-11-13T09:52:17.717Z"
 }
