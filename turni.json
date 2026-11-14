@@ -15952,7 +15952,7 @@
               "person": "CAMPANELLA ILARIA"
             },
             {
-              "start": "15:30",
+              "start": "16:30",
               "end": "19:10",
               "person": "CAMPANELLA ILARIA"
             }
@@ -15972,8 +15972,13 @@
           "alb0b": [
             {
               "start": "09:40",
-              "end": "15:30",
+              "end": "14:30",
               "person": "FIKRI Mohamed"
+            },
+            {
+              "start": "14:30",
+              "end": "15:30",
+              "person": "CAMPANELLA ILARIA"
             },
             {
               "start": "15:30",
@@ -16569,8 +16574,8 @@
           "6": "Referente ufficio: Romanato Andrea\n---\nReferente antincendio: Tomasi Mauro"
         }
       },
-      "publishedAt": "2026-11-13T09:52:17.084Z",
-      "publishedBy": "Andrea"
+      "publishedAt": "2026-11-14T13:25:10.493Z",
+      "publishedFrom": "mobile"
     },
     "2026-W45": {
       "schedule": {
@@ -18772,5 +18777,5 @@
       "pin": "1543"
     }
   ],
-  "lastUpdated": "2026-11-13T09:52:17.717Z"
+  "lastUpdated": "2026-11-14T13:25:10.493Z"
 }
