@@ -18391,8 +18391,13 @@
           "p0b": [
             {
               "start": "09:40",
-              "end": "14:30",
+              "end": "11:00",
               "person": "LOSS Francesca"
+            },
+            {
+              "start": "11:00",
+              "end": "14:30",
+              "person": "FIKRI Mohamed"
             },
             {
               "start": "14:30",
@@ -18456,7 +18461,12 @@
             },
             {
               "start": "13:30",
-              "end": "18:10",
+              "end": "14:30",
+              "person": "DALIPI KARLOTTA"
+            },
+            {
+              "start": "14:30",
+              "end": "18:00",
               "person": "KHAN IJAZ"
             }
           ],
@@ -18495,7 +18505,7 @@
             {
               "start": "15:30",
               "end": "18:10",
-              "person": "PASCUAL LEANDRO"
+              "person": "FIKRI Mohamed"
             }
           ],
           "alb2": [
@@ -19963,7 +19973,7 @@
           "6": "Referente/supporto: 09.30 - 09.40 GAETANO SUPPORTO"
         }
       },
-      "publishedAt": "2026-11-16T12:21:59.076Z",
+      "publishedAt": "2026-11-17T08:27:09.092Z",
       "publishedBy": "Andrea"
     }
   },
@@ -20438,5 +20448,5 @@
       "pin": "4101"
     }
   ],
-  "lastUpdated": "2026-11-16T12:21:59.858Z"
+  "lastUpdated": "2026-11-17T08:27:09.704Z"
 }
