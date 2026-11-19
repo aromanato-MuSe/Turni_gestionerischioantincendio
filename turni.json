@@ -19059,7 +19059,7 @@
             {
               "start": "13:30",
               "end": "18:10",
-              "person": "MOTTER MICHELE"
+              "person": "FERRETTI GIANLUCA"
             }
           ],
           "p1b": [
@@ -19090,7 +19090,7 @@
             {
               "start": "09:40",
               "end": "14:30",
-              "person": "CARIA ALBERTO"
+              "person": "TOMASI MAURO"
             },
             {
               "start": "14:30",
@@ -19145,7 +19145,7 @@
             {
               "start": "15:30",
               "end": "18:10",
-              "person": "BALDO ELIO"
+              "person": "TOMASI MAURO"
             }
           ],
           "alb2": [
@@ -19171,7 +19171,7 @@
             {
               "start": "09:00",
               "end": "09:30",
-              "person": "BALDO ELIO"
+              "person": "RICCIO ROSARIA"
             }
           ],
           "ex_1793975535374_w9hx": [
@@ -19202,7 +19202,7 @@
             {
               "start": "18:00",
               "end": "20:00",
-              "person": "BUSTOS KEVIN"
+              "person": "COMPER SIMONE"
             }
           ],
           "ex_1794831233202": [],
@@ -19973,7 +19973,7 @@
           "6": "Referente/supporto: 09.30 - 09.40 GAETANO SUPPORTO"
         }
       },
-      "publishedAt": "2026-11-17T08:27:09.092Z",
+      "publishedAt": "2026-11-19T16:30:56.313Z",
       "publishedBy": "Andrea"
     }
   },
@@ -20145,15 +20145,6 @@
       "pin": "9874"
     },
     {
-      "cog": "CORETTI",
-      "nom": "EMANUELE",
-      "contratto": 1,
-      "vincoli": {
-        "sezioniEscluse": []
-      },
-      "pin": "1116"
-    },
-    {
       "cog": "CUSCITO",
       "nom": "ANGELO",
       "contratto": 36,
@@ -20179,12 +20170,6 @@
       "nom": "Davide",
       "contratto": 1,
       "pin": "3871"
-    },
-    {
-      "cog": "EL BAOUNY",
-      "nom": "Amin",
-      "contratto": 1,
-      "pin": "7795"
     },
     {
       "cog": "ELHALI",
@@ -20448,5 +20433,5 @@
       "pin": "4101"
     }
   ],
-  "lastUpdated": "2026-11-17T08:27:09.704Z"
+  "lastUpdated": "2026-11-19T16:30:56.987Z"
 }
