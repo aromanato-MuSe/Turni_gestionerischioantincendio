@@ -490,10 +490,11 @@ function renderPano(wk,slots,mon){
       const rows=g.slots.map(function(sl){
         var cog=sl.person.split(' ')[0];
         var nom=sl.person.split(' ').slice(1).join(' ');
-        return '<div style="display:flex;align-items:center;gap:10px;padding:10px 12px;border-bottom:1px solid var(--border)">'
+        return '<div style="display:flex;align-items:flex-start;gap:10px;padding:10px 12px;border-bottom:1px solid var(--border)">'
           +'<div style="font-family:monospace;font-size:13px;font-weight:600;color:'+secC+';white-space:nowrap;min-width:112px">'+esc(sl.start)+' – '+esc(sl.end)+'</div>'
           +'<div style="flex:1"><span style="font-size:15px;font-weight:700;color:var(--text)">'+esc(cog)+'</span>'
           +(nom?'<span style="font-size:13px;color:var(--text2);margin-left:5px">'+esc(nom)+'</span>':'')
+          +(sl.note?'<div style="margin-top:4px;font-size:12px;line-height:1.4;color:var(--text2);white-space:pre-line">📝 '+esc(sl.note)+'</div>':'')
           +'</div></div>';
       }).join('');
       return'<div style="margin-bottom:10px;border-radius:10px;overflow:hidden;border:1px solid var(--border)">'
@@ -525,7 +526,7 @@ function renderPano(wk,slots,mon){
   });
   dayBarHtml+='</div></div>';
 
-  var noteHtml=dayNote?('<div style="background:var(--yellow-bg);border:1px solid var(--yellow);border-radius:8px;padding:9px 12px;margin-bottom:12px;display:flex;gap:8px;align-items:flex-start;font-size:13px;color:var(--yellow);line-height:1.5">📝 <span>'+esc(dayNote)+'</span></div>'):'';
+  var noteHtml=dayNote?('<div style="background:var(--yellow-bg);border:1px solid var(--yellow);border-radius:8px;padding:9px 12px;margin-bottom:12px;display:flex;gap:8px;align-items:flex-start;font-size:13px;color:var(--yellow);line-height:1.5">📝 <span style="white-space:pre-line">'+esc(dayNote)+'</span></div>'):'';
 
   var titleHtml='<div style="font-size:14px;font-weight:700;color:var(--text);margin-bottom:'+(dayNote?'8px':'12px')+'">'
     +DAYS_IT[_panoDay]+' '+fmtDate(selDate)
