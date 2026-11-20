@@ -19171,7 +19171,8 @@
             {
               "start": "09:00",
               "end": "09:30",
-              "person": "RICCIO ROSARIA"
+              "person": "RICCIO ROSARIA",
+              "note": "Piano 1"
             }
           ],
           "ex_1793975535374_w9hx": [
@@ -19973,7 +19974,7 @@
           "6": "Referente/supporto: 09.30 - 09.40 GAETANO SUPPORTO"
         }
       },
-      "publishedAt": "2026-11-19T16:30:56.313Z",
+      "publishedAt": "2026-11-20T08:19:52.845Z",
       "publishedBy": "Andrea"
     }
   },
@@ -20231,7 +20232,7 @@
     {
       "cog": "HOSNI",
       "nom": "NAOUFAL",
-      "contratto": null,
+      "contratto": 1,
       "pin": "3704"
     },
     {
@@ -20433,5 +20434,5 @@
       "pin": "4101"
     }
   ],
-  "lastUpdated": "2026-11-19T16:30:56.987Z"
+  "lastUpdated": "2026-11-20T08:19:53.575Z"
 }
