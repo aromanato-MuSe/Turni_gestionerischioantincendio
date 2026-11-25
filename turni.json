@@ -20250,7 +20250,7 @@
             {
               "start": "09:40",
               "end": "13:30",
-              "person": "FERRETTI GIANLUCA"
+              "person": "DALPAS MATTEO"
             },
             {
               "start": "13:30",
@@ -20339,7 +20339,7 @@
             {
               "start": "14:30",
               "end": "18:10",
-              "person": "FERRETTI GIANLUCA"
+              "person": "DALPAS MATTEO"
             }
           ],
           "p3": [
@@ -21587,8 +21587,8 @@
           "6": "Referente ufficio:  Camilla\n\nReferente antincendio: Baldo Elio"
         }
       },
-      "publishedAt": "2026-11-20T10:15:32.027Z",
-      "publishedBy": "Andrea"
+      "publishedAt": "2026-11-25T07:16:37.132Z",
+      "publishedFrom": "mobile"
     },
     "2026-W49": {
       "schedule": {
@@ -23646,5 +23646,5 @@
       "pin": "4101"
     }
   ],
-  "lastUpdated": "2026-11-23T09:00:47.569Z"
+  "lastUpdated": "2026-11-25T07:16:37.132Z"
 }
