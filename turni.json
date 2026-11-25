@@ -20297,11 +20297,11 @@
           "p1a": [
             {
               "start": "09:40",
-              "end": "12:30",
+              "end": "13:00",
               "person": "FIKRI Mohamed"
             },
             {
-              "start": "12:30",
+              "start": "13:00",
               "end": "18:10",
               "person": "BUTT Adeel"
             }
@@ -20326,6 +20326,11 @@
             },
             {
               "start": "13:00",
+              "end": "14:30",
+              "person": "KHAN IJAZ"
+            },
+            {
+              "start": "14:30",
               "end": "18:10",
               "person": ""
             }
@@ -21581,7 +21586,7 @@
           "6": "Referente ufficio:  Camilla\n\nReferente antincendio: Baldo Elio"
         }
       },
-      "publishedAt": "2026-11-25T09:11:33.347Z",
+      "publishedAt": "2026-11-25T09:58:34.963Z",
       "publishedBy": "Andrea"
     },
     "2026-W49": {
@@ -23640,5 +23645,5 @@
       "pin": "4101"
     }
   ],
-  "lastUpdated": "2026-11-25T09:11:34.146Z"
+  "lastUpdated": "2026-11-25T09:58:35.632Z"
 }
