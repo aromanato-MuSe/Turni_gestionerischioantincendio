@@ -20332,7 +20332,7 @@
             {
               "start": "14:30",
               "end": "18:10",
-              "person": ""
+              "person": "MONTEMURRO Alessio"
             }
           ],
           "p2b": [
@@ -21607,7 +21607,7 @@
           "6": "Referente ufficio:  Camilla\n\nReferente antincendio: Baldo Elio"
         }
       },
-      "publishedAt": "2026-11-25T10:21:28.128Z",
+      "publishedAt": "2026-11-25T11:25:21.818Z",
       "publishedBy": "Andrea"
     },
     "2026-W49": {
@@ -23666,5 +23666,5 @@
       "pin": "4101"
     }
   ],
-  "lastUpdated": "2026-11-25T10:21:28.883Z"
+  "lastUpdated": "2026-11-25T11:25:22.535Z"
 }
