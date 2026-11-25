@@ -20456,7 +20456,7 @@
             {
               "start": "09:40",
               "end": "13:30",
-              "person": "FERRETTI GIANLUCA"
+              "person": "DALPAS MATTEO"
             },
             {
               "start": "13:30",
@@ -20473,7 +20473,7 @@
             {
               "start": "14:30",
               "end": "18:10",
-              "person": "GIACOMETTI FRANCESCO"
+              "person": ""
             }
           ],
           "p0b": [
@@ -20521,7 +20521,7 @@
             {
               "start": "14:10",
               "end": "18:10",
-              "person": "FERRETTI GIANLUCA"
+              "person": "DALPAS MATTEO"
             }
           ],
           "p2b": [
@@ -20565,7 +20565,7 @@
             {
               "start": "09:30",
               "end": "13:30",
-              "person": "GIACOMETTI FRANCESCO"
+              "person": ""
             },
             {
               "start": "13:30",
@@ -20710,7 +20710,7 @@
             {
               "start": "09:40",
               "end": "14:30",
-              "person": "FERRETTI GIANLUCA"
+              "person": "CARIA ALBERTO"
             },
             {
               "start": "14:30",
@@ -20808,7 +20808,7 @@
             {
               "start": "09:00",
               "end": "09:30",
-              "person": "FERRETTI GIANLUCA",
+              "person": "CARIA ALBERTO",
               "note": "Piano 0"
             }
           ],
@@ -21576,12 +21576,12 @@
           "1": "Referente ufficio: Camilla\n\nReferente antincendio: Campanella Ilaria",
           "2": "Referente ufficio: Camilla\n\nReferente antincendio: Tomasi (9:30-13:00) e Campanella (13:30-18:10)",
           "3": "Referente ufficio:  Camilla\n\nReferente antincendio: Tomasi Mauro",
-          "4": "Referente ufficio: Camilla\n\nReferente antincendio: Ferretti (9:30-14:30) e Baldo (14:30-18:10)",
+          "4": "Referente ufficio: Camilla\n\nReferente antincendio: Baldo 9:30-14:30 e 14:30-18:10",
           "5": "Referente ufficio:  Camilla\n\nReferente antincendio: Ferretti Gianluca",
           "6": "Referente ufficio:  Camilla\n\nReferente antincendio: Baldo Elio"
         }
       },
-      "publishedAt": "2026-11-25T09:01:59.277Z",
+      "publishedAt": "2026-11-25T09:11:33.347Z",
       "publishedBy": "Andrea"
     },
     "2026-W49": {
@@ -23640,5 +23640,5 @@
       "pin": "4101"
     }
   ],
-  "lastUpdated": "2026-11-25T09:01:59.909Z"
+  "lastUpdated": "2026-11-25T09:11:34.146Z"
 }
