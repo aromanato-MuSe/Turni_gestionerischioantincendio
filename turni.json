@@ -20484,7 +20484,7 @@
             {
               "start": "14:30",
               "end": "18:10",
-              "person": ""
+              "person": "HOSNI NAOUFAL"
             }
           ],
           "p0b": [
@@ -20539,7 +20539,7 @@
             {
               "start": "09:40",
               "end": "13:30",
-              "person": "NARDELLI ANNA MARIA"
+              "person": "HOSNI NAOUFAL"
             },
             {
               "start": "13:30",
@@ -20576,7 +20576,7 @@
             {
               "start": "09:30",
               "end": "13:30",
-              "person": ""
+              "person": "NARDELLI ANNA MARIA"
             },
             {
               "start": "13:30",
@@ -21607,7 +21607,7 @@
           "6": "Referente ufficio:  Camilla\n\nReferente antincendio: Baldo Elio"
         }
       },
-      "publishedAt": "2026-11-25T11:25:21.818Z",
+      "publishedAt": "2026-11-25T14:35:46.362Z",
       "publishedBy": "Andrea"
     },
     "2026-W49": {
@@ -23666,5 +23666,5 @@
       "pin": "4101"
     }
   ],
-  "lastUpdated": "2026-11-25T11:25:22.535Z"
+  "lastUpdated": "2026-11-25T14:35:47.168Z"
 }
