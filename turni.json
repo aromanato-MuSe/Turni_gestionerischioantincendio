@@ -20770,11 +20770,11 @@
           "alb0a": [
             {
               "start": "09:30",
-              "end": "14:30",
+              "end": "14:00",
               "person": "IVASHCHUK NINA"
             },
             {
-              "start": "14:30",
+              "start": "14:00",
               "end": "18:10",
               "person": "MARCHETTI NANCY"
             }
@@ -21587,7 +21587,7 @@
           "6": "Referente ufficio:  Camilla\n\nReferente antincendio: Baldo Elio"
         }
       },
-      "publishedAt": "2026-11-25T08:27:26.672Z",
+      "publishedAt": "2026-11-25T08:28:21.923Z",
       "publishedBy": "Andrea"
     },
     "2026-W49": {
@@ -23646,5 +23646,5 @@
       "pin": "4101"
     }
   ],
-  "lastUpdated": "2026-11-25T08:27:27.311Z"
+  "lastUpdated": "2026-11-25T08:28:22.633Z"
 }
