@@ -20327,7 +20327,7 @@
             {
               "start": "13:00",
               "end": "18:10",
-              "person": "KHAN IJAZ"
+              "person": ""
             }
           ],
           "p2b": [
@@ -20351,17 +20351,17 @@
             {
               "start": "14:30",
               "end": "18:10",
-              "person": "GIACOMETTI FRANCESCO"
+              "person": "KHAN IJAZ"
             }
           ],
           "p4": [
             {
               "start": "09:40",
-              "end": "13:30",
-              "person": "GIACOMETTI FRANCESCO"
+              "end": "14:00",
+              "person": "ORANGIFARD NIMA"
             },
             {
-              "start": "13:30",
+              "start": "14:00",
               "end": "18:10",
               "person": "FIKRI Mohamed"
             }
@@ -20384,7 +20384,7 @@
             {
               "start": "09:40",
               "end": "14:00",
-              "person": "ORANGIFARD NIMA"
+              "person": "SIMONI EVELYN"
             },
             {
               "start": "14:00",
@@ -21302,13 +21302,7 @@
               "person": "CARIA ALBERTO"
             }
           ],
-          "ex_1794499986012_b0vf": [
-            {
-              "start": "08:00",
-              "end": "09:30",
-              "person": "RICCIO ROSARIA"
-            }
-          ],
+          "ex_1794499986012_b0vf": [],
           "ex_1794499986012_de24": [],
           "ex_1794499986013_kyv5": [],
           "ex_1794499986014_aum2": [],
@@ -21587,7 +21581,7 @@
           "6": "Referente ufficio:  Camilla\n\nReferente antincendio: Baldo Elio"
         }
       },
-      "publishedAt": "2026-11-25T08:28:21.923Z",
+      "publishedAt": "2026-11-25T09:01:59.277Z",
       "publishedBy": "Andrea"
     },
     "2026-W49": {
@@ -23646,5 +23640,5 @@
       "pin": "4101"
     }
   ],
-  "lastUpdated": "2026-11-25T08:28:22.633Z"
+  "lastUpdated": "2026-11-25T09:01:59.909Z"
 }
