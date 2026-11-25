@@ -20686,7 +20686,7 @@
             {
               "start": "09:40",
               "end": "14:30",
-              "person": "ELHALI MANAR"
+              "person": "ROCCO GIOVANNA"
             },
             {
               "start": "14:30",
@@ -20771,7 +20771,7 @@
             {
               "start": "09:30",
               "end": "14:30",
-              "person": "ROCCO GIOVANNA"
+              "person": "IVASHCHUK NINA"
             },
             {
               "start": "14:30",
@@ -21587,8 +21587,8 @@
           "6": "Referente ufficio:  Camilla\n\nReferente antincendio: Baldo Elio"
         }
       },
-      "publishedAt": "2026-11-25T07:16:37.132Z",
-      "publishedFrom": "mobile"
+      "publishedAt": "2026-11-25T08:27:26.672Z",
+      "publishedBy": "Andrea"
     },
     "2026-W49": {
       "schedule": {
@@ -23646,5 +23646,5 @@
       "pin": "4101"
     }
   ],
-  "lastUpdated": "2026-11-25T07:16:37.132Z"
+  "lastUpdated": "2026-11-25T08:27:27.311Z"
 }
