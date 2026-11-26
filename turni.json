@@ -20465,7 +20465,12 @@
           ],
           "p-1b": [
             {
-              "start": "09:40",
+              "start": "9:40",
+              "end": "11:30",
+              "person": "CARIA ALBERTO"
+            },
+            {
+              "start": "11:30",
               "end": "13:30",
               "person": "DALPAS MATTEO"
             },
@@ -20477,7 +20482,12 @@
           ],
           "p0a": [
             {
-              "start": "09:40",
+              "start": "9:40",
+              "end": "11:30",
+              "person": "DALPAS MATTEO"
+            },
+            {
+              "start": "11:30",
               "end": "14:30",
               "person": "CARIA ALBERTO"
             },
@@ -20495,6 +20505,11 @@
             },
             {
               "start": "13:30",
+              "end": "14:30",
+              "person": "LOSS Francesca"
+            },
+            {
+              "start": "14:30",
               "end": "18:10",
               "person": "COMPER SIMONE"
             }
@@ -20555,8 +20570,23 @@
             },
             {
               "start": "12:10",
-              "end": "18:10",
+              "end": "13:10",
               "person": "GAETANO MICHELANGELO"
+            },
+            {
+              "start": "13:10",
+              "end": "13:30",
+              "person": "SARTORI CAMILLA"
+            },
+            {
+              "start": "13:30",
+              "end": "14:30",
+              "person": "COMPER SIMONE"
+            },
+            {
+              "start": "14:30",
+              "end": "18:10",
+              "person": "MONTEMURRO Alessio"
             }
           ],
           "p4": [
@@ -20606,14 +20636,14 @@
             {
               "start": "13:10",
               "end": "18:10",
-              "person": "ORANGIFARD NIMA"
+              "person": "GAETANO MICHELANGELO"
             }
           ],
           "ex_1794499986014_aum2": [
             {
               "start": "09:00",
               "end": "09:30",
-              "person": "ORANGIFARD NIMA",
+              "person": "CUSCITO ANGELO",
               "note": "Piano 0"
             }
           ],
@@ -21607,7 +21637,7 @@
           "6": "Referente ufficio:  Camilla\n\nReferente antincendio: Baldo Elio"
         }
       },
-      "publishedAt": "2026-11-25T14:35:46.362Z",
+      "publishedAt": "2026-11-26T08:05:48.742Z",
       "publishedBy": "Andrea"
     },
     "2026-W49": {
@@ -23666,5 +23696,5 @@
       "pin": "4101"
     }
   ],
-  "lastUpdated": "2026-11-25T14:35:47.168Z"
+  "lastUpdated": "2026-11-26T08:05:49.246Z"
 }
