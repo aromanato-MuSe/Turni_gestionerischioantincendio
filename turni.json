@@ -20566,7 +20566,7 @@
             {
               "start": "09:40",
               "end": "12:10",
-              "person": "ORANGIFARD NIMA"
+              "person": "COMPER SIMONE"
             },
             {
               "start": "12:10",
@@ -20679,13 +20679,7 @@
           "ex_1794499986014_0qdw": [],
           "ex_1794499986014_27un": [],
           "ex_1794499986015_a70z": [],
-          "ex_1795168877825": [
-            {
-              "start": "09:40",
-              "end": "12:30",
-              "person": "COMPER SIMONE"
-            }
-          ]
+          "ex_1795168877825": []
         },
         "4": {
           "p-1a": [
@@ -21637,7 +21631,7 @@
           "6": "Referente ufficio:  Camilla\n\nReferente antincendio: Baldo Elio"
         }
       },
-      "publishedAt": "2026-11-26T08:05:48.742Z",
+      "publishedAt": "2026-11-26T08:07:47.485Z",
       "publishedBy": "Andrea"
     },
     "2026-W49": {
@@ -23696,5 +23690,5 @@
       "pin": "4101"
     }
   ],
-  "lastUpdated": "2026-11-26T08:05:49.246Z"
+  "lastUpdated": "2026-11-26T08:07:47.942Z"
 }
