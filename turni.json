@@ -20727,7 +20727,8 @@
             {
               "start": "09:00",
               "end": "14:30",
-              "person": "ROCCO GIOVANNA"
+              "person": "ROCCO GIOVANNA",
+              "note": "Anticipo alle 9 per attività educativa"
             },
             {
               "start": "14:30",
@@ -20817,7 +20818,7 @@
             {
               "start": "14:00",
               "end": "18:10",
-              "person": "MARCHETTI NANCY"
+              "person": "HOSNI NAOUFAL"
             }
           ],
           "alb0b": [],
@@ -20845,14 +20846,7 @@
               "person": "BUSTOS KEVIN"
             }
           ],
-          "ex_1794499986013_kyv5": [
-            {
-              "start": "09:00",
-              "end": "09:30",
-              "person": "CARIA ALBERTO",
-              "note": "Piano 0"
-            }
-          ],
+          "ex_1794499986013_kyv5": [],
           "ex_1794499986014_8ixg": [
             {
               "start": "09:00",
@@ -21631,7 +21625,7 @@
           "6": "Referente ufficio:  Camilla\n\nReferente antincendio: Baldo Elio"
         }
       },
-      "publishedAt": "2026-11-27T07:53:06.585Z",
+      "publishedAt": "2026-11-27T07:55:03.590Z",
       "publishedBy": "Andrea"
     },
     "2026-W49": {
@@ -23690,5 +23684,5 @@
       "pin": "4101"
     }
   ],
-  "lastUpdated": "2026-11-27T07:53:07.233Z"
+  "lastUpdated": "2026-11-27T07:55:04.237Z"
 }
