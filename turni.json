@@ -20931,7 +20931,7 @@
             {
               "start": "09:40",
               "end": "14:30",
-              "person": "COMPER SIMONE"
+              "person": "BALDO ELIO"
             },
             {
               "start": "14:30",
@@ -20948,14 +20948,19 @@
             {
               "start": "14:30",
               "end": "19:10",
-              "person": "GIACOMETTI FRANCESCO"
+              "person": "CAMPANELLA ILARIA"
             }
           ],
           "p0a": [
             {
               "start": "09:40",
-              "end": "13:30",
+              "end": "12:30",
               "person": "MOTTER MICHELE"
+            },
+            {
+              "start": "12:30",
+              "end": "13:30",
+              "person": "ELHALI MANAR"
             },
             {
               "start": "13:30",
@@ -20984,7 +20989,7 @@
             {
               "start": "12:30",
               "end": "13:30",
-              "person": "MARCHETTI NANCY"
+              "person": "MOTTER MICHELE"
             },
             {
               "start": "13:30",
@@ -21024,8 +21029,13 @@
             },
             {
               "start": "14:30",
+              "end": "15:30",
+              "person": "BALDO ELIO"
+            },
+            {
+              "start": "15:30",
               "end": "19:10",
-              "person": "MARCHETTI NANCY"
+              "person": "DALPAS MATTEO"
             }
           ],
           "p3": [
@@ -21044,7 +21054,7 @@
             {
               "start": "09:40",
               "end": "14:30",
-              "person": "BALDO ELIO"
+              "person": "COMPER SIMONE"
             },
             {
               "start": "14:30",
@@ -21091,8 +21101,13 @@
             },
             {
               "start": "14:10",
-              "end": "19:10",
+              "end": "14:30",
               "person": "CAMPANELLA ILARIA"
+            },
+            {
+              "start": "14:30",
+              "end": "19:10",
+              "person": "GIACOMETTI FRANCESCO"
             }
           ],
           "alb2": [
@@ -21185,7 +21200,7 @@
             {
               "start": "13:30",
               "end": "19:10",
-              "person": "MARCHETTI NANCY"
+              "person": "BUSTOS KEVIN"
             }
           ],
           "p0b": [
@@ -21210,7 +21225,7 @@
             {
               "start": "09:40",
               "end": "15:30",
-              "person": "BUSTOS KEVIN"
+              "person": "GIACOMOZZI GRAZIELLA"
             },
             {
               "start": "15:30",
@@ -21270,7 +21285,7 @@
             {
               "start": "09:40",
               "end": "12:30",
-              "person": "MARCHETTI NANCY"
+              "person": "KHAN IJAZ"
             },
             {
               "start": "12:30",
@@ -21625,7 +21640,7 @@
           "6": "Referente ufficio:  Camilla\n\nReferente antincendio: Baldo Elio"
         }
       },
-      "publishedAt": "2026-11-27T07:55:03.590Z",
+      "publishedAt": "2026-11-27T14:17:03.198Z",
       "publishedBy": "Andrea"
     },
     "2026-W49": {
@@ -23352,7 +23367,7 @@
     {
       "cog": "BUFFA",
       "nom": "Francesco",
-      "contratto": null,
+      "contratto": 0,
       "pin": "3788"
     },
     {
@@ -23412,13 +23427,13 @@
     {
       "cog": "DALPAS",
       "nom": "MATTEO",
-      "contratto": 1,
+      "contratto": 0,
       "pin": "2591"
     },
     {
       "cog": "DEANESI",
       "nom": "Davide",
-      "contratto": 1,
+      "contratto": 0,
       "pin": "3871"
     },
     {
@@ -23463,7 +23478,7 @@
     {
       "cog": "GIACOMOZZI",
       "nom": "GRAZIELLA",
-      "contratto": 1,
+      "contratto": 0,
       "vincoli": {
         "sezioniEscluse": []
       },
@@ -23481,7 +23496,7 @@
     {
       "cog": "HOSNI",
       "nom": "NAOUFAL",
-      "contratto": 1,
+      "contratto": 0,
       "pin": "3704"
     },
     {
@@ -23553,7 +23568,7 @@
     {
       "cog": "MONTEMURRO",
       "nom": "Alessio",
-      "contratto": 1,
+      "contratto": 0,
       "pin": "8458"
     },
     {
@@ -23628,7 +23643,7 @@
     {
       "cog": "ROMANATO",
       "nom": "ANDREA",
-      "contratto": 1,
+      "contratto": 0,
       "pin": "5086"
     },
     {
@@ -23684,5 +23699,5 @@
       "pin": "4101"
     }
   ],
-  "lastUpdated": "2026-11-27T07:55:04.237Z"
+  "lastUpdated": "2026-11-27T14:17:03.899Z"
 }
