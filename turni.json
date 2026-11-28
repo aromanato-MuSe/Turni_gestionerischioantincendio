@@ -21025,7 +21025,7 @@
             {
               "start": "09:40",
               "end": "14:30",
-              "person": "FIKRI Mohamed"
+              "person": "SARTORI CAMILLA"
             },
             {
               "start": "14:30",
@@ -21640,8 +21640,8 @@
           "6": "Referente ufficio:  Camilla\n\nReferente antincendio: Baldo Elio"
         }
       },
-      "publishedAt": "2026-11-27T14:17:03.198Z",
-      "publishedBy": "Andrea"
+      "publishedAt": "2026-11-28T08:57:44.972Z",
+      "publishedFrom": "mobile"
     },
     "2026-W49": {
       "schedule": {
@@ -23699,5 +23699,5 @@
       "pin": "4101"
     }
   ],
-  "lastUpdated": "2026-11-27T14:17:03.899Z"
+  "lastUpdated": "2026-11-28T08:57:44.983Z"
 }
