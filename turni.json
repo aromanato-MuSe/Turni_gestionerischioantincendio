@@ -21158,13 +21158,7 @@
           "ex_1794499986014_0qdw": [],
           "ex_1794499986014_27un": [],
           "ex_1794499986015_a70z": [],
-          "ex_1795168877825": [
-            {
-              "start": "09:40",
-              "end": "12:30",
-              "person": "MARCHETTI NANCY"
-            }
-          ]
+          "ex_1795168877825": []
         },
         "6": {
           "p-1a": [
@@ -21640,8 +21634,8 @@
           "6": "Referente ufficio:  Camilla\n\nReferente antincendio: Baldo Elio"
         }
       },
-      "publishedAt": "2026-11-28T08:57:44.972Z",
-      "publishedFrom": "mobile"
+      "publishedAt": "2026-11-28T13:45:10.684Z",
+      "publishedBy": "Andrea"
     },
     "2026-W49": {
       "schedule": {
@@ -23699,5 +23693,5 @@
       "pin": "4101"
     }
   ],
-  "lastUpdated": "2026-11-28T08:57:44.983Z"
+  "lastUpdated": "2026-11-28T13:45:10.955Z"
 }
