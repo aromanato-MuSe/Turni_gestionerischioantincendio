@@ -20964,6 +20964,16 @@
             },
             {
               "start": "13:30",
+              "end": "14:30",
+              "person": "IVASHCHUK NINA"
+            },
+            {
+              "start": "14:30",
+              "end": "15:30",
+              "person": "ELHALI MANAR"
+            },
+            {
+              "start": "15:30",
               "end": "19:10",
               "person": "CARIA ALBERTO"
             }
@@ -21024,8 +21034,13 @@
           "p2b": [
             {
               "start": "09:40",
-              "end": "14:30",
+              "end": "11:15",
               "person": "SARTORI CAMILLA"
+            },
+            {
+              "start": "11:15",
+              "end": "14:30",
+              "person": "AGNOLETTO Michael"
             },
             {
               "start": "14:30",
@@ -21089,8 +21104,18 @@
             },
             {
               "start": "13:30",
+              "end": "15:30",
+              "person": "CARIA ALBERTO"
+            },
+            {
+              "start": "15:30",
               "end": "19:10",
               "person": "AGNOLETTO Michael"
+            },
+            {
+              "start": "15:30",
+              "end": "19:10",
+              "person": ""
             }
           ],
           "alb1": [
@@ -21634,7 +21659,7 @@
           "6": "Referente ufficio:  Camilla\n\nReferente antincendio: Baldo Elio"
         }
       },
-      "publishedAt": "2026-11-28T13:45:10.684Z",
+      "publishedAt": "2026-11-28T13:54:45.366Z",
       "publishedBy": "Andrea"
     },
     "2026-W49": {
@@ -23693,5 +23718,5 @@
       "pin": "4101"
     }
   ],
-  "lastUpdated": "2026-11-28T13:45:10.955Z"
+  "lastUpdated": "2026-11-28T13:54:45.892Z"
 }
